@@ -123,7 +123,7 @@ createCommand({
 
     const emojis = ["🧿", "💠", "⚔️", "🪄", "🔮"];
     // ADD THE REACTIONS
-    if (!args.msg) await response.addReactions(emojis).catch(console.log);
+    if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
     // HANDLE PAGINATION
     const reaction = await needReaction(message.author.id, response.id).catch(console.log);
