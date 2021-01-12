@@ -14,7 +14,14 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
     const character = characters.get(args.character);
-    if (!character) return message.reply("Invalid character name provided.");
+    if (!character)
+      return message.reply(
+        [
+          "Invalid character name provided. Valid names are:",
+          "",
+          [...characters.values()].map((c) => c.name.toLowerCase()).join(" "),
+        ].join("\n")
+      );
 
     const first = new Embed()
       .setTitle(character.name)
