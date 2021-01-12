@@ -4,35 +4,133 @@ import { needMessage, needReaction } from "../utils/collectors.ts";
 import { createCommand } from "../utils/helpers.ts";
 
 export const characters = new Map([
-  ["Ningguang", { name: "Ningguang", emoji: "<:Ningguang:798571977120022578>" }],
-  ["Ningguang", { name: "Ningguang", emoji: "<:Ningguang:798571977120022578>" }],
-  ["Zhongli", { name: "Zhongli", emoji: "<:Zhongli:798577390577254441>", category: "Geo" }],
-  ["Xinyan", { name: "Xinyan", emoji: "<:Xinyan:798577406427529246>", category: "Pyro" }],
-  ["Xingqiu", { name: "Xingqiu", emoji: "<:Xingqiu:798577525265399838>", category: "Hydro" }],
-  ["Xiangling", { name: "Xiangling", emoji: "<:Xiangling:798578032935436329>", category: "Pyro" }],
-  ["Venti", { name: "Venti", emoji: "<:Venti:798578059891834890>", category: "Anemo" }],
-  ["Sucrose", { name: "Sucrose", emoji: "<:Sucrose:798578072756158475>", category: "Anemo" }],
-  ["Razor", { name: "Razor", emoji: "<:Razor:798578623900024862>", category: "Electro" }],
-  ["Qiqi", { name: "Qiqi", emoji: "<:Qiqi:798578651145830401>", category: "Cryo" }],
-  ["Noelle", { name: "Noelle", emoji: "<:Noelle:798578667508072458>", category: "Geo" }],
-  ["Ningguang", { name: "Ningguang", emoji: "<:Ningguang:798571977120022578>", category: "Geo" }],
-  ["Lisa", { name: "Lisa", emoji: "<:Lisa:798578725716361267>", category: "Electro" }],
-  ["Klee", { name: "Klee", emoji: "<:Klee:798578917464080404>", category: "Pyro" }],
-  ["Keqing", { name: "Keqing", emoji: "<:Keqing:798578899956006914>", category: "Electro" }],
-  ["Kaeya", { name: "Kaeya", emoji: "<:Kaeya:798578983775240242>", category: "Cryo" }],
-  ["Jean", { name: "Jean", emoji: "<:Jean:798578932031029308>", category: "Anemo" }],
-  ["Ganyu", { name: "Ganyu", emoji: "<:Ganyu:798579013084774504>", category: "Cryo" }],
-  ["Fischl", { name: "Fischl", emoji: "<:Fischl:798579031381114890>", category: "Electro" }],
-  ["Diluc", { name: "Diluc", emoji: "<:Diluc:798579247945613332>", category: "Pyro" }],
-  ["Chongyun", { name: "Chongyun", emoji: "<:Chongyun:798579223241162792>", category: "Cryo" }],
-  ["Childe", { name: "Childe", emoji: "<:Childe:798579167843057665>", category: "Hydro" }],
-  ["Bennett", { name: "Bennett", emoji: "<:Bennett:798579139430973500>", category: "Pyro" }],
-  ["Beidou", { name: "Beidou", emoji: "<:Beidou:798579120479928360>", category: "Electro" }],
-  ["Barbara", { name: "Barbara", emoji: "<:Barbara:798579079221215272>", category: "Hydro" }],
-  ["Amber", { name: "Amber", emoji: "<:Amber:798579318262988810>", category: "Pyro" }],
-  ["Albedo", { name: "Albedo", emoji: "<:Albedo:798579345916559370>", category: "Geo" }],
-  ["Mona", { name: "Mona", emoji: "<:Mona:798582495674105876>", category: "Hydro" }],
-  ["Diona", { name: "Diona", emoji: "<:Diona:798582510480785409>", category: "Cryo" }],
+  ["zhongli", { name: "Zhongli", emoji: "<:Zhongli:798577390577254441>", category: "Geo" }],
+  ["xinyan", { name: "Xinyan", emoji: "<:Xinyan:798577406427529246>", category: "Pyro" }],
+  ["xingqiu", { name: "Xingqiu", emoji: "<:Xingqiu:798577525265399838>", category: "Hydro" }],
+  ["xiangling", { name: "Xiangling", emoji: "<:Xiangling:798578032935436329>", category: "Pyro" }],
+  ["venti", { name: "Venti", emoji: "<:Venti:798578059891834890>", category: "Anemo" }],
+  ["sucrose", { name: "Sucrose", emoji: "<:Sucrose:798578072756158475>", category: "Anemo" }],
+  ["razor", { name: "Razor", emoji: "<:Razor:798578623900024862>", category: "Electro" }],
+  [
+    "qiqi",
+    {
+      name: "Qiqi",
+      description: "",
+      emoji: "<:Qiqi:798578651145830401>",
+      thumbnail: "",
+      image: "",
+      color: "",
+      category: "Cryo",
+      stars: "⭐⭐⭐⭐⭐",
+      vision: "<:Cryo:798483525052530719> Cryo",
+      weapon: "Sword",
+      nation: "None",
+      affilation: "None",
+      specialDish: "None",
+      constellation: "None",
+      birthday: "None",
+      activeTalents: [{ name: "", description: "" }],
+      passiveTalents: [{ name: "", description: "" }],
+      constellations: [{ name: "", description: "" }],
+    },
+  ],
+  ["noelle", { name: "Noelle", emoji: "<:Noelle:798578667508072458>", category: "Geo" }],
+  [
+    "ningguang",
+    {
+      name: "Ningguang",
+      emoji: "<:Ningguang:798571977120022578>",
+      category: "Geo",
+      description: "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+      thumbnail:
+        "https://images-ext-1.discordapp.net/external/UU37uUkE9qDn3iWoLhG4oB46AVBgrTFMD0YGiegB498/https/api.genshin.dev/characters/ningguang/portrait?width=815&height=1139",
+      image: "",
+      color: "",
+      stars: "⭐⭐⭐⭐",
+      vision: "<:Geo:798483630740865044> Geo",
+      weapon: "Catalyst",
+      nation: "None",
+      affilation: "None",
+      specialDish: "None",
+      constellation: "None",
+      birthday: "None",
+      activeTalents: [
+        {
+          name: "Sparkling Scatter",
+          description:
+            "Normal Attack\nShoots gems that deal Geo DMG.\n\nUpon hit, this grants Ningguang 1 Star Jade.\nCharged Attack\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\n\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\nPlunging Attack\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.",
+        },
+        {
+          name: "Jade Screen",
+          description:
+            "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.\nJade Screen\n\nBlocks enemy projectiles.\nEndurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.",
+        },
+        {
+          name: "Elemental Burst",
+          description:
+            "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her enemies that deal massive Geo DMG.\n\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
+        },
+      ],
+      passiveTalents: [
+        {
+          name: "Backup Plan",
+          description: "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+        },
+        {
+          name: "Strategic Reserve",
+          description: "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
+        },
+        {
+          name: "Trove of Marvelous Treasure",
+          description:
+            "Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, and Magical Crystal Ore) on the mini-map.",
+        },
+      ],
+      constellations: [
+        {
+          name: "Piercing Fragments",
+          description: "When a Normal Attack hits, it deals AoE DMG.",
+        },
+        {
+          name: "Shock Effect",
+          description: "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s.",
+        },
+        {
+          name: "Majesty be the Array of Stars",
+          description: "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15.",
+        },
+        {
+          name: "Exquisite be the Jade, Outshining All the Beneath",
+          description: "Jade Screen increases nearby characters' Elemental RES by 10%.",
+        },
+        {
+          name: "Invincible be the Jade Screen",
+          description: "Increase the Level of Jade Screen by 3.\nMaximum upgrade level is 15.",
+        },
+        {
+          name: "Grandeur be the Seven Stars",
+          description: "When Starshatter is used, Ningguang gains 7 Star Jades.",
+        },
+      ],
+    },
+  ],
+  ["lisa", { name: "Lisa", emoji: "<:Lisa:798578725716361267>", category: "Electro" }],
+  ["klee", { name: "Klee", emoji: "<:Klee:798578917464080404>", category: "Pyro" }],
+  ["keqing", { name: "Keqing", emoji: "<:Keqing:798578899956006914>", category: "Electro" }],
+  ["kaeya", { name: "Kaeya", emoji: "<:Kaeya:798578983775240242>", category: "Cryo" }],
+  ["jean", { name: "Jean", emoji: "<:Jean:798578932031029308>", category: "Anemo" }],
+  ["ganyu", { name: "Ganyu", emoji: "<:Ganyu:798579013084774504>", category: "Cryo" }],
+  ["fischl", { name: "Fischl", emoji: "<:Fischl:798579031381114890>", category: "Electro" }],
+  ["diluc", { name: "Diluc", emoji: "<:Diluc:798579247945613332>", category: "Pyro" }],
+  ["chongyun", { name: "Chongyun", emoji: "<:Chongyun:798579223241162792>", category: "Cryo" }],
+  ["childe", { name: "Childe", emoji: "<:Childe:798579167843057665>", category: "Hydro" }],
+  ["bennett", { name: "Bennett", emoji: "<:Bennett:798579139430973500>", category: "Pyro" }],
+  ["beidou", { name: "Beidou", emoji: "<:Beidou:798579120479928360>", category: "Electro" }],
+  ["barbara", { name: "Barbara", emoji: "<:Barbara:798579079221215272>", category: "Hydro" }],
+  ["amber", { name: "Amber", emoji: "<:Amber:798579318262988810>", category: "Pyro" }],
+  ["albedo", { name: "Albedo", emoji: "<:Albedo:798579345916559370>", category: "Geo" }],
+  ["mona", { name: "Mona", emoji: "<:Mona:798582495674105876>", category: "Hydro" }],
+  ["diona", { name: "Diona", emoji: "<:Diona:798582510480785409>", category: "Cryo" }],
 ]);
 
 createCommand({
@@ -78,7 +176,7 @@ createCommand({
       // WAITS FOR USER TO GIVE A REACTION.
       const hasChar = await needReaction(message.author.id, hasCharQuestion.id).catch(console.log);
       // IF THEY DON'T OWN SKIP TO NEXT CHARACTER
-      if (!hasChar) continue;
+      if (!hasChar || hasChar === "❌") continue;
 
       // SINCE THE USER OWNS THIS CHARACTERS WE CAN ASK FOR MORE INFO
       await sendDirectMessage(
@@ -129,12 +227,12 @@ createCommand({
     } else {
       // ONLY CHECK IF THE UID IS NOT SKIP
       if (uidResponse.content !== "skip") {
-        if (!Number(message.content)) {
-          // VALIDATE THE PROVIDED UID
-          await sendDirectMessage(message.author.id, "The UID provided was invalid, skipping...").catch(console.log);
-        } else {
+        // VALIDATE THE PROVIDED UID
+        if (Number(uidResponse.content)) {
           // A VALID UID WAS PROVIDED SO SET IT
           uid = uidResponse.content;
+        } else {
+          await sendDirectMessage(message.author.id, "The UID provided was invalid, skipping...").catch(console.log);
         }
       }
     }
@@ -147,7 +245,7 @@ createCommand({
       // MAX IS 8. MIN IS 0
       filter: (msg) => validateNumberFilter(msg, 8),
     });
-    if (!worldLevelResponse) {
+    if (!worldLevelResponse && worldLevelResponse !== 0) {
       await sendDirectMessage(message.author.id, "A world level was not provided, defaulting to 0.").catch(console.log);
     }
 
@@ -189,7 +287,7 @@ function validateNumberFilter(message: Message, max = 6, min = 0) {
   // VALIDATE THAT THE RESPONSE IS A NUMBER
   const number = Number(message.content);
   // IF NOT A VALID NUMBER IGNORE THIS MESSAGE
-  if (!number || number < min || number > max) {
+  if ((!number && number !== 0) || number < min || number > max) {
     sendDirectMessage(
       message.author.id,
       "That was not a valid number, please try again. The number must be between 0-6"

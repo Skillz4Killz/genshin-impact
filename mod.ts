@@ -27,7 +27,13 @@ startBot({
   token: configs.token,
   // Pick the intents you wish to have for your bot.
   // For instance, to work with guild message reactions, you will have to pass the Intents.GUILD_MESSAGE_REACTIONS intent to the array.
-  intents: [Intents.GUILDS, Intents.GUILD_MESSAGES, Intents.DIRECT_MESSAGES, Intents.DIRECT_MESSAGE_REACTIONS],
+  intents: [
+    Intents.GUILDS,
+    Intents.GUILD_MESSAGES,
+    Intents.DIRECT_MESSAGES,
+    Intents.DIRECT_MESSAGE_REACTIONS,
+    Intents.GUILD_MESSAGE_REACTIONS,
+  ],
   // These are all your event handler functions. Imported from the events folder
   eventHandlers: botCache.eventHandlers,
 });
