@@ -7,6 +7,7 @@ import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
   name: "character",
+  aliases: ["char"],
   arguments: [
     { name: "character", type: "string" },
     { name: "page", type: "number", defaultValue: 1 },
