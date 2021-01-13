@@ -65,7 +65,7 @@ createCommand({
           // SORT HIGHEST TO LOWEST
           .sort((a, b) => b.constellationLevel - a.constellationLevel)
           .map((character) => {
-            const char = characters.get(character.name);
+            const char = characters.get(character.name.toLowerCase());
             // NOT A CHAR IN CONSTANTS
             if (!char) return "";
 
