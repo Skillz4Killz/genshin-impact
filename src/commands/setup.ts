@@ -2199,13 +2199,6 @@ createCommand({
         return;
       }
 
-      // THE USER DIDN"T RESPOND SO CANCEL
-      if (!hasChar) {
-        await sendDirectMessage(message.author.id, "Cancelling setup...").catch(console.log);
-        // CANCEL OUT
-        return;
-      }
-
       // SINCE THE USER OWNS THIS CHARACTERS WE CAN ASK FOR MORE INFO
       await sendDirectMessage(
         message.author.id,
