@@ -1,7 +1,7 @@
 import { botCache } from "../../deps.ts";
 import { translate } from "../utils/i18next.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
   name: `help`,
@@ -15,6 +15,20 @@ createCommand({
   ],
   execute: function (message, args: HelpArgs) {
     if (!args.command) {
+      return sendEmbed(
+        message.channelID,
+        new Embed()
+          .setTitle("Need help, Traveler?")
+          .setDescription([
+            "To set up your profile run `p!setup` and go to my DMs!",
+            "",
+            "To check your profile, run the command `p!profile`!",
+            "",
+            "To access the command list, please use the command `p!commands`!",
+            "",
+            "The developer of this bot is **John Without Gel#1214** and **GeheimerWolf#8008**, go to discord.gg/",
+          ])
+      );
       return message.send(`No command provided.`);
     }
 
