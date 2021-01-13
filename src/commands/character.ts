@@ -47,6 +47,7 @@ createCommand({
         `**Nation:** ${character.nation}`,
         `**Affiliation:** ${character.affiliation}`,
         `**Special Dish:** ${character.specialDish}`,
+        `**Weapon:** ${character.weapon}`,
         `**Constellation:** ${character.constellation}`,
         `**Birthday:** ${character.birthday}`,
         "",
