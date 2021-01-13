@@ -24,8 +24,7 @@ createCommand({
       );
 
     const first = new Embed()
-      .setAuthor(character.name)
-      .setTitle(character.title)
+      .setTitle(character.name)
       .setDescription([
         // @ts-ignore
         character.rarity,
