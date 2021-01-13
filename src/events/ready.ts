@@ -10,7 +10,7 @@ import { registerTasks } from "./../utils/taskHelper.ts";
 botCache.eventHandlers.ready = function () {
   editBotsStatus(
     StatusTypes.DoNotDisturb,
-    "Discordeno Best Lib",
+    "p!help",
     ActivityType.Game,
   );
 
