@@ -43,11 +43,13 @@ export const characters = new Map([
         },
         {
           name: "Dominance of Earth",
-          description: "Planet Befall deals additional DMG equal to 33% of Zhongli's Max HP.",
+          description:
+            "Planet Befall deals additional DMG equal to 33% of Zhongli's Max HP.",
         },
         {
           name: "Arcanum of Crystal",
-          description: "Refunds 15% of the ores used when crafting Polearm-type weapons.",
+          description:
+            "Refunds 15% of the ores used when crafting Polearm-type weapons.",
         },
       ],
       constellations: [
@@ -58,11 +60,13 @@ export const characters = new Map([
         },
         {
           name: "C2: Stone, the Cradle of Jade",
-          description: "Planet Befall grants nearby characters on the field a Jade Shield when it descends.",
+          description:
+            "Planet Befall grants nearby characters on the field a Jade Shield when it descends.",
         },
         {
           name: "C3: Jade, Shimmering through Darkness",
-          description: "Increases the Level of Dominus Lapidis by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Dominus Lapidis by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Topaz, Unbreakable and Fearless",
@@ -71,7 +75,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Lazuli, Herald of the Order",
-          description: "Increases the Level of Planet Befall by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Planet Befall by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Chrysos, Bounty of Dominator",
@@ -127,7 +132,8 @@ export const characters = new Map([
         },
         {
           name: "...Now That's Rock 'N' Roll!",
-          description: "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG.",
+          description:
+            "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG.",
         },
         {
           name: "A Rad Recipe",
@@ -148,15 +154,18 @@ export const characters = new Map([
         },
         {
           name: "C3: Double-Stop",
-          description: "Increases the Level of Sweeping Fervor by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Sweeping Fervor by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Wildfire Rhythm",
-          description: "Sweeping Fervor's swing DMG decrease opponent's Physical RES by 15% for 12s.",
+          description:
+            "Sweeping Fervor's swing DMG decrease opponent's Physical RES by 15% for 12s.",
         },
         {
           name: "C5: Screamin' for an Encore",
-          description: "Increases the Level of Riff Revolution by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Riff Revolution by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Rockin' in a Flaming World",
@@ -232,7 +241,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Weaver of Verses",
-          description: "Increases the Level of Guhua Sword - Raincutter by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Guhua Sword - Raincutter by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Evilsoother",
@@ -241,7 +251,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Embrace of Rain",
-          description: "Increase the Level of Guhua Sword - Fatal Rainscreen by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Guhua Sword - Fatal Rainscreen by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Hence, Call Them My Own Verses",
@@ -308,7 +319,8 @@ export const characters = new Map([
       constellations: [
         {
           name: "C1: Crispy Outside, Tender Inside",
-          description: "Opponents hit by Guoba's attacks have their **Pyro RES** reduced by 15% for 6s.",
+          description:
+            "Opponents hit by Guoba's attacks have their **Pyro RES** reduced by 15% for 6s.",
         },
         {
           name: "C2: Oil Meets Fire",
@@ -317,7 +329,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Deepfry",
-          description: "Increases the level of Pyronado by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Pyronado by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Slowbake",
@@ -325,11 +338,13 @@ export const characters = new Map([
         },
         {
           name: "C5: Guoba Mad",
-          description: "	Increases the level of Guoba Attack by 3. Maximum upgrade level is 15.",
+          description:
+            "	Increases the level of Guoba Attack by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Condensed Pyronado",
-          description: "For the duration of Pyronado, all party members receive a 15% **Pyro DMG Bonus**.",
+          description:
+            "For the duration of Pyronado, all party members receive a 15% **Pyro DMG Bonus**.",
         },
       ],
     },
@@ -375,7 +390,8 @@ export const characters = new Map([
       passiveTalents: [
         {
           name: "Embrace of Winds",
-          description: "Holding Skyward Sonnet creates an upcurrent that lasts for 20s.",
+          description:
+            "Holding Skyward Sonnet creates an upcurrent that lasts for 20s.",
         },
         {
           name: "Stormeye",
@@ -384,13 +400,15 @@ export const characters = new Map([
         },
         {
           name: "Windrider",
-          description: "Decreases all party member's gliding Stamina Consumption by 20%.",
+          description:
+            "Decreases all party member's gliding Stamina Consumption by 20%.",
         },
       ],
       constellations: [
         {
           name: "C1: Splitting Gale",
-          description: "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
+          description:
+            "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
         },
         {
           name: "C2: Breeze of Reminiscence",
@@ -399,7 +417,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Ode to Thousand Winds",
-          description: "Increases the Level of Wind's Grand Ode by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Wind's Grand Ode by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Hurricane of Freedom",
@@ -408,7 +427,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Concierto dal Cielo",
-          description: "Increase the Level of Skyward Sonnet by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Skyward Sonnet by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Storm of Defiance",
@@ -422,7 +442,8 @@ export const characters = new Map([
     "sucrose",
     {
       name: "Sucrose",
-      description: "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+      description:
+        "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png/revision/latest/scale-to-width-down/244?cb=20200916181011",
       image:
@@ -475,11 +496,13 @@ export const characters = new Map([
       constellations: [
         {
           name: "C1: Clustered Vacuum Field",
-          description: "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
+          description:
+            "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
         },
         {
           name: "C2: Beth: Unbound Form",
-          description: "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
+          description:
+            "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
         },
         {
           name: "C3: Flawless Alchemistress",
@@ -550,25 +573,30 @@ export const characters = new Map([
         },
         {
           name: "Hunger",
-          description: "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
+          description:
+            "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
         },
         {
           name: "Wolvensprint",
-          description: "Decreases all party member's sprinting Stamina Consumption by 20%.",
+          description:
+            "Decreases all party member's sprinting Stamina Consumption by 20%.",
         },
       ],
       constellations: [
         {
           name: "C1: Wolf's Instinct",
-          description: "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+          description:
+            "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
         },
         {
           name: "C2: Suppression",
-          description: "Increases CRIT Rate against enemies with less than 30% HP by 10%.",
+          description:
+            "Increases CRIT Rate against enemies with less than 30% HP by 10%.",
         },
         {
           name: "C3: Soul Companion",
-          description: "Increases the Level of Lightning Fang by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Lightning Fang by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Bite",
@@ -577,7 +605,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Sharpened Claws",
-          description: "Increase the Level of Claw and Thunder by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Claw and Thunder by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Lupus Fulguris",
@@ -638,7 +667,8 @@ export const characters = new Map([
         },
         {
           name: "Former Life Memories",
-          description: "Displays the location of nearby resources unique to Liyue on the mini-map.",
+          description:
+            "Displays the location of nearby resources unique to Liyue on the mini-map.",
         },
       ],
       constellations: [
@@ -649,19 +679,23 @@ export const characters = new Map([
         },
         {
           name: "C2: Frozen to the Bone",
-          description: "Qiqi's Normal and Charge Attack DMG against enemies affected by **Cryo** is increased by 15%.",
+          description:
+            "Qiqi's Normal and Charge Attack DMG against enemies affected by **Cryo** is increased by 15%.",
         },
         {
           name: "C3: Ascendant Praise",
-          description: "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Divine Suppression",
-          description: "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+          description:
+            "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
         },
         {
           name: "C5: Crimson Lotus Bloom",
-          description: "Increase the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Rite of Resurrection",
@@ -739,7 +773,8 @@ export const characters = new Map([
         },
         {
           name: "C3: ",
-          description: "Increases the Level of Breastplate by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Breastplate by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: ",
@@ -748,7 +783,8 @@ export const characters = new Map([
         },
         {
           name: "C5: ",
-          description: "Increase the Level of Sweeping Time by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Sweeping Time by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: ",
@@ -764,7 +800,8 @@ export const characters = new Map([
       name: "Ningguang",
       emoji: "<:Ningguang:798571977120022578>",
       category: "Geo",
-      description: "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+      description:
+        "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
       thumbnail: "https://i.imgur.com/usy9I7B.png",
       image: "https://i.imgur.com/usy9I7B.png",
       color: "ffc100",
@@ -796,11 +833,13 @@ export const characters = new Map([
       passiveTalents: [
         {
           name: "Backup Plan",
-          description: "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+          description:
+            "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
         },
         {
           name: "Strategic Reserve",
-          description: "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
+          description:
+            "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
         },
         {
           name: "Trove of Marvelous Treasure",
@@ -815,23 +854,28 @@ export const characters = new Map([
         },
         {
           name: "Shock Effect",
-          description: "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s.",
+          description:
+            "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s.",
         },
         {
           name: "Majesty be the Array of Stars",
-          description: "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "Exquisite be the Jade, Outshining All the Beneath",
-          description: "Jade Screen increases nearby characters' Elemental RES by 10%.",
+          description:
+            "Jade Screen increases nearby characters' Elemental RES by 10%.",
         },
         {
           name: "Invincible be the Jade Screen",
-          description: "Increase the Level of Jade Screen by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Jade Screen by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "Grandeur be the Seven Stars",
-          description: "When Starshatter is used, Ningguang gains 7 Star Jades.",
+          description:
+            "When Starshatter is used, Ningguang gains 7 Star Jades.",
         },
       ],
     },
@@ -877,11 +921,13 @@ export const characters = new Map([
       passiveTalents: [
         {
           name: "Induced Aftershock",
-          description: "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents.",
+          description:
+            "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents.",
         },
         {
           name: "Static Electricity Field",
-          description: "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s.",
+          description:
+            "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s.",
         },
         {
           name: "General Pharmaceutics",
@@ -902,15 +948,18 @@ export const characters = new Map([
         },
         {
           name: "C3: Resonant Thunder",
-          description: "Increases the level of Lightning Rose by 3. Maximum level upgrade is 15.",
+          description:
+            "Increases the level of Lightning Rose by 3. Maximum level upgrade is 15.",
         },
         {
           name: "C4: Plasma Eruption",
-          description: "Increases the number of lightning bolts released by Lightning Rose by 1-3.",
+          description:
+            "Increases the number of lightning bolts released by Lightning Rose by 1-3.",
         },
         {
           name: "C5: Electrocute",
-          description: "	Increases the level of Violet Arc by 3. Maximum level upgrade is 15.",
+          description:
+            "	Increases the level of Violet Arc by 3. Maximum level upgrade is 15.",
         },
         {
           name: "C6:	Pulsating Witch",
@@ -966,11 +1015,13 @@ export const characters = new Map([
         },
         {
           name: "Sparkling Burst",
-          description: "When a Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
+          description:
+            "When a Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
         },
         {
           name: "All Of My Treasures!",
-          description: "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
+          description:
+            "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
         },
       ],
       constellations: [
@@ -981,11 +1032,13 @@ export const characters = new Map([
         },
         {
           name: "C2: Explosive Frags",
-          description: "Being hit by Jumpy Dumpty's mines decreases enemy DEF by 23% for 10s.",
+          description:
+            "Being hit by Jumpy Dumpty's mines decreases enemy DEF by 23% for 10s.",
         },
         {
           name: "C3: Exquisite Compound",
-          description: "Increases the Level of Jumpy Dumpty by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Jumpy Dumpty by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Sparkly Explosion",
@@ -994,7 +1047,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Nova Burst",
-          description: "Increase the Level of Sparks 'n' Splash by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Sparks 'n' Splash by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Blazing Delight",
@@ -1055,7 +1109,8 @@ export const characters = new Map([
         },
         {
           name: "Land's Overseer",
-          description: "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+          description:
+            "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
         },
       ],
       constellations: [
@@ -1071,7 +1126,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Foreseen Reformation",
-          description: "Increases the level of Starward Sword by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Starward Sword by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Attunement",
@@ -1080,7 +1136,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Beckoning Stars",
-          description: "Increases the level of Stellar Restoration by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Stellar Restoration by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Tenacious Star",
@@ -1094,7 +1151,8 @@ export const characters = new Map([
     "kaeya",
     {
       name: "Kaeya",
-      description: "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
+      description:
+        "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916171117",
       image:
@@ -1130,7 +1188,8 @@ export const characters = new Map([
       passiveTalents: [
         {
           name: "Cold-Blooded Strike",
-          description: "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK.",
+          description:
+            "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK.",
         },
         {
           name: "Glacial Heart",
@@ -1156,7 +1215,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Dance of Frost",
-          description: "	Increases the Level of Frostgnaw by 3. Maximum upgrade level is 15.",
+          description:
+            "	Increases the Level of Frostgnaw by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4. Frozen Kiss",
@@ -1165,11 +1225,13 @@ export const characters = new Map([
         },
         {
           name: "C5: Frostbiting Embrace",
-          description: "Increases the level of Glacial Waltz by 3. Max upgrade level is 15.",
+          description:
+            "Increases the level of Glacial Waltz by 3. Max upgrade level is 15.",
         },
         {
           name: "C5: Glacial Whirlwind",
-          description: "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
+          description:
+            "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
         },
       ],
     },
@@ -1219,7 +1281,8 @@ export const characters = new Map([
         },
         {
           name: "Let the Wind Lead",
-          description: "Using Dandelion Breeze will regenerate 20% of its Energy.",
+          description:
+            "Using Dandelion Breeze will regenerate 20% of its Energy.",
         },
         {
           name: "Guiding Breeze",
@@ -1240,7 +1303,8 @@ export const characters = new Map([
         },
         {
           name: "C3: When the West Wind Arises",
-          description: "Increases the level of Dandelion Breeze by 3. The maximum upgrade level is 15.",
+          description:
+            "Increases the level of Dandelion Breeze by 3. The maximum upgrade level is 15.",
         },
         {
           name: "C4: Lands of Dandelion",
@@ -1249,7 +1313,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Outbursting Gust",
-          description: "Increases the level of Gale Blade by 3. The maximum upgrade level is 15.",
+          description:
+            "Increases the level of Gale Blade by 3. The maximum upgrade level is 15.",
         },
         {
           name: "C6: Lion's Fang, Fair Protector of Mondstadt",
@@ -1305,11 +1370,13 @@ export const characters = new Map([
         },
         {
           name: "Harmony between Heaven and Earth",
-          description: "Celestial Shower grants a 20% **Cryo DMG Bonus** to active members in the AoE.",
+          description:
+            "Celestial Shower grants a 20% **Cryo DMG Bonus** to active members in the AoE.",
         },
         {
           name: "Preserved for the Hunt",
-          description: "Refunds 15% of the ores used when crafting Bow-type weapons.",
+          description:
+            "Refunds 15% of the ores used when crafting Bow-type weapons.",
         },
       ],
       constellations: [
@@ -1324,7 +1391,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Cloud-Strider",
-          description: "Increases the Level of Celestial Shower by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Celestial Shower by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Westward Sojourn",
@@ -1333,7 +1401,8 @@ export const characters = new Map([
         },
         {
           name: "C5: The Merciful",
-          description: "Increases the Level of Trail of the Qilin by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Trail of the Qilin by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: The Clement",
@@ -1394,7 +1463,8 @@ export const characters = new Map([
         },
         {
           name: "Mein Hausgarten",
-          description: "When dispatched on an expedition in Mondstadt, the time consumed is reduced by 25%.",
+          description:
+            "When dispatched on an expedition in Mondstadt, the time consumed is reduced by 25%.",
         },
       ],
       constellations: [
@@ -1410,7 +1480,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Wings of Nightmare",
-          description: "Increases Nightrider's skill level by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases Nightrider's skill level by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Her Pilgrimage of Bleak",
@@ -1419,7 +1490,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Against the Fleeing Light",
-          description: "Increases Midnight Phantasmagoria's skill level by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases Midnight Phantasmagoria's skill level by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Evernight Raven",
@@ -1470,7 +1542,8 @@ export const characters = new Map([
       passiveTalents: [
         {
           name: "Relentless",
-          description: "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+          description:
+            "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
         },
         {
           name: "Blessing of Phoenix",
@@ -1479,13 +1552,15 @@ export const characters = new Map([
         },
         {
           name: "Tradition of the Dawn Knight",
-          description: "Refunds 15% of the ores used when crafting Claymore-type weapons.",
+          description:
+            "Refunds 15% of the ores used when crafting Claymore-type weapons.",
         },
       ],
       constellations: [
         {
           name: "C1: Conviction",
-          description: "Diluc deals 15% more DMG to enemies whose HP is above 50%.",
+          description:
+            "Diluc deals 15% more DMG to enemies whose HP is above 50%.",
         },
         {
           name: "C2: Searing Ember",
@@ -1494,7 +1569,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Steel and Fire",
-          description: "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Flowing Flame",
@@ -1503,7 +1579,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Phoenix, Harbinger of Dawn",
-          description: "Increases the level of Dawn by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the level of Dawn by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Flaming Sword, Nemesis of Dark",
@@ -1564,7 +1641,8 @@ export const characters = new Map([
         },
         {
           name: "Gallant Journey",
-          description: "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+          description:
+            "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
         },
       ],
       constellations: [
@@ -1580,7 +1658,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Cloudburst",
-          description: "Increases the level of Spirit Blade: Cloud-Parting Star by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Spirit Blade: Cloud-Parting Star by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Frozen Skies",
@@ -1604,7 +1683,8 @@ export const characters = new Map([
     "childe",
     {
       name: "Childe",
-      description: "No. 11 of The Harbingers, also known as 'Childe.' His name is highly feared on the battlefield.",
+      description:
+        "No. 11 of The Harbingers, also known as 'Childe.' His name is highly feared on the battlefield.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png/revision/latest/scale-to-width-down/262?cb=20201109083418",
       image:
@@ -1649,7 +1729,8 @@ export const characters = new Map([
         },
         {
           name: "Master of Weaponry",
-          description: "Increases your own party members' Normal Attack Level by 1.",
+          description:
+            "Increases your own party members' Normal Attack Level by 1.",
         },
       ],
       constellations: [
@@ -1659,11 +1740,13 @@ export const characters = new Map([
         },
         {
           name: "C2: Foul Legacy: Understream",
-          description: "When opponents affected by Riptide are defeated. Tartaglia regenerates 4 Elemental Energy.",
+          description:
+            "When opponents affected by Riptide are defeated. Tartaglia regenerates 4 Elemental Energy.",
         },
         {
           name: "C3: Abyssal Mayhem: Vortex of Turmoil",
-          description: "Increases the Level of Foul Legacy: Raging Tide by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Foul Legacy: Raging Tide by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Abyssal Mayhem: Hydrosprout",
@@ -1672,7 +1755,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Havoc: Formless Blade",
-          description: "Increases the level of Havoc: Obliteration by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Havoc: Obliteration by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Havoc: Annihilation",
@@ -1686,7 +1770,8 @@ export const characters = new Map([
     "bennett",
     {
       name: "Bennett",
-      description: "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+      description:
+        "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png/revision/latest/scale-to-width-down/267?cb=20200916170558",
       image:
@@ -1731,7 +1816,8 @@ export const characters = new Map([
         },
         {
           name: "It Should Be Safe...",
-          description: "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+          description:
+            "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
         },
       ],
       constellations: [
@@ -1742,11 +1828,13 @@ export const characters = new Map([
         },
         {
           name: "C2: Impasse Conqueror",
-          description: "When HP falls below 70%, increases Energy Recharge by 30%.",
+          description:
+            "When HP falls below 70%, increases Energy Recharge by 30%.",
         },
         {
           name: "C3: Unstoppable Fervor",
-          description: "Increases Passion Overload's skill level by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases Passion Overload's skill level by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Unexpected Odyssey",
@@ -1755,7 +1843,8 @@ export const characters = new Map([
         },
         {
           name: "C5: True Explorer",
-          description: "Increases Fantastic Voyage's skill level by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases Fantastic Voyage's skill level by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Fire Ventures with Me",
@@ -1769,7 +1858,8 @@ export const characters = new Map([
     "beidou",
     {
       name: "Beidou",
-      description: "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+      description:
+        "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png/revision/latest/scale-to-width-down/237?cb=20200916170732",
       image:
@@ -1827,19 +1917,23 @@ export const characters = new Map([
         },
         {
           name: "C2: Upon the Turbulent Sea, the Thunder Arises",
-          description: "Stormbreaker's arc lightning can jump to 2 additional targets.",
+          description:
+            "Stormbreaker's arc lightning can jump to 2 additional targets.",
         },
         {
           name: "C3: Summoner of Storm",
-          description: "Increases the level of Tidecaller by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Tidecaller by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Stunning Revenge",
-          description: "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional **Electro DMG**.",
+          description:
+            "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional **Electro DMG**.",
         },
         {
           name: "C5: Crimson Tidewalker",
-          description: "Increases the level of Stormbreaker by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Stormbreaker by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Bane of the Evil",
@@ -1853,7 +1947,8 @@ export const characters = new Map([
     "barbara",
     {
       name: "Barbara",
-      description: "Every citizen of Mondstadt adores Barbara. She learned the word 'idol' from a magazine.",
+      description:
+        "Every citizen of Mondstadt adores Barbara. She learned the word 'idol' from a magazine.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png/revision/latest/scale-to-width-down/253?cb=20200916170845",
       image:
@@ -1915,7 +2010,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Star of Tomorrow",
-          description: "Increases the level of Shining Miracle by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Shining Miracle by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Attentiveness be My Power",
@@ -1924,7 +2020,8 @@ export const characters = new Map([
         },
         {
           name: "C5: The Purest Companionship",
-          description: "Increases the level of Let the Show Begin by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Let the Show Begin by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Dedicating Everything to You",
@@ -1968,17 +2065,20 @@ export const characters = new Map([
         },
         {
           name: "Fiery Rain",
-          description: "Fires off a shower of arrows, dealing continuous **AoE Pyro DMG**.",
+          description:
+            "Fires off a shower of arrows, dealing continuous **AoE Pyro DMG**.",
         },
       ],
       passiveTalents: [
         {
           name: "Every Arrow Finds Its Target",
-          description: "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%.",
+          description:
+            "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%.",
         },
         {
           name: "Precise Shot",
-          description: "Aimed Shot hits on weak spots increase ATK by 15% for 10s.",
+          description:
+            "Aimed Shot hits on weak spots increase ATK by 15% for 10s.",
         },
         {
           name: "Gliding Champion",
@@ -1999,19 +2099,23 @@ export const characters = new Map([
         },
         {
           name: "C3: It Burns!",
-          description: "	Increases the level of Fiery Rain by 3. Maximum upgrade level is 15.",
+          description:
+            "	Increases the level of Fiery Rain by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: It's Not Just Any Doll...",
-          description: "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
+          description:
+            "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
         },
         {
           name: "C5: It's Baron Bunny!",
-          description: "Increases the level of Explosive Puppet by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Explosive Puppet by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Wildfire",
-          description: "Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 10s.",
+          description:
+            "Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 10s.",
         },
       ],
     },
@@ -2084,15 +2188,18 @@ export const characters = new Map([
         },
         {
           name: "C3: Grace of Helios",
-          description: "Increases the level of Abiogenesis: Solar Isotoma by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Abiogenesis: Solar Isotoma by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Descent of Divinity",
-          description: "Solar Isotoma increases Plunging Attack DMG by 30% for active party members within the AoE.",
+          description:
+            "Solar Isotoma increases Plunging Attack DMG by 30% for active party members within the AoE.",
         },
         {
           name: "C5: Tide of Hadaen",
-          description: "Increases the level of Rite of Progeniture: Tectonic Tide by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Rite of Progeniture: Tectonic Tide by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Dust of Purification",
@@ -2148,7 +2255,8 @@ export const characters = new Map([
         },
         {
           name: "Waterborne Destiny",
-          description: "Increases Mona's *Hydro DMG Bonus** by a degree equivalent to 20% of her Energy Recharge rate.",
+          description:
+            "Increases Mona's *Hydro DMG Bonus** by a degree equivalent to 20% of her Energy Recharge rate.",
         },
         {
           name: "Principium of Astrology",
@@ -2169,7 +2277,8 @@ export const characters = new Map([
         },
         {
           name: "C3: 	Restless Revolution",
-          description: "	Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15.",
+          description:
+            "	Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Prophecy of Oblivion",
@@ -2178,7 +2287,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Mockery of Fortuna",
-          description: "Increase the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15.",
+          description:
+            "Increase the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Rhetorics of Calamitas",
@@ -2194,8 +2304,10 @@ export const characters = new Map([
       name: "Traveler (Geo)",
       description:
         "The Traveler is the playable protagonist of Genshin Impact.\nAt the beginning of the game, both genders are twin siblings from another world, traveling throughout the universe, until an Unknown God ambushed, captured one of them, and sealed their ways of travel, leaving them stranded on Teyvat.\nThey are accompanied by a travel companion named Paimon throughout their journey. ",
-      thumbnail: "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
-      image: "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
+      thumbnail:
+        "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
+      image:
+        "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
       color: "ffc100",
       emoji: "<:Traveler:798976293613600829>",
       category: "Geo",
@@ -2248,7 +2360,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Will of the Rock",
-          description: "Increases the Level of Wake of Earth by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increases the Level of Wake of Earth by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Reaction Force",
@@ -2257,7 +2370,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Meteorite Impact",
-          description: "Increase the Level of Starfell Sword by 3.\nMaximum upgrade level is 15.",
+          description:
+            "Increase the Level of Starfell Sword by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Everlasting Boulder",
@@ -2273,8 +2387,10 @@ export const characters = new Map([
       name: "Traveler (Anemo)",
       description:
         "The Traveler is the playable protagonist of Genshin Impact.\nAt the beginning of the game, both genders are twin siblings from another world, traveling throughout the universe, until an Unknown God ambushed, captured one of them, and sealed their ways of travel, leaving them stranded on Teyvat.\nThey are accompanied by a travel companion named Paimon throughout their journey. ",
-      thumbnail: "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
-      image: "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
+      thumbnail:
+        "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
+      image:
+        "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
       color: "03fd9e",
       emoji: "<:Traveler:798976293613600829>",
       category: "Anemo",
@@ -2311,7 +2427,8 @@ export const characters = new Map([
         },
         {
           name: "Second Wind",
-          description: "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+          description:
+            "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
         },
       ],
       constellations: [
@@ -2325,7 +2442,8 @@ export const characters = new Map([
         },
         {
           name: "C3: Sweeping Gust",
-          description: "Increases the level of Gust Surge by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Gust Surge by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Cherishing Breezes",
@@ -2333,7 +2451,8 @@ export const characters = new Map([
         },
         {
           name: "C5: Vortex Stellaris",
-          description: "Increases the level of Palm Vortex by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the level of Palm Vortex by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Intertwined Winds",
@@ -2389,7 +2508,8 @@ export const characters = new Map([
         },
         {
           name: "Drunkards' Farce",
-          description: "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
+          description:
+            "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
         },
         {
           name: "Complimentary Bar Food",
@@ -2400,7 +2520,8 @@ export const characters = new Map([
       constellations: [
         {
           name: "C1: A Lingering Flavor",
-          description: "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+          description:
+            "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
         },
         {
           name: "C2: Shaken, Not Purred",
@@ -2409,15 +2530,18 @@ export const characters = new Map([
         },
         {
           name: "C3: A-Another Round?",
-          description: "	Increases the Level of Signature Mix by 3. Maximum upgrade level is 15.",
+          description:
+            "	Increases the Level of Signature Mix by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C4: Wine Industry Slayer",
-          description: "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%.",
+          description:
+            "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%.",
         },
         {
           name: "C5: Double Shot, On The Rocks",
-          description: "Increases the Level of Icy Paws by 3. Maximum upgrade level is 15.",
+          description:
+            "Increases the Level of Icy Paws by 3. Maximum upgrade level is 15.",
         },
         {
           name: "C6: Cat's Tail Closing Time",

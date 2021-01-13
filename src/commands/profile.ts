@@ -3,7 +3,7 @@ import { Member } from "../../deps.ts";
 import { characters } from "../constants/character.ts";
 import { db } from "../database/database.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, sendEmbed } from "../utils/helpers.ts";
+import { createCommand } from "../utils/helpers.ts";
 
 const categories = [
   { name: "Anemo", emoji: "<:Anemo:798483595781341194>" },

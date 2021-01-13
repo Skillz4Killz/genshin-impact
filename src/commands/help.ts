@@ -29,7 +29,6 @@ createCommand({
             "The developer of this bot are **John Without Gel#1214** and **GeheimerWolf#8008**, go to discord.gg/26MjArxVP3",
           ]),
       );
-      return message.send(`No command provided.`);
     }
 
     const command = botCache.commands.get(args.command);
