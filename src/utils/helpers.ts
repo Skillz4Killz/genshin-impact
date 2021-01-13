@@ -3,11 +3,11 @@ import { Embed } from "./Embed.ts";
 import {
   botCache,
   Collection,
-  MessageContent,
-  Message,
-  sendMessage,
   deleteMessageByID,
   editMessage,
+  Message,
+  MessageContent,
+  sendMessage,
 } from "../../deps.ts";
 import { Milliseconds } from "./constants/time.ts";
 
@@ -77,14 +77,20 @@ export function createCommand(command: Command) {
   botCache.commands.set(command.name, command);
 }
 
-export function createSubcommand(commandName: string, subcommand: Command, retries = 0) {
+export function createSubcommand(
+  commandName: string,
+  subcommand: Command,
+  retries = 0,
+) {
   const names = commandName.split("-");
 
   let command = botCache.commands.get(commandName);
 
   if (names.length > 1) {
     for (const name of names) {
-      const validCommand = command ? command.subcommands?.get(name) : botCache.commands.get(name);
+      const validCommand = command
+        ? command.subcommands?.get(name)
+        : botCache.commands.get(name);
       if (!validCommand) break;
 
       command = validCommand;
@@ -94,11 +100,16 @@ export function createSubcommand(commandName: string, subcommand: Command, retri
   if (!command) {
     // If 10 minutes have passed something must have been wrong
     if (retries === 20) {
-      return console.error(`Subcommand ${subcommand} unable to be created for ${commandName}`);
+      return console.error(
+        `Subcommand ${subcommand} unable to be created for ${commandName}`,
+      );
     }
 
     // Try again in 30 seconds in case this command file just has not been loaded yet.
-    setTimeout(() => createSubcommand(commandName, subcommand, retries++), 30000);
+    setTimeout(
+      () => createSubcommand(commandName, subcommand, retries++),
+      30000,
+    );
     return;
   }
 
@@ -151,5 +162,7 @@ export function getTime() {
     hour = hour - 12;
   }
 
-  return `${hour >= 10 ? hour : `0${hour}`}:${minute >= 10 ? minute : `0${minute}`} ${amOrPm}`;
+  return `${hour >= 10 ? hour : `0${hour}`}:${
+    minute >= 10 ? minute : `0${minute}`
+  } ${amOrPm}`;
 }

@@ -15,11 +15,31 @@ export const weapons = new Map([
       secondaryStatValue: "7.7",
       specialAbility: "Bane of Water and Ice",
       refinementLevel: [
-        { name: "Level 1", description: "Increases DMG against opponents affected by Hydro or Cryo by 12%." },
-        { name: "Level 2", description: "Increases DMG against opponents affected by Hydro or Cryo by 15%." },
-        { name: "Level 3", description: "Increases DMG against opponents affected by Hydro or Cryo by 18%." },
-        { name: "Level 4", description: "Increases DMG against opponents affected by Hydro or Cryo by 21%." },
-        { name: "Level 5", description: "Increases DMG against opponents affected by Hydro or Cryo by 24%." },
+        {
+          name: "Level 1",
+          description:
+            "Increases DMG against opponents affected by Hydro or Cryo by 12%.",
+        },
+        {
+          name: "Level 2",
+          description:
+            "Increases DMG against opponents affected by Hydro or Cryo by 15%.",
+        },
+        {
+          name: "Level 3",
+          description:
+            "Increases DMG against opponents affected by Hydro or Cryo by 18%.",
+        },
+        {
+          name: "Level 4",
+          description:
+            "Increases DMG against opponents affected by Hydro or Cryo by 21%.",
+        },
+        {
+          name: "Level 5",
+          description:
+            "Increases DMG against opponents affected by Hydro or Cryo by 24%.",
+        },
       ],
     },
   ],

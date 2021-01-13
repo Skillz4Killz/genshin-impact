@@ -9,10 +9,15 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
     const weapon = weapons.get(args.name);
-    if (!weapon)
+    if (!weapon) {
       return message.reply(
-        ["Invalid weapon name provided. Valid names are:", "", [...weapons.keys()].join(" ")].join("\n")
+        [
+          "Invalid weapon name provided. Valid names are:",
+          "",
+          [...weapons.keys()].join(" "),
+        ].join("\n"),
       );
+    }
 
     const embed = new Embed()
       .setTitle(weapon.name)
@@ -43,7 +48,11 @@ weapons.forEach((c, key) =>
     name: key,
     guildOnly: true,
     execute: async function (message, args, guild) {
-      return botCache.commands.get("weapon")?.execute?.(message, { name: key }, guild);
+      return botCache.commands.get("weapon")?.execute?.(
+        message,
+        { name: key },
+        guild,
+      );
     },
   })
 );

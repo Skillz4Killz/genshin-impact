@@ -12,7 +12,10 @@ botCache.monitors.set("messageCollector", {
     if (!collector.filter(message)) return;
 
     // If the necessary amount has been collected
-    if (collector.amount === 1 || collector.amount === collector.messages.length + 1) {
+    if (
+      collector.amount === 1 ||
+      collector.amount === collector.messages.length + 1
+    ) {
       // Remove the collector
       botCache.messageCollectors.delete(message.author.id);
       // Resolve the collector

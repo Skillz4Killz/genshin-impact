@@ -27,7 +27,7 @@ createCommand({
             "To access the command list, please use the command `p!commands`!",
             "",
             "The developer of this bot is **John Without Gel#1214** and **GeheimerWolf#8008**, go to discord.gg/",
-          ])
+          ]),
       );
       return message.send(`No command provided.`);
     }
@@ -37,11 +37,22 @@ createCommand({
       return message.send(`Command ${args.command} not found.`);
     }
 
-    const description = translate(message.guildID!, `commands/${args.command}:DESCRIPTION`);
+    const description = translate(
+      message.guildID!,
+      `commands/${args.command}:DESCRIPTION`,
+    );
 
     const embed = new Embed()
-      .setAuthor(translate(message.guildID!, `commands/help:AUTHOR`, { name: args.command }))
-      .setDescription(description === "DESCRIPTION" ? command.description : description);
+      .setAuthor(
+        translate(
+          message.guildID!,
+          `commands/help:AUTHOR`,
+          { name: args.command },
+        ),
+      )
+      .setDescription(
+        description === "DESCRIPTION" ? command.description : description,
+      );
 
     return message.send({ embed });
   },

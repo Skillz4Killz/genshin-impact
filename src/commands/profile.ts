@@ -25,12 +25,17 @@ createCommand({
 
     const settings = await db.users.get(member.id);
     if (!settings) {
-      if (message.author.id !== member.id)
+      if (message.author.id !== member.id) {
         return message
-          .reply("No profile found for this user yet. They must run the setup command first.")
+          .reply(
+            "No profile found for this user yet. They must run the setup command first.",
+          )
           .catch(console.log);
+      }
 
-      await message.reply(`You have not yet completed the profile setup. Running the setup command for you now.`);
+      await message.reply(
+        `You have not yet completed the profile setup. Running the setup command for you now.`,
+      );
       return botCache.commands.get("setup")?.execute?.(message, args);
     }
 
@@ -43,11 +48,17 @@ createCommand({
       ])
       .setThumbnail(member.avatarURL);
 
-    for (const category of categories.sort(
-      (a, b) =>
-        settings.characters.filter((c) => characters.get(c.name)?.category === b.name).length -
-        settings.characters.filter((c) => characters.get(c.name)?.category === a.name).length
-    )) {
+    for (
+      const category of categories.sort(
+        (a, b) =>
+          settings.characters.filter((c) =>
+            characters.get(c.name)?.category === b.name
+          ).length -
+          settings.characters.filter((c) =>
+            characters.get(c.name)?.category === a.name
+          ).length,
+      )
+    ) {
       embed.addField(
         `${category.emoji} ${category.name}`,
         settings.characters
@@ -61,13 +72,15 @@ createCommand({
             // NOT FOR THIS CATEGORY
             if (char.category !== category.name) return "";
             // CHAR DETAILS
-            return `${char ? `${char.emoji} ` : ""}${character.name} +${character.constellationLevel}`;
+            return `${
+              char ? `${char.emoji} ` : ""
+            }${character.name} +${character.constellationLevel}`;
           })
           // REMOVES EMPTY STRINGS
           .filter((x) => x)
           // JOIN TO 1 STRING OR DEFAULT TO NA IF EMPTY
           .join("\n") || "NA",
-        true
+        true,
       );
     }
 

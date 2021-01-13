@@ -1,8 +1,5 @@
 import { botCache, updateEventHandlers } from "../../deps.ts";
-import {
-  createCommand,
-  importDirectory,
-} from "../utils/helpers.ts";
+import { createCommand, importDirectory } from "../utils/helpers.ts";
 import { PermissionLevels } from "../types/commands.ts";
 import { clearTasks, registerTasks } from "../utils/taskHelper.ts";
 
@@ -41,7 +38,7 @@ createCommand({
       const path = folderPaths.get(args.folder);
       if (!path) {
         return message.reply(
-          "The folder you provided did not have a path available."
+          "The folder you provided did not have a path available.",
         );
       }
 
@@ -50,7 +47,7 @@ createCommand({
         await importDirectory(Deno.realPathSync(path));
         registerTasks();
         return message.reply(
-          `The **${args.folder}** has been reloaded.`
+          `The **${args.folder}** has been reloaded.`,
         );
       }
 
@@ -63,7 +60,7 @@ createCommand({
     await Promise.all(
       [...folderPaths.values()].map((path) =>
         importDirectory(Deno.realPathSync(path))
-      )
+      ),
     );
     registerTasks();
     // Updates the events in the library

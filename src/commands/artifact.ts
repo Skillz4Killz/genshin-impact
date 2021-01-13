@@ -9,10 +9,15 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
     const artifact = artifacts.get(args.name);
-    if (!artifact)
+    if (!artifact) {
       return message.reply(
-        ["Invalid artifact name provided. Valid names are:", "", [...artifacts.keys()].join(" ")].join("\n")
+        [
+          "Invalid artifact name provided. Valid names are:",
+          "",
+          [...artifacts.keys()].join(" "),
+        ].join("\n"),
       );
+    }
 
     const embed = new Embed()
       .setTitle(artifact.name)
@@ -36,7 +41,11 @@ artifacts.forEach((c, key) =>
     name: key,
     guildOnly: true,
     execute: async function (message, args, guild) {
-      return botCache.commands.get("weapon")?.execute?.(message, { name: key }, guild);
+      return botCache.commands.get("weapon")?.execute?.(
+        message,
+        { name: key },
+        guild,
+      );
     },
   })
 );
