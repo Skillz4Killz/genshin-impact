@@ -74,7 +74,7 @@ createCommand({
             // CHAR DETAILS
             return `${
               char ? `${char.emoji} ` : ""
-            }${character.name} +${character.constellationLevel}`;
+            }${character.name} C${character.constellationLevel}`;
           })
           // REMOVES EMPTY STRINGS
           .filter((x) => x)
