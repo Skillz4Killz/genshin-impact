@@ -29,7 +29,7 @@ createCommand({
       .setDescription([
         // @ts-ignore
         character.rarity,
-        `**Vision:** ${character.element}`,
+        `**Element:** ${character.element}`,
         `**Weapon:** ${character.weapon}`,
         "",
         // @ts-ignore
@@ -46,7 +46,7 @@ createCommand({
     const second = new Embed()
       .setTitle(character.name)
       .setDescription([
-        `**Nation:** ${character.vision}`,
+        `**Nation:** ${character.nation}`,
         `**Affilation:** ${character.weapon}`,
         `**Special Dish:** ${character.specialDish}`,
         `**Constellation:** ${character.constellation}`,
