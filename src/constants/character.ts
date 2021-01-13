@@ -2297,7 +2297,7 @@ export const characters = new Map([
     },
   ],
   [
-    "TravelerGeo",
+    "travelergeo",
     {
       name: "Traveler (Geo)",
       description:
@@ -2380,7 +2380,7 @@ export const characters = new Map([
     },
   ],
   [
-    "TravelerAnemo",
+    "traveleranemo",
     {
       name: "Traveler (Geo)",
       description:
