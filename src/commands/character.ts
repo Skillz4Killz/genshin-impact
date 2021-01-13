@@ -14,13 +14,15 @@ createCommand({
   ],
   guildOnly: true,
   execute: async function (message, args) {
-    const character = characters.get(args.character);
+    const character = characters.get(args.character.split(" ").join("").replaceAll("(", "").replaceAll(")", ""));
     if (!character) {
       return message.reply(
         [
           "Invalid character name provided. Valid names are:",
           "",
-          [...characters.values()].map((c) => c.name.toLowerCase()).join(" "),
+          [...characters.values()]
+            .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
+            .join(" "),
         ].join("\n")
       );
     }
