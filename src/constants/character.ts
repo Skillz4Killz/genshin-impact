@@ -772,7 +772,7 @@ export const characters = new Map([
       element: "<:Geo:798483630740865044> Geo",
       weapon: "Catalyst",
       nation: "Liyue",
-      affiliation: "NLiyue Qixing",
+      affiliation: "Liyue Qixing",
       specialDish: "Qiankun Mora Meat",
       constellation: "Opus Aqe",
       birthday: "August 26th",
