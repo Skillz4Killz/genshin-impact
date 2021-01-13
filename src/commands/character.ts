@@ -26,12 +26,10 @@ createCommand({
     const first = new Embed()
       .setTitle(character.name)
       .setDescription([
-        // @ts-ignore
         character.rarity,
         `**Element:** ${character.element}`,
         `**Weapon:** ${character.weapon}`,
         "",
-        // @ts-ignore
         character.description,
         "",
         "🧿 - Main info",
@@ -51,7 +49,6 @@ createCommand({
         `**Constellation:** ${character.constellation}`,
         `**Birthday:** ${character.birthday}`,
         "",
-        // @ts-ignore
         character.description,
         "",
         "🧿 - Main info",
