@@ -817,7 +817,7 @@ export const characters = new Map([
         {
           name: "Sparkling Scatter",
           description:
-            "Normal Attack\nShoots gems that deal Geo DMG.\n\nUpon hit, this grants Ningguang 1 Star Jade.\nCharged Attack\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\n\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\nPlunging Attack\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.",
+            "**Normal Attack**\nShoots gems that deal Geo DMG.\n\nUpon hit, this grants Ningguang 1 Star Jade.\n**Charged Attack**\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\n\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.",
         },
         {
           name: "Jade Screen",
