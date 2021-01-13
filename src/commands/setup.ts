@@ -8,7 +8,7 @@ export const characters = new Map([
     "zhongli", 
     { 
     name: "Zhongli",
-    description: "",
+    description: "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
     emoji: "<:Zhongli:798577390577254441>",
     thumbnail: "https://i.imgur.com/FbpPr3j.png",
     image: "https://i.imgur.com/FbpPr3j.png",
@@ -377,10 +377,10 @@ export const characters = new Map([
     "sucrose", 
     { 
       name: "Sucrose", 
-      description: "",
+      description: "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
       thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png/revision/latest/scale-to-width-down/244?cb=20200916181011",
       image: "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png/revision/latest/scale-to-width-down/244?cb=20200916181011",
-      color: "",
+      color: "03fd9e",
       emoji: "<:Sucrose:798578072756158475>", 
       category: "Anemo" ,
       stars: "⭐⭐⭐⭐",
@@ -1932,7 +1932,7 @@ export const characters = new Map([
     },
   ],
   [
-    "TravelerGeo", 
+    "rravelergeo", 
     { 
       name: "Traveler (Geo)", 
       description: "The Traveler is the playable protagonist of Genshin Impact.\nAt the beginning of the game, both genders are twin siblings from another world, traveling throughout the universe, until an Unknown God ambushed, captured one of them, and sealed their ways of travel, leaving them stranded on Teyvat.\nThey are accompanied by a travel companion named Paimon throughout their journey. ",
@@ -2002,9 +2002,9 @@ export const characters = new Map([
     },
   ],
   [
-    "TravelerAnemo", 
+    "traveleranemo", 
     { 
-      name: "Traveler (Geo)", 
+      name: "Traveler (Anemo)", 
       description: "The Traveler is the playable protagonist of Genshin Impact.\nAt the beginning of the game, both genders are twin siblings from another world, traveling throughout the universe, until an Unknown God ambushed, captured one of them, and sealed their ways of travel, leaving them stranded on Teyvat.\nThey are accompanied by a travel companion named Paimon throughout their journey. ",
       thumbnail: "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
       image: "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
