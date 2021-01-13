@@ -24,11 +24,12 @@ createCommand({
       );
 
     const first = new Embed()
-      .setTitle(character.name)
+      .setAuthor(character.name)
+      .setTitle(character.title)
       .setDescription([
         // @ts-ignore
-        character.stars,
-        `**Vision:** ${character.vision}`,
+        character.rarity,
+        `**Vision:** ${character.element}`,
         `**Weapon:** ${character.weapon}`,
         "",
         // @ts-ignore
