@@ -1932,7 +1932,7 @@ export const characters = new Map([
     },
   ],
   [
-    "rravelergeo", 
+    "travelergeo", 
     { 
       name: "Traveler (Geo)", 
       description: "The Traveler is the playable protagonist of Genshin Impact.\nAt the beginning of the game, both genders are twin siblings from another world, traveling throughout the universe, until an Unknown God ambushed, captured one of them, and sealed their ways of travel, leaving them stranded on Teyvat.\nThey are accompanied by a travel companion named Paimon throughout their journey. ",
