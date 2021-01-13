@@ -45,8 +45,9 @@ createCommand({
       .setTitle(character.name)
       .setDescription([
         `**Nation:** ${character.nation}`,
-        `**Affilation:** ${character.weapon}`,
+        `**Affiliation:** ${character.affiliation}`,
         `**Special Dish:** ${character.specialDish}`,
+        `**Weapon:** ${character.weapon}`,
         `**Constellation:** ${character.constellation}`,
         `**Birthday:** ${character.birthday}`,
         "",
