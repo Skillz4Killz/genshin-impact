@@ -1,7 +1,7 @@
 import { Message, MessageContent, sendDirectMessage } from "../../../deps.ts";
+import { characters } from "../../constants/character.ts";
 import { db } from "../../database/database.ts";
 import { createCommand, createSubcommand } from "../../utils/helpers.ts";
-import { characters } from "../setup.ts";
 
 function sendDMOrResponse(message: Message, content: string | MessageContent) {
   if (message.guildID) {
