@@ -4,8 +4,8 @@ import { artifacts } from "../constants/artifacts.ts";
 import { weapons } from "../constants/weapons.ts";
 import { parsePrefix } from "./commandHandler.ts";
 
-botCache.monitors.set("weapons", {
-  name: "weapons",
+botCache.monitors.set("spacednames", {
+  name: "spacednames",
   ignoreDM: false,
   execute: async function (message) {
     const prefix = parsePrefix(message.guildID);
