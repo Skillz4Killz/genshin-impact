@@ -10,7 +10,7 @@ export const artifacts = new Map([
       twoPieceBonus: "Max HP increased by 1,000.",
       fourPieceBonus: "Opening chest regenerates 30% Max HP over 5s.",
       dropsIn: "Midsummer Courtyard",
-      moreInfo: "https://genshin.honeyhunterworld.com/db/art/family/gladiators_finale/",
+      moreInfo: "https://genshin.honeyhunterworld.com/db/art/family/adventurer/",
     },
   ],
   [

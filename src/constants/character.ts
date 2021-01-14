@@ -22,7 +22,7 @@ export const characters = new Map([
         {
           name: "Rain of Stone",
           description:
-            "**Normal Attack** Performs up to 6 rapid strikes.\n**Charged Attack** Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\n**Plunging Attack** Plunges from mid-air to strike the gronud below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "**Normal Attack**\nPerforms up to 6 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\n\n**Plunging Attack**\nPlunges from mid-air to strike the gronud below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
           name: "Dominus Lapidis",
@@ -817,7 +817,7 @@ export const characters = new Map([
         {
           name: "Sparkling Scatter",
           description:
-            "**Normal Attack**\nShoots gems that deal Geo DMG.\n\nUpon hit, this grants Ningguang 1 Star Jade.\n**Charged Attack**\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\n\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.",
+            "**Normal Attack**\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.",
         },
         {
           name: "Jade Screen",
