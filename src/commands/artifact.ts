@@ -24,7 +24,7 @@ createCommand({
       .setDescription([
         artifact.stars,
         "",
-        `**St Bonus:** ${artifact.setBonus}`,
+        `**Set Bonus:**\n${artifact.setBonus}`,
         "",
         `**Drop:** ${artifact.dropsIn}`,
         "",
