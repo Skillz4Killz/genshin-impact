@@ -26,8 +26,14 @@ createCommand({
             "",
             "`p!profile edit (character) (new constellation)`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
             "",
-            "Random bullshittery here",
-          ]),
+            "`p!char (character name)`\nShows info about a specific character.",
+            "",
+            "`p!weapon (weapon name)`\nShows info about a specific weapon.",
+            "",
+            "`p!artifact (artifact name)`\nShows info about a specific artifact."
+          ])
+          .setFooter("Work in progress")
+          .setThumbnail("https://i.imgur.com/2rWapam.jpg")
       );
     }
 
