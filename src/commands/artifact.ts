@@ -31,7 +31,6 @@ createCommand({
         `**More Info:**\n${artifact.moreInfo}`,
       ])
       .setThumbnail(artifact.thumbnail)
-      .setImage(artifact.image)
       .setColor(artifact.color);
 
     await sendEmbed(message.channelID, embed).catch(console.log);
