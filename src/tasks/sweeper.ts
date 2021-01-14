@@ -1,5 +1,6 @@
 import { Milliseconds } from "../utils/constants/time.ts";
 import { botCache, cache, cacheHandlers } from "../../deps.ts";
+import { botID } from "https://deno.land/x/discordeno@10.0.2/src/bot.ts";
 
 const MESSAGE_LIFETIME = Milliseconds.MINUTE * 10;
 const MEMBER_LIFETIME = Milliseconds.MINUTE * 30;
@@ -17,6 +18,7 @@ botCache.tasks.set(`sweeper`, {
       guild.presences.clear();
       // Delete any member who has not been active in the last 30 minutes and is not currently in a voice channel
       guild.members.forEach((member) => {
+        if (botID === member.id) return;
         // The user is currently active in a voice channel
         if (guild.voiceStates.has(member.id)) return;
         const lastActive = botCache.memberLastActive.get(member.id);
