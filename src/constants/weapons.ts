@@ -1,5 +1,5 @@
 export const weapons = new Map([
-  [
+  [  
     "coolsteel",
     {
       name: "Cool Steel",
@@ -13,34 +13,8 @@ export const weapons = new Map([
       secondaryStatValue: "7,7%",
       specialAbility: "Bane of Water and Ice",
       moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Level 1",
-          description:
-            "Increases DMG against opponents affected by Hydro or Cryo by **12%**.",
-        },
-        {
-          name: "Level 2",
-          description:
-            "Increases DMG against opponents affected by Hydro or Cryo by **15%**.",
-        },
-        {
-          name: "Level 3",
-          description:
-            "Increases DMG against opponents affected by Hydro or Cryo by **18%**.",
-        },
-        {
-          name: "Level 4",
-          description:
-            "Increases DMG against opponents affected by Hydro or Cryo by **21%**.",
-        },
-        {
-          name: "Level 5",
-          description:
-            "Increases DMG against opponents affected by Hydro or Cryo by **24%**.",
-        },
-      ],
-    },
+      refinement: "Increases DMG against opponents affected by Hydro or Cryo by **12/15/18/21/24%**.",
+    }
   ],
   [
     "skyridersword",
@@ -72,34 +46,8 @@ export const weapons = new Map([
       secondaryStat: "ATK%",
       secondaryStatValue: "7,7%",
       specialAbility: "Gash",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "On hit, has 50% chance to deal **240%** ATK DMG to a single enemy. Can only occur once every **15s**.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "On hit, has 50% chance to deal **280%** ATK DMG to a single enemy. Can only occur once every **14s**.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "On hit, has 50% chance to deal **320%** ATK DMG to a single enemy. Can only occur once every **13s**.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "On hit, has 50% chance to deal **360%** ATK DMG to a single enemy. Can only occur once every **12s**.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "On hit, has 50% chance to deal **400%** ATK DMG to a single enemy. Can only occur once every **11s**.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Fillet_Blade",
+      refinement: "On hit, has 50% chance to deal **240/280/320/360/400%** ATK DMG to a single enemy. Can only occur once every **15/14/13/12/11s**.",
     },
   ],
   [
@@ -115,34 +63,8 @@ export const weapons = new Map([
       secondaryStat: "DEF",
       secondaryStatValue: "6,4%",
       specialAbility: "Journey",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "Each Elemental Orb or Particle collected restores **1%** HP.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "Each Elemental Orb or Particle collected restores **1,25%** HP.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "Each Elemental Orb or Particle collected restores **1,50%** HP.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "Each Elemental Orb or Particle collected restores **1,75%** HP.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "Each Elemental Orb or Particle collected restores **2%** HP.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Traveler%27s_Handy_Sword",
+      refinement: "Each Elemental Orb or Particle collected restores **1/1,25/1,5/1,75/2%** HP.",
     },
   ],
   [
@@ -159,33 +81,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,2%",
       specialAbility: "Vigorous",
       moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "When HP is above 90%, increases CRIT Rate by **14%**.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "When HP is above 90%, increases CRIT Rate by **17.5%**.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "When HP is above 90%, increases CRIT Rate by **21%**.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "When HP is above 90%, increases CRIT Rate by **24.5%**.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "When HP is above 90%, increases CRIT Rate by **28%**.",
-        },
-      ],
+      refinement: "When HP is above 90%, increases CRIT Rate by **14/17.5/21/24,5/28%**.",
     },
   ],
   [
@@ -201,34 +97,8 @@ export const weapons = new Map([
       secondaryStat: "Elemental Mastery",
       secondaryStatValue: "31",
       specialAbility: "Overloaded",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **20%** for 12s.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **25%** for 12s.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **30%** for 12s.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **35%** for 12s.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **40%** for 12s.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Dark_Iron_Sword",
+      refinement: "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **20/25/30/35/40%** for 12s.",
     },
   ],
   [
@@ -244,34 +114,8 @@ export const weapons = new Map([
       secondaryStat: "CRIT DMG",
       secondaryStatValue: "8%",
       specialAbility: "Press the Advantage",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "After defeating an opponent, ATK is increased by **12%** for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "After defeating an opponent, ATK is increased by **15%** for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "After defeating an opponent, ATK is increased by **18%** for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "After defeating an opponent, ATK is increased by **21%** for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "After defeating an opponent, ATK is increased by **24%** for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Blackcliff_Longsword",
+      refinement: "After defeating an opponent, ATK is increased by **12/15/18/21/24%** for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
     },
   ],
   [
@@ -287,34 +131,8 @@ export const weapons = new Map([
       secondaryStat: "Energy Recharge",
       secondaryStatValue: "13,3%",
       specialAbility: "Composed",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Sacrificial_Sword",
+      refinement: "After damaging an opponent with an Elemental Skill, the skill has a **40/50/60/70/80%** chance to end its own CD. Can only occur once every **30/26/22/19/16s**.",
     },
   ],
   [
@@ -330,34 +148,8 @@ export const weapons = new Map([
       secondaryStat: "ATK%",
       secondaryStatValue: "7,7%",
       specialAbility: "Descension",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Sword_of_Descension",
+      refinement: "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66."
     },
   ],
 
@@ -376,33 +168,7 @@ export const weapons = new Map([
  //     secondaryStatValue: "4%",
  //     specialAbility: "Itinerant Hero",
  //     moreInfo: "",
- //     refinementLevel: [
- //       {
- //         name: "Refinement Rank 1",
- //         description:
- //           "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack.",
- //       },
- //       {
- //         name: "Refinement Rank 2",
- //         description:
- //           "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack.",
- //       },
- //       {
- //         name: "Refinement Rank 3",
- //         description:
- //           "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack.",
- //       },
- //       {
- //         name: "Refinement Rank 4",
- //         description:
- //           "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack.",
- //       },
- //       {
- //         name: "Refinement Rank 5",
- //         description:
- //           "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack.",
- //       },
- //     ],
+ //     refinementLevel: "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack."
  //   },
  // ],
   [
@@ -418,34 +184,8 @@ export const weapons = new Map([
       secondaryStat: "Energy Recharge",
       secondaryStatValue: "13,3%",
       specialAbility: "Windfall",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "CRIT hits have a **60%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **12s**.",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "CRIT hits have a **70%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **10.5s**.",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "CRIT hits have an **80%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **9s**.",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "CRIT hits have a **90%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **7.5s**.",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "CRIT hits have a **100%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **6s**.",
-        },
-      ],
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Favonius_Sword",
+      refinementLevel: "CRIT hits have a **60/70/80/90/100%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **12/10,5/9/7,5/6s**.",
     },
   ],
   [
@@ -460,250 +200,196 @@ export const weapons = new Map([
       baseAttack: "42",
       secondaryStat: "CRIT Rate",
       secondaryStatValue: "6%",
-      specialAbility: "",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "",
-        },
-      ],
+      specialAbility: "Justice",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/The_Black_Sword",
+      refinement: "Increases DMG dealt by Normal and Charged Attacks by **20/25/30/35/40%**. Additionally, regenerates **60/70/80/90/100%** of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
     },
   ],
   [
-    "coolsteel",
+    "theflute",
+    {
+      name: "The Flute",
+      description: "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Weapon_The_Flute.png/revision/latest?cb=20201119203316",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "42",
+      secondaryStat: "ATK%",
+      secondaryStatValue: "9%",
+      specialAbility: "Chord",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/The_Flute",
+      refinement: "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals **100/125/150/175/200%** ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+    },
+  ],
+  [
+    "royallongsword",
+    {
+      name: "Royal Longsword",
+      description: "An old longsword that belonged to the erstwhile rulers of Mondstadt. Exquisitely crafted, the carvings and embellishments testify to the stature of its owner.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png/revision/latest?cb=20201116034952",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "42",
+      secondaryStat: "ATK%",
+      secondaryStatValue: "9%",
+      specialAbility: "Focus",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Royal_Longsword",
+      refinement: "Upon dealing damage to an opponent, increases CRIT Rate by **8/10/12/14/16%**. Max 5 stacks. A CRIT hit removes all existing stacks.",
+    },
+  ],
+  [
+    "prototyperancour",
+    {
+      name: "Prototype Rancour",
+      description: "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Weapon_Prototype_Rancour.png/revision/latest/scale-to-width-down/256?cb=20201116034823",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "44",
+      secondaryStat: "Physical DMG Bonus",
+      secondaryStatValue: "7,5%",
+      specialAbility: "Smashed Stone",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Prototype_Rancour",
+      refinement: "On hit, Normal or Charged Attacks increase ATK and DEF by **4/5/6/7/8%** for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+    },
+  ],
+  [
+    "ironsting",
+    {
+      name: "Iron Sting",
+      description: "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Weapon_Iron_Sting.png/revision/latest/scale-to-width-down/256?cb=20201116034058",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "42",
+      secondaryStat: "Elemental Mastery",
+      secondaryStatValue: "36",
+      specialAbility: "Infusion Stringer",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Iron_Sting",
+      refinement: "Dealing Elemental DMG increases all DMG by **6/7,5/9/10,5/12%** for 6s. Max 2 stacks. Can only occur once every 1s.",
+    },
+  ],
+  [
+    "festeringdesire",
+    {
+      name: "Festering Desire",
+      description: " creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Weapon_Festering_Desire.png/revision/latest/scale-to-width-down/256?cb=20201223042935",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "42",
+      secondaryStat: "Energy Recharge",
+      secondaryStatValue: "10%",
+      specialAbility: "Undying Admiration",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Festering_Desire",
+      refinement: "Increases Elemental Skill DMG by **16/20/24/28/32%** and Elemental Skill CRIT Rate by **6/7,5/9/10,5/12%**.",
+    },
+  ],
+  [
+    "summitshaper",
+    {
+      name: "Summit Shaper",
+      description: "A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Summit_Shaper.png/revision/latest/scale-to-width-down/256?cb=20201223042936",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "46",
+      secondaryStat: "ATK%",
+      secondaryStatValue: "10,8%",
+      specialAbility: "Golden Majesty",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Summit_Shaper",
+      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    },
+  ],
+  [
+    "aquilafavonia",
+    {
+      name: "Aquila Favonia",
+      description: "The sword of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil—just like the last heroine who wielded it.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Weapon_Aquila_Favonia.png/revision/latest?cb=20201120002750",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "48",
+      secondaryStat: "Physical DMG Bonus",
+      secondaryStatValue: "9%",
+      specialAbility: "Falcon's Defiance",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Aquila_Favonia",
+      refinement: "ATK is increased by **20/25/30/35/40%**. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to **100/115/130/145/160%** of ATK and dealing **200/230/260/290/320%** of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+    },
+  ],
+  [
+    "skywardblade",
+    {
+      name: "Skyward Blade",
+      description: "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png/revision/latest?cb=20201116035239",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "46",
+      secondaryStat: "Energy Recharge",
+      secondaryStatValue: "12%",
+      specialAbility: "Sky-Piercing Fang",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Skyward_Blade",
+      refinement: "Crit Rate increased by **4/5/6/7/8%**. Gains Skypiercing Might upon using Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and increases the DMG of Normal and Charged Attack hits by **20/25/30/35/40%** for 12s.",
+    },
+  ],
+  [
+    "lionsroar",
+    {
+      name: "Lion's Roar",
+      description: "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Weapon_Lion%27s_Roar.png/revision/latest?cb=20201119232745",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "42",
+      secondaryStat: "ATK%",
+      secondaryStatValue: "9%",
+      specialAbility: "Bane of Fire and Thunder",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Lion%27s_Roar",
+      refinement: "Increases DMG against enemies affected by Pyro or Electro by **20/24/28/32/36%**.",
+    },
+  ],
+  [
+    "empty1",
     {
       name: "",
       description: "",
       thumbnail: "",
       color: "RANDOM",
       category: "Sword",
-      stars: "⭐⭐⭐⭐",
+      stars: "⭐⭐⭐⭐⭐",
       baseAttack: "",
       secondaryStat: "",
       secondaryStatValue: "",
       specialAbility: "",
       moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "",
-        },
-      ],
+      refinement: "",
     },
   ],
   [
-    "coolsteel",
+    "empty2",
     {
       name: "",
       description: "",
       thumbnail: "",
       color: "RANDOM",
       category: "Sword",
-      stars: "⭐⭐⭐⭐",
+      stars: "⭐⭐⭐⭐⭐",
       baseAttack: "",
       secondaryStat: "",
       secondaryStatValue: "",
       specialAbility: "",
       moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "",
-        },
-      ],
-    },
-  ],
-  [
-    "coolsteel",
-    {
-      name: "",
-      description: "",
-      thumbnail: "",
-      color: "RANDOM",
-      category: "Sword",
-      stars: "⭐⭐⭐⭐",
-      baseAttack: "",
-      secondaryStat: "",
-      secondaryStatValue: "",
-      specialAbility: "",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "",
-        },
-      ],
-    },
-  ],
-  [
-    "coolsteel",
-    {
-      name: "",
-      description: "",
-      thumbnail: "",
-      color: "RANDOM",
-      category: "Sword",
-      stars: "⭐⭐⭐⭐",
-      baseAttack: "",
-      secondaryStat: "",
-      secondaryStatValue: "",
-      specialAbility: "",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "",
-        },
-      ],
-    },
-  ],
-  [
-    "coolsteel",
-    {
-      name: "",
-      description: "",
-      thumbnail: "",
-      color: "RANDOM",
-      category: "Sword",
-      stars: "⭐⭐⭐⭐",
-      baseAttack: "",
-      secondaryStat: "",
-      secondaryStatValue: "",
-      specialAbility: "",
-      moreInfo: "",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 2",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 3",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 4",
-          description:
-            "",
-        },
-        {
-          name: "Refinement Rank 5",
-          description:
-            "",
-        },
-      ],
+      refinement: "",
     },
   ],
 ]);
