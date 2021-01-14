@@ -12,9 +12,9 @@ createCommand({
     if (!artifact) {
       return message.reply(
         [
-          "Invalid artifact name provided. Valid names are:",
+          "Paimon can't find your artifact set.. Try one of these:",
           "",
-          [...artifacts.keys()].join(" "),
+          [...artifacts.keys()].join(" - "),
         ].join("\n"),
       );
     }
@@ -22,11 +22,15 @@ createCommand({
     const embed = new Embed()
       .setTitle(artifact.name)
       .setDescription([
-        artifact.stars,
-        `**2 Piece Bonus:** ${artifact.twoPieceBonus}`,
-        `**4 Piece Bonus:** ${artifact.fourPieceBonus}`,
+        `**Max. Rarity:**\n${artifact.stars}`,
         "",
-        `**Drops in:** ${artifact.dropsIn}`,
+        `**Set Bonus:**\n${artifact.setBonus}`,
+        "",
+        `**Obtainable in:**\n${artifact.dropsIn}`,
+        "",
+        `**Obtainable from:**\n${artifact.dropsFrom}`,
+        "",
+        `**More Info:**\n${artifact.moreInfo}`,
       ])
       .setThumbnail(artifact.thumbnail)
       .setImage(artifact.image)

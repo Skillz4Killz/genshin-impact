@@ -18,7 +18,7 @@ createCommand({
     if (!character) {
       return message.reply(
         [
-          "Invalid character name provided. Valid names are:",
+          "Paimon can't find that Person... Try on of these:",
           "",
           [...characters.values()]
             .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
@@ -33,20 +33,6 @@ createCommand({
         character.rarity,
         `**Element:** ${character.element}`,
         `**Weapon:** ${character.weapon}`,
-        "",
-        character.description,
-        "",
-        "🧿 - Main info",
-        "💠 - More info",
-        "⚔️ - Skill Talents",
-        "🪄 - Passive Talents",
-        "🔮 - Constellations",
-      ])
-      .setThumbnail(character.thumbnail);
-
-    const second = new Embed()
-      .setTitle(character.name)
-      .setDescription([
         `**Nation:** ${character.nation}`,
         `**Affiliation:** ${character.affiliation}`,
         `**Special Dish:** ${character.specialDish}`,
@@ -57,52 +43,49 @@ createCommand({
         character.description,
         "",
         "🧿 - Main info",
-        "💠 - More info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🔮 - Constellations",
       ])
-      .setImage(character.image);
+      .setThumbnail(character.thumbnail)
+      .setImage(character.image)
 
-    const third = new Embed()
+    const second = new Embed()
       .setTitle(character.name)
       .setDescription([
         "**Skill Talents**",
         "",
         "🧿 - Main info",
-        "💠 - More info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🔮 - Constellations",
       ])
       .setThumbnail(character.thumbnail);
     for (const talent of character.activeTalents) {
-      third.addField(talent.name, talent.description);
+      second.addField(talent.name, talent.description);
     }
 
-    const fourth = new Embed()
+    const third = new Embed()
       .setTitle(character.name)
       .setDescription([
         "**Passive Talents**",
         "",
         "🧿 - Main info",
-        "💠 - More info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🔮 - Constellations",
       ])
       .setThumbnail(character.thumbnail);
     for (const talent of character.passiveTalents) {
-      fourth.addField(talent.name, talent.description);
+      third.addField(talent.name, talent.description);
     }
 
-    const fifth = new Embed()
+    const fourth = new Embed()
       .setTitle(character.name)
       .setDescription([
         "**Constellations**",
         "",
         "🧿 - Main info",
-        "💠 - More info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🔮 - Constellations",
@@ -110,15 +93,14 @@ createCommand({
       .setThumbnail(character.thumbnail);
 
     for (const constellation of character.constellations) {
-      fifth.addField(constellation.name, constellation.description);
+      fourth.addField(constellation.name, constellation.description);
     }
 
     const pages = {
       1: { page: 1, embed: first, emoji: "🧿" },
-      2: { page: 2, embed: second, emoji: "💠" },
-      3: { page: 3, embed: third, emoji: "⚔️" },
-      4: { page: 4, embed: fourth, emoji: "🪄" },
-      5: { page: 5, embed: fifth, emoji: "🔮" },
+      3: { page: 3, embed: second, emoji: "⚔️" },
+      4: { page: 4, embed: third, emoji: "🪄" },
+      5: { page: 5, embed: fourth, emoji: "🔮" },
     } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
 
     const page = pages[args.page];
@@ -130,7 +112,7 @@ createCommand({
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["🧿", "💠", "⚔️", "🪄", "🔮"];
+    const emojis = ["🧿", "⚔️", "🪄", "🔮"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
