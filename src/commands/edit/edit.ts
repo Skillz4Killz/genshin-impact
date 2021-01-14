@@ -22,8 +22,7 @@ createSubcommand("edit", {
     {
       name: "uid",
       type: "number",
-      missing: (message) =>
-        message.reply("Only numbers can be provided as UID").catch(console.log),
+      missing: (message) => message.reply("Only numbers can be provided as UID").catch(console.log),
     },
   ],
   execute: async function (message, args) {
@@ -31,9 +30,7 @@ createSubcommand("edit", {
 
     db.users
       .update(message.author.id, { uid: args.uid })
-      .then(() =>
-        sendDMOrResponse(message, "Edited the UID!").catch(console.log)
-      )
+      .then(() => sendDMOrResponse(message, "Edited the UID!").catch(console.log))
       .catch(console.log);
   },
 });
@@ -45,8 +42,7 @@ createSubcommand("edit", {
     {
       name: "level",
       type: "number",
-      missing: (message) =>
-        message.reply("The world level must be between 0-8").catch(console.log),
+      missing: (message) => message.reply("The world level must be between 0-8").catch(console.log),
     },
   ],
   execute: async function (message, args) {
@@ -56,9 +52,7 @@ createSubcommand("edit", {
 
     db.users
       .update(message.author.id, { worldLevel: args.level })
-      .then(() =>
-        sendDMOrResponse(message, "Edited the World Level!").catch(console.log)
-      )
+      .then(() => sendDMOrResponse(message, "Edited the World Level!").catch(console.log))
       .catch(console.log);
   },
 });
@@ -70,27 +64,17 @@ createSubcommand("edit", {
     {
       name: "level",
       type: "number",
-      missing: (message) =>
-        message.reply("The adventurer rank must be between 1-60").catch(
-          console.log,
-        ),
+      missing: (message) => message.reply("The adventurer rank must be between 1-60").catch(console.log),
     },
   ],
   execute: async function (message, args) {
     if (args.level < 1 || args.level > 60) {
-      return sendDMOrResponse(
-        message,
-        "The adventurer rank must be between 1-60",
-      );
+      return sendDMOrResponse(message, "The adventurer rank must be between 1-60");
     }
 
     db.users
       .update(message.author.id, { adventurerRank: args.level })
-      .then(() =>
-        sendDMOrResponse(message, "Edited the Adventurer Rank!").catch(
-          console.log,
-        )
-      )
+      .then(() => sendDMOrResponse(message, "Edited the Adventurer Rank!").catch(console.log))
       .catch(console.log);
   },
 });
@@ -102,32 +86,22 @@ createSubcommand("edit", {
     {
       name: "character",
       type: "string",
-      missing: (message) =>
-        message.reply("The adventurer rank must be between 1-60").catch(
-          console.log,
-        ),
+      missing: (message) => message.reply("The adventurer rank must be between 1-60").catch(console.log),
     },
     {
       name: "level",
       type: "number",
-      missing: (message) =>
-        message.reply("Please provide a new Constellation (0-6)").catch(
-          console.log,
-        ),
+      missing: (message) => message.reply("Please provide a new Constellation (0-6)").catch(console.log),
     },
   ],
   execute: async function (message, args) {
     const character = characters.get(args.character);
     if (!character) {
-      return sendDMOrResponse(message, "Invalid character name.").catch(
-        console.log,
-      );
+      return sendDMOrResponse(message, "Invalid character name.").catch(console.log);
     }
 
     if (args.level < 0 || args.level > 6) {
-      return sendDMOrResponse(message, "Invalid character constellation.").catch(
-        console.log,
-      );
+      return sendDMOrResponse(message, "Invalid character constellation.").catch(console.log);
     }
 
     const settings = await db.users.get(message.author.id);
@@ -135,11 +109,9 @@ createSubcommand("edit", {
       return sendDMOrResponse(message, "I can't find this profile.. ").catch(console.log);
     }
 
-    if (settings.characters.some((c) => c.name.toLowerCase() === args.character)) {
+    if (settings.characters.some((c) => c.name === character.name)) {
       settings.characters = settings.characters.map((c) =>
-        c.name === args.character
-          ? { name: c.name, constellationLevel: args.level }
-          : c
+        c.name === args.character ? { name: c.name, constellationLevel: args.level } : c
       );
     } else {
       settings.characters.push({ name: character.name, constellationLevel: args.level });
@@ -149,9 +121,7 @@ createSubcommand("edit", {
       .update(message.author.id, {
         characters: settings.characters,
       })
-      .then(() =>
-        sendDMOrResponse(message, "Edited the character!").catch(console.log)
-      )
+      .then(() => sendDMOrResponse(message, "Edited the character!").catch(console.log))
       .catch(console.log);
   },
 });
