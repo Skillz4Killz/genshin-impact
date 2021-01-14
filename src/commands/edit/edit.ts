@@ -122,14 +122,14 @@ createSubcommand("edit", {
     }
 
     if (args.level < 0 || args.level > 6) {
-      return sendDMOrResponse(message, "Invalid character level.").catch(
+      return sendDMOrResponse(message, "Invalid character constellation.").catch(
         console.log,
       );
     }
 
     const settings = await db.users.get(message.author.id);
     if (!settings) {
-      return sendDMOrResponse(message, "No profile found.").catch(console.log);
+      return sendDMOrResponse(message, "I can't find this profile.. ").catch(console.log);
     }
 
     if (settings.characters.some((c) => c.name.toLowerCase() === args.character)) {

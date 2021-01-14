@@ -327,7 +327,7 @@ export const artifacts = new Map([
     },
   ],
   [
-    "blizzwardwalker",
+    "blizzardwalker",
     {
       name: "Blizzard Walker",
       thumbnail: "https://genshin.honeyhunterworld.com/img/art/blizzard_walker_4.png",
