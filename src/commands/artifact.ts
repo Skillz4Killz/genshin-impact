@@ -12,7 +12,7 @@ createCommand({
     if (!artifact) {
       return message.reply(
         [
-          "Paimon can't find your artifact.. Try one of these:",
+          "Paimon can't find your artifact set.. Try one of these:",
           "",
           [...artifacts.keys()].join(" - "),
         ].join("\n"),

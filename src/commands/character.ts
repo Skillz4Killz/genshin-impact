@@ -18,7 +18,7 @@ createCommand({
     if (!character) {
       return message.reply(
         [
-          "Invalid character name provided. Valid names are:",
+          "Paimon can't find that Person... Try on of these:",
           "",
           [...characters.values()]
             .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
