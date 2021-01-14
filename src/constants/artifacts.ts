@@ -3,8 +3,8 @@ export const artifacts = new Map([
     "adventurer",
     {
       name: "Adventurer",
-      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png/revision/latest/?cb=20201120051635",
-      image: "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png/revision/latest/?cb=20201120051635",
+      thumbnail: "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/adventurer-genshin-wiki-guide.jpg",
+      image: "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/adventurer-genshin-wiki-guide.jpg",
       color: "RANDOM",
       stars: "⭐⭐⭐",
       setBonus: "**2-set**\nMax HP increased by 1,000.\n\n**4-set**\nOpening a chest regenerates 30% Max HP over 5s.",
