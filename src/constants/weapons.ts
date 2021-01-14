@@ -4,8 +4,8 @@ export const weapons = new Map([
     {
       name: "Cool Steel",
       description: "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
-      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png/revision/latest/scale-to-width-down/256?cb=20201119233444",
-      image: "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png/revision/latest/scale-to-width-down/256?cb=20201119233444",
+      thumbnail: "",
+      image: "",
       color: "RANDOM",
       category: "Sword",
       stars: "⭐⭐⭐",
