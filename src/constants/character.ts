@@ -287,12 +287,12 @@ export const characters = new Map([
         {
           name: "Dough-Fu",
           description:
-            "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
           name: "Skill: Gouba Attack",
           description:
-            "Summons Guoba the Panda. After 2 seconds, Guoba starts breathing fire at an opponent, dealing AoE **Pyro DMG** every 1.5 seconds 4 times.\nEach breath generates 1 elemental particle when it hits at least 1 target.",
+            "Summons Guoba the Panda. After 2 seconds, Guoba starts breathing fire at an opponent, dealing **AoE Pyro DMG** every 1.5 seconds 4 times.\nEach breath generates 1 elemental particle when it hits at least 1 target.",
         },
         {
           name: "Burst: Pyronado",
@@ -363,7 +363,7 @@ export const characters = new Map([
       emoji: "<:Venti:798578059891834890>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
-      element: "<:Anemo:798578059891834890> Anemo",
+      element: "<:Anemo:798483595781341194> Anemo",
       weapon: "Bow",
       nation: "Mondtstadt",
       affiliation: "Archons",
