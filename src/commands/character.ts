@@ -14,7 +14,7 @@ createCommand({
   ],
   guildOnly: true,
   execute: async function (message, args) {
-    const character = characters.get(args.character.split(" ").join("").replaceAll("(", "").replaceAll(")", ""));
+    const character = characters.get(args.character.split(" - ").join("").replaceAll("(", "").replaceAll(")", ""));
     if (!character) {
       return message.reply(
         [

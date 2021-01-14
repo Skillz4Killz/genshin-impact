@@ -14,7 +14,7 @@ createCommand({
         [
           "Invalid weapon name provided. Valid names are:",
           "",
-          [...weapons.keys()].join(" "),
+          [...weapons.keys()].join(" - "),
         ].join("\n"),
       );
     }
