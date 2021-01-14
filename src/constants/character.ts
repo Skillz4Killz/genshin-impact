@@ -25,12 +25,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 6 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\n\n**Plunging Attack**\nPlunges from mid-air to strike the gronud below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Dominus Lapidis",
+          name: "Skill: Dominus Lapidis",
           description:
             "**Press**\nCommands the omnipresent power of the earth to solidify into a Stone Stele, standing 30 seconds, dealing AoE Geo DMG at the creation.\nOnce per 2 seconds, the Stone Stele will resonate with the nearby Geo Constructs, dealing Geo DMG to surrounding opponents.\nThe Stone Stele is considered a Geo Construct, and can both be climbed and used to block attacks. Only one Stele may exist at any one time.\n\n**Hold**\nCauses nearby Geo energy to explode, causing the following effects:\nCreates a shield of jade. The shield's DMG absorption scales based on Zhongli's Max HP, and absorbs Geo DMG 250% more effectively.\nCauses AoE Geo DMG.\nIf there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG.\nWhen hit at least one opponent, the Stone Stele creation and the Resonance generate 0.5 elemental particles.",
         },
         {
-          name: "Planet Befall",
+          name: "Burst: Planet Befall",
           description:
             "Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them.\nPetrification: Opponents affected by the Petrification status cannot move.",
         },
@@ -114,12 +114,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash.\n\nn**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Sweeping Fervor",
+          name: "Skill: Sweeping Fervor",
           description:
             "Xinyan brandishes her instrument, dealing **Pyro DMG** on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\nHitting 0-1 opponents grants Shield Level 1: Ad Lib.\nHitting 2 opponents grants Shield Level 2: Lead-In.\nHitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent **Pyro DMG** to nearby opponents.\n\nThe shield has the following special properties:\nWhen unleashed, it infuses Xinyan with Pyro.\nIt has 250% DMG Absorption effectiveness against **Pyro DMG**.\n\nGenerate 4 elemental particles when it hit at least 1 target.",
         },
         {
-          name: "Riff Revolution",
+          name: "Burst: Riff Revolution",
           description:
             "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal **Pyro DMG** to nearby opponents.",
         },
@@ -203,12 +203,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-aur to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Guhua Sword - Fatal Rainscreen",
+          name: "Skill: Guhua Sword - Fatal Rainscreen",
           description:
             "Xingqiu performs twin strikes with his sword, dealing **Hydro DMG**.\nAt the same time, this ability creates the maximum number of Rain Swords, which will orbit the character.\nThe Rain Swords have the following properties:\n\n-When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n\n-Increases the character's resistance to interruption.\n\n20% of Xingqiu's **Hydro DMG** Bonus will be converted to additional DMG Reduction for the Rain Swords.\n\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the Wet status onto the character.",
         },
         {
-          name: "Guhua Sword - Raincutter",
+          name: "Burst: Guhua Sword - Raincutter",
           description:
             "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\n\n**Rainbow Bladework**\n-Normal Attacks will trigger consecutive sword rain attacks, dealing **Hydro DMG**.\n\n-Rain Swords will remain at the maximum number throughout the ability's duration.\nThese effects carry over to other characters.",
         },
@@ -290,12 +290,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Gouba Attack",
+          name: "Skill: Gouba Attack",
           description:
             "Summons Guoba the Panda. After 2 seconds, Guoba starts breathing fire at an opponent, dealing AoE **Pyro DMG** every 1.5 seconds 4 times.\nEach breath generates 1 elemental particle when it hits at least 1 target.",
         },
         {
-          name: "Pyronado",
+          name: "Burst: Pyronado",
           description:
             "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her. The Pyronado will move with your character for so long as the ability persists, dealing **Pyro DMG** to all opponents in its path.",
         },
@@ -377,12 +377,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged arrow will deal **Anemo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
         },
         {
-          name: "Skyward Sonnet",
+          name: "Skill: Skyward Sonnet",
           description:
             "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n**Press**\nSummons a Wind Domain at the enemy's location, dealing AoE **Anemo DMG** and launching enemies into the air.\n\n**Hold**\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE **Anemo** DMG and launching affected enemies into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\nEnemies hit by Skyward Sonnet will fall to the ground slowly.",
         },
         {
-          name: "Wind's Grand Ode",
+          name: "Burst: Wind's Grand Ode",
           description:
             "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and enemies along its path, dealing continuous **Anemo DMG**.\n\n**Elemental Absorption**\nIf the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
         },
@@ -466,12 +466,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 4 attacks using Wind Spirits, dealing **Anemo DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Anemo DMG** after a short casting time.\n\n**Plunging Attack**\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Anemo DMG** upon impact with the ground.",
         },
         {
-          name: "Astable Anemohypostasis Creation - 6308",
+          name: "Skill: Astable Anemohypostasis Creation - 6308",
           description:
             "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals **Anemo DMG**.\nGenerate 4 elemental particles when it hit at least 1 target.",
         },
         {
-          name: "Forbidden Creation - Isomer 75 / Type II",
+          name: "Burst: Forbidden Creation - Isomer 75 / Type II",
           description:
             "Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull and launch nearby opponents, and deal **Anemo DMG**.\nElemental Absorption: If the Wind Spirit comes into contact with **Hydro/Pyro/Cryo/Electro** elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
         },
@@ -555,12 +555,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous swirling attacks against all nearby enemies.\nAt end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Claw and Thunder",
+          name: "Skill: Claw and Thunder",
           description:
             "Hunts his prey using the techniques taught to him by his master and his Lupical.\n\nPress\nSwings the Thunder Wolf Claw, dealing **Electro DMG** to enemies in front of Razor.\nUpon striking an enemy, Razor will gain an **Electro Sigil**, which increases his Energy Recharge rate.\nRazor can have up to 3 **Electro Sigils** simultaneously, and gaining a new **Electro Sigil** refreshes their duration.\n\nHold\nGathers **Electro energy** to unleash a lightning storm over a small AoE, causing massive **Electro DMG**, and clears all of Razor's **Electro Sigils**.\nEach **Electro Sigil** cleared in this manner will be converted into Energy for Razor.",
         },
         {
-          name: "Lightning Fang",
+          name: "Burst: Lightning Fang",
           description:
             "Summons the Wolf Within which deals **Electro DMG** to all nearby opponents.\nThis clears all of Razor's **Electro Sigils**, which will be converted into elemental energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n**The Wolf Within**\n-Strikes alongside Razor's normal attacks, dealing **Electro DMG**.\n\n-Raises Razor's ATK SPD and **Electro RES**.\n\n-Causes Razor to be immune to DMG inflicted by the **Electro-Charged** status.\n\n-Disables Razor's Charged Attacks.\n\nThe effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.",
         },
@@ -644,12 +644,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Adeptus Art: Herald of Frost",
+          name: "Skill: Adeptus Art: Herald of Frost",
           description:
             "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing **Cryo DMG** to nearby enemies.\n\n**Herald of Frost**\n-When Qiqi hits a target with her Normal or Charged Attacks, she regenerates HP for all party members and all nearby allied characters.\n\n-Healing scales based on Qiqi's ATK.\n\n-Regenerates HP for current character at regular intervals.\nFollows the character around, dealing **Cryo DMG** to enemies in its path.",
         },
         {
-          name: "Adeptus Art: Preserver of Fortune",
+          name: "Burst: Adeptus Art: Preserver of Fortune",
           description:
             "Qiqi releases the adeptus power sealed within her body, marking nearby enemies with a Fortune-Preserving Talisman that deals **Cryo DMG**.\n\n**Fortune-Preserving Talisman**\nWhen enemies affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.",
         },
@@ -733,12 +733,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous swirling attacks against all nearby enemies.\nAt end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Breastplate",
+          name: "Skill: Breastplate",
           description:
             "Summons a protective stone armor, dealing **Geo DMG** to surrounding enemies and creating a shield.\nThe shield's DMG Absorption scaled based on Noelle's DEF.\nThe shield has the following properties:\n\n-When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters, both on and off the field.\n\n-Applies the **Geo element** to the character.\n\n-Possesses 250% Absorption Efficiency against **Geo DMG**.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.",
         },
         {
-          name: "Sweeping Time",
+          name: "Burst: Sweeping Time",
           description:
             "Gathering the strength of stone around her weapon, Noelle strikes the enemies surrounding her within a large AoE, dealing **Geo DMG**.\nAfterwards, Noelle gains the following effects:\n\n-Larger attack AoE.\n-Converts attack DMG to Geo DMG.\n-Increased ATK that scales based on her DEF.\n",
         },
@@ -820,12 +820,12 @@ export const characters = new Map([
             "**Normal Attack**\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.",
         },
         {
-          name: "Jade Screen",
+          name: "Skill: Jade Screen",
           description:
             "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.\nJade Screen\n\nBlocks enemy projectiles.\nEndurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.",
         },
         {
-          name: "Elemental Burst",
+          name: "Burst: Elemental Burst",
           description:
             "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her enemies that deal massive Geo DMG.\n\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
         },
@@ -908,12 +908,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 4 Electro attacks, dealing **Electro DMG**.\n\nCharged Attack: Consumes a certain amount of Stamina to deal **Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
         },
         {
-          name: "Violet Arc",
+          name: "Skill: Violet Arc",
           description:
             "**Press**\nReleases a homing lightning orb. On hit, it deals **Electro DMG**, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.\n\n**Hold**\nAfter an extended casting time, calls down lightning from the heavens, dealing massive **Electro DMG** to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them and clears their Conductive status.\nHold generate 5 elemental particles when it hit at least 1 target.",
         },
         {
-          name: "Lightning Rose",
+          name: "Burst: Lightning Rose",
           description:
             "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing **Electro DMG**.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal **Electro DMG** for so long as it persists",
         },
@@ -997,12 +997,12 @@ export const characters = new Map([
             "**Normal Attack**\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing **AoE Pyro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals P**yro DMG** to enemies after a short casting time.\n\n**Plunging Attack**\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all enemies in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
         },
         {
-          name: "Jumpy Dumpty",
+          name: "Skill: Jumpy Dumpty",
           description:
             "Jumpy Dumpty is tons of boom-bang-fun!\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing **AoE Pyro DMG** with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with enemies, or after a short period of time, dealing **AoE Pyro DMG**.\n\nStarts with 2 charges.",
         },
         {
-          name: "Sparks 'n' Splash",
+          name: "Burst: Sparks 'n' Splash",
           description:
             "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby enemies, dealing **AoE Pyro DMG**.",
         },
@@ -1086,12 +1086,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Stellar Restoration",
+          name: "Skill: Stellar Restoration",
           description:
             "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder. When the Stiletto hits its target, it deals **Electro DMG** to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\n**Hold**\nHold to adjust the direction in which the Stiletto shall be thrown. Stilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\n**Lightning Stiletto**\nIf Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\nIf she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals **AoE Electro DMG**. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\nIf Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing **AoE Electro DMG**.",
         },
         {
-          name: "Starward Sword",
+          name: "Burst: Starward Sword",
           description:
             "Keqing unleashes the power of lightning, dealing **Electro DMG** in an AoE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of **Electro DMG**. The final attack deals massive **AoE Electro DMG**.",
         },
@@ -1175,12 +1175,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Frostgnaw",
+          name: "Skill: Frostgnaw",
           description:
             "Unleashes a frigid blast, dealing **Cryo DMG** to opponents in front of Kaeya.\nGenerate 2.5 elemental particles when it hit at least 1 target.",
         },
         {
-          name: "Glacial Waltz",
+          name: "Burst: Glacial Waltz",
           description:
             "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve 4 times around him for 8 seconds.\nThese icicles will follow the character around and deal **Cryo DMG** to opponents in their path for so long as they persist.",
         },
@@ -1263,12 +1263,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nConsumes a certain amount of stamina to launch an opponent using the power of wind. Launched opponents will slowly fall to the ground.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Gale Blade",
+          name: "Skill: Gale Blade",
           description:
             "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive **Anemo DMG**.\n\n**Hold**\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration.",
         },
         {
-          name: "Dandelion Breeze",
+          name: "Burst: Dandelion Breeze",
           description:
             "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and causing **Anemo DMG**. At the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n**Dandelion Field**\nContinuously regenerates HP of characters within the AoE and continuously imbues them with Anemo.\nDeals **Anemo DMG** to opponents entering or exiting the Dandelion Field.",
         },
@@ -1352,12 +1352,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise Aimed Shot with increased DMG. While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\nCharge Level 1: Fires off an icy arrow that deals **Cryo DMG**.\nCharge Level 2: Fires off a Frostflake Arrow that deals **Cryo DMG**.\n\nThe Frostflake Arrow blooms after hitting its target, dealing **AoE Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
         },
         {
-          name: "Trail of the Qilin",
+          name: "Skill: Trail of the Qilin",
           description:
             "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing **AoE Cryo DMG**.\n\n**Ice Lotus**\nContinuously taunts surrounding opponents, attracting them to attack it.\nEndurance scales based on Ganyu's Max HP.\nBlooms profusely when destroyed or once its duration ends, dealing **AoE Cryo DMG**.",
         },
         {
-          name: "Celestial Shower",
+          name: "Burst: Celestial Shower",
           description:
             "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing **Cryo DMG**.",
         },
@@ -1440,12 +1440,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense **Electro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
         },
         {
-          name: "Nightrider",
+          name: "Skill: Nightrider",
           description:
             "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing **Electro DMG** in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side.",
         },
         {
-          name: "Midnight Phantasmagoria",
+          name: "Burst: Midnight Phantasmagoria",
           description:
             "Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby opponents with lightning, dealing **Electro DMG** to opponents she comes in contact with. Each opponent can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.",
         },
@@ -1529,12 +1529,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging enemies along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Searing Onslaught",
+          name: "Skill: Searing Onslaught",
           description:
             "Performs a forward slash that deals **Pyro DMG**.\nThis skill can be used 3 times consecutively.\nEnters CD if not cast again within a short period.",
         },
         {
-          name: "Dawn",
+          name: "Burst: Dawn",
           description:
             "Releases intense flames to knock nearby enemies back, dealing **Pyro DMG**.\nThe flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive **Pyro DMG** to all enemies in its path.\nThe Phoenix explodes upon reaching its destination, causing a large amount of **AoE Pyro DMG**.\nThe searing flames that run down his blade cause Diluc's Normal and Charged Attacks to deal **Pyro DMG** for a time.",
         },
@@ -1618,12 +1618,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous swirling attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Spirit Blade: Chonghua's Layered Frost",
+          name: "Skill: Spirit Blade: Chonghua's Layered Frost",
           description:
             "Chongyun strikes the ground with his greatsword, causing a **Cryo** explosion in a circular AoE in front of him that deals **Cryo DMG**.\nAfter a short delay, the cold air created by the **Cryo** explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with **Cryo**.",
         },
         {
-          name: "Spirit Blade: Cloud-Parting Star",
+          name: "Burst: Spirit Blade: Cloud-Parting Star",
           description:
             "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal **AoE Cryo DMG** and launch opponents.",
         },
@@ -1707,12 +1707,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise Aimed Shot with increased DMG. While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal **Hydro DMG** and apply the Riptide status.\n\n**Riptide**\nOpponents affected by Riptide will suffer from AoE **Hydro DMG** effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack dmg.\nRiptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\nRiptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
         },
         {
-          name: "Foul Legacy: Raging Tide",
+          name: "Skill: Foul Legacy: Raging Tide",
           description:
             "Unleashes a set of weaponry made of pure water, dealing **Hydro DMG** to surrounding opponents and entering Melee Stance.\n\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to **Hydro DMG** that cannot be overridden by any other elemental infusion and change as follows:\n**Normal Attack**\nPerform up to 6 consecutive **Hydro** strikes.\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a cross slash, dealing **Hydro DMG**.\n**Riptide Slash**\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals **AoE Hydro DMG**. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD. If the return to a ranged stance occurs automatically after 30s, the CD is even longer.",
         },
         {
-          name: "Havoc: Obliteration",
+          name: "Burst: Havoc: Obliteration",
           description:
             "Performs different attacks based on what stance Tartaglia is in when casting.\n\n**Ranged Stance**\nFlash of Havoc: Swiftly fires a Hydro-imbued magic arrow, dealing **AoE Hydro DMG** and applying the Riptide status. Returns a portion of its Energy Cost after use.\n\n**Melee Stance**\nLight of Obliteration: Performs a slash with a large AoE, dealing massive **Hydro DMG** to all surrounding opponents, which triggers Riptide Blast.\n\n**Riptide Blast**\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals **AoE Hydro DMG**. DMG dealt in this way is considered Elemental Burst DMG.",
         },
@@ -1794,12 +1794,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Passion Overload",
+          name: "Skill: Passion Overload",
           description:
             "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.\n\n**Tap**\nA single, swift flame strike that deals **Pyro DMG**.\n**Hold (Short)**\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n**Level 1**\nStrikes twice, dealing **Pyro DMG** and launching opponents.\n**Level 2**\nUnleashes 3 consecutive attacks that deal impressive **Pyro DMG**, but the last attack triggers an explosion that launches both Bennett and the enemy.\n\nBennett takes no damage from being launched.",
         },
         {
-          name: "Fantastic Voyage",
+          name: "Burst: Fantastic Voyage",
           description:
             "Bennett performs a jumping attack that deals **Pyro DMG**, creating an Inspiration Field for 12 seconds.\n\n**Inspiration Field**\nIf the health of a character within the AoE is equal to or falls below 70%, their health will regenerate each second. The amount of HP restores scales off Bennett's Max HP.\nIf the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that scales based on Bennett's Base ATK.\nImbues characters within the AoE with **Pyro**.",
         },
@@ -1882,12 +1882,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 5 successive strikes.\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Tidecaller",
+          name: "Skill: Tidecaller",
           description:
             "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n**Press**\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing **Electro DMG**.\n\n**Hold**\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\n\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing **Electro DMG**. DMG dealt scales with the number of times beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\n\nThe shield possesses the following properties:\nHas 250% **Electro DMG** Absorption Efficiency.\nApplies the **Electro element** to Beidou upon activation.\n\nGenerate 2 elemental particles when it hit at least 1 target, or 4 when hit with energy stored.",
         },
         {
-          name: "Stormbreaker",
+          name: "Burst: Stormbreaker",
           description:
             "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing **Electro DMG** to nearby opponents.\n\n**Thunderbeast's Targe**\nWhen Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing **Electro DMG**.\nIncreases the character's resistance to interruption, and decreases DMG taken.\nTriggers a maximum of 1 lightning discharge per second.",
         },
@@ -1971,12 +1971,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
         },
         {
-          name: "Let the Show Begin",
+          name: "Skill: Let the Show Begin",
           description:
             "Summons water droplets resembling musical notes that form a Melody Loop, dealing **Hydro DMG** to surrounding opponents and afflicting them with the **Wet** status.\n\n**Melody Loop**\nBarbara's Normal Attacks heal your characters in the party and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP.\nHer Charged Attack generates 4 times the amount of healing.\nRegenerates a certain amount of HP at regular intervals for your active character.\nApplies the **Wet** status to the character and opponents who come in contact with them.",
         },
         {
-          name: "Shining Miracle",
+          name: "Burst: Shining Miracle",
           description:
             "Heals nearby allied characters and your characters in the party for a large amount of HP that scales with Barbara's Max HP.",
         },
@@ -2059,12 +2059,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal **Pyro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling an striking the ground, dealing AoE DMG upon impact.",
         },
         {
-          name: "Explosive Puppet",
+          name: "Skill: Explosive Puppet",
           description:
             "The ever-reliable Baron Bunny takes the stage.\n\n**Baron Bunny**\nContinuously taunts the enemy, drawing their fire.\nBaron Bunny's HP scales with Amber's Max HP.\nWhen destroyed or when its timer expires, Baron Bunny explodes, dealing **AoE Pyro DMG**.\nGenerate 4 elemental particles when it hit at least 1 target.\nHold: Adjusts the throwing direction of Baron Bunny. The longer the button is held, the further the throw.",
         },
         {
-          name: "Fiery Rain",
+          name: "Burst: Fiery Rain",
           description:
             "Fires off a shower of arrows, dealing continuous **AoE Pyro DMG**.",
         },
@@ -2148,12 +2148,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Abiogenesis: Solar Isotoma",
+          name: "Skill: Abiogenesis: Solar Isotoma",
           description:
             "Albedo creates a Solar Isotoma using alchemy, which deals **AoE Geo DMG** on appearance.\n\nSolar Isotoma has the following properties:\nWhen enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal **AoE Geo DMG**. DMG dealt scales off Albedo's DEF.\nTransient Blossoms can only be generated once every 2s.\nWhen a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height.\nOnly one crystallized platform can exist at a time.\nSolar Isotoma is a **Geo construct**.\n\n**Hold** to designate the location of the skill.",
         },
         {
-          name: "Rite of Progeniture: Tectonic Tide",
+          name: "Burst: Rite of Progeniture: Tectonic Tide",
           description:
             "Under Albedo's command, Geo crystals surge and burst forth, dealing **AoE Geo DMG** in front of him.\n\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing **AoE Geo DMG**.\n\nTecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.",
         },
@@ -2237,12 +2237,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
         },
         {
-          name: "Mirror Reflection of Doom",
+          name: "Skill: Mirror Reflection of Doom",
           description:
             "Creates an illusory Phantom of fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\nContinuously taunts nearby opponents, attracting their fire.\nEach second, 4 times, deals **AoE Hydro DMG**.\nWhen its duration expires, the Phantom explodes, dealing **AoE Hydro DMG**.\n\n**Hold`**\nUtilizes water currents to move backwards swiftly before conjuring a Phantom\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\nWhen the Phantom explodes and hits at least one opponent, it generates 3 elemental particles.",
         },
         {
-          name: "Illusory Torrent",
+          name: "Burst: Illusory Torrent",
           description:
             "Alternate Sprint: Mona cloaks herself within the water's flow, consuming stamina to move rapidly.\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the **Wet** status to nearby opponents when she reappears.",
         },
@@ -2326,12 +2326,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Starfell Sword",
+          name: "Skill: Starfell Sword",
           description:
             "You disgorge a meteorite from the depths of the earth, dealing **AoE Geo DMG**.\nThe meteorite is considered a Geo Construct, and can be climbed or used to block attacks.\n\nHold\nThe skill's positioning may be adjusted.",
         },
         {
-          name: "Wake of Earth",
+          name: "Burst: Wake of Earth",
           description:
             "Energizing the Geo elements deep underground, you set off expanding shockwaves.\n\nLaunches surrounding enemies back and deals **AoE Geo DMG**.\n\nA stone wall is erected at the edges of the shockwave.\n\nThe stone wall is considered a **Geo Construct**, and may be used to block attacks.",
         },
@@ -2409,12 +2409,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
-          name: "Palm Vortex",
+          name: "Skill: Palm Vortex",
           description:
             "Grasping the wind's might, you form a vortex of vacuum in your palm, causing **Anemo DMG** 6 times in 1.5 seconds to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\n**Hold**\nDMG and AoE will gradually increase.\n\n**Elemental Absorption**\nIf the vortex comes into contact with **Hydro/Pyro/Cryo/Electro** elements, it will deal 23% additional elemental DMG of that type. Elemental Absorption may only occur once per use.\nGenerate 2 elemental particles when press and 3.5 when hold, if it hit at least 1 target.",
         },
         {
-          name: "Gust Surge",
+          name: "Burst: Gust Surge",
           description:
             "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing **Anemo DMG** each 0.5 seconds, 9 times.\n**Elemental Absorption** If the vortex comes into contact with **Hydro/Pyro/Cryo/Electro** elements, it will deal 30.7% additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
         },
@@ -2490,12 +2490,12 @@ export const characters = new Map([
             "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo Damage**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.",
         },
         {
-          name: "Icy Paws",
+          name: "Skill: Icy Paws",
           description:
             "Fires an Icy Paw that deals **Cryo DMG** to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n**Press**\nRapidly fires off 2 Icy Paws.\n\n**Hold**\nDashes back quickly before firing 5 Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% **Cryo DMG** Absorption Bonus, and will infuse Diona with **Cryo** at the point of formation for a short duration.\nEach Icy Paw which hits an opponent generates approximately 0.8 elemental particles.",
         },
         {
-          name: "Signature Mix",
+          name: "Burst: Signature Mix",
           description:
             "Tosses out a special cold brew that deals **AoE Cryo DMG** and creates a Drunken Mist in an AoE.\n\nEvery 2 seconds, for 12 seconds, Drunken Mist:\nDeals **Cryo DMG** to opponents within the field.\nRegenerates the HP of characters within the field.",
         },
