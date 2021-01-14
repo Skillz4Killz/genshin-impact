@@ -111,7 +111,7 @@ createSubcommand("edit", {
 
     if (settings.characters.some((c) => c.name === character.name)) {
       settings.characters = settings.characters.map((c) =>
-        c.name === args.character ? { name: c.name, constellationLevel: args.level } : c
+        c.name === character.name ? { name: c.name, constellationLevel: args.level } : c
       );
     } else {
       settings.characters.push({ name: character.name, constellationLevel: args.level });
