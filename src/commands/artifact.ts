@@ -28,6 +28,8 @@ createCommand({
         `**4 Piece Bonus:** ${artifact.fourPieceBonus}`,
         "",
         `**Drops in:** ${artifact.dropsIn}`,
+        "",
+        `**More Info:** ${artifact.moreInfo}`,
       ])
       .setThumbnail(artifact.thumbnail)
       .setImage(artifact.image)
