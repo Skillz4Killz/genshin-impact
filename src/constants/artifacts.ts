@@ -392,20 +392,6 @@ export const artifacts = new Map([
     },
   ],
   [
-    "adventurer",
-    {
-      name: "",
-      thumbnail: "",
-      image: "",
-      color: "RANDOM",
-      stars: "⭐⭐⭐⭐ or ⭐⭐⭐⭐⭐",
-      twoPieceBonus: "",
-      fourPieceBonus: "",
-      dropsIn: "",
-      moreInfo: "",
-    },
-  ],
-  [
     "thundersoother",
     {
       name: "Thundersoother",
