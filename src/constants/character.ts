@@ -2150,7 +2150,7 @@ export const characters = new Map([
         {
           name: "Abiogenesis: Solar Isotoma",
           description:
-            "Albedo creates a Solar Isotoma using alchemy, which deals **AoE Geo DMG** on appearance.\n\nSolar Isotoma has the following properties:\nWhen enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal **AoE Geo DMG**. DMG dealt scales off Albedo's DEF. Transient Blossoms can only be generated once every 2s.\nWhen a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\nSolar Isotoma is a **Geo construct**.\n\n**Hold** to designate the location of the skill.",
+            "Albedo creates a Solar Isotoma using alchemy, which deals **AoE Geo DMG** on appearance.\n\nSolar Isotoma has the following properties:\nWhen enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal **AoE Geo DMG**. DMG dealt scales off Albedo's DEF.\nTransient Blossoms can only be generated once every 2s.\nWhen a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height.\nOnly one crystallized platform can exist at a time.\nSolar Isotoma is a **Geo construct**.\n\n**Hold** to designate the location of the skill.",
         },
         {
           name: "Rite of Progeniture: Tectonic Tide",
