@@ -24,15 +24,16 @@ createCommand({
       .setDescription([
         weapon.stars,
         `**Category:** ${weapon.category}`,
-        `**Description:** ${weapon.description}`,
-        "",
+        `**Description:**\n${weapon.description}`,
         "",
         `**Base Attack:** ${weapon.baseAttack}`,
         `**Secondary Stat:** ${weapon.secondaryStat}`,
         `**Secondary Stat Value:** ${weapon.secondaryStatValue}`,
         `**Passive Ability Name:** ${weapon.specialAbility}`,
         "",
-        `**Refinement:** ${weapon.refinement}`
+        `**Refinement:**\n${weapon.refinement}`,
+        "",
+        `**More Info:**\n${weapon.moreInfo}`
       ])
       .setThumbnail(weapon.thumbnail)
       .setColor(weapon.color);
