@@ -12,7 +12,7 @@ createCommand({
     if (!artifact) {
       return message.reply(
         [
-          "Invalid artifact name provided. Valid names are:",
+          "Paimon can't find your artifact.. Try one of these:",
           "",
           [...artifacts.keys()].join(" - "),
         ].join("\n"),
@@ -24,10 +24,9 @@ createCommand({
       .setDescription([
         artifact.stars,
         "",
-        `**2 Piece Bonus:** ${artifact.twoPieceBonus}`,
-        `**4 Piece Bonus:** ${artifact.fourPieceBonus}`,
+        `**St Bonus:** ${artifact.setBonus}`,
         "",
-        `**Drops in:** ${artifact.dropsIn}`,
+        `**Drop:** ${artifact.dropsIn}`,
         "",
         `**More Info:** ${artifact.moreInfo}`,
       ])

@@ -111,7 +111,7 @@ export const characters = new Map([
         {
           name: "Dance of Fire",
           description:
-            "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack** Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash.\n\nn**Plunging Attack** Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash.\n\nn**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         },
         {
           name: "Sweeping Fervor",
@@ -189,7 +189,7 @@ export const characters = new Map([
       emoji: "<:Xingqiu:798577525265399838>",
       category: "Hydro",
       rarity: "⭐⭐⭐⭐",
-      element: "<:Hydro:798577525265399838> Hydro",
+      element: "<:Hydro:798483587157983282> Hydro",
       weapon: "Sword",
       nation: "Liyue",
       affiliation: "Feiyun Commerce Guild",
