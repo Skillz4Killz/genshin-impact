@@ -709,14 +709,14 @@ export const characters = new Map([
       description:
         "While not yet a knight, she seeks to one day join the Knights of Favonius by first serving as a dutiful maid.",
       thumbnail:
-        "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png/revision/latest/cb=20200916183843",
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png/revision/latest/scale-to-width-down/247?cb=20200916183843",
       image:
-        "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png/revision/latest/cb=20200916183843",
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png/revision/latest/scale-to-width-down/247?cb=20200916183843",
       color: "ffc100",
       emoji: "<:Noelle:798578667508072458>",
       category: "Geo",
       rarity: "⭐⭐⭐⭐",
-      element: "<:Geo:798578667508072458> Geo",
+      element: "<:Geo:798483630740865044> Geo",
       weapon: "Claymore",
       nation: "Mondstadt",
       affiliation: "Knights of Favonius",
@@ -814,12 +814,12 @@ export const characters = new Map([
         {
           name: "Sparkling Scatter",
           description:
-            "**Normal Attack**\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground.\n",
+            "**Normal Attack**\nShoots gems that deal **Geo DMG**.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to fire off a giant gem that deals **Geo DMG**.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals **AoE Geo DMG** upon impact with the ground.\n",
         },
         {
           name: "Skill: Jade Screen",
           description:
-            "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.\nJade Screen\n\nBlocks enemy projectiles.\nEndurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n",
+            "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing **AoE Geo DMG**.\nJade Screen\n\nBlocks enemy projectiles.\nEndurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n",
         },
         {
           name: "Burst: Elemental Burst",
@@ -836,7 +836,7 @@ export const characters = new Map([
         {
           name: "Strategic Reserve",
           description:
-            "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
+            "A character that passes through the Jade Screen will gain a 12% **Geo DMG Bonus** for 10s.",
         },
         {
           name: "Trove of Marvelous Treasure",
@@ -973,14 +973,14 @@ export const characters = new Map([
       description:
         "The daughter of the intrepid — and destructive — adventurer Alice, Klee takes her mother in many ways, much to the consternation of the Knights of Favonius whom she has been entrusted to.",
       thumbnail:
-        "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png/revision/latest/?cb=20200916171245",
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png/revision/latest/scale-to-width-down/267?cb=20200916171245",
       image:
-        "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png/revision/latest/?cb=20200916171245",
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png/revision/latest/scale-to-width-down/267?cb=20200916171245",
       color: "ff4000",
       emoji: "<:Klee:798578917464080404>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐⭐",
-      element: "<:Pyro:798578917464080404> Pyro",
+      element: "<:Pyro:798483485832249354> Pyro",
       weapon: "Catalyst",
       nation: "Mondstadt",
       affiliation: "Knights of Favonius",
@@ -1071,7 +1071,7 @@ export const characters = new Map([
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
       weapon: "Sword",
-      nation: "None",
+      nation: "Liyue",
       affiliation: "Liyue Qixing",
       specialDish: "Survival Grilled Fish",
       constellation: "Trulla Cementarii",
@@ -1080,7 +1080,7 @@ export const characters = new Map([
         {
           name: "Yunlai Swordsmanship",
           description:
-            "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+            "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Stellar Restoration",
@@ -1216,7 +1216,7 @@ export const characters = new Map([
             "	Increases the Level of Frostgnaw by 3. Maximum upgrade level is 15.",
         },
         {
-          name: "C4. Frozen Kiss",
+          name: "C4: Frozen Kiss",
           description:
             "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs **Cryo DMG** with 250% efficiency.\nCan only occur once every 60s.",
         },
@@ -1226,7 +1226,7 @@ export const characters = new Map([
             "Increases the level of Glacial Waltz by 3. Max upgrade level is 15.",
         },
         {
-          name: "C5: Glacial Whirlwind",
+          name: "C6: Glacial Whirlwind",
           description:
             "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
         },
@@ -1237,7 +1237,7 @@ export const characters = new Map([
     "jean",
     {
       name: "Jean",
-      description: "",
+      description: "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916180808",
       image:
@@ -1257,7 +1257,7 @@ export const characters = new Map([
         {
           name: "Favonius Bladework",
           description:
-            "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nConsumes a certain amount of stamina to launch an opponent using the power of wind. Launched opponents will slowly fall to the ground.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+            "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nConsumes a certain amount of stamina to launch an opponent using the power of wind. Launched opponents will slowly fall to the ground.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Gale Blade",
@@ -1267,7 +1267,7 @@ export const characters = new Map([
         {
           name: "Burst: Dandelion Breeze",
           description:
-            "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and causing **Anemo DMG**. At the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n**Dandelion Field**\nContinuously regenerates HP of characters within the AoE and continuously imbues them with Anemo.\nDeals **Anemo DMG** to opponents entering or exiting the Dandelion Field.",
+            "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and causing **Anemo DMG**.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n**Dandelion Field**\nContinuously regenerates HP of characters within the AoE and continuously imbues them with Anemo.\nDeals **Anemo DMG** to opponents entering or exiting the Dandelion Field.",
         },
       ],
       passiveTalents: [
@@ -1424,7 +1424,7 @@ export const characters = new Map([
       category: "Electro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
-      weapon: "Sword",
+      weapon: "Bow",
       nation: "Mondstadt",
       affiliation: "Adventurers' Guild",
       specialDish: "Die Heilige Sinfonie",
@@ -1505,14 +1505,14 @@ export const characters = new Map([
       description:
         "Born into the affluent Ragnvindr Family, Diluc is the current owner of the Dawn Winery and a nobleman of high esteem in Mondstadt society.\nWhile a past incident caused him to split ways with the Knights of Favonius, he continues to protect Mondstadt in his own way. ",
       thumbnail:
-        "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Character_Diluc_Game.png/revision/latest/cb=20201201204419",
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png/revision/latest/scale-to-width-down/228?cb=20200916171027",
       image:
-        "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Character_Diluc_Game.png/revision/latest/cb=20201201204419",
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png/revision/latest/scale-to-width-down/228?cb=20200916171027",
       color: "ff4000",
       emoji: "<:Diluc:798579247945613332>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐⭐",
-      element: "<:Pyro:798579247945613332> Pyro",
+      element: "<:Pyro:798483485832249354> Pyro",
       weapon: "Claymore",
       nation: "Mondstadt",
       affiliation: "Dawn Winery\nKnights of Favonius (Formerly)",
@@ -1612,7 +1612,7 @@ export const characters = new Map([
         {
           name: "Demonbane",
           description:
-            "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous swirling attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+            "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous swirling attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Spirit Blade: Chonghua's Layered Frost",
@@ -1788,12 +1788,12 @@ export const characters = new Map([
         {
           name: "Strike of Fortune",
           description:
-            "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+            "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Passion Overload",
           description:
-            "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.\n\n**Tap**\nA single, swift flame strike that deals **Pyro DMG**.\n**Hold (Short)**\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n**Level 1**\nStrikes twice, dealing **Pyro DMG** and launching opponents.\n**Level 2**\nUnleashes 3 consecutive attacks that deal impressive **Pyro DMG**, but the last attack triggers an explosion that launches both Bennett and the enemy.\n\nBennett takes no damage from being launched.\n",
+            "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.\n\n**Tap**\nA single, swift flame strike that deals **Pyro DMG**.\n**Hold (Short)**\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n\n**Level 1**\nStrikes twice, dealing **Pyro DMG** and launching opponents.\n**Level 2**\nUnleashes 3 consecutive attacks that deal impressive **Pyro DMG**, but the last attack triggers an explosion that launches both Bennett and the enemy.\n\nBennett takes no damage from being launched.\n",
         },
         {
           name: "Burst: Fantastic Voyage",
@@ -1876,7 +1876,7 @@ export const characters = new Map([
         {
           name: "Oceanborne",
           description:
-            "**Normal Attack**\nPerform up to 5 successive strikes.\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+            "**Normal Attack**\nPerform up to 5 successive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Tidecaller",
@@ -2221,7 +2221,7 @@ export const characters = new Map([
       category: "Hydro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Hydro:798483587157983282> Hydro",
-      weapon: "Sword",
+      weapon: "Catalyst",
       nation: "Mondstadt",
       affiliation: "Hexenzirkel",
       specialDish: "Der Weisheit Letzter Schluss (Life)",
@@ -2236,7 +2236,7 @@ export const characters = new Map([
         {
           name: "Skill: Mirror Reflection of Doom",
           description:
-            "Creates an illusory Phantom of fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\nContinuously taunts nearby opponents, attracting their fire.\nEach second, 4 times, deals **AoE Hydro DMG**.\nWhen its duration expires, the Phantom explodes, dealing **AoE Hydro DMG**.\n\n**Hold`**\nUtilizes water currents to move backwards swiftly before conjuring a Phantom\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\nWhen the Phantom explodes and hits at least one opponent, it generates 3 elemental particles.\n",
+            "Creates an illusory Phantom of fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\nContinuously taunts nearby opponents, attracting their fire.\nEach second, 4 times, deals **AoE Hydro DMG**.\nWhen its duration expires, the Phantom explodes, dealing **AoE Hydro DMG**.\n\n**Hold**\nUtilizes water currents to move backwards swiftly before conjuring a Phantom\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\nWhen the Phantom explodes and hits at least one opponent, it generates 3 elemental particles.\n",
         },
         {
           name: "Burst: Illusory Torrent",
@@ -2268,12 +2268,12 @@ export const characters = new Map([
             "The effects of **Hydro-related Elemental Reactions** are enhanced for 8s after any of your characters in the party hit an opponent affected by an Omen:\nElectro-Charged DMG is increased by 15%.\nVaporize DMG is increased by 15%.\nHydro Swirl DMG is increased by 15%.\nThe duration for which enemies are Frozen is increased by 15%.",
         },
         {
-          name: "C2: 	Lunar Chain",
+          name: "C2: Lunar Chain",
           description:
             "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s.",
         },
         {
-          name: "C3: 	Restless Revolution",
+          name: "C3: Restless Revolution",
           description:
             "	Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15.",
         },
@@ -2312,9 +2312,9 @@ export const characters = new Map([
       element: "<:Geo:798483630740865044> Geo",
       weapon: "Sword",
       nation: "Mondstadt",
-      affiliation: "Knights of Favonius\nAdventurers' Guild",
+      affiliation: "Knights of Favonius/Adventurers' Guild",
       specialDish: "None",
-      constellation: "Viator (Male)\nViatrix (Female)",
+      constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
       activeTalents: [
         {
@@ -2395,9 +2395,9 @@ export const characters = new Map([
       element: "<:Anemo:798483595781341194> Anemo",
       weapon: "Sword",
       nation: "Mondstadt",
-      affiliation: "Knights of Favonius\nAdventurers' Guild",
+      affiliation: "Knights of Favonius/Adventurers' Guild",
       specialDish: "None",
-      constellation: "Viator (Male)\nViatrix (Female)",
+      constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
       activeTalents: [
         {
