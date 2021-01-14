@@ -132,7 +132,7 @@ createSubcommand("edit", {
       return sendDMOrResponse(message, "No profile found.").catch(console.log);
     }
 
-    if (settings.characters.some((c) => c.name === args.character)) {
+    if (settings.characters.some((c) => c.name.toLowerCase() === args.character)) {
       settings.characters = settings.characters.map((c) =>
         c.name === args.character
           ? { name: c.name, constellationLevel: args.level }
