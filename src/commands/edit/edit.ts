@@ -27,6 +27,8 @@ createSubcommand("edit", {
     },
   ],
   execute: async function (message, args) {
+    if (String(args.uid).length > 10) return sendDMOrResponse(message, "The UID must be less than 10 characters.");
+
     db.users
       .update(message.author.id, { uid: args.uid })
       .then(() =>

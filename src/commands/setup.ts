@@ -124,7 +124,7 @@ createCommand({
       // ONLY CHECK IF THE UID IS NOT SKIP
       if (uidResponse.content !== "skip") {
         // VALIDATE THE PROVIDED UID
-        if (Number(uidResponse.content)) {
+        if (Number(uidResponse.content) && uidResponse.content.length <= 10) {
           // A VALID UID WAS PROVIDED SO SET IT
           uid = uidResponse.content;
         } else {
