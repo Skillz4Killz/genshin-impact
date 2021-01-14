@@ -6,7 +6,7 @@ export const artifacts = new Map([
       thumbnail: "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/adventurer-genshin-wiki-guide.jpg",
       image: "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/adventurer-genshin-wiki-guide.jpg",
       color: "RANDOM",
-      stars: "⭐\n⭐⭐\n⭐⭐⭐",
+      stars: "⭐⭐⭐",
       setBonus: "**2-set**\nMax HP increased by 1,000.\n\n**4-set**\nOpening chest regenerates 30% Max HP over 5s.",
       dropsIn: "Midsummer Courtyard\nPyro Regisvine\nOceanid",
       moreInfo: "https://genshin.honeyhunterworld.com/db/art/family/adventurer/",
