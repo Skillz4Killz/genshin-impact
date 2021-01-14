@@ -14,7 +14,7 @@ createCommand({
         [
           "Invalid artifact name provided. Valid names are:",
           "",
-          [...artifacts.keys()].join(" "),
+          [...artifacts.keys()].join(" - "),
         ].join("\n"),
       );
     }
@@ -23,6 +23,7 @@ createCommand({
       .setTitle(artifact.name)
       .setDescription([
         artifact.stars,
+        "",
         `**2 Piece Bonus:** ${artifact.twoPieceBonus}`,
         `**4 Piece Bonus:** ${artifact.fourPieceBonus}`,
         "",
