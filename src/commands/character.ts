@@ -47,7 +47,8 @@ createCommand({
         "🪄 - Passive Talents",
         "🔮 - Constellations",
       ])
-      .setThumbnail(character.image)
+      .setThumbnail(character.thumbnail)
+      .setImage(character.image)
 
     const second = new Embed()
       .setTitle(character.name)
