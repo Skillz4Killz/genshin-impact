@@ -4,7 +4,7 @@ import { Embed } from "../utils/Embed.ts";
 import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
-  name: `help`,
+  name: `commands`,
   arguments: [
     {
       name: "command",
@@ -18,15 +18,15 @@ createCommand({
       return sendEmbed(
         message.channelID,
         new Embed()
-          .setTitle("Here are all commands, Traveler!")
+          .setTitle("Need help, Traveler?")
           .setDescription([
-            "`p!setup`\nThis allows you to setup your profile.",
+            "To set up your profile run `p!setup` and go to my DMs!",
             "",
-            "`p!profile`\nThis allows you to check your profile.",
+            "To check your profile, run the command `p!profile`!",
             "",
-            "`p!profile edit (character) (new constellation)`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
+            "To access the command list, please use the command `p!commands`!",
             "",
-            "Random bullshittery here",
+            "The developer of this bot are **John Without Gel#1214** and **GeheimerWolf#8008**, go to https://discord.gg/26MjArxVP3",
           ]),
       );
     }
