@@ -25,19 +25,17 @@ createCommand({
         weapon.stars,
         `**Category:** ${weapon.category}`,
         `**Description:** ${weapon.description}`,
+        "",
+        "",
         `**Base Attack:** ${weapon.baseAttack}`,
         `**Secondary Stat:** ${weapon.secondaryStat}`,
         `**Secondary Stat Value:** ${weapon.secondaryStatValue}`,
+        `**Passive Ability Name:** ${weapon.specialAbility}`,
         "",
-        `**Special Passive Ability:** ${weapon.specialAbility}`,
+        `**Refinement:** ${weapon.refinement}`
       ])
       .setThumbnail(weapon.thumbnail)
-      .setImage(weapon.image)
       .setColor(weapon.color);
-
-    for (const level of weapon.refinementLevel) {
-      embed.addField(level.name, level.description);
-    }
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

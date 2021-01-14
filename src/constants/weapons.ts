@@ -56,13 +56,7 @@ export const weapons = new Map([
       secondaryStatValue: "11,3%",
       specialAbility: "Determination",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Skyrider_Sword",
-      refinementLevel: [
-        {
-          name: "Refinement Rank 1",
-          description:
-            "Using an Elemental Burst grants a **12/15/18/21/24%** increase in ATK and Movement SPD for 15s.",
-        }
-      ],
+      refinement: "Using an Elemental Burst grants a **12/15/18/21/24%** increase in ATK and Movement SPD for 15s.",
     },
   ],
   [
