@@ -115,7 +115,8 @@ createSubcommand("edit", {
     },
   ],
   execute: async function (message, args) {
-    if (!characters.has(args.character)) {
+    const character = characters.get(args.character);
+    if (!character) {
       return sendDMOrResponse(message, "Invalid character name.").catch(
         console.log,
       );
@@ -139,9 +140,7 @@ createSubcommand("edit", {
           : c
       );
     } else {
-      settings.characters.push(
-        { name: args.character, constellationLevel: args.level },
-      );
+      settings.characters.push({ name: character.name, constellationLevel: args.level });
     }
 
     db.users
