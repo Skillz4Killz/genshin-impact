@@ -291,8 +291,8 @@ export const artifacts = new Map([
     "archaicpetra",
     {
       name: "Archaic Petra",
-      thumbnail: "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/archaic_petra-genshin-wiki-guide.jpg",
-      image: "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/archaic_petra-genshin-wiki-guide.jpg",
+      thumbnail: "https://i.imgur.com/nZrHVNg.jpg",
+      image: "https://i.imgur.com/nZrHVNg.jpg",
       color: "RANDOM",
       stars: "⭐⭐⭐⭐⭐",
       setBonus: "**2-set**\nGain a 15% Geo DMG Bonus\n\n**4-set**\nUpon obtaining a crystal created through a Geo Elemental Reaction, all party members gain 35% RES to that particular element for 10s. Only one form of Elemental RES can be gained in this manner at any one time.",
