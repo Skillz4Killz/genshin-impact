@@ -26,9 +26,9 @@ createCommand({
         "",
         `**Set Bonus:**\n${artifact.setBonus}`,
         "",
-        `**Drop:** ${artifact.dropsIn}`,
+        `**Drop:**\n${artifact.dropsIn}`,
         "",
-        `**More Info:** ${artifact.moreInfo}`,
+        `**More Info:**\n${artifact.moreInfo}`,
       ])
       .setThumbnail(artifact.thumbnail)
       .setImage(artifact.image)
