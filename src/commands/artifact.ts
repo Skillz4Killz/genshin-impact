@@ -22,7 +22,7 @@ createCommand({
     const embed = new Embed()
       .setTitle(artifact.name)
       .setDescription([
-        artifact.stars,
+        `**Rarity:**\n${artifact.stars}`,
         "",
         `**Set Bonus:**\n${artifact.setBonus}`,
         "",
