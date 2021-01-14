@@ -379,7 +379,7 @@ export const characters = new Map([
         {
           name: "Skill: Skyward Sonnet",
           description:
-            "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n**Press**\nSummons a Wind Domain at the enemy's location, dealing AoE **Anemo DMG** and launching enemies into the air.\n\n**Hold**\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE **Anemo** DMG and launching affected enemies into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\nEnemies hit by Skyward Sonnet will fall to the ground slowly.",
+            "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n**Press**\nSummons a Wind Domain at the enemy's location, dealing **AoE Anemo DMG** and launching enemies into the air.\n\n**Hold**\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE **Anemo** DMG and launching affected enemies into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\nEnemies hit by Skyward Sonnet will fall to the ground slowly.",
         },
         {
           name: "Burst: Wind's Grand Ode",

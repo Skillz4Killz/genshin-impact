@@ -26,7 +26,7 @@ createCommand({
         "",
         `**Set Bonus:**\n${artifact.setBonus}`,
         "",
-        `**Drop:**\n${artifact.dropsIn}`,
+        `**Obtainable from:**\n${artifact.dropsIn}`,
         "",
         `**More Info:**\n${artifact.moreInfo}`,
       ])
