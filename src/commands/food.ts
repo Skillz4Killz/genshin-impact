@@ -25,13 +25,13 @@ createCommand({
         `**Rarity:** ${food.stars}`,
         `**Dish Type:** ${food.dishType}`,
         `**Proficiency:** ${food.proficiency}`,
-        `**How to get::**\n${food.obtainable}`,
+        `**How to get:**\n${food.obtainable}`,
         "",
-        `**Recipe:**${food.recipe}`,
+        `**Recipe:** ${food.recipe}`,
         "",
-        `**Recipe:**${food.description}`,
+        `**Description:**\n${food.description}`,
         "",
-        `**Effect** (depending on quality):*n${food.effect}`,
+        `**Effect** (depending on quality):\n${food.effect}`,
       ])
       .setThumbnail(food.image)
       .setColor(food.color);
