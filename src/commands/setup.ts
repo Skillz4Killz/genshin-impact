@@ -131,7 +131,7 @@ createCommand({
           await sendDirectMessage(
             message.author.id,
             "The UID provided was invalid, skipping...",
-          ).catch(console.log);
+          );
         }
       }
     }
