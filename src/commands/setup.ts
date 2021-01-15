@@ -22,7 +22,6 @@ createCommand({
         console.log(error);
       });
 
-      await message.delete().catch(console.log);
       if (!dm) return;
     } else {
       // WELCOME USER
