@@ -1,4 +1,4 @@
-import { Message } from "../../deps.ts";
+import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand } from "../utils/helpers.ts";
@@ -15,32 +15,27 @@ createCommand({
     const first = new Embed()
       .setTitle("Weapontypes")
       .setDescription([
-        `:one: Weapontypelist`,
+        `1️⃣ Weapontypelist`,
         "",
-        `:two: Bow`,
-        `:three: Polearm`,
-        `:four: Claymore`,
-        `:five: Sword`,
-        `:six: Catalyst`,
+        `2️⃣ Bow`,
+        `3️⃣ Polearm`,
+        `4️⃣ Claymore`,
+        `5️⃣ Sword`,
+        `6️⃣ Catalyst`,
       ])
-      .addField("1️⃣", "Weapontypelist")
-      .addField("2️⃣", "Bow")
-      .addField("3️⃣", "Polearm")
-      .addField("4️⃣", "Claymore")
-      .addField("5️⃣", "Sword")
-      .addField("6️⃣", "Catalyst")
 
       const second = new Embed()
-      .setTitle("Weapontypes")
+      .setTitle("Bpws")
       .setDescription([
         `Empty`,
         "",
         "",
-        `:two: Bow`,
-        `:three: Polearm`,
-        `:four: Claymore`,
-        `:five: Sword`,
-        `:six: Catalyst`,
+        `1️⃣ Weapontypelist`,
+        `2️⃣ Bow`,
+        `3️⃣ Polearm`,
+        `4️⃣ Claymore`,
+        `5️⃣ Sword`,
+        `6️⃣ Catalyst`,
       ])
 
     const third = new Embed()
@@ -49,11 +44,12 @@ createCommand({
         `Empty`,
         "",
         "",
-        `:two: Bow`,
-        `:three: Polearm`,
-        `:four: Claymore`,
-        `:five: Sword`,
-        `:six: Catalyst`,
+        `1️⃣ Weapontypelist`,
+        `2️⃣ Bow`,
+        `3️⃣ Polearm`,
+        `4️⃣ Claymore`,
+        `5️⃣ Sword`,
+        `6️⃣ Catalyst`,
       ])
 
     const fourth = new Embed()
@@ -62,11 +58,12 @@ createCommand({
         `Empty`,
         "",
         "",
-        `:two: Bow`,
-        `:three: Polearm`,
-        `:four: Claymore`,
-        `:five: Sword`,
-        `:six: Catalyst`,
+        `1️⃣ Weapontypelist`,
+        `2️⃣ Bow`,
+        `3️⃣ Polearm`,
+        `4️⃣ Claymore`,
+        `5️⃣ Sword`,
+        `6️⃣ Catalyst`,
       ])
 
       const fifth = new Embed()
@@ -75,11 +72,12 @@ createCommand({
         `Empty`,
         "",
         "",
-        `:two: Bow`,
-        `:three: Polearm`,
-        `:four: Claymore`,
-        `:five: Sword`,
-        `:six: Catalyst`,
+        `1️⃣ Weapontypelist`,
+        `2️⃣ Bow`,
+        `3️⃣ Polearm`,
+        `4️⃣ Claymore`,
+        `5️⃣ Sword`,
+        `6️⃣ Catalyst`,
       ])
 
       const sixth = new Embed()
@@ -88,18 +86,13 @@ createCommand({
         `Empty`,
         "",
         "",
-        `:two: Bow`,
-        `:three: Polearm`,
-        `:four: Claymore`,
-        `:five: Sword`,
-        `:six: Catalyst`,
+        `1️⃣ Weapontypelist`,
+        `2️⃣ Bow`,
+        `3️⃣ Polearm`,
+        `4️⃣ Claymore`,
+        `5️⃣ Sword`,
+        `6️⃣ Catalyst`,
       ])
-      .addField("1️⃣", "Weapontypelist")
-      .addField("2️⃣", "Bow")
-      .addField("3️⃣", "Polearm")
-      .addField("4️⃣", "Claymore")
-      .addField("5️⃣", "Sword")
-      .addField("6️⃣", "Catalyst")
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
@@ -132,5 +125,8 @@ createCommand({
     const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
     if (!selectedPage) return;
 
-  },
+    return botCache.commands
+    .get("none")
+    ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+},
 });
