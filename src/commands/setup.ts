@@ -212,7 +212,7 @@ function validateNumberFilter(message: Message, max = 6, min = 0) {
   if ((!number && number !== 0) || number < min || number > max) {
     sendDirectMessage(
       message.author.id,
-      "That was not a valid number, please try again. The number must be between 0-8",
+      "That was not a valid number, please try again. The number must be between 0-6",
     ).catch(console.log);
     return false;
   }
