@@ -23,9 +23,12 @@ createCommand({
       .setTitle(food.name)
       .setDescription([
         `**Rarity:** ${food.stars}`,
+        "",
         `**Dish Type:** ${food.dishType}`,
+        "",
         `**Proficiency:** ${food.proficiency}`,
-        `**How to get:**\n${food.obtainable}`,
+        "",
+        `**How to obtain:**\n${food.obtainable}`,
         "",
         `**Recipe:** ${food.recipe}`,
         "",
