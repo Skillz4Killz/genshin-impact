@@ -148,7 +148,7 @@ createCommand({
       needUID.channelID,
       {
         // MAX IS 8. MIN IS 0
-        filter: (msg) => validateNumberFilter(msg, 8),
+        filter: (msg) => validateNumberFilter(msg, 8, 0),
       },
     );
     if (!worldLevelResponse && worldLevelResponse !== 0) {
@@ -205,7 +205,7 @@ createCommand({
  *
  * min defaults to 0
  */
-function validateNumberFilter(message: Message, max = 6, min = 0) {
+function validateNumberFilter(message: Message, max = 8, min = 0) {
   // VALIDATE THAT THE RESPONSE IS A NUMBER
   const number = Number(message.content);
   // IF NOT A VALID NUMBER IGNORE THIS MESSAGE
