@@ -31,7 +31,7 @@ createCommand({
         "",
         `**Description:**\n${food.description}`,
         "",
-        `**Effect** (depending on quality):\n${food.effect}`,
+        `**Effect:**\n${food.effect}`,
       ])
       .setThumbnail(food.image)
       .setColor(food.color);
