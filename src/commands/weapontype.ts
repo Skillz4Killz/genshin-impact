@@ -90,12 +90,12 @@ createCommand({
       ])
 
     const pages = {
-      1: { page: 1, embed: first, emoji: ":one:" },
-      2: { page: 5, embed: second, emoji: ":two:" },
-      3: { page: 3, embed: third, emoji: ":three:" },
-      4: { page: 4, embed: fourth, emoji: ":four:" },
-      5: { page: 5, embed: fifth, emoji: ":five:" },
-      6: { page: 5, embed: sixth, emoji: ":six:" },
+      1: { page: 1, embed: first, emoji: "1️⃣" },
+      2: { page: 2, embed: second, emoji: "2️⃣" },
+      3: { page: 3, embed: third, emoji: "3️⃣" },
+      4: { page: 4, embed: fourth, emoji: "4️⃣" },
+      5: { page: 5, embed: fifth, emoji: "5️⃣" },
+      6: { page: 6, embed: sixth, emoji: "6️⃣" },
     } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
 
     const page = pages[args.page];
