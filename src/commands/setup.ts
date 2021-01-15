@@ -205,14 +205,14 @@ createCommand({
  *
  * min defaults to 0
  */
-function validateNumberFilter(message: Message, max = 8, min = 0) {
+function validateNumberFilter(message: Message, max = 6, min = 0) {
   // VALIDATE THAT THE RESPONSE IS A NUMBER
   const number = Number(message.content);
   // IF NOT A VALID NUMBER IGNORE THIS MESSAGE
   if ((!number && number !== 0) || number < min || number > max) {
     sendDirectMessage(
       message.author.id,
-      "That was not a valid number, please try again. The number must be between 0-6",
+      "That was not a valid number, please try again. The number must be between 0-8",
     ).catch(console.log);
     return false;
   }
