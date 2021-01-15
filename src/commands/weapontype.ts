@@ -1,6 +1,4 @@
-import { botCache } from "../../cache.ts";
 import { Message } from "../../deps.ts";
-import { characters } from "../constants/character.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand } from "../utils/helpers.ts";
@@ -9,7 +7,6 @@ createCommand({
   name: "weapontype",
   aliases: ["wt"],
   arguments: [
-    { name: "weapontype", type: "string" },
     { name: "page", type: "number", defaultValue: 1 },
   ],
   guildOnly: true,
@@ -123,20 +120,5 @@ createCommand({
     const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
     if (!selectedPage) return;
 
-    return botCache.commands
-      .get("character")
-      ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
   },
 });
-
-characters.forEach((c) =>
-  createCommand({
-    name: c.name.toLowerCase(),
-    guildOnly: true,
-    execute: async function (message, args, guild) {
-      return botCache.commands
-        .get("character")
-        ?.execute?.(message, { character: c.name.toLowerCase(), page: 1 }, guild);
-    },
-  })
-);
