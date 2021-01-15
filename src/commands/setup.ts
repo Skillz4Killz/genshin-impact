@@ -22,7 +22,7 @@ createCommand({
         console.log(error);
       });
 
-      await message.delete().catch(console.log);
+      await message.reply("Sent you a DM to guide you through the setup of your profile!");
       if (!dm) return;
     } else {
       // WELCOME USER
