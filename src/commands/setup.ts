@@ -22,6 +22,7 @@ createCommand({
         console.log(error);
       });
 
+      await message.delete().catch(console.log);
       if (!dm) return;
     } else {
       // WELCOME USER
@@ -53,7 +54,7 @@ createCommand({
 
       // THE USER DIDN"T RESPOND SO CANCEL
       if (!hasChar) {
-        await sendDirectMessage(message.author.id, "Cancelling setup...").catch(
+        await sendDirectMessage(message.author.id, "Did you fall asleep? Let's try again later..").catch(
           console.log,
         );
         // CANCEL OUT
