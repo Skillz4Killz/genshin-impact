@@ -12,7 +12,7 @@ createCommand({
     if (!food) {
       return message.reply(
         [
-          "Paimon can't find your food... Try one of these:",
+          "Did you say... **FOOD**? Which one?!",
           "",
           [...foods.keys()].join(" - "),
         ].join("\n"),
