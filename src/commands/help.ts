@@ -26,7 +26,7 @@ createCommand({
             "",
             "To access the command list, please use the command `p!commands`!",
             "",
-            "The developer of this bot are **John Without Gel#1214** and **GeheimerWolf#8008**, go to  https://discord.gg/26MjArxVP3",
+            "Need further help? Vistit our Support Server! https://discord.gg/26MjArxVP3",
           ]),
       );
     }
