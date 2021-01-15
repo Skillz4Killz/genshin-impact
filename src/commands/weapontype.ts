@@ -27,7 +27,16 @@ createCommand({
       const second = new Embed()
       .setTitle("Bows")
       .setDescription([
+        "⭐⭐⭐",
+        "Sharpshooter's Oath - Slingshot - Raven Bow - Ebony Bow - Messenger - Recurve Bow",
         "",
+        "⭐⭐⭐⭐",
+        "Compound Bow - Blackcliff Warbow - The Viridescent Hunt - Prototype Crescent - Sacrificial Bow - Alley Hunter - Rust - The Stringless - Favonius Warbow",
+        "",
+        "⭐⭐⭐⭐⭐",
+        "Amos' Bow - Skyward Harp",
+        "",
+        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridersword`",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
@@ -40,7 +49,16 @@ createCommand({
     const third = new Embed()
       .setTitle("Polearms")
       .setDescription([
+        "⭐⭐⭐",
+        "Halberd - Black Tassel - White Tassel",
         "",
+        "⭐⭐⭐⭐",
+        "Crescent Pike - Deathmatch-Royal Spear - Favonius Lance - Lithic Spear - Dragonspine Spear - Prototype Starglitter - Dragon's Bane - Blackcliff Pole",
+        "",
+        "⭐⭐⭐⭐⭐",
+        "Vortex Vanquisher - Skyward Spine - Primordial Jade Winged-Spear",
+        "",
+        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon blacktassel`",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
@@ -53,7 +71,16 @@ createCommand({
     const fourth = new Embed()
       .setTitle("Claymores")
       .setDescription([
+        "⭐⭐⭐",
+        "White Iron Greatsword - Skyrider Greatsword - Quartz - Ferrous Shadow - Debate Club - Bloodtainted Greatsword",
         "",
+        "⭐⭐⭐⭐",
+        "Blackcliff Slasher - Whiteblind - Snow-Tombed Starsilver - Sacrificial Greatsword - Lithic Blade - Serpent Spine - The Bell - Royal Greatsword - Rainslasher - Prototype Archaic - Favonius Greatsword",
+        "",
+        "⭐⭐⭐⭐⭐",
+        "The Unforged - Wolf's Gravestone - Skyward Pride",
+        "",
+        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skywardpride`",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
@@ -66,9 +93,16 @@ createCommand({
       const fifth = new Embed()
       .setTitle("Swords")
       .setDescription([
-        "Skyrider Sword - Fillet Blade - Traveler's Handy Sword - Harbinger of Dawn - Dark Iron Sword - Cool Steel - Blackcliff Longsword - Sacrificial Sword - Sword of Descension - The Alley Flash - Favonius Sword - The Black Sword - The Flute - Royal Longsword - Prototype Rancour - Lion's Roar - Iron Sting - Festering Desire - Summit Shaper - Aquila Favonia - Skyward Blade",
+        "⭐⭐⭐",
+        "Skyrider Sword - Fillet Blade - Traveler's Handy Sword - Harbinger of Dawn - Dark Iron Sword - Cool Steel",
         "",
-        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `P!weapon skyridersword`",
+        "⭐⭐⭐⭐",
+        "Blackcliff Longsword - Sacrificial Sword - Sword of Descension - The Alley Flash - Favonius Sword - The Black Sword - The Flute - Royal Longsword - Prototype Rancour - Lion's Roar - Iron Sting - Festering Desire",
+        "",
+        "⭐⭐⭐⭐⭐",
+        "Summit Shaper - Aquila Favonia - Skyward Blade",
+        "",
+        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridersword`",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
@@ -82,7 +116,16 @@ createCommand({
       const sixth = new Embed()
       .setTitle("Catalysts")
       .setDescription([
+        "⭐⭐⭐",
+        "Amber Catalyst - Magic Guide - Thrilling Tales of Dragon Slayers - Twin Nephrite - Otherworldly Story - Emerald Orb",
         "",
+        "⭐⭐⭐⭐",
+        "Solar Pearl - Wine and Song - Eye of Perception - The Widsith - Frostbearer - Sacrificial Fragments - Royal Grimoire - Prototype Amber - Mappa Mare - Favonius Codex - Blackcliff Agate",
+        "",
+        "⭐⭐⭐⭐⭐",
+        "Lost Prayer to the Sacred Winds - Memory of Dust - Skyward Atlas",
+        "",
+        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridersword`",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
