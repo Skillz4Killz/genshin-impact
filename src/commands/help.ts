@@ -26,7 +26,7 @@ createCommand({
             "",
             "To access the command list, please use the command `p!commands`!",
             "",
-            "Need further help? Vistit our Support Server! https://discord.gg/26MjArxVP3",
+            "Need further help? Visit our Support Server! https://discord.gg/26MjArxVP3",
           ]),
       );
     }
