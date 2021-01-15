@@ -205,7 +205,7 @@ createCommand({
  *
  * min defaults to 0
  */
-function validateNumberFilter(message: Message, max = 6, min = 0) {
+function validateNumberFilter(message: Message, max = 8, min = 0) {
   // VALIDATE THAT THE RESPONSE IS A NUMBER
   const number = Number(message.content);
   // IF NOT A VALID NUMBER IGNORE THIS MESSAGE
