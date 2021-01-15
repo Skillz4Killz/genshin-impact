@@ -27,7 +27,6 @@ createCommand({
       const second = new Embed()
       .setTitle("Bows")
       .setDescription([
-        `Empty`,
         "",
         "",
         `1️⃣ Weapontypelist`,
@@ -41,7 +40,6 @@ createCommand({
     const third = new Embed()
       .setTitle("Polearms")
       .setDescription([
-        `Empty`,
         "",
         "",
         `1️⃣ Weapontypelist`,
@@ -55,7 +53,6 @@ createCommand({
     const fourth = new Embed()
       .setTitle("Claymores")
       .setDescription([
-        `Empty`,
         "",
         "",
         `1️⃣ Weapontypelist`,
@@ -69,8 +66,9 @@ createCommand({
       const fifth = new Embed()
       .setTitle("Swords")
       .setDescription([
-        `Empty`,
         "Skyrider Sword - Fillet Blade - Traveler's Handy Sword - Harbinger of Dawn - Dark Iron Sword - Cool Steel - Blackcliff Longsword - Sacrificial Sword - Sword of Descension - The Alley Flash - Favonius Sword - The Black Sword - The Flute - Royal Longsword - Prototype Rancour - Lion's Roar - Iron Sting - Festering Desire - Summit Shaper - Aquila Favonia - Skyward Blade",
+        "",
+        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `P!weapon skyridersword`",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
@@ -79,11 +77,11 @@ createCommand({
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/128?cb=20201119235841")
 
       const sixth = new Embed()
       .setTitle("Catalysts")
       .setDescription([
-        `Empty`,
         "",
         "",
         `1️⃣ Weapontypelist`,
@@ -93,6 +91,7 @@ createCommand({
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
+      .addField("", "")
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
