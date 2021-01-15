@@ -25,7 +25,7 @@ createCommand({
       ])
 
       const second = new Embed()
-      .setTitle("Bpws")
+      .setTitle("Bows")
       .setDescription([
         `Empty`,
         "",
@@ -70,7 +70,7 @@ createCommand({
       .setTitle("Swords")
       .setDescription([
         `Empty`,
-        "",
+        "Skyrider Sword - Fillet Blade - Traveler's Handy Sword - Harbinger of Dawn - Dark Iron Sword - Cool Steel - Blackcliff Longsword - Sacrificial Sword - Sword of Descension - The Alley Flash - Favonius Sword - The Black Sword - The Flute - Royal Longsword - Prototype Rancour - Lion's Roar - Iron Sting - Festering Desire - Summit Shaper - Aquila Favonia - Skyward Blade",
         "",
         `1️⃣ Weapontypelist`,
         `2️⃣ Bow`,
