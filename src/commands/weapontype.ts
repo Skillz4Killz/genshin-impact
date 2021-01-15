@@ -23,6 +23,12 @@ createCommand({
         `:five: Sword`,
         `:six: Catalyst`,
       ])
+      .addField("1️⃣", "Weapontypelist")
+      .addField("2️⃣", "Bow")
+      .addField("3️⃣", "Polearm")
+      .addField("4️⃣", "Claymore")
+      .addField("5️⃣", "Sword")
+      .addField("6️⃣", "Catalyst")
 
       const second = new Embed()
       .setTitle("Weapontypes")
@@ -88,6 +94,12 @@ createCommand({
         `:five: Sword`,
         `:six: Catalyst`,
       ])
+      .addField("1️⃣", "Weapontypelist")
+      .addField("2️⃣", "Bow")
+      .addField("3️⃣", "Polearm")
+      .addField("4️⃣", "Claymore")
+      .addField("5️⃣", "Sword")
+      .addField("6️⃣", "Catalyst")
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
