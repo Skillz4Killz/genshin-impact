@@ -48,7 +48,7 @@ artifacts.forEach((c, key) =>
     name: key,
     guildOnly: true,
     execute: async function (message, args, guild) {
-      return botCache.commands.get("weapon")?.execute?.(message, { name: key }, guild);
+      return botCache.commands.get("artifact")?.execute?.(message, { name: key }, guild);
     },
   })
 );
