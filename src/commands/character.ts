@@ -55,10 +55,10 @@ createCommand({
         "",
         character.description,
         "",
-        "🧿 - Main info",
+        "ℹ️ - Main info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
-        "🔮 - Constellations",
+        "🌟 - Constellations",
       ])
       .setThumbnail(character.thumbnail)
       .setImage(character.image);
@@ -68,10 +68,10 @@ createCommand({
       .setDescription([
         "**Skill Talents**",
         "",
-        "🧿 - Main info",
+        "ℹ️ - Main info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
-        "🔮 - Constellations",
+        "🌟 - Constellations",
       ])
       .setThumbnail(character.thumbnail);
     for (const talent of character.activeTalents) {
@@ -83,10 +83,10 @@ createCommand({
       .setDescription([
         "**Passive Talents**",
         "",
-        "🧿 - Main info",
+        "ℹ️ - Main info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
-        "🔮 - Constellations",
+        "🌟 - Constellations",
       ])
       .setThumbnail(character.thumbnail);
     for (const talent of character.passiveTalents) {
@@ -98,10 +98,10 @@ createCommand({
       .setDescription([
         "**Constellations**",
         "",
-        "🧿 - Main info",
+        "ℹ️ - Main info",
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
-        "🔮 - Constellations",
+        "🌟 - Constellations",
       ])
       .setThumbnail(character.thumbnail);
 
@@ -110,10 +110,10 @@ createCommand({
     }
 
     const pages = {
-      1: { page: 1, embed: first, emoji: "🧿" },
+      1: { page: 1, embed: first, emoji: "ℹ️" },
       3: { page: 3, embed: second, emoji: "⚔️" },
       4: { page: 4, embed: third, emoji: "🪄" },
-      5: { page: 5, embed: fourth, emoji: "🔮" },
+      5: { page: 5, embed: fourth, emoji: "🌟" },
     } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
 
     const page = pages[args.page];
@@ -125,7 +125,7 @@ createCommand({
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["🧿", "⚔️", "🪄", "🔮"];
+    const emojis = ["ℹ️", "⚔️", "🪄", "🌟"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
