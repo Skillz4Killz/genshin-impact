@@ -4,15 +4,11 @@ import { Embed } from "../utils/Embed.ts";
 import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
-  name: `commands`,
+  name: "commands",
   arguments: [
-    {
-      name: "command",
-      type: "string",
-      lowercase: true,
-      required: false,
-    },
+    { name: "page", type: "number", defaultValue: 1 },
   ],
+  guildOnly: true,
   execute: async function (message, args) {
 
     const first = new Embed()
