@@ -60,6 +60,8 @@ createCommand({
         "",
         "`p!prefix set (prefix)`\nChanges the prefix",
         "",
+        "`p!emergencyfood`\nPaimon is not emergency food!",
+        "",
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
