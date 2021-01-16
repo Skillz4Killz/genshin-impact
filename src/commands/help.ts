@@ -2,6 +2,7 @@ import { botCache } from "../../deps.ts";
 import { translate } from "../utils/i18next.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand, sendEmbed } from "../utils/helpers.ts";
+import { sendMessage } from "https://deno.land/x/discordeno@10.0.2/src/api/handlers/channel.ts";
 
 createCommand({
   name: `help`,
@@ -15,20 +16,17 @@ createCommand({
   ],
   execute: function (message, args: HelpArgs) {
     if (!args.command) {
-      return sendEmbed(
-        message.channelID,
-        new Embed()
-          .setTitle("Need help, Traveler?")
-          .setDescription([
-            "To set up your profile run `p!setup` and go to my DMs!",
-            "",
-            "To check your profile, run the command `p!profile`!",
-            "",
-            "To access the command list, please use the command `p!commands`!",
-            "",
-            "Need further help? Visit our Support Server! https://discord.gg/26MjArxVP3",
-          ]),
-      );
+      return message.reply({content: "https://discord.gg/26MjArxVP3", embed: new Embed()
+      .setTitle("Need help, Traveler?")
+      .setDescription([
+        "To set up your profile run `p!setup` and go to my DMs!",
+        "",
+        "To check your profile, run the command `p!profile`!",
+        "",
+        "To access the command list, please use the command `p!commands`!",
+        "",
+        "Need further help? Visit our Support Server!",])
+      })
     }
 
     const command = botCache.commands.get(args.command);
