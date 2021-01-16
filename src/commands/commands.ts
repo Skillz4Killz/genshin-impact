@@ -38,7 +38,7 @@ createCommand({
             "",
             "`p!food (food name)`\nShows info about a specific food/dish.",
             "",
-            "`p!credits\nSpecial thanks to these people!.",
+            "`p!credits`\nSpecial thanks to these people!.",
           ])
           .setThumbnail("https://i.imgur.com/2rWapam.jpg")
       );
