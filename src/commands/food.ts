@@ -8,6 +8,11 @@ createCommand({
   arguments: [{ name: "name", type: "string" }],
   guildOnly: true,
   execute: async function (message, args) {
+
+    if (!args.name) {
+      return message.reply(["Available Food:", "", [...foods.keys()].sort().join(" - ")].join("\n"));
+    }
+
     const food = foods.get(args.name);
     if (!food) {
       return message.reply(

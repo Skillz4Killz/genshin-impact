@@ -65,7 +65,6 @@ createCommand({
         [
           `Nice! You own ${character.name}, now let's figure out the constellation.`,
           "",
-          // wolf what do i ask?
           "On what constellation is your character? Between 0-6",
         ].join("\n")
       ).catch(console.log);
