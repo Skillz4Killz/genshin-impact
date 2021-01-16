@@ -15,9 +15,13 @@ createCommand({
       .setTitle("Information")
       .setDescription([
         "`p!char (character name)`\nShows info about a specific character.",
+        "",
         "`p!weapon (weapon name)`\nShows info about a specific weapon.",
+        "",
         "`p!weapontypes` or `p!wt`\nLists you all available weapontypes and names.",
+        "",
         "`p!artifact (artifact set name)`\nShows info about a specific artifact set.",
+        "",
         "`p!food (food name)`\nShows info about a specific food/dish.",
         "",
         `1️⃣ Information`,
@@ -29,10 +33,15 @@ createCommand({
       .setTitle("Profile")
       .setDescription([
         "`p!setup`\nThis allows you to setup your profile.",
+        "",
         "`p!profile`\nThis allows you to check your profile.",
+        "",
         "`p!edit char (character) (new constellation)`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
+        "",
         "`p!edit (uid/ar/wl) (number)`\nThis allows you to edit your UID, AR or WL.",
+        "",
         "`p!remove (character name)`\nRemoves a character from your profile",
+        "",
         "`p!reset`\nReset your whole profile to 0 (delete it)",
         "",
         `1️⃣ Information`,
@@ -44,8 +53,11 @@ createCommand({
       .setTitle("Other")
       .setDescription([
         "`p!help`\nGet some help and the invite for our support server",
+        "",
         "`p!invite`\nGet the invitelink for the Bot",
-        "`p!credits`\nSpecial thanks to these people!.",
+        "",
+        "`p!credits`\nSpecial thanks to these people!",
+        "",
         "`p!prefix set (prefix)`\nChanges the prefix",
         "",
         `1️⃣ Information`,
