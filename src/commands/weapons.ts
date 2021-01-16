@@ -22,10 +22,10 @@ createCommand({
     const embed = new Embed()
       .setTitle(weapon.name)
       .setDescription([
-        "**Rarity**",
-        weapon.stars,
+        `**Rarity:** ${weapon.stars}`,
         "",
-        `**Category:** ${weapon.category}`,
+        `**Category:**${weapon.category}`,
+        "",
         `**Description:**\n${weapon.description}`,
         "",
         `**Base Attack:** ${weapon.baseAttack}`,

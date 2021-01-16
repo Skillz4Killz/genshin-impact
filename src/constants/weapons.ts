@@ -12,7 +12,7 @@ export const weapons = new Map([
       secondaryStat: "ATK%",
       secondaryStatValue: "7,7%",
       specialAbility: "Bane of Water and Ice",
-      moreInfo: "",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Cool_Steel",
       refinement: "Increases DMG against opponents affected by Hydro or Cryo by **12/15/18/21/24%**.",
     }
   ],
@@ -80,7 +80,7 @@ export const weapons = new Map([
       secondaryStat: "CRIT DMG",
       secondaryStatValue: "10,2%",
       specialAbility: "Vigorous",
-      moreInfo: "",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Harbinger_of_Dawn",
       refinement: "When HP is above 90%, increases CRIT Rate by **14/17.5/21/24,5/28%**.",
     },
   ],
@@ -158,7 +158,7 @@ export const weapons = new Map([
  //   "thealleyflash",
  //   {
  //     name: "The Alley Flash",
- //     description: "",
+ //     description: "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
  //     thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest/scale-to-width-down/194?cb=20201016011557",
  //     color: "RANDOM",
  //     category: "Sword",
@@ -167,7 +167,7 @@ export const weapons = new Map([
  //     secondaryStat: "CRIT Rate",
  //     secondaryStatValue: "4%",
  //     specialAbility: "Itinerant Hero",
- //     moreInfo: "",
+ //     moreInfo: "https://genshin-impact.fandom.com/wiki/The_Alley_Flash",
  //     refinementLevel: "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack."
  //   },
  // ],
@@ -1285,7 +1285,7 @@ export const weapons = new Map([
     {
       name: "Skyward Atlas",
       description: "A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
-      thumbnail: "",
+      thumbnail: "A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
       color: "RANDOM",
       category: "Catalyst",
       stars: "⭐⭐⭐⭐⭐",
@@ -1354,7 +1354,7 @@ export const weapons = new Map([
 //    {
 //      name: "Ebony Bow",
 //      description: "A longbow made of ebony wood with stiffer limbs than ordinary bows. It is also a far more powerful weapon.",
-//      thumbnail: "",
+//      thumbnail: "A longbow made of ebony wood with stiffer limbs than ordinary bows. It is also a far more powerful weapon.",
 //      color: "RANDOM",
 //      category: "Bow",
 //      stars: "⭐⭐⭐",
