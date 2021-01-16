@@ -81,7 +81,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,2%",
       specialAbility: "Vigorous",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Harbinger_of_Dawn",
-      refinement: "When HP is above 90%, increases CRIT Rate by **14/17.5/21/24,5/28%**.",
+      refinement: "When HP is above 90%, increases CRIT Rate by **14/17,5/21/24,5/28%**.",
     },
   ],
   [
