@@ -21,24 +21,21 @@ createCommand({
           .setTitle("Here are all commands, Traveler!")
           .setDescription([
             "`p!setup`\nThis allows you to setup your profile.",
-            "",
             "`p!profile`\nThis allows you to check your profile.",
-            "",
             "`p!edit char (character) (new constellation)`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
-            "",
             "`p!edit (uid/ar/wl) (number)`\nThis allows you to edit your UID, AR or WL.",
-            "",
+            "`p!remove (character name)`\nRemoves a character from your profile",
+            "`p!reset`\nReset your whole profile to 0 (delete it)",
             "`p!char (character name)`\nShows info about a specific character.",
-            "",
             "`p!weapon (weapon name)`\nShows info about a specific weapon.",
-            "",
-            "`p!artifact (artifact set name)`\nShows info about a specific artifact set.",
-            "",
             "`p!weapontypes` or `p!wt`\nLists you all available weapontypes and names.",
-            "",
+            "`p!artifact (artifact set name)`\nShows info about a specific artifact set.",
             "`p!food (food name)`\nShows info about a specific food/dish.",
             "",
+            "`p!help`\nGet some help and the invite for our support server",
+            "`p!invite`\nGet the invitelink for the Bot",
             "`p!credits`\nSpecial thanks to these people!.",
+            "`p!prefix set (prefix)`\nChanges the prefix"
           ])
           .setThumbnail("https://i.imgur.com/2rWapam.jpg")
       );
