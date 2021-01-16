@@ -168,7 +168,7 @@ export const weapons = new Map([
  //     secondaryStatValue: "4%",
  //     specialAbility: "Itinerant Hero",
  //     moreInfo: "https://genshin-impact.fandom.com/wiki/The_Alley_Flash",
- //     refinementLevel: "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack."
+ //     refinement: "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack."
  //   },
  // ],
   [
@@ -185,7 +185,7 @@ export const weapons = new Map([
       secondaryStatValue: "13,3%",
       specialAbility: "Windfall",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Favonius_Sword",
-      refinementLevel: "test",
+      refinement: "CRIT hits have a **60/70/80/90/100%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **12/10,5/9/7,5/6s**.",
     },
   ],
   [
@@ -253,7 +253,7 @@ export const weapons = new Map([
       secondaryStatValue: "7,5%",
       specialAbility: "Smashed Stone",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Prototype_Rancour",
-      refinement: "On hit, Normal or Charged Attacks increase ATK and DEF by **4/5/6/7/8%** for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+      refinement: "On hit, Normal or Charged Attacks increase ATK and DEF by **4/5/6/7/8%** for 6s. Max 4 stacks. Can only occur once every 0,3s.",
     },
   ],
   [
@@ -277,7 +277,7 @@ export const weapons = new Map([
     "festeringdesire",
     {
       name: "Festering Desire",
-      description: " creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+      description: "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
       thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Weapon_Festering_Desire.png/revision/latest/scale-to-width-down/256?cb=20201223042935",
       color: "RANDOM",
       category: "Sword",
@@ -304,7 +304,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,8%",
       specialAbility: "Golden Majesty",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Summit_Shaper",
-      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0,3s. While protected by a shield, this ATK increase effect is increased by 100%.",
     },
   ],
   [
@@ -577,7 +577,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,8%",
       specialAbility: "Golden Majesty",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Vortex_Vanquisher",
-      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0,3s. While protected by a shield, this ATK increase effect is increased by 100%.",
     },
   ],
   [
@@ -611,7 +611,7 @@ export const weapons = new Map([
       secondaryStatValue: "4,8%",
       specialAbility: "Eagle Spear of Justice",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Primordial_Jade_Winged-Spear",
-      refinement: "On hit, increases ATK by **3,2/3,9/4,6/5,3/6%** for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by **12/15/18/21/24%**.",
+      refinement: "On hit, increases ATK by **3,2/3,9/4,6/5,3/6%** for 6s. Max 7 stacks. This effect can only occur once every 0,3s. While in possession of the maximum possible stacks, DMG dealt is increased by **12/15/18/21/24%**.",
     },
   ],
   [
@@ -645,7 +645,7 @@ export const weapons = new Map([
       secondaryStatValue: "9,6%",
       specialAbility: "Courage",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Skyrider_Greatsword",
-      refinement: "On hit, Normal or Charged Attacks increase ATK by **6/7/8/9/10%** for 6s. Max 4 stacks. Can only occur once every 0.5s.",
+      refinement: "On hit, Normal or Charged Attacks increase ATK by **6/7/8/9/10%** for 6s. Max 4 stacks. Can only occur once every 0,5s.",
     },
   ],
   [
@@ -747,7 +747,7 @@ export const weapons = new Map([
       secondaryStatValue: "11,3%",
       specialAbility: "Infusion Blade",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Whiteblind",
-      refinement: "On hit, Normal or Charged Attacks increase ATK and DEF by **6/7,5/9/10,5/12%** for 6s. Max 4 stacks (**24/30/36/42/48%** total). Can only occur once every 0.5s.",
+      refinement: "On hit, Normal or Charged Attacks increase ATK and DEF by **6/7,5/9/10,5/12%** for 6s. Max 4 stacks (**24/30/36/42/48%** total). Can only occur once every 0,5s.",
     },
   ],
   [
@@ -918,7 +918,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,8%",
       specialAbility: "Golden Majesty",
       moreInfo: "https://genshin-impact.fandom.com/wiki/The_Unforged",
-      refinement: "Increases Shield Strength by **20/25/30/35/40%**, scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield this ATK increase effect is increased by 100%",
+      refinement: "Increases Shield Strength by **20/25/30/35/40%**, scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0,3s. While protected by a shield this ATK increase effect is increased by 100%",
     },
   ],
   [
@@ -1277,7 +1277,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,8%",
       specialAbility: "Golden Majesty",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Memory_of_Dust",
-      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      refinement: "Increases Shield Strength by **20/25/30/35/40%**. Scoring hits on opponents increases ATK by **4/5/6/7/8%** for 8s. Max 5 stacks. Can only occur once every 0,3s. While protected by a shield, this ATK increase effect is increased by 100%.",
     },
   ],
   [
@@ -1328,7 +1328,7 @@ export const weapons = new Map([
       secondaryStatValue: "6,8%",
       specialAbility: "Slingshot",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Slingshot",
-      refinement: "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by **36/42/48/54/60%**. Otherwise, decreases DMG by 10%.",
+      refinement: "If a Normal or Charged Attack hits a target within 0,3s of being fired, increases DMG by **36/42/48/54/60%**. Otherwise, decreases DMG by 10%.",
     },
   ],
   [
@@ -1414,7 +1414,7 @@ export const weapons = new Map([
       secondaryStatValue: "15%",
       specialAbility: "Infusion Arrow",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Compound_Bow",
-      refinement: "Normal Attack and Charged Attack hits increase ATK by **4/5/6/7/8%* and Normal ATK SPD by **1,2/1,5/1,8/2,1/2,4%** for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+      refinement: "Normal Attack and Charged Attack hits increase ATK by **4/5/6/7/8%* and Normal ATK SPD by **1,2/1,5/1,8/2,1/2,4%** for 6s. Max 4 stacks. Can only occur once every 0,3s.",
     },
   ],
   [
@@ -1448,7 +1448,7 @@ export const weapons = new Map([
       secondaryStatValue: "6%",
       specialAbility: "Verdant Wind",
       moreInfo: "https://genshin-impact.fandom.com/wiki/The_Viridescent_Hunt",
-      refinement: "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing **40/50/60/70/80%** of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every **14/13/12/11/10s**.",
+      refinement: "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing **40/50/60/70/80%** of ATK as DMG to these opponents every 0,5s for 4s. This effect can only occur once every **14/13/12/11/10s**.",
     },
   ],
   [
@@ -1585,7 +1585,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,8%",
       specialAbility: "Strong-Willed",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Amos%27_Bow",
-      refinement: "Increases Normal Attack and Charged Attack DMG by **12/15/18/21/24%**. Normal and Charged Attack DMG increases by **8/10/12/14/16%** every 0.1 seconds for up to 5 times.",
+      refinement: "Increases Normal Attack and Charged Attack DMG by **12/15/18/21/24%**. Normal and Charged Attack DMG increases by **8/10/12/14/16%** every 0,1 seconds for up to 5 times.",
     },
   ],
   [
