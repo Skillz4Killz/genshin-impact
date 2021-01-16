@@ -1285,7 +1285,7 @@ export const weapons = new Map([
     {
       name: "Skyward Atlas",
       description: "A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
-      thumbnail: "A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png/revision/latest/scale-to-width-down/256?cb=20201116035225",
       color: "RANDOM",
       category: "Catalyst",
       stars: "⭐⭐⭐⭐⭐",
@@ -1370,8 +1370,8 @@ export const weapons = new Map([
     "messenger",
     {
       name: "Messenger",
-      description: "https://i.imgur.com/KrZR1IM.png",
-      thumbnail: "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+      description: "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+      thumbnail: "https://i.imgur.com/KrZR1IM.png",
       color: "RANDOM",
       category: "Bow",
       stars: "⭐⭐⭐",
