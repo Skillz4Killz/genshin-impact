@@ -1585,7 +1585,7 @@ export const weapons = new Map([
       secondaryStatValue: "10,8%",
       specialAbility: "Strong-Willed",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Amos%27_Bow",
-      refinement: "Increases Normal Attack and Charged Attack DMG by **12/15/18/21/24%**. Normal and Charged Attack DMG increases by **8/10/12/14/16%** every 0,1 seconds for up to 5 times.",
+      refinement: "Increases Normal Attack and Charged Attack DMG by **12/15/18/21/24%**. Normal and Charged Attack DMG increases by **8/10/12/14/16%** every 0,1s for up to 5 times.",
     },
   ],
   [
