@@ -5,11 +5,11 @@ import { createCommand } from "../../utils/helpers.ts";
 createCommand({
 	name: "remove",
 	arguments: [
-		{ name: "name", type: '...string' },
+		{ name: "name", type: '...string', lowercase: true },
 	],
 	guildOnly: true,
 	execute: async function (message, args) {
-		const character = characters.get(args.character);
+		const character = characters.get(args.name);
     if (!character) {
 			return await message.reply("Invalid character name.").catch(console.log);
 		}
