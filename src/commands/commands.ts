@@ -32,9 +32,13 @@ createCommand({
             "",
             "`p!weapon (weapon name)`\nShows info about a specific weapon.",
             "",
-            "`p!artifact (artifact name)`\nShows info about a specific artifact.",
+            "`p!artifact (artifact set name)`\nShows info about a specific artifact set.",
             "",
             "`p!weapontypes` or `p!wt`\nLists you all available weapontypes and names.",
+            "",
+            "`p!food (food name)`\nShows info about a specific food/dish.",
+            "",
+            "`p!credits\nSpecial thanks to these people!.",
           ])
           .setThumbnail("https://i.imgur.com/2rWapam.jpg")
       );
