@@ -30,7 +30,7 @@ createCommand({
         "",
         `**How to obtain:**\n${food.obtainable}`,
         "",
-        `**Recipe:** ${food.recipe}`,
+        `**Ingredients:** ${food.recipe}`,
         "",
         `**Description:**\n${food.description}`,
         "",
