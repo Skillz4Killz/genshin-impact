@@ -329,7 +329,7 @@ export const weapons = new Map([
     {
       name: "Skyward Blade",
       description: "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
-      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png/revision/latest?cb=20201116035239",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png/revision/latest/scale-to-width-down/256?cb=20201116035225",
       color: "RANDOM",
       category: "Sword",
       stars: "⭐⭐⭐⭐⭐",
@@ -1370,7 +1370,7 @@ export const weapons = new Map([
     "messenger",
     {
       name: "Messenger",
-      description: "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Messenger.png/revision/latest/scale-to-width-down/256?cb=20201116034227",
+      description: "https://i.imgur.com/KrZR1IM.png",
       thumbnail: "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
       color: "RANDOM",
       category: "Bow",
@@ -1414,7 +1414,7 @@ export const weapons = new Map([
       secondaryStatValue: "15%",
       specialAbility: "Infusion Arrow",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Compound_Bow",
-      refinement: "Normal Attack and Charged Attack hits increase ATK by **4/5/6/7/8%* and Normal ATK SPD by **1,2/1,5/1,8/2,1/2,4%** for 6s. Max 4 stacks. Can only occur once every 0,3s.",
+      refinement: "Normal Attack and Charged Attack hits increase ATK by **4/5/6/7/8%** and Normal ATK SPD by **1,2/1,5/1,8/2,1/2,4%** for 6s. Max 4 stacks. Can only occur once every 0,3s.",
     },
   ],
   [
