@@ -20,6 +20,6 @@ createCommand({
     await db.users.update(message.author.id, {
       characters: settings.characters.filter((c) => c.name !== character.name),
     });
-    return await message.reply(`${character.name} has been removed from your profile.`);
+    return await message.reply(`${character.name} has left your team...`);
   },
 });
