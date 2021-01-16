@@ -4,7 +4,7 @@ import { Embed } from "../utils/Embed.ts";
 import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
-  name: `help`,
+  name: `credits`,
   arguments: [
     {
       name: "command",
@@ -18,16 +18,14 @@ createCommand({
       return sendEmbed(
         message.channelID,
         new Embed()
-          .setTitle("Need help, Traveler?")
+          .setTitle("Special Thanks to following Traveler!")
           .setDescription([
-            "To set up your profile run `p!setup` and go to my DMs!",
             "",
-            "To check your profile, run the command `p!profile`!",
-            "",
-            "To access the command list, please use the command `p!commands`!",
-            "",
-            "Need further help? Visit our Support Server! https://discord.gg/26MjArxVP3",
-          ]),
+          ])
+          .addField("John Without Gel", "for coding me the Bot!")
+          .addField("Ice Man", "for helping me fill out the informations aswell as testing alot!")
+          .addField("The Galaxy.", "for finding some bugs!")
+          .setThumbnail("https://i.pinimg.com/originals/67/9f/5e/679f5e627d25307be45172fd41b3ca3e.png")
       );
     }
 

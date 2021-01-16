@@ -20,7 +20,7 @@ createCommand({
         console.log(error);
       });
 
-      await message.delete().catch(console.log);
+      await message.reply("Sent you a DM to guide you through the setup of your profile!");
       if (!dm) return;
     } else {
       // WELCOME USER
@@ -54,7 +54,7 @@ createCommand({
 
       // THE USER DIDN"T RESPOND SO CANCEL
       if (!hasChar) {
-        await sendDirectMessage(message.author.id, "Cancelling setup...").catch(console.log);
+        await sendDirectMessage(message.author.id, "Did you fall asleep? Let's try again later..").catch(console.log);
         // CANCEL OUT
         return;
       }
@@ -170,7 +170,7 @@ createCommand({
  *
  * min defaults to 0
  */
-function validateNumberFilter(message: Message, max = 6, min = 0) {
+function validateNumberFilter(message: Message, max = 8, min = 0) {
   // VALIDATE THAT THE RESPONSE IS A NUMBER
   const number = Number(message.content);
   // IF NOT A VALID NUMBER IGNORE THIS MESSAGE

@@ -24,15 +24,22 @@ createCommand({
             "",
             "`p!profile`\nThis allows you to check your profile.",
             "",
-            "`p!profile edit (character) (new constellation)`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
+            "`p!edit char (character) (new constellation)`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
+            "",
+            "`p!edit (uid/ar/wl) (number)`\nThis allows you to edit your UID, AR or WL.",
             "",
             "`p!char (character name)`\nShows info about a specific character.",
             "",
             "`p!weapon (weapon name)`\nShows info about a specific weapon.",
             "",
-            "`p!artifact (artifact name)`\nShows info about a specific artifact."
+            "`p!artifact (artifact set name)`\nShows info about a specific artifact set.",
+            "",
+            "`p!weapontypes` or `p!wt`\nLists you all available weapontypes and names.",
+            "",
+            "`p!food (food name)`\nShows info about a specific food/dish.",
+            "",
+            "`p!credits`\nSpecial thanks to these people!.",
           ])
-          .setFooter("Work in progress")
           .setThumbnail("https://i.imgur.com/2rWapam.jpg")
       );
     }
