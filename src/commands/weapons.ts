@@ -24,7 +24,7 @@ createCommand({
       .setDescription([
         `**Rarity:** ${weapon.stars}`,
         "",
-        `**Category:**${weapon.category}`,
+        `**Category:** ${weapon.category}`,
         "",
         `**Description:**\n${weapon.description}`,
         "",
