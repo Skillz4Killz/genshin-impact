@@ -185,7 +185,7 @@ export const weapons = new Map([
       secondaryStatValue: "13,3%",
       specialAbility: "Windfall",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Favonius_Sword",
-      refinementLevel: "CRIT hits have a **60/70/80/90/100%** chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **12/10,5/9/7,5/6s**.",
+      refinementLevel: "test",
     },
   ],
   [
