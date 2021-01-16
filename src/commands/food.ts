@@ -5,10 +5,9 @@ import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
   name: "food",
-  arguments: [{ name: "name", type: "string" }],
+  arguments: [{ name: "name", type: "string", required: false }],
   guildOnly: true,
   execute: async function (message, args) {
-
     if (!args.name) {
       return message.reply(["Available Food:", "", [...foods.keys()].sort().join(" - ")].join("\n"));
     }
@@ -16,11 +15,7 @@ createCommand({
     const food = foods.get(args.name);
     if (!food) {
       return message.reply(
-        [
-          "Did you say... **FOOD**? Which one?!",
-          "",
-          [...foods.keys()].join(" - "),
-        ].join("\n"),
+        ["Did you say... **FOOD**? Which one?!", "", [...foods.keys()].join(" - "),].join("\n"),
       );
     }
 
