@@ -5,17 +5,23 @@ import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
   name: "artifact",
-  arguments: [{ name: "name", type: "string" }],
+  arguments: [{ name: "name", type: "string", required: false }],
   guildOnly: true,
   execute: async function (message, args) {
+    if (!args.name) {
+      return message.reply(
+        ["Available Artificats:", "", [...artifacts.keys()].sort().join(" - ")].join(
+          "\n"
+        )
+      );
+    }
+
     const artifact = artifacts.get(args.name);
     if (!artifact) {
       return message.reply(
-        [
-          "Paimon can't find your artifact set.. Try one of these:",
-          "",
-          [...artifacts.keys()].join(" - "),
-        ].join("\n"),
+        ["Paimon can't find your artifact set.. Try one of these:", "", [...artifacts.keys()].sort().join(" - ")].join(
+          "\n"
+        )
       );
     }
 
@@ -42,11 +48,7 @@ artifacts.forEach((c, key) =>
     name: key,
     guildOnly: true,
     execute: async function (message, args, guild) {
-      return botCache.commands.get("weapon")?.execute?.(
-        message,
-        { name: key },
-        guild,
-      );
+      return botCache.commands.get("weapon")?.execute?.(message, { name: key }, guild);
     },
   })
 );

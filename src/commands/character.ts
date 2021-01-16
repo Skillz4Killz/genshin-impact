@@ -9,11 +9,24 @@ createCommand({
   name: "character",
   aliases: ["char"],
   arguments: [
-    { name: "character", type: "string" },
+    { name: "character", type: "string", required: false },
     { name: "page", type: "number", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message, args) {
+    if (!args.character) {
+      return message.reply(
+        [
+          "Available Characters:",
+          "",
+          [...characters.values()]
+            .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
+            .sort()
+            .join(" "),
+        ].join("\n")
+      );
+    }
+
     const character = characters.get(args.character.split(" - ").join("").replaceAll("(", "").replaceAll(")", ""));
     if (!character) {
       return message.reply(
@@ -22,6 +35,7 @@ createCommand({
           "",
           [...characters.values()]
             .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
+            .sort()
             .join(" "),
         ].join("\n")
       );
@@ -47,7 +61,7 @@ createCommand({
         "🔮 - Constellations",
       ])
       .setThumbnail(character.thumbnail)
-      .setImage(character.image)
+      .setImage(character.image);
 
     const second = new Embed()
       .setTitle(character.name)
