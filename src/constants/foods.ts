@@ -101,7 +101,7 @@ export const foods = new Map([
           dishType: "Guardian's Dish",
           proficiency: "None",
           obtainable: "From Hopkins the Marvelous (located in Springvale, Mondstadt)",
-          effect: "Regenerates 1 HP every second for 20 seconds.",
+          effect: "Regenerates **1** HP every second for 20 seconds.",
         },
       ],
       [
@@ -367,7 +367,7 @@ export const foods = new Map([
           description: "A simple chowder with a long history. The ingredients are similarly traditional and simple. No matter where you are, a piping-hot chowder of this sort can always give you a sense of real and unsurpassed satisfaction.",
           color: "RANDOM",
           stars: "⭐⭐⭐",
-          recipe: "4x Carrot, 4x Potato, 4x Oniona",
+          recipe: "4x Carrot, 4x Potato, 4x Onion",
           dishType: "Adventurer's Dish",
           proficiency: "15",
           obtainable: "By talking to Vind at Stormbearer Point.",
@@ -577,7 +577,7 @@ export const foods = new Map([
           description: "Zhongli's specialty. The ham is a butt end selected according to Yuehai Pavilion's gourmet standards. The fresh meat is pork belly, freshly hunted in Springvale, while the bamboo shoots are the densest you'll find in Qingce Village. It is then heated, slowly, gently, and with the utmost care and technique... Such a 'particular' taste may only be shared with those who know how to appreciate it.",
           color: "RANDOM",
           stars: "⭐⭐⭐",
-          recipe: "1x Bamboo Shoot, 2x Ham, 2x Raw meat",
+          recipe: "1x Bamboo Shoot, 2x Ham, 2x Raw Meat",
           dishType: "Special Guardian's Dish",
           proficiency: "None",
           obtainable: "Cook Bamboo Shoot Soup with Zhongli",
@@ -746,7 +746,7 @@ export const foods = new Map([
           dishType: "Sage's Dish",
           proficiency: "10",
           obtainable: "Available from the start of the game.",
-          effect: "Increases all party members' DEF by **88/107/126* for 300s",
+          effect: "Increases all party members' DEF by **88/107/126** for 300s",
         },
       ],
       [
@@ -1065,7 +1065,7 @@ export const foods = new Map([
         },
       ],
       [
-        "chicken-nushroomskewer",
+        "chicken-mushroomskewer",
         {
           name: "Chicken-Mushroom Skewer",
           image: "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Chicken-Mushroom_Skewer.png/revision/latest/scale-to-width-down/256?cb=20210109214805",
@@ -1164,7 +1164,7 @@ export const foods = new Map([
           recipe: "1x Fish, 1x Pepper",
           dishType: "Guardian's Dish",
           proficiency: "5",
-          obtainable: "From Wanmin Restaurant for 1,250 Mora after reaching Adventure Rank 15.",
+          obtainable: "From Wanmin Restaurant for 1.250 Mora after reaching Adventure Rank 15.",
           effect: "Restores **8/9/10%** of Max HP and an additional **800/1.000/1.200** HP.",
         },
       ],
@@ -1255,7 +1255,7 @@ export const foods = new Map([
           dishType: "Guardian's Dish",
           proficiency: "None",
           obtainable: "Purchase from Pops Kai (located in Qingce Village, Liyue), Pops Zhou, or Mr. Zhu for 1.000 Mora (max 10 per day).",
-          effect: "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s.",
+          effect: "Restores **14%** of Max HP to the selected character and regenerates **350** HP every 5s for 30s.",
         },
       ],
       [
@@ -1270,7 +1270,7 @@ export const foods = new Map([
           dishType: "Special Guardian's Dish",
           proficiency: "None",
           obtainable: "Cook Mondstadt Grilled Fish with Diona",
-          effect: "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+          effect: "Revives a character and restores **10%** of Max HP, then restores an additional **150** HP.",
         },
       ],
       [
