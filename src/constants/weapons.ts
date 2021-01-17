@@ -1579,7 +1579,7 @@ export const weapons = new Map([
       thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Weapon_Amos%27_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120010513",
       color: "RANDOM",
       category: "Bow",
-      stars: "⭐⭐⭐⭐",
+      stars: "⭐⭐⭐⭐⭐",
       baseAttack: "46",
       secondaryStat: "ATK%",
       secondaryStatValue: "10,8%",

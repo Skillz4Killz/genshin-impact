@@ -16,7 +16,7 @@ createCommand({
       .setTitle("Rarity ⭐")
       .setDescription([
         "",
-        "Apple - Chicken-Mushroom Skewer - Grilled Tiger Fish - Definitely Not Bar Food! - Flash-Fried Filet - Fruity Skewers - Mondstadt Grilled Fish - Mora Meat - Outrider's Champion Steak! - Pop's Teas - Qiankun Mora Meat - Radish Veggie Soup - Steak - Stir-Fried Filet - Sunsettia - Survival Grilled Fish - - Teyvat Charred Egg Teyvat Fried Egg",
+        "Apple - Chicken-Mushroom Skewer - Grilled Tiger Fish - Definitely Not Bar Food! - Flash-Fried Filet - Fruity Skewers - Mondstadt Grilled Fish - Mora Meat - Outrider's Champion Steak! - Pop's Teas - Qiankun Mora Meat - Radish Veggie Soup - Steak - Stir-Fried Filet - Sunsettia - Survival Grilled Fish - Teyvat Charred Egg - Teyvat Fried Egg",
         "",
         "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
         "",
