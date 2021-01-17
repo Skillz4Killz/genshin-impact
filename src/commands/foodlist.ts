@@ -13,7 +13,7 @@ createCommand({
   execute: async function (message, args) {
 
       const first = new Embed()
-      .setTitle("Sort by Rarity")
+      .setTitle("Rarity ⭐")
       .setDescription([
         "",
         "Apple - Chicken-Mushroom Skewer - Grilled Tiger Fish - Definitely Not Bar Food! - Flash-Fried Filet - Fruity Skewers - Mondstadt Grilled Fish - Mora Meat - Outrider's Champion Steak! - Pop's Teas - Qiankun Mora Meat - Radish Veggie Soup - Steak - Stir-Fried Filet - Sunsettia - Survival Grilled Fish - - Teyvat Charred Egg Teyvat Fried Egg",
@@ -90,9 +90,9 @@ createCommand({
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
       2: { page: 2, embed: second, emoji: "2️⃣" },
-      3: { page: 3, embed: first, emoji: "3️⃣" },
-      4: { page: 4, embed: second, emoji: "4️⃣" },
-      5: { page: 5, embed: first, emoji: "5️⃣" },
+      3: { page: 3, embed: third, emoji: "3️⃣" },
+      4: { page: 4, embed: fourth, emoji: "4️⃣" },
+      5: { page: 5, embed: fifth, emoji: "5️⃣" },
     } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
 
     const page = pages[args.page];
