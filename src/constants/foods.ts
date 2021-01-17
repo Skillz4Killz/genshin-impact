@@ -30,9 +30,9 @@ export const foods = new Map([
         },
       ],
       [
-        "adeptustemptation",
+        "goldencrab",
         {
-          name: "goldencrab",
+          name: "Golden Crab",
           image: "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Golden_Crab.png/revision/latest/scale-to-width-down/247?cb=20201226191138",
           description: "A crab dish cooked in the ancient ways. The crab has been chopped into pieces and battered with flour, before being stir-fried till golden and rich with flavor. It is worthy of the word 'gold', whether in terms of appearance or quality.",
           color: "RANDOM",
