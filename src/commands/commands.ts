@@ -24,6 +24,8 @@ createCommand({
         "",
         "`p!food (food name)`\nShows info about a specific food/dish.",
         "",
+        "`p!foodlist` or `p!fl`\nShows you all available food/dishes.",
+        "",
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
