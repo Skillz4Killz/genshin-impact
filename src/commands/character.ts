@@ -59,6 +59,7 @@ createCommand({
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🌟 - Constellations",
+        "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail)
       .setImage(character.image);
@@ -72,6 +73,7 @@ createCommand({
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🌟 - Constellations",
+        "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail);
     for (const talent of character.activeTalents) {
@@ -87,6 +89,7 @@ createCommand({
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🌟 - Constellations",
+        "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail);
     for (const talent of character.passiveTalents) {
@@ -102,13 +105,13 @@ createCommand({
         "⚔️ - Skill Talents",
         "🪄 - Passive Talents",
         "🌟 - Constellations",
+        "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail);
 
       const fifth = new Embed()
-      .setTitle(character.name)
-      .setImage(character.ascensionCost)
-      .setThumbnail(character.thumbnail);
+      .setTitle(` ${character.name} ascension cost`)
+      .setImage(character.ascensionCost);
 
     const pages = {
       1: { page: 1, embed: first, emoji: "ℹ️" },
