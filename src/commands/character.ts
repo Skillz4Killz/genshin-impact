@@ -105,15 +105,17 @@ createCommand({
       ])
       .setThumbnail(character.thumbnail);
 
-    for (const constellation of character.constellations) {
-      fourth.addField(constellation.name, constellation.description);
-    }
+      const fifth = new Embed()
+      .setTitle(character.name)
+      .setImage(character.ascensionCost)
+      .setThumbnail(character.thumbnail);
 
     const pages = {
       1: { page: 1, embed: first, emoji: "ℹ️" },
-      3: { page: 3, embed: second, emoji: "⚔️" },
-      4: { page: 4, embed: third, emoji: "🪄" },
-      5: { page: 5, embed: fourth, emoji: "🌟" },
+      2: { page: 2, embed: second, emoji: "⚔️" },
+      3: { page: 3, embed: third, emoji: "🪄" },
+      4: { page: 4, embed: fourth, emoji: "🌟" },
+      5: { page: 5, embed: fifth, emoji: "🔼" },
     } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
 
     const page = pages[args.page];
@@ -125,7 +127,7 @@ createCommand({
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["ℹ️", "⚔️", "🪄", "🌟"];
+    const emojis = ["ℹ️", "⚔️", "🪄", "🌟", "🔼"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 

@@ -1,4 +1,11 @@
 export interface ClientSchema {
+  messagesSent: string;
+  messagesDeleted: string;
+  messagesEdited: string;
+  commandsRan: string;
+  reactionsAddedProcessed: string;
+  reactionsRemovedProcessed: string;
+  messagesProcessed: string;
   /** The bot id */
   id: string;
 }
