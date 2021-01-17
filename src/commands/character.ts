@@ -108,6 +108,9 @@ createCommand({
         "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail);
+      for (const constellation of character.constellations) {
+        fourth.addField(constellation.name, constellation.description);
+      }
 
       const fifth = new Embed()
       .setTitle(` ${character.name} Ascension Cost`)

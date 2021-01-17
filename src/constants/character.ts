@@ -18,7 +18,7 @@ export const characters = new Map([
       specialDish: "Slow-Cooked Bamboo Shoot Soup",
       constellation: "Lapis Dei",
       birthday: "December 31st",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/gPDl5vi.png",
       activeTalents: [
         {
           name: "Rain of Stone",
@@ -108,7 +108,7 @@ export const characters = new Map([
       specialDish: "Rockin' Riffin' Chicken!",
       constellation: "Fila Ignium",
       birthday: "October 16th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/oS6dSH5.png",
       activeTalents: [
         {
           name: "Dance of Fire",
@@ -198,7 +198,7 @@ export const characters = new Map([
       specialDish: "All-Delicacy Parcels",
       constellation: "Fabulae Textile",
       birthday: "October 9th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/kEXUzQH.png",
       activeTalents: [
         {
           name: "Guhua Style",
@@ -286,7 +286,7 @@ export const characters = new Map([
       specialDish: "Wanmin Restaurant's Boiled Fish",
       constellation: "Trulla",
       birthday: "November 2nd",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/aunDCW7.png",
       activeTalents: [
         {
           name: "Dough-Fu",
@@ -374,7 +374,7 @@ export const characters = new Map([
       specialDish: "A Buoyant Breeze",
       constellation: "Carmen Dei",
       birthday: "June 16th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/iJJTVKY.png",
       activeTalents: [
         {
           name: "Divine Marksmanship",
@@ -464,7 +464,7 @@ export const characters = new Map([
       specialDish: "Nutritious Meal (V. 593)",
       constellation: "Ampulla",
       birthday: "November 26th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/N32KTEh.png",
       activeTalents: [
         {
           name: "Wind Spirit Creation",
@@ -554,7 +554,7 @@ export const characters = new Map([
       specialDish: "Puppy-Paw Hash Brown",
       constellation: "Lupus Minor",
       birthday: "September 9th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/Cyxorfr.png",
       activeTalents: [
         {
           name: "Steel Fang",
@@ -641,7 +641,7 @@ export const characters = new Map([
       specialDish: "No Tomorrow",
       constellation: "Pristina Nola",
       birthday: "March 3rd",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/Mp97kfp.png",
       activeTalents: [
         {
           name: "Ancient Sword Art",
@@ -731,7 +731,7 @@ export const characters = new Map([
       specialDish: "Lighter-Than-Air Pancake",
       constellation: "Parma Cordis",
       birthday: "March 21st",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/oacner2.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Maid",
@@ -819,7 +819,7 @@ export const characters = new Map([
       specialDish: "Qiankun Mora Meat",
       constellation: "Opus Aqe",
       birthday: "August 26th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/I219abV.png",
       activeTalents: [
         {
           name: "Sparkling Scatter",
@@ -908,7 +908,7 @@ export const characters = new Map([
       specialDish: "Mysterious Bolognese",
       constellation: "Tempus Fugit",
       birthday: "June 9th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/6APpHWD.png",
       activeTalents: [
         {
           name: "Lightning Touch",
@@ -998,7 +998,7 @@ export const characters = new Map([
       specialDish: "Fish-Flavored Toast",
       constellation: "Trifolium",
       birthday: "July 27th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/lOIoolh.png",
       activeTalents: [
         {
           name: "Kaboom!",
@@ -1088,7 +1088,7 @@ export const characters = new Map([
       specialDish: "Survival Grilled Fish",
       constellation: "Trulla Cementarii",
       birthday: "November 20th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/y74uJOU.png",
       activeTalents: [
         {
           name: "Yunlai Swordsmanship",
@@ -1178,7 +1178,7 @@ export const characters = new Map([
       specialDish: "Fruity Skewers",
       constellation: "Pavo Ocellus",
       birthday: "November 30th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/yzRUth0.png",
       activeTalents: [
         {
           name: "Ceremonial Bladework",
@@ -1267,7 +1267,7 @@ export const characters = new Map([
       specialDish: "Invigorating Pizza",
       constellation: "Leo Minor",
       birthday: "March 14th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/UAaZHxJ.png",
       activeTalents: [
         {
           name: "Favonius Bladework",
@@ -1357,7 +1357,7 @@ export const characters = new Map([
       specialDish: "Prosperous Peace",
       constellation: "Sinae Unicornis",
       birthday: "December 2nd",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/Kr4Qtxl.png",
       activeTalents: [
         {
           name: "Liutian Archery",
@@ -1446,7 +1446,7 @@ export const characters = new Map([
       specialDish: "Die Heilige Sinfonie",
       constellation: "Corvus",
       birthday: "May 27th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/GJpU7Va.png",
       activeTalents: [
         {
           name: "Bolts of Downfall",
@@ -1536,7 +1536,7 @@ export const characters = new Map([
       specialDish: "Once Upon a Time in Mondstadt",
       constellation: "Noctua",
       birthday: "April 30th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/NtpJStj.png",
       activeTalents: [
         {
           name: "Tempered Sword",
@@ -1626,7 +1626,7 @@ export const characters = new Map([
       specialDish: "Cold Noodles with Mountain Delicacies",
       constellation: "Nubis Caesor",
       birthday: "September 7th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/Mitihlt.png",
       activeTalents: [
         {
           name: "Demonbane",
@@ -1696,9 +1696,9 @@ export const characters = new Map([
     },
   ],
   [
-    "childe",
+    "tartaglia",
     {
-      name: "Childe",
+      name: "Tartaglia",
       description:
         "No. 11 of The Harbingers, also known as 'Childe.' His name is highly feared on the battlefield.",
       thumbnail:
@@ -1716,7 +1716,7 @@ export const characters = new Map([
       specialDish: "A Prize Catch",
       constellation: "Monoceros Caeli",
       birthday: "July 20th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/kEXUzQH.png",
       activeTalents: [
         {
           name: "Cutting Torrent",
@@ -1804,7 +1804,7 @@ export const characters = new Map([
       specialDish: "Teyvat Charred Egg",
       constellation: "Rota Calamitas",
       birthday: "February 29th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/N4TySHC.png",
       activeTalents: [
         {
           name: "Strike of Fortune",
@@ -1893,7 +1893,7 @@ export const characters = new Map([
       specialDish: "Flash-Fried Filet",
       constellation: "Victor Mare",
       birthday: "February 14th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/pu1eQr2.png",
       activeTalents: [
         {
           name: "Oceanborne",
@@ -1983,7 +1983,7 @@ export const characters = new Map([
       specialDish: "Spicy Stew",
       constellation: "Crater",
       birthday: "July 5th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/NlHGc0P.png",
       activeTalents: [
         {
           name: "Whisper of Water",
@@ -2072,7 +2072,7 @@ export const characters = new Map([
       specialDish: "Outrider's Champion Steak!",
       constellation: "Lepus",
       birthday: "August 10th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/QbFwe03.png",
       activeTalents: [
         {
           name: "Sharpshooter",
@@ -2252,7 +2252,7 @@ export const characters = new Map([
       specialDish: "Der Weisheit Letzter Schluss (Life)",
       constellation: "Astrolabos",
       birthday: "August 31st",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/lwLnu7B.png",
       activeTalents: [
         {
           name: "Ripple of Fate",
@@ -2342,7 +2342,7 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/5rYBKgh.png",
       activeTalents: [
         {
           name: "Foreign Rockblade",
@@ -2426,7 +2426,7 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/4mDYLVA.png",
       activeTalents: [
         {
           name: "Foreign Ironwind",
@@ -2508,7 +2508,7 @@ export const characters = new Map([
       specialDish: "Definitely Not Bar Food!",
       constellation: "Feles",
       birthday: "January 18th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/iH3HmCm.png",
       activeTalents: [
         {
           name: "Kätzlein Style",
