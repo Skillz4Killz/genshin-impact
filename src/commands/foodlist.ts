@@ -1,0 +1,91 @@
+import { botCache, Message } from "../../deps.ts";
+import { needReaction } from "../utils/collectors.ts";
+import { Embed } from "../utils/Embed.ts";
+import { createCommand } from "../utils/helpers.ts";
+
+createCommand({
+  name: "weapontype",
+  aliases: ["wt"],
+  arguments: [
+    { name: "page", type: "number", defaultValue: 1 },
+  ],
+  guildOnly: true,
+  execute: async function (message, args) {
+
+      const first = new Embed()
+      .setTitle("Sort by Rarity")
+      .setDescription([
+        "⭐",
+        "Apple - Chicken-Mushroom Skewer - Grilled Tiger Fish - Definitely Not Bar Food! - Flash-Fried Filet - Fruity Skewers - Mondstadt Grilled Fish - Mora Meat - Outrider's Champion Steak! - Pop's Teas - Qiankun Mora Meat - Radish Veggie Soup - Steak - Stir-Fried Filet - Sunsettia - Survival Grilled Fish - - Teyvat Charred Egg Teyvat Fried Egg",
+        "",
+        "⭐⭐",
+        "Almond Tofu - All-Delicacy Parcels	 - Apple Cider - Berry & Mint Burst - Cold Noodles with Mountain Delicacies - Cream Stew - Crystal Shrimp - Der Weisheit Letzter Schluss (Life) - Fish-Flavored Toast - Fisherman's Toast - Flaming Red Bolognese - Fried Radish Balls - Goulash - Jewelry Soup - Jueyun Chili Chicken - Lighter-Than-Air Pancake - Lotus Seed and Bird Egg Soup - Matsutake Meat Rolls - Mysterious Bolognese - Noodles with Mountain Delicacies - Rockin' Riffin' Chicken! - Northern Smoked Chicken - Satisfying Salad - Spicy Stew - Sweet Madame - Tea Break Pancake - Wolfhook Juice",
+        "",
+        "⭐⭐⭐",
+        "A Buoyant Breeze - A Prize Catch - Adventurer's Breakfast Sandwich - Bamboo Shoot Soup - Barbatos Ratatouille - Black-Back Perch Stew - Calla Lily Seafood Soup - Cold Cut Platter - Come and Get It - Crab, Ham & Veggie Bake - Die Heilige Sinfonie - Golden Shrimp Balls - Holy Water - Invigorating Pizza - Jueyun Guoba - Lotus Flower Crisp - Mondstadt Hash Brown - Mushroom Pizza - No Tomorrow - Northern Apple Stew - Nutritious Meal (V. 593) - Once Upon a Time in Mondstadt - Pile 'Em Up - Prosperous Peace - Puppy-Paw Hash Brown - Qingce Stir Fry - Sautéed Matsutake - Slow-Cooked Bamboo Shoot Soup - Squirrel Fish - Sticky Honey Roast - Sunshine Sprat - Triple-Layered Consommé - Universal Peace - Wanmin Restaurant's Boiled Fish - Woodland Dream - Zhongyuan Chop Suey",
+        "",
+        "⭐⭐⭐⭐",
+        "Golden Crab - Jade Parcels - Moon Pie - Tianshu Meat",
+        "",
+        "⭐⭐⭐⭐⭐",
+        "Adeptus' Temptation",
+        "",
+        "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
+        "",
+        `1️⃣ Rarity`,
+        `2️⃣ Rype`,
+      ])
+
+    const second = new Embed()
+      .setTitle("Sort by Type")
+      .setDescription([
+        "**Adventurer**",
+        "A Buoyant Breeze - Barbatos Ratatouille - Cold Noodles with Mountain Delicacies - Cream Stew - Goulash  -Lotus Seed and Bird Egg Soup - Noodles with Mountain Delicacies - Northern Smoked Chicken - Spicy Stew - Sticky Honey Roast - Zhongyuan Chop Suey",
+        "",
+        "**Guardian**",
+        "All-Delicacy Parcels - Apple Cider - Apple - Bamboo Shoot Soup - Black-Back Perch Stew - Chicken-Mushroom Skewer - Crab, Ham & Veggie Bake - Crystal Shrimp - Definitely Not Bar Food! - Flaming Red Bolognese - Flash-Fried Filet - Fruity Skewers - Golden Shrimp Balls - Grilled Tiger Fish - Holy Water - Invigorating Pizza - Lighter-Than-Air Pancake - Matsutake Meat Rolls - Mondstadt Grilled Fish - Mondstadt Hash Brown - Mora Meat - Mushroom Pizza - Mysterious Bolognese - Northern Apple Stew - Nutritious Meal (V. 593) - Outrider's Champion Steak! - Pop's Teas - Prosperous Peace - Puppy-Paw Hash Brown - Qiankun Mora Meat - Radish Veggie Soup - Slow-Cooked Bamboo Shoot Soup - Squirrel Fish - Steak - Stir-Fried Filet - Sunsettia - Survival Grilled Fish - Sweet Madame - Tea Break Pancake - Teyvat Charred Egg - Teyvat Fried Egg - Universal Peace - Wanmin Restaurant's Boiled Fish",
+        "",
+        "**Sage**",
+        "A Prize Catch - Calla Lily Seafood Soup - Fish-Flavored Toast - Fisherman's Toast - Golden Crab - Jewelry Soup - Lotus Flower Crisp - Moon Pie - Sunshine Sprat - Triple-Layered Consommé",
+        "",
+        "**Warrior**",
+        "Der Weisheit Letzter Schluss (Life) - Die Heilige Sinfonie - Pile 'Em Up - Adeptus' Temptation - Adventurer's Breakfast Sandwich - Almond Tofu - Berry & Mint Burst - Cold Cut Platter - Come and Get It - Fried Radish Balls - Jade Parcels - Jueyun Chili Chicken - Jueyun Guoba - No Tomorrow - Once Upon a Time in Mondstadt - Qingce Stir Fry - Satisfying Salad - Sautéed Matsutake - Tianshu Meat - Woodland Dream - Wolfhook Juice",
+        "",
+        "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
+        "",
+        `1️⃣ Rarity`,
+        `2️⃣ Rype`,
+      ])
+
+    const pages = {
+      1: { page: 1, embed: first, emoji: "1️⃣" },
+      2: { page: 2, embed: second, emoji: "2️⃣" },
+    } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
+
+    const page = pages[args.page];
+    if (!page) return;
+
+    // SEND FIRST EMBED
+    const response = args.msg
+      ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
+      : await message.reply({ embed: page.embed }).catch(console.log);
+    if (!response) return;
+
+    const emojis = ["1️⃣", "2️⃣"];
+    // ADD THE REACTIONS
+    if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
+
+    // HANDLE PAGINATION
+    const reaction = await needReaction(message.author.id, response.id, {
+      filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
+    }).catch(console.log);
+    if (!reaction) return;
+
+    const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
+    if (!selectedPage) return;
+
+    return botCache.commands
+    .get("foodlist")
+    ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+},
+});
