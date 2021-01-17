@@ -4,8 +4,8 @@ import { Embed } from "../utils/Embed.ts";
 import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
-  name: "weapontype",
-  aliases: ["wt"],
+  name: "foodlist",
+  aliases: ["fl"],
   arguments: [
     { name: "page", type: "number", defaultValue: 1 },
   ],
