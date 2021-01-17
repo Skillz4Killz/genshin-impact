@@ -110,7 +110,7 @@ createCommand({
       .setThumbnail(character.thumbnail);
 
       const fifth = new Embed()
-      .setTitle(` ${character.name} ascension cost`)
+      .setTitle(` ${character.name} Ascension Cost`)
       .setImage(character.ascensionCost);
 
     const pages = {

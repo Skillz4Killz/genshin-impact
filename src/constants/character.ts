@@ -2162,7 +2162,7 @@ export const characters = new Map([
       specialDish: "Woodland Dream",
       constellation: "Princeps Cretaceus",
       birthday: "September 13th",
-      ascensionCost: "https://i.imgur.com/IEozhtv.png",
+      ascensionCost: "https://i.imgur.com/YPC45mo.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Weiss",
