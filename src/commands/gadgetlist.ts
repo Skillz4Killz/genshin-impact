@@ -1,5 +1,5 @@
 import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
   name: "gadgetlist",
@@ -8,7 +8,7 @@ createCommand({
     { name: "page", type: "number", defaultValue: 1 },
   ],
   guildOnly: true,
-  execute: function (message) {
+  execute: async function (message, args) {
 
     const embed = new Embed()
       .setTitle("Gadgetlist")
@@ -22,5 +22,6 @@ createCommand({
         "If you want to search for gadget infos, type `p!gadget (name)`\nThe gadgetname has to be lower case and without spacing. For example `p!gadget windcatcher`",
       ])
 
+      await sendEmbed(message.channelID, embed).catch(console.log);
 },
 });
