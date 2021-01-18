@@ -16,7 +16,7 @@ createCommand({
       .setTitle("Rarity ⭐")
       .setDescription([
         "",
-        "Apple - Chicken-Mushroom Skewer - Grilled Tiger Fish - Definitely Not Bar Food! - Flash-Fried Filet - Fruity Skewers - Mondstadt Grilled Fish - Mora Meat - Outrider's Champion Steak! - Pop's Teas - Qiankun Mora Meat - Radish Veggie Soup - Steak - Stir-Fried Filet - Sunsettia - Survival Grilled Fish - Teyvat Charred Egg - Teyvat Fried Egg",
+        "Apple 🔸 Chicken-Mushroom Skewer 🔸 Grilled Tiger Fish 🔸 Definitely Not Bar Food! 🔸 Flash-Fried Filet 🔸 Fruity Skewers 🔸 Mondstadt Grilled Fish 🔸 Mora Meat 🔸 Outrider's Champion Steak! 🔸 Pop's Teas 🔸 Qiankun Mora Meat 🔸 Radish Veggie Soup 🔸 Steak 🔸 Stir-Fried Filet 🔸 Sunsettia 🔸 Survival Grilled Fish 🔸 Teyvat Charred Egg 🔸 Teyvat Fried Egg",
         "",
         "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
         "",
@@ -31,7 +31,7 @@ createCommand({
       .setTitle("Rarity ⭐⭐")
       .setDescription([
         "",
-        "Almond Tofu - All-Delicacy Parcels	 - Apple Cider - Berry & Mint Burst - Cold Noodles with Mountain Delicacies - Cream Stew - Crystal Shrimp - Der Weisheit Letzter Schluss (Life) - Fish-Flavored Toast - Fisherman's Toast - Flaming Red Bolognese - Fried Radish Balls - Goulash - Jewelry Soup - Jueyun Chili Chicken - Lighter-Than-Air Pancake - Lotus Seed and Bird Egg Soup - Matsutake Meat Rolls - Mysterious Bolognese - Noodles with Mountain Delicacies - Rockin' Riffin' Chicken! - Northern Smoked Chicken - Satisfying Salad - Spicy Stew - Sweet Madame - Tea Break Pancake - Wolfhook Juice",
+        "Almond Tofu 🔸 All-Delicacy Parcels 🔸 Apple Cider 🔸 Berry & Mint Burst 🔸 Cold Noodles with Mountain Delicacies 🔸 Cream Stew 🔸 Crystal Shrimp 🔸 Der Weisheit Letzter Schluss (Life) 🔸 Fish-Flavored Toast 🔸 Fisherman's Toast 🔸 Flaming Red Bolognese 🔸 Fried Radish Balls 🔸 Goulash 🔸 Jewelry Soup 🔸 Jueyun Chili Chicken 🔸 Lighter-Than-Air Pancake 🔸 Lotus Seed and Bird Egg Soup 🔸 Matsutake Meat Rolls 🔸 Mysterious Bolognese 🔸 Noodles with Mountain Delicacies 🔸 Rockin' Riffin' Chicken! 🔸 Northern Smoked Chicken 🔸 Satisfying Salad 🔸 Spicy Stew 🔸 Sweet Madame 🔸 Tea Break Pancake 🔸 Wolfhook Juice",
         "",
         "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
         "",
@@ -46,7 +46,7 @@ createCommand({
       .setTitle("Rarity ⭐⭐⭐")
       .setDescription([
         "",
-        "A Buoyant Breeze - A Prize Catch - Adventurer's Breakfast Sandwich - Bamboo Shoot Soup - Barbatos Ratatouille - Black-Back Perch Stew - Calla Lily Seafood Soup - Cold Cut Platter - Come and Get It - Crab, Ham & Veggie Bake - Die Heilige Sinfonie - Golden Shrimp Balls - Holy Water - Invigorating Pizza - Jueyun Guoba - Lotus Flower Crisp - Mondstadt Hash Brown - Mushroom Pizza - No Tomorrow - Northern Apple Stew - Nutritious Meal (V. 593) - Once Upon a Time in Mondstadt - Pile 'Em Up - Prosperous Peace - Puppy-Paw Hash Brown - Qingce Stir Fry - Sautéed Matsutake - Slow-Cooked Bamboo Shoot Soup - Squirrel Fish - Sticky Honey Roast - Sunshine Sprat - Triple-Layered Consommé - Universal Peace - Wanmin Restaurant's Boiled Fish - Woodland Dream - Zhongyuan Chop Suey",
+        "A Buoyant Breeze 🔸 A Prize Catch 🔸 Adventurer's Breakfast Sandwich 🔸 Bamboo Shoot Soup 🔸 Barbatos Ratatouille 🔸 Black-Back Perch Stew 🔸 Calla Lily Seafood Soup 🔸 Cold Cut Platter 🔸 Come and Get It 🔸 Crab, Ham & Veggie Bake 🔸 Die Heilige Sinfonie 🔸 Golden Shrimp Balls 🔸 Holy Water 🔸 Invigorating Pizza 🔸 Jueyun Guoba 🔸 Lotus Flower Crisp 🔸 Mondstadt Hash Brown 🔸 Mushroom Pizza 🔸 No Tomorrow 🔸 Northern Apple Stew 🔸 Nutritious Meal (V. 593) 🔸 Once Upon a Time in Mondstadt 🔸 Pile 'Em Up 🔸 Prosperous Peace 🔸 Puppy-Paw Hash Brown 🔸 Qingce Stir Fry 🔸 Sautéed Matsutake 🔸 Slow-Cooked Bamboo Shoot Soup 🔸 Squirrel Fish 🔸 Sticky Honey Roast 🔸 Sunshine Sprat 🔸 Triple-Layered Consommé 🔸 Universal Peace 🔸 Wanmin Restaurant's Boiled Fish 🔸 Woodland Dream 🔸 Zhongyuan Chop Suey",
         "",
         "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
         "",
@@ -61,7 +61,7 @@ createCommand({
       .setTitle("Rarity ⭐⭐⭐⭐")
       .setDescription([
         "",
-        "Golden Crab - Jade Parcels - Moon Pie - Tianshu Meat",
+        "Golden Crab 🔸 Jade Parcels 🔸 Moon Pie 🔸 Tianshu Meat",
         "",
         "If you want to search for food/dish infos, type `p!food (name)`\nThe foodname has to be lower case and without spacing. For example `p!food grilledtigerfish`",
         "",
