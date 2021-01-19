@@ -14,10 +14,10 @@ createCommand({
       .setTitle("Gadgetlist")
       .setDescription([
         `⭐⭐⭐`,
-        "Geoculus Resonance Stone 🔸 Anemoculus Resonance Stone 🔸 Adepti Seeker's Stove 🔸 Warming Bottle",
+        "Geoculus Resonance Stone 🔹 Anemoculus Resonance Stone 🔹 Adepti Seeker's Stove 🔹 Warming Bottle",
         "",
         `⭐⭐⭐⭐`,
-        "Condensed Resin 🔸 Wind Catcher 🔸 NRE (Menu 30) 🔸 Geo Treasure Compass 🔸 Anemo Treasure Compass 🔸 Portable Waypoint 🔸 Kamera 🔸 Mini Seelie: Curcuma 🔸 Mini Seelie: Dayflower 🔸 Mini Seelie: Rosé 🔸 Treasure-Seeking Seelie",
+        "Condensed Resin 🔹 Wind Catcher 🔹 NRE (Menu 30) 🔹 Geo Treasure Compass 🔹 Anemo Treasure Compass 🔹 Portable Waypoint 🔹 Kamera 🔹 Mini Seelie: Curcuma 🔹 Mini Seelie: Dayflower 🔹 Mini Seelie: Rosé 🔹 Treasure-Seeking Seelie",
         "",
         "If you want to search for gadget infos, type `p!gadget (name)`\nThe gadget name has to be lower case and without spacing. For example `p!gadget windcatcher`",
       ])
