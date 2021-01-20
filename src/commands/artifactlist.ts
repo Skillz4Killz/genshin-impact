@@ -24,6 +24,6 @@ createCommand({
         "If you want to search for artifact infos, type `p!artifact (name)`\nThe artifact name has to be lower case and without spacing. For example `p!artifact defenderswill`",
       ])
 
-      await message.reply(message.channelID).catch(console.log);
+      await sendEmbed(message.channelID, embed).catch(console.log);
 },
 });
