@@ -2,7 +2,6 @@ import { botCache } from "../../deps.ts";
 import { translate } from "../utils/i18next.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand, sendEmbed } from "../utils/helpers.ts";
-import { sendMessage } from "https://deno.land/x/discordeno@10.0.2/src/api/handlers/channel.ts";
 
 createCommand({
   name: `help`,

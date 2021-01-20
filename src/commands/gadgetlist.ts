@@ -1,3 +1,4 @@
+import { botCache } from "../../deps.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand, sendEmbed } from "../utils/helpers.ts";
 
@@ -23,5 +24,6 @@ createCommand({
       ])
 
       await sendEmbed(message.channelID, embed).catch(console.log);
+
 },
 });
