@@ -1572,7 +1572,7 @@ export const weapons = new Map([
     },
   ],
   [
-    "Amos Bow",
+    "amosbow",
     {
       name: "Amos' Bow",
       description: "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires the more.",
