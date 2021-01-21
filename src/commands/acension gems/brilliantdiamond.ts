@@ -18,6 +18,7 @@ createCommand({
         "**Brilliant Diamonds** are gemstones of varying quality used in the ascension of characters.\n\nBrilliant Diamonds are used exclusively by the Traveler.\n\nCan be obtained at the Adventure Guild for leveling up.",
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742")
+      .setFooter("Page 1/5")
 
     const secondEmbed = new Embed()
       .setTitle("Brilliant Diamond Sliver")
@@ -34,6 +35,7 @@ createCommand({
       ])
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Brilliant_Diamond_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106075046")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Brilliant_Diamond_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106075046")
+      .setFooter("Page 2/5")
 
       const thirdEmbed = new Embed()
       .setTitle("Brilliant Diamond Fragment")
@@ -50,6 +52,7 @@ createCommand({
       ])
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Brilliant_Diamond_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074737")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Brilliant_Diamond_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074737")
+      .setFooter("Page 3/5")
 
       const fourthEmbed = new Embed()
       .setTitle("Brilliant Diamond Chunk")
@@ -66,6 +69,7 @@ createCommand({
       ])
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Brilliant_Diamond_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106075044")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Brilliant_Diamond_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106075044")
+      .setFooter("Page 4/5")
 
       const fifthEmbed = new Embed()
       .setTitle("Brilliant Diamond Gemstone")
@@ -82,6 +86,7 @@ createCommand({
       ])
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742")
+      .setFooter("Page 5/5")
 
       createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },
