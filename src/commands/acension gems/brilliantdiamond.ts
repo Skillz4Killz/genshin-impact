@@ -17,6 +17,7 @@ createCommand({
       .setDescription([
         "Brilliant Diamonds are gemstones of varying quality used in the ascension of characters.\n\nBrilliant Diamonds are used exclusively by the Traveler.\n\nCan be obtained at the Adventure Guild for leveling up.",
       ])
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742")
 
     const secondEmbed = new Embed()
       .setTitle("Brilliant Diamond Sliver")
@@ -26,7 +27,7 @@ createCommand({
         "**Item type:** Character Ascension Material",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\n1.) Adventure Rank 15 Reward (1x)",
+        "**Source:**\nAdventure Rank 15 Reward (1x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
@@ -41,7 +42,7 @@ createCommand({
         "**Item type:** Character Ascension Material",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\n1.) Adventure Rank 25 Reward (3x)\nAdventure Rank 26 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 30 Reward (2x)",
+        "**Source:**\nAdventure Rank 25 Reward (3x)\nAdventure Rank 26 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 30 Reward (2x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
@@ -55,7 +56,7 @@ createCommand({
         "**Item type:** Character Ascension Material",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\n1.) Adventure Rank 35 Reward (3x)\nAdventure Rank 38 Reward (3x)\nAdventure Rank 40 Reward (3x)",
+        "**Source:**\nAdventure Rank 35 Reward (3x)\nAdventure Rank 38 Reward (3x)\nAdventure Rank 40 Reward (3x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
@@ -69,7 +70,7 @@ createCommand({
         "**Item type:** Character Ascension Material",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\n1.) Adventure Rank 41 Reward (2x)\nAdventure Rank 42 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 45 Reward (2x)",
+        "**Source:**\nAdventure Rank 41 Reward (2x)\nAdventure Rank 42 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 45 Reward (2x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
