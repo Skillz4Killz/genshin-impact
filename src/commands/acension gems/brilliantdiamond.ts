@@ -13,30 +13,70 @@ createCommand({
   execute: async function (message) {
 
       const firstEmbed = new Embed()
-      .setTitle("Rarity ⭐⭐")
+      .setTitle("Brilliant Diamond")
       .setDescription([
-        "1",
+        "Brilliant Diamonds are gemstones of varying quality used in the ascension of characters.\n\nBrilliant Diamonds are used exclusively by the Traveler.\n\nCan be obtained at the Adventure Guild for leveling up.",
       ])
 
     const secondEmbed = new Embed()
-      .setTitle("Rarity ⭐⭐⭐")
+      .setTitle("Brilliant Diamond Sliver")
       .setDescription([
-        "2",
+        "**Rarity:** ⭐⭐",
+        "",
+        "**Item type:** Character Ascension Material",
+        "**Description:** Welcome to this world.",
+        "",
+        "**Source:** 1.) Adventure Rank 15 Reward (x1)",
+        "",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
+      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Brilliant_Diamond_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106075046")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Brilliant_Diamond_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106075046")
 
       const thirdEmbed = new Embed()
-      .setTitle("Rarity ⭐⭐⭐⭐")
+      .setTitle("Brilliant Diamond Fragment")
       .setDescription([
-        "3",
+        "**Rarity:** ⭐⭐⭐",
+        "",
+        "**Item type:** Character Ascension Material",
+        "**Description:** Welcome to this world.",
+        "",
+        "**Source:**\n1.) Adventure Rank 25 Reward (3x)\nAdventure Rank 26 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 30 Reward (2x)",
+        "",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
+      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Brilliant_Diamond_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074737")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Brilliant_Diamond_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074737")
 
       const fourthEmbed = new Embed()
-      .setTitle("Rarity ⭐⭐⭐⭐⭐")
+      .setTitle("Brilliant Diamond Chunk")
       .setDescription([
-        "4",
+        "**Rarity:** ⭐⭐⭐⭐",
+        "**Item type:** Character Ascension Material",
+        "**Description:** Welcome to this world.",
+        "",
+        "**Source:**\n1.) Adventure Rank 35 Reward (3x)\nAdventure Rank 38 Reward (3x)\nAdventure Rank 40 Reward (3x)",
+        "",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
+      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Brilliant_Diamond_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106075044")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Brilliant_Diamond_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106075044")
 
-      createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed])
+      const fifthEmbed = new Embed()
+      .setTitle("Brilliant Diamond Gemstone")
+      .setDescription([
+        "**Rarity:** ⭐⭐⭐⭐⭐",
+        "**Item type:** Character Ascension Material",
+        "**Description:** Welcome to this world.",
+        "",
+        "**Source:**\n1.) Adventure Rank 41 Reward (2x)\nAdventure Rank 42 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 45 Reward (2x)",
+        "",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
+      ])
+      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742")
+
+      createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },
 });
 
