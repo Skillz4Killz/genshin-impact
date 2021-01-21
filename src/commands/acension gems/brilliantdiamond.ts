@@ -26,7 +26,7 @@ createCommand({
         "**Item type:** Character Ascension Material",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:** 1.) Adventure Rank 15 Reward (x1)",
+        "**Source:**\n1.) Adventure Rank 15 Reward (1x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\nTraveler\n\n\nNone of the released weapons use Brilliant Diamond Sliver for ascensions.",
       ])
