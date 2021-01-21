@@ -5,7 +5,7 @@ import { createCommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createCommand({
   name: "vayudaturquoise",
-  aliases: ["vt", "vayuta"],
+  aliases: ["vt", "vayuda"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
