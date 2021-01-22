@@ -1,10 +1,10 @@
 import { addReactions, Message, removeUserReaction } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
-import { createCommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
+import { createCommand, createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
-createCommand({
-  name: "brilliantdiamond",
+createSubcommand("info", {
+    name: "brilliantdiamond",
   aliases: ["bd", "diamond"],
   arguments: [
     { name: "page", defaultValue: 1 },
