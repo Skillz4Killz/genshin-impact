@@ -5,12 +5,12 @@ import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
     name: "materiallist",
-    aliases: ["materials"],
+    aliases: ["ml"],
     arguments: [
-        { name: "page", type: "number", defaultValue: 1 },
-      ],
-  guildOnly: true,
-  execute: async function (message, args) {
+      { name: "page", type: "number", defaultValue: 1 },
+    ],
+    guildOnly: true,
+    execute: async function (message, args) {
     
     const zero = new Embed()
     .setTitle("Overview")
