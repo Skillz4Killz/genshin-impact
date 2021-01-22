@@ -186,7 +186,5 @@ createCommand({
   
       const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
       if (!selectedPage) return;
-  
-      return Embed
   },
   });
