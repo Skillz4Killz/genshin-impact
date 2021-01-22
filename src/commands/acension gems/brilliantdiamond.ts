@@ -1,7 +1,7 @@
 import { addReactions, Message, removeUserReaction } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
-import { createCommand, createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
+import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("info", {
     name: "brilliantdiamond",

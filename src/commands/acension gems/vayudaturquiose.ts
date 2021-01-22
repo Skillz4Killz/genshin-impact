@@ -1,9 +1,9 @@
 import { addReactions, Message, removeUserReaction } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
-import { createCommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
+import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
-createCommand({
+createSubcommand("info", {
   name: "vayudaturquoise",
   aliases: ["vt", "vayuda"],
   arguments: [
@@ -24,6 +24,8 @@ createCommand({
       .setTitle("Brilliant Diamond Sliver")
       .setDescription([
         "**Rarity:** ⭐⭐",
+        "",
+        "**Element:** <:Anemo:798483595781341194> Anemo",
         "",
         "**Item type:** Character Ascension Material",
         "",
