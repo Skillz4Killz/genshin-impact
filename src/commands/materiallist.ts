@@ -6,6 +6,9 @@ import { createCommand } from "../utils/helpers.ts";
 createCommand({
     name: "materiallist",
     aliases: ["materials"],
+    arguments: [
+        { name: "page", type: "number", defaultValue: 0 },
+      ],
   guildOnly: true,
   execute: async function (message, args) {
     
