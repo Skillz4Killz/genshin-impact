@@ -1,7 +1,7 @@
 import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
-    name: "material",
-    arguments: [{ name: "subcommand", type: "subcommand" }]
-
+  name: "test",
+  arguments: [{ name: "subcommand", type: "subcommand" }]
+  
 })
