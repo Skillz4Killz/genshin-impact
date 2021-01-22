@@ -4,8 +4,8 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "vayudaturquoise",
-  aliases: ["vt", "vayuda"],
+  name: "shivadajade",
+  aliases: ["sv", "shivada"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
@@ -13,7 +13,7 @@ createSubcommand("material", {
   execute: async function (message) {
 
       const firstEmbed = new Embed()
-      .setTitle("Vayuda Turquoise")
+      .setTitle("Shivada Jade")
       .setDescription([
         "**Vayuda Turquoise** are gemstones of varying quality used in the ascension of characters.\n\n**Vayuda Turquoise** is associated with the Anemo element.\n\nCan be obtained from the Anemo Hypostasis, Souvenir Shop and Alchemy.\n\n**Element:** <:Anemo:798483595781341194> Anemo",
       ])
