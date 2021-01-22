@@ -1,7 +1,7 @@
-import { botCache, Message } from "../../deps.ts";
+import { addReactions, botCache, Message, removeUserReaction } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { createCommand, editEmbed, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
     name: "materiallist",
@@ -155,43 +155,71 @@ createCommand({
       `0️⃣ Overview`, 
     ])
 
-  const pages = {
-    1: { page: 1, embed: zero, emoji: "1️⃣" },
-    2: { page: 2, embed: first, emoji: "2️⃣" },
-    3: { page: 3, embed: second, emoji: "3️⃣" },
-    4: { page: 4, embed: third, emoji: "4️⃣" },
-    5: { page: 5, embed: fourth, emoji: "5️⃣" },
-    6: { page: 6, embed: fifth, emoji: "6️⃣" },
-    7: { page: 7, embed: sixth, emoji: "7️⃣" },
-    8: { page: 8, embed: seventh, emoji: "8️⃣" },
-    9: { page: 9, embed: eighth, emoji: "9️⃣" },
-} as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
-
-const page = pages[args.page];
-if (!page) return;
-
-// SEND FIRST EMBED
-const response = args.msg
-  ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
-  : await message.reply({ embed: page.embed }).catch(console.log);
-if (!response) return;
-
-const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣"];
-// ADD THE REACTIONS
-if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
-
-// HANDLE PAGINATION
-const reaction = await needReaction(message.author.id, response.id, {
-  filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
-}).catch(console.log);
-if (!reaction) return;
-
-const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
-if (!selectedPage) return;
-
-return botCache.commands
-.get("materials")
-?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
-
+    createPagination(message, [zero,first,second,third,fourth,fifth,sixth,seventh,eighth])
 },
 });
+
+export async function createPagination(message: Message, embeds: Embed[], page = 1 ): Promise<void> {
+    if (embeds.length === 0)
+        return;
+
+    const {channelID, author} = message;
+
+    let currentPage: number = page - 1;
+
+    let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
+
+    if (!embedMessage)
+        return;
+
+    if (embeds.length <= 1)
+        return;
+
+    try {
+        addReactions(
+            embedMessage.channelID,
+            embedMessage.id,
+            ['⏮️','◀️','▶️','⏭️'],
+            true
+        )
+    } catch (e) {
+        console.error(e);
+        return;
+    }
+
+    while(true) {
+        if (!embedMessage)
+            return;
+        const reaction = await needReaction(author.id, embedMessage.id);
+
+        if (!reaction)
+            return;
+
+        if(!(removeUserReaction(message.channelID, embedMessage.id, reaction, message.author.id).catch(console.error)))
+            return;
+
+        if (reaction === '◀️') {
+            currentPage--;
+        } else if (reaction === '▶️') {
+            currentPage++;
+        } else if (reaction === '⏮️') {
+            currentPage = 0;
+        } else if (reaction === '⏭️') {
+            currentPage = embeds.length - 1;
+        } else {
+            continue;
+        }
+
+        if (currentPage < 0)
+            currentPage = 0;
+
+        if (currentPage > embeds.length - 1)
+            currentPage = embeds.length - 1;
+
+        if (!embedMessage)
+            return;
+
+        if(!(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error)))
+            return;
+    }
+}
