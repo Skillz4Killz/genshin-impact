@@ -162,7 +162,7 @@ createCommand({
         6: { page: 6, embed: sixth, emoji: "6️⃣" },
         7: { page: 7, embed: seventh, emoji: "7️⃣" },
         8: { page: 8, embed: eighth, emoji: "8️⃣" },
-        9: { page: 9, embed: eighth, emoji: "9️⃣" },
+        9: { page: 9, embed: nineth, emoji: "9️⃣" },
       } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
   
       const page = pages[args.page];
