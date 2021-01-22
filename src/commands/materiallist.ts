@@ -1,7 +1,7 @@
-import { addReactions, botCache, Message, removeUserReaction } from "../../deps.ts";
+import { Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, editEmbed, sendEmbed } from "../utils/helpers.ts";
+import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
     name: "materiallist",
