@@ -7,7 +7,7 @@ createCommand({
     name: "materiallist",
     aliases: ["materials"],
     arguments: [
-        { name: "page", type: "number", defaultValue: 0 },
+        { name: "page", type: "number", defaultValue: 1 },
       ],
   guildOnly: true,
   execute: async function (message, args) {
@@ -15,15 +15,15 @@ createCommand({
     const zero = new Embed()
     .setTitle("Overview")
     .setDescription([
-      `0️⃣ Overview`,
-      `1️⃣ Character EXP Material‎s`,
-      `2️⃣ Character Ascension Materials`,
-      `3️⃣ Talent Level-Up Materials`,
-      `4️⃣ Weapon Enhancement Material‎s`,
-      `5️⃣ Weapon Ascension Materials`,
-      `6️⃣ Forging Materials`,
-      `7️⃣ Local Specialty`,
-      `8️⃣ Cooking Ingredients`,
+      `1️⃣ Overview`,
+      `2️⃣ Character EXP Material‎s`,
+      `3️⃣ Character Ascension Materials`,
+      `4️⃣ Talent Level-Up Materials`,
+      `5️⃣ Weapon Enhancement Material‎s`,
+      `6️⃣ Weapon Ascension Materials`,
+      `7️⃣ Forging Materials`,
+      `8️⃣ Local Specialty`,
+      `9️⃣ Cooking Ingredients`,
     ])
 
     const first = new Embed()
@@ -156,41 +156,42 @@ createCommand({
     ])
 
   const pages = {
-    0: { page: 0, embed: zero, emoji: "0️⃣" },
-    1: { page: 1, embed: first, emoji: "1️⃣" },
-    2: { page: 2, embed: second, emoji: "2️⃣" },
-    3: { page: 3, embed: third, emoji: "3️⃣" },
-    4: { page: 4, embed: fourth, emoji: "4️⃣" },
-    5: { page: 5, embed: fifth, emoji: "5️⃣" },
-    6: { page: 6, embed: sixth, emoji: "6️⃣" },
-    7: { page: 7, embed: seventh, emoji: "7️⃣" },
-    8: { page: 8, embed: eighth, emoji: "8️⃣" },
-  } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
+    1: { page: 1, embed: zero, emoji: "1️⃣" },
+    2: { page: 2, embed: first, emoji: "2️⃣" },
+    3: { page: 3, embed: second, emoji: "3️⃣" },
+    4: { page: 4, embed: third, emoji: "4️⃣" },
+    5: { page: 5, embed: fourth, emoji: "5️⃣" },
+    6: { page: 6, embed: fifth, emoji: "6️⃣" },
+    7: { page: 7, embed: sixth, emoji: "7️⃣" },
+    8: { page: 8, embed: seventh, emoji: "8️⃣" },
+    9: { page: 9, embed: eighth, emoji: "9️⃣" },
+} as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
 
-  const page = pages[args.page];
-  if (!page) return;
+const page = pages[args.page];
+if (!page) return;
 
-  // SEND FIRST EMBED
-  const response = args.msg
-    ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
-    : await message.reply({ embed: page.embed }).catch(console.log);
-  if (!response) return;
+// SEND FIRST EMBED
+const response = args.msg
+  ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
+  : await message.reply({ embed: page.embed }).catch(console.log);
+if (!response) return;
 
-  const emojis = ["0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣"];
-  // ADD THE REACTIONS
-  if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
+const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣"];
+// ADD THE REACTIONS
+if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
-  // HANDLE PAGINATION
-  const reaction = await needReaction(message.author.id, response.id, {
-    filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
-  }).catch(console.log);
-  if (!reaction) return;
+// HANDLE PAGINATION
+const reaction = await needReaction(message.author.id, response.id, {
+  filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
+}).catch(console.log);
+if (!reaction) return;
 
-  const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
-  if (!selectedPage) return;
+const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
+if (!selectedPage) return;
 
-  return botCache.commands
-  .get("materials")
-  ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+return botCache.commands
+.get("materials")
+?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+
 },
 });
