@@ -5,7 +5,7 @@ import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
     name: "material",
-    arguments: [{ name: "subcommand", type: "subcommand" }],
+    arguments: [{ name: "subcommand", type: "subcommand", required: false  }],
   guildOnly: true,
   execute: async function (message, args) {
 
