@@ -12,7 +12,7 @@ createCommand({
     guildOnly: true,
     execute: async function (message, args) {
     
-    const zero = new Embed()
+    const first = new Embed()
     .setTitle("Overview")
     .setDescription([
       `1️⃣ Overview`,
@@ -26,7 +26,7 @@ createCommand({
       `9️⃣ Cooking Ingredients`,
     ])
 
-    const first = new Embed()
+    const second = new Embed()
     .setTitle("Character EXP Material‎s")
     .setDescription([
       "[⭐⭐⭐⭐]\nHero's Wit",
@@ -35,10 +35,10 @@ createCommand({
       "",
       "[⭐⭐]\nWanderer's Advice",
       "",
-      `0️⃣ Overview`,  
+      `1️⃣ Overview`,  
     ])
 
-  const second = new Embed()
+  const third = new Embed()
     .setTitle("Character Ascension Materials")
     .setDescription([
       "[⭐⭐⭐⭐⭐]",
@@ -53,12 +53,10 @@ createCommand({
       "[⭐⭐]",
       "Brilliant Diamond Sliver 🔹 Vayuda Turquoise Sliver 🔹 Shivada Jade Sliver 🔹 Vajrada Amethyst Sliver 🔹 Prithiva Topaz Sliver 🔹 Varunada Lazurite Sliver 🔹 Agnidus Agate Sliver",
       "",
-      "",
-      "",
-      `0️⃣ Overview`, 
+      `1️⃣ Overview`, 
     ])
 
-    const third = new Embed()
+    const fourth = new Embed()
     .setTitle("Talent Level-Up Materials")
     .setDescription([
       "[⭐⭐⭐⭐⭐]",
@@ -73,10 +71,10 @@ createCommand({
       "[⭐⭐]",
       "Teachings of Ballad 🔹 Teachings of Diligence 🔹 Teachings of Diligence 🔹 Teachings of Freedom 🔹 Teachings of Freedom 🔹 Teachings of Gold 🔹 Teachings of Gold 🔹 Teachings of Prosperity 🔹 Teachings of Prosperity 🔹 Teachings of Resistance 🔹 Teachings of Resistance",
       "",
-      `0️⃣ Overview`,  
+      `1️⃣ Overview`,  
     ])
 
-    const fourth = new Embed()
+    const fifth = new Embed()
     .setTitle("Weapon Enhancement Material‎s")
     .setDescription([
       "[⭐⭐⭐⭐]",
@@ -91,10 +89,10 @@ createCommand({
       "[⭐]",
       "Enhancement Ore",
       "",
-      `0️⃣ Overview`, 
+      `1️⃣ Overview`, 
     ])
 
-    const fifth = new Embed()
+    const sixth = new Embed()
     .setTitle("Weapon Ascension Materials")
     .setDescription([
       "[⭐⭐⭐⭐⭐]",
@@ -109,10 +107,10 @@ createCommand({
       "[⭐⭐]",
       "Boreal Wolf's Milk Tooth 🔹 Fetters of the Dandelion Gladiator 🔹 Grain of Aerosiderite 🔹 Luminous Sands from Guyun 🔹 Mist Veiled Lead Elixir 🔹 Tile of Decarabian's Tower",
       "",
-      `0️⃣ Overview`, 
+      `1️⃣ Overview`, 
     ])
 
-    const sixth = new Embed()
+    const seventh = new Embed()
     .setTitle("Forging Materials")
     .setDescription([
       "[⭐⭐⭐⭐⭐]",
@@ -123,10 +121,10 @@ createCommand({
       "🔹 Magical Crystal Chunk",
       "🔹 White Iron Chunk",
       "",
-      `0️⃣ Overview`, 
+      `1️⃣ Overview`, 
     ])
 
-    const seventh = new Embed()
+    const eighth = new Embed()
     .setTitle("Local Specialty")
     .setDescription([
       "**[Mondstadt]**",
@@ -135,10 +133,10 @@ createCommand({
       "**[Liyue]**",
       "Cor Lapis 🔹 Glaze Lily 🔹 Jueyun Chili 🔹 Noctilucous Jade 🔹 Qingxin 🔹 Silk Flower 🔹 Starconch 🔹 Violetgrass",
       "",
-      `0️⃣ Overview`, 
+      `1️⃣ Overview`, 
     ])
 
-    const eighth = new Embed()
+    const nineth = new Embed()
     .setTitle("Cooking Ingredients")
     .setDescription([
       "[⭐⭐⭐⭐⭐]",
@@ -152,74 +150,43 @@ createCommand({
       "",
       "Sweet Flower 🔹 Tofu 🔹 Tomato 🔹 Violetgrass 🔹 Wheat",
       "",
-      `0️⃣ Overview`, 
+      `1️⃣ Overview`, 
     ])
 
-    createPagination(message, [zero,first,second,third,fourth,fifth,sixth,seventh,eighth])
-},
-});
-
-export async function createPagination(message: Message, embeds: Embed[], page = 1 ): Promise<void> {
-    if (embeds.length === 0)
-        return;
-
-    const {channelID, author} = message;
-
-    let currentPage: number = page - 1;
-
-    let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
-
-    if (!embedMessage)
-        return;
-
-    if (embeds.length <= 1)
-        return;
-
-    try {
-        addReactions(
-            embedMessage.channelID,
-            embedMessage.id,
-            ['⏮️','◀️','▶️','⏭️'],
-            true
-        )
-    } catch (e) {
-        console.error(e);
-        return;
-    }
-
-    while(true) {
-        if (!embedMessage)
-            return;
-        const reaction = await needReaction(author.id, embedMessage.id);
-
-        if (!reaction)
-            return;
-
-        if(!(removeUserReaction(message.channelID, embedMessage.id, reaction, message.author.id).catch(console.error)))
-            return;
-
-        if (reaction === '◀️') {
-            currentPage--;
-        } else if (reaction === '▶️') {
-            currentPage++;
-        } else if (reaction === '⏮️') {
-            currentPage = 0;
-        } else if (reaction === '⏭️') {
-            currentPage = embeds.length - 1;
-        } else {
-            continue;
-        }
-
-        if (currentPage < 0)
-            currentPage = 0;
-
-        if (currentPage > embeds.length - 1)
-            currentPage = embeds.length - 1;
-
-        if (!embedMessage)
-            return;
-
-        if(!(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error)))
-            return;
-    }
-}
+    const pages = {
+        1: { page: 1, embed: first, emoji: "1️⃣" },
+        2: { page: 2, embed: second, emoji: "2️⃣" },
+        3: { page: 3, embed: third, emoji: "3️⃣" },
+        4: { page: 4, embed: fourth, emoji: "4️⃣" },
+        5: { page: 5, embed: fifth, emoji: "5️⃣" },
+        6: { page: 6, embed: sixth, emoji: "6️⃣" },
+        7: { page: 7, embed: seventh, emoji: "7️⃣" },
+        8: { page: 8, embed: eighth, emoji: "8️⃣" },
+        9: { page: 9, embed: eighth, emoji: "9️⃣" },
+      } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
+  
+      const page = pages[args.page];
+      if (!page) return;
+  
+      // SEND FIRST EMBED
+      const response = args.msg
+        ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
+        : await message.reply({ embed: page.embed }).catch(console.log);
+      if (!response) return;
+  
+      const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣"];
+      // ADD THE REACTIONS
+      if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
+  
+      // HANDLE PAGINATION
+      const reaction = await needReaction(message.author.id, response.id, {
+        filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
+      }).catch(console.log);
+      if (!reaction) return;
+  
+      const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
+      if (!selectedPage) return;
+  
+      return Embed
+  },
+  });
