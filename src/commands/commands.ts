@@ -32,7 +32,7 @@ createCommand({
         "",
         "`p!gadget (name)` or `p!fl`\nShows info about a specific gadget.",
         "",
-        "`p!material``\nLists all materials by type.",
+        "`p!materials` or `p!materiallist`\nLists all materials by type.",
         "",
         "`p!material (name)\nShows info about a specific material.",
         "",
