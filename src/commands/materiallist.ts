@@ -1,4 +1,4 @@
-import { Message } from "../../deps.ts";
+import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand } from "../utils/helpers.ts";
@@ -185,5 +185,9 @@ createCommand({
 
   const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
   if (!selectedPage) return;
+
+  return botCache.commands
+  .get("materials")
+  ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });
