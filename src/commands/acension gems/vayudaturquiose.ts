@@ -3,7 +3,7 @@ import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
-createSubcommand("material", {
+createSubcommand("info material", {
   name: "vayudaturquoise",
   aliases: ["vt", "vayuda"],
   arguments: [
