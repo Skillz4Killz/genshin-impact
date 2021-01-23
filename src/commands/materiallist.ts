@@ -24,6 +24,7 @@ createCommand({
       `8️⃣ Local Specialty`,
       `9️⃣ Cooking Ingredients`
     ])
+    .setColor("RANDOM")
 
     const second = new Embed()
     .setTitle("Character EXP Material‎s")
@@ -36,6 +37,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
   const third = new Embed()
     .setTitle("Character Ascension Materials")
@@ -54,6 +56,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const fourth = new Embed()
     .setTitle("Talent Level-Up Materials")
@@ -72,6 +75,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const fifth = new Embed()
     .setTitle("Weapon Enhancement Material‎s")
@@ -90,6 +94,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const sixth = new Embed()
     .setTitle("Weapon Ascension Materials")
@@ -108,6 +113,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const seventh = new Embed()
     .setTitle("Forging Materials")
@@ -122,6 +128,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const eighth = new Embed()
     .setTitle("Local Specialty")
@@ -134,6 +141,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const nineth = new Embed()
     .setTitle("Cooking Ingredients")
@@ -150,6 +158,7 @@ createCommand({
       "",
       `1️⃣ Overview`
     ])
+    .setColor("RANDOM")
 
     const pages = {
         1: { page: 1, embed: first, emoji: "1️⃣" },

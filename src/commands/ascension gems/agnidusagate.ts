@@ -19,6 +19,7 @@ createSubcommand("material", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Agnidus_Agate_Gemstone.png")
       .setFooter("Page 1/5")
+      .setColor("RANDOM")
 
     const secondEmbed = new Embed()
       .setTitle("Agnidus Agate Sliver")
@@ -36,6 +37,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Agnidus_Agate_Sliver.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Agnidus_Agate_Sliver.png")
       .setFooter("Page 2/5")
+      .setColor("RANDOM")
 
       const thirdEmbed = new Embed()
       .setTitle("Agnidus Agate Fragment")
@@ -55,6 +57,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png")
       .setFooter("Page 3/5")
+      .setColor("RANDOM")
 
       const fourthEmbed = new Embed()
       .setTitle("Agnidus Agate Chunk")
@@ -74,6 +77,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png")
       .setFooter("Page 4/5")
+      .setColor("RANDOM")
 
       const fifthEmbed = new Embed()
       .setTitle("Agnidus Agate Gemstone")
@@ -93,6 +97,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Agnidus_Agate_Gemstone.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Agnidus_Agate_Gemstone.png")
       .setFooter("Page 5/5")
+      .setColor("RANDOM")
 
       createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },

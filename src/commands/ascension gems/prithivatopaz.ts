@@ -19,6 +19,7 @@ createSubcommand("material", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712")
       .setFooter("Page 1/5")
+      .setColor("RANDOM")
 
     const secondEmbed = new Embed()
       .setTitle("Prithiva Topaz Sliver")
@@ -36,6 +37,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650")
       .setFooter("Page 2/5")
+      .setColor("RANDOM")
 
       const thirdEmbed = new Embed()
       .setTitle("Prithiva Topaz Fragment")
@@ -55,6 +57,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703")
       .setFooter("Page 3/5")
+      .setColor("RANDOM")
 
       const fourthEmbed = new Embed()
       .setTitle("Prithiva Topaz Chunk")
@@ -74,6 +77,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708")
       .setFooter("Page 4/5")
+      .setColor("RANDOM")
 
       const fifthEmbed = new Embed()
       .setTitle("Prithiva Topaz Gemstone")
@@ -93,6 +97,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712")
       .setFooter("Page 5/5")
+      .setColor("RANDOM")
 
       createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },

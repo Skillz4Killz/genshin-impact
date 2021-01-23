@@ -19,6 +19,7 @@ createSubcommand("material", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919")
       .setFooter("Page 1/5")
+      .setColor("RANDOM")
 
     const secondEmbed = new Embed()
       .setTitle("Brilliant Diamond Sliver")
@@ -36,6 +37,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904")
       .setFooter("Page 2/5")
+      .setColor("RANDOM")
 
       const thirdEmbed = new Embed()
       .setTitle("Brilliant Diamond Fragment")
@@ -55,6 +57,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908")
       .setFooter("Page 3/5")
+      .setColor("RANDOM")
 
       const fourthEmbed = new Embed()
       .setTitle("Vayuda Turquoise Chunk")
@@ -74,6 +77,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913")
       .setFooter("Page 4/5")
+      .setColor("RANDOM")
 
       const fifthEmbed = new Embed()
       .setTitle("Vayuda Turquoise Gemstone")
@@ -93,6 +97,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919")
       .setFooter("Page 5/5")
+      .setColor("RANDOM")
 
       createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },

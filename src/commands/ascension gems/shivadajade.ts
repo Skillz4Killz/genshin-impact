@@ -19,6 +19,7 @@ createSubcommand("material", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Shivada_Jade_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074802")
       .setFooter("Page 1/5")
+      .setColor("RANDOM")
 
     const secondEmbed = new Embed()
       .setTitle("Shivada Jade Sliver")
@@ -36,6 +37,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Shivada_Jade_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074748")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Shivada_Jade_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074748")
       .setFooter("Page 2/5")
+      .setColor("RANDOM")
 
       const thirdEmbed = new Embed()
       .setTitle("Shivada Jade Fragment")
@@ -55,6 +57,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Item_Shivada_Jade_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074754")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Item_Shivada_Jade_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074754")
       .setFooter("Page 3/5")
+      .setColor("RANDOM")
 
       const fourthEmbed = new Embed()
       .setTitle("Shivada Jade Chunk")
@@ -74,6 +77,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shivada_Jade_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074758")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shivada_Jade_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074758")
       .setFooter("Page 4/5")
+      .setColor("RANDOM")
 
       const fifthEmbed = new Embed()
       .setTitle("Shivada Jade Gemstone")
@@ -93,6 +97,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Shivada_Jade_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074802")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Shivada_Jade_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074802")
       .setFooter("Page 5/5")
+      .setColor("RANDOM")
 
       createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },

@@ -19,6 +19,7 @@ createSubcommand("material", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png")
       .setFooter("Page 1/5")
+      .setColor("RANDOM")
 
     const secondEmbed = new Embed()
       .setTitle("Varunada Lazurite Sliver")
@@ -36,6 +37,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png")
       .setFooter("Page 2/5")
+      .setColor("RANDOM")
 
       const thirdEmbed = new Embed()
       .setTitle("Varunada Lazurite Fragment")
@@ -55,6 +57,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png")
       .setFooter("Page 3/5")
+      .setColor("RANDOM")
 
       const fourthEmbed = new Embed()
       .setTitle("Varunada Lazurite Chunk")
@@ -74,6 +77,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png")
       .setFooter("Page 4/5")
+      .setColor("RANDOM")
 
       const fifthEmbed = new Embed()
       .setTitle("Varunada Lazurite Gemstone")
@@ -93,6 +97,7 @@ createSubcommand("material", {
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png")
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png")
       .setFooter("Page 5/5")
+      .setColor("RANDOM")
 
       createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
 },
