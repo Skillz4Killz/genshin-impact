@@ -171,7 +171,7 @@ createSubcommand("list", {
     if (!selectedPage) return;
 
     return botCache.commands
-    .get("weapons")
+    .get("list")
     ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });
