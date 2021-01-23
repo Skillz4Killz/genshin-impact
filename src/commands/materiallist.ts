@@ -5,7 +5,7 @@ import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
     name: "materiallist",
-    aliases: ["ml"],
+    aliases: ["ml", "materials"],
     arguments: [
       { name: "page", type: "number", defaultValue: 1 },
     ],
