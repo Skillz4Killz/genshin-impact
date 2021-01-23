@@ -173,5 +173,6 @@ createSubcommand("list", {
     return botCache.commands
     .get("list")?.subcommands?.get("weapons")
     ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+
 },
 });
