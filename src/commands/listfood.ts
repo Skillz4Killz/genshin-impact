@@ -1,11 +1,10 @@
 import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { createSubcommand } from "../utils/helpers.ts";
 
-createCommand({
-  name: "foodlist",
-  aliases: ["fl"],
+createSubcommand("list", {
+  name: "food",
   arguments: [
     { name: "page", type: "number", defaultValue: 1 },
   ],
@@ -118,7 +117,7 @@ createCommand({
     if (!selectedPage) return;
 
     return botCache.commands
-    .get("foodlist")
+    .get("listfood")
     ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });

@@ -1,7 +1,7 @@
 import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, createSubcommand } from "../utils/helpers.ts";
+import { createSubcommand } from "../utils/helpers.ts";
 
 createSubcommand("list", {
   name: "materials",

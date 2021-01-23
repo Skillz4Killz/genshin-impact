@@ -1,11 +1,8 @@
-import { sendMessage } from "https://deno.land/x/discordeno@10.0.2/src/api/handlers/channel.ts";
-import { botCache } from "../../deps.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, sendEmbed } from "../utils/helpers.ts";
+import { createSubcommand, sendEmbed } from "../utils/helpers.ts";
 
-createCommand({
-  name: "artifactlist",
-  aliases: ["al"],
+createSubcommand("list", {
+  name: "artifacts",
   guildOnly: true,
   execute: async function (message, args) {
 

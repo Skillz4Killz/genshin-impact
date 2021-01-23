@@ -1,9 +1,8 @@
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, sendEmbed } from "../utils/helpers.ts";
+import { createSubcommand, sendEmbed } from "../utils/helpers.ts";
 
-createCommand({
-  name: "gadgetlist",
-  aliases: ["gl"],
+createSubcommand("list", {
+  name: "gadgets",
   arguments: [
     { name: "page", type: "number", defaultValue: 1 },
   ],

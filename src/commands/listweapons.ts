@@ -1,11 +1,10 @@
 import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { createSubcommand } from "../utils/helpers.ts";
 
-createCommand({
-  name: "weapontype",
-  aliases: ["wt"],
+createSubcommand("list", {
+  name: "weapons",
   arguments: [
     { name: "page", type: "number", defaultValue: 1 },
   ],
@@ -172,7 +171,7 @@ createCommand({
     if (!selectedPage) return;
 
     return botCache.commands
-    .get("weapontype")
+    .get("listweapons")
     ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });
