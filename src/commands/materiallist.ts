@@ -23,7 +23,7 @@ createCommand({
       `6️⃣ Weapon Ascension Materials`,
       `7️⃣ Forging Materials`,
       `8️⃣ Local Specialty`,
-      `9️⃣ Cooking Ingredients`,
+      `9️⃣ Cooking Ingredients`
     ])
 
     const second = new Embed()
@@ -35,7 +35,7 @@ createCommand({
       "",
       "[⭐⭐]\nWanderer's Advice",
       "",
-      `1️⃣ Overview`,  
+      `1️⃣ Overview`
     ])
 
   const third = new Embed()
@@ -53,7 +53,7 @@ createCommand({
       "[⭐⭐]",
       "Brilliant Diamond Sliver 🔹 Vayuda Turquoise Sliver 🔹 Shivada Jade Sliver 🔹 Vajrada Amethyst Sliver 🔹 Prithiva Topaz Sliver 🔹 Varunada Lazurite Sliver 🔹 Agnidus Agate Sliver",
       "",
-      `1️⃣ Overview`, 
+      `1️⃣ Overview`
     ])
 
     const fourth = new Embed()
@@ -71,7 +71,7 @@ createCommand({
       "[⭐⭐]",
       "Teachings of Ballad 🔹 Teachings of Diligence 🔹 Teachings of Diligence 🔹 Teachings of Freedom 🔹 Teachings of Freedom 🔹 Teachings of Gold 🔹 Teachings of Gold 🔹 Teachings of Prosperity 🔹 Teachings of Prosperity 🔹 Teachings of Resistance 🔹 Teachings of Resistance",
       "",
-      `1️⃣ Overview`,  
+      `1️⃣ Overview`
     ])
 
     const fifth = new Embed()
@@ -89,7 +89,7 @@ createCommand({
       "[⭐]",
       "Enhancement Ore",
       "",
-      `1️⃣ Overview`, 
+      `1️⃣ Overview`
     ])
 
     const sixth = new Embed()
@@ -107,7 +107,7 @@ createCommand({
       "[⭐⭐]",
       "Boreal Wolf's Milk Tooth 🔹 Fetters of the Dandelion Gladiator 🔹 Grain of Aerosiderite 🔹 Luminous Sands from Guyun 🔹 Mist Veiled Lead Elixir 🔹 Tile of Decarabian's Tower",
       "",
-      `1️⃣ Overview`, 
+      `1️⃣ Overview`
     ])
 
     const seventh = new Embed()
@@ -121,7 +121,7 @@ createCommand({
       "🔹 Magical Crystal Chunk",
       "🔹 White Iron Chunk",
       "",
-      `1️⃣ Overview`, 
+      `1️⃣ Overview`
     ])
 
     const eighth = new Embed()
@@ -133,7 +133,7 @@ createCommand({
       "**[Liyue]**",
       "Cor Lapis 🔹 Glaze Lily 🔹 Jueyun Chili 🔹 Noctilucous Jade 🔹 Qingxin 🔹 Silk Flower 🔹 Starconch 🔹 Violetgrass",
       "",
-      `1️⃣ Overview`, 
+      `1️⃣ Overview`
     ])
 
     const nineth = new Embed()
@@ -150,7 +150,7 @@ createCommand({
       "",
       "Sweet Flower 🔹 Tofu 🔹 Tomato 🔹 Violetgrass 🔹 Wheat",
       "",
-      `1️⃣ Overview`, 
+      `1️⃣ Overview`
     ])
 
     const pages = {
@@ -162,7 +162,7 @@ createCommand({
         6: { page: 6, embed: sixth, emoji: "6️⃣" },
         7: { page: 7, embed: seventh, emoji: "7️⃣" },
         8: { page: 8, embed: eighth, emoji: "8️⃣" },
-        9: { page: 9, embed: nineth, emoji: "9️⃣" },
+        9: { page: 9, embed: nineth, emoji: "9️⃣" }
       } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
   
       const page = pages[args.page];
