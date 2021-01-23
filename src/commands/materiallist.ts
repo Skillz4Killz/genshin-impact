@@ -138,7 +138,6 @@ createCommand({
     const nineth = new Embed()
     .setTitle("Cooking Ingredients")
     .setDescription([
-      "[⭐⭐⭐⭐⭐]",
       "Almond 🔹 Bacon 🔹 Bamboo Shoot 🔹 Berry 🔹 Bird Egg 🔹 Butter 🔹 Cabbage 🔹 Calla Lily 🔹 Carrot 🔹 Cheese",
       "",
       "Chilled Meat 🔹 Crab 🔹 Crab Roe 🔹 Cream 🔹 Fish 🔹 Flour 🔹 Fowl 🔹 Ham 🔹 Jam 🔹 Jueyun Chili",
