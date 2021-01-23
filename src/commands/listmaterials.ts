@@ -1,11 +1,11 @@
 import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { createCommand, createSubcommand } from "../utils/helpers.ts";
 
-createCommand({
-    name: "materiallist",
-    aliases: ["materials", "ml"],
+createSubcommand("list", {
+  name: "materials",
+  aliases: ["mats"],
     arguments: [
       { name: "page", type: "number", defaultValue: 1 },
     ],
