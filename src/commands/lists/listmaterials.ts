@@ -1,11 +1,11 @@
-import { botCache, Message } from "../../deps.ts";
-import { needReaction } from "../utils/collectors.ts";
-import { Embed } from "../utils/Embed.ts";
-import { createSubcommand } from "../utils/helpers.ts";
+import { botCache, Message } from "../../../deps.ts";
+import { needReaction } from "../../utils/collectors.ts";
+import { Embed } from "../../utils/Embed.ts";
+import { createSubcommand } from "../../utils/helpers.ts";
 
 createSubcommand("list", {
-  name: "materiallist",
-  aliases: ["mats", "materials"],
+  name: "materials",
+  aliases: ["mats"],
     arguments: [
       { name: "page", type: "number", defaultValue: 1 },
     ],
@@ -194,7 +194,7 @@ createSubcommand("list", {
       const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
       if (!selectedPage) return;
       return botCache.commands
-      .get("info" && "materials")
+      .get("list")?.subcommands?.get("materials")
       ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
   },
   });

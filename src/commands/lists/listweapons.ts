@@ -170,8 +170,8 @@ createSubcommand("list", {
     const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
     if (!selectedPage) return;
 
-//    return botCache.commands
-//    .get("list")
-//    ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+    return botCache.commands
+    .get("list")?.subcommands?.get("weapons")
+    ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });

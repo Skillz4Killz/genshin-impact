@@ -117,7 +117,7 @@ createSubcommand("list", {
     if (!selectedPage) return;
 
     return botCache.commands
-    .get("list")
+    .get("list")?.subcommands?.get("food")
     ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });
