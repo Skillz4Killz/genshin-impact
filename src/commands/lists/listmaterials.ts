@@ -194,7 +194,7 @@ createSubcommand("list", {
       const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
       if (!selectedPage) return;
       return botCache.commands
-      .get("materiallist")
+      .get("listmaterials")
       ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
   },
   });
