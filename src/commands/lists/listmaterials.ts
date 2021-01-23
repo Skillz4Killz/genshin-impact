@@ -4,8 +4,8 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
 
 createSubcommand("list", {
-  name: "materials",
-  aliases: ["mats"],
+  name: "materiallist",
+  aliases: ["mats", "materials"],
     arguments: [
       { name: "page", type: "number", defaultValue: 1 },
     ],
@@ -194,7 +194,7 @@ createSubcommand("list", {
       const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
       if (!selectedPage) return;
       return botCache.commands
-      .get("list materials")
+      .get("materiallist")
       ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
   },
   });
