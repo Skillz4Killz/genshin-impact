@@ -1,7 +1,7 @@
-import { botCache, Message } from "../../deps.ts";
-import { needReaction } from "../utils/collectors.ts";
-import { Embed } from "../utils/Embed.ts";
-import { createSubcommand } from "../utils/helpers.ts";
+import { botCache, Message } from "../../../deps.ts";
+import { needReaction } from "../../utils/collectors.ts";
+import { Embed } from "../../utils/Embed.ts";
+import { createSubcommand } from "../../utils/helpers.ts";
 
 createSubcommand("list", {
   name: "food",
@@ -117,7 +117,7 @@ createSubcommand("list", {
     if (!selectedPage) return;
 
     return botCache.commands
-    .get("listfood")
+    .get("food")
     ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
 },
 });
