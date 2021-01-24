@@ -3,9 +3,10 @@ import { createCommand, createSubcommand, sendEmbed } from "../utils/helpers.ts"
 
 createCommand({
   name: `help`,
+  arguments: [{ name: "subcommand", type: "subcommand" }],
   guildOnly: true,
   execute: async function (message, args) {
-    
+
     if (!args.command) {
       return message.reply({content: "https://discord.gg/26MjArxVP3", embed: new Embed()
       .setTitle("Need help, Traveler?")
