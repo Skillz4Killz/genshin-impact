@@ -7,7 +7,7 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
 
-    if (!args.command) {
+    if (!args.name) {
       return message.reply({content: "https://discord.gg/26MjArxVP3", embed: new Embed()
       .setTitle("Need help, Traveler?")
       .setDescription([
