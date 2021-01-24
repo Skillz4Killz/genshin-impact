@@ -20,10 +20,10 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Ballad is used to level talents for the following characters:",
-        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti",
+        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti",
         "",
         "**Source:**",
-        "Forsaken Rift (Wednesday/Saturday/Sunday)",
+        "Forsaken Rift *(Wednesday/Saturday/Sunday)*",
         "",
         "**Description:**",
         "Poetry is the soul of the Land of the Wind.\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves."
@@ -41,10 +41,10 @@ createSubcommand("material", {
       "**Item type:** Talent Level-Up Material",
       "",
       "Guide to Ballad is used to level talents for the following characters:",
-      "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
+      "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
       "",
       "**Source:**",
-      "Forsaken Rift (Wednesday/Saturday/Sunday)\n**Crafting:** 3x Teachings of Ballad",
+      "Forsaken Rift *(Wednesday/Saturday/Sunday)*\n**Crafting:** 3x Teachings of Ballad",
       "",
       "**Description:**",
       "Poetry is the soul of the Land of the Wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm."
@@ -62,16 +62,16 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Ballad is used to level talents for the following characters:",
-        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
+        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
         "",
         "**Source:**",
-        "Forsaken Rift (Wednesday/Saturday/Sunday)\n**Crafting:** 3x Guide to Ballad",
+        "Forsaken Rift *(Wednesday/Saturday/Sunday)*\n**Crafting:** 3x Guide to Ballad",
         "",
         "**Description:**",
         "Poetry is the soul of the Land of the Wind.\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas, to every corner of the world."
     ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png/revision/latest/scale-to-width-down/256?cb=20210106065412")
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png/revision/latest/scale-to-width-down/256?cb=20210106065412")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png/revision/latest/scale-to-width-down/256?cb=20210106065347")
+      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png/revision/latest/scale-to-width-down/256?cb=20210106065347")
       .setFooter("Page 3/3")
       .setColor("RANDOM")
 
