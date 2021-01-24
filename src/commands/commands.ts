@@ -13,29 +13,18 @@ createCommand({
 
     const first = new Embed()
       .setTitle("Information")
+      .addField("p!char (character name)", "Shows info about a specific character.", true)
+      .addField("`p!list weapons", "Lists you all available weapons and names.", true)
+      .addField("p!weapon (weapon name)", "Shows info about a specific weapon.", true)
+      .addField("p!list artifacts", "Shows you all available artifacts.", true)
+      .addField("p!artifact (artifact set name)", "Shows info about a specific artifact set.", true)
+      .addField("p!list food", "Shows you all available food/dishes.", true)
+      .addField("p!food (food name)", "Shows info about a specific food/dish.", true)
+      .addField("p!list gadgets", "Shows you all available gadgets.", true)
+      .addField("p!gadget (name)", "Shows info about a specific gadget.", true)
+      .addField("p!list materials", "Lists all materials by type.", true)
+      .addField("p!material (name)", "Shows info about a specific material.", true)
       .setDescription([
-        "`p!char (character name)`\nShows info about a specific character.",
-        "",
-        "`p!list weapons`\nLists you all available weapons and names.",
-        "",
-        "`p!weapon (weapon name)`\nShows info about a specific weapon.",
-        "",
-        "`p!list artifacts`\nShows you all available artifacts.",
-        "",
-        "`p!artifact (artifact set name)`\nShows info about a specific artifact set.",
-        "",
-        "`p!list food`\nShows you all available food/dishes.",
-        "",
-        "`p!food (food name)`\nShows info about a specific food/dish.",
-        "",
-        "`p!list gadgets`\nShows you all available gadgets.",
-        "",
-        "`p!gadget (name)` or `p!fl`\nShows info about a specific gadget.",
-        "",
-        "`p!list materials` / `p!ml`\nLists all materials by type.",
-        "",
-        "`p!material (name)\nShows info about a specific material.",
-        "",
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
