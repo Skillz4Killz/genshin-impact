@@ -10,8 +10,8 @@ import { registerTasks } from "./../utils/taskHelper.ts";
 botCache.eventHandlers.ready = function () {
   editBotsStatus(
     StatusTypes.DoNotDisturb,
-    "p!help",
-    ActivityType.Game,
+    "p!setup to setup profile",
+    ActivityType.Streaming,
   );
 
   console.log(`Loaded ${botCache.arguments.size} Argument(s)`);
