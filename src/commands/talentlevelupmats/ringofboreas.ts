@@ -2,7 +2,7 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "r1ingofboreas",
+  name: "ringofboreas",
   guildOnly: true,
   execute: async function (message, args) {
 

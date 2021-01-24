@@ -1,7 +1,7 @@
 import { botCache } from "../../deps.ts";
 import { translate } from "../utils/i18next.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, sendEmbed } from "../utils/helpers.ts";
+import { createCommand, createSubcommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
   name: `help`,
