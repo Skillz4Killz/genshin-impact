@@ -1,4 +1,3 @@
-import { botCache } from "../../deps.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand, createSubcommand, sendEmbed } from "../utils/helpers.ts";
 
@@ -8,9 +7,8 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
 
-    const command = botCache.commands.get(args.command);
-    if (!command) {
-      return message.send({content: "https://discord.gg/26MjArxVP3", embed: new Embed()
+    if (!args.name) {
+      return message.reply({content: "https://discord.gg/26MjArxVP3", embed: new Embed()
       .setTitle("Need help, Traveler?")
       .setDescription([
         "To set up your profile run `p!setup` and go to my DMs!",
