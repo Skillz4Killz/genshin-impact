@@ -91,7 +91,7 @@ createSubcommand("edit", {
     {
       name: "level",
       type: "number",
-      missing: (message) => message.reply("Please provide a new Constellation (0-6)").catch(console.log),
+      missing: (message) => message.reply("You forgot to provide the constellation (0-6)").catch(console.log),
     },
   ],
   execute: async function (message, args) {
