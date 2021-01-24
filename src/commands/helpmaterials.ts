@@ -4,14 +4,11 @@ import { createSubcommand, sendEmbed } from "../utils/helpers.ts";
 createSubcommand("help", {
   name: "materials",
   aliases: ["material"],
-  arguments: [
-    { name: "page", type: "number", defaultValue: 1 },
-  ],
   guildOnly: true,
   execute: async function (message, args) {
 
     const embed = new Embed()
-      .setTitle("Gadgetlist")
+      .setTitle("Help Material")
       .setDescription([
         "**Ascension Gems**",
         "🔹 `p!material [agnidusagate | agndius | aa]`",
@@ -39,6 +36,7 @@ createSubcommand("help", {
         "🔹 `p!material [spiritlocketofboreas | spiritlocket]`",
         "🔹 `p!material [tuskofmonoceroscaeli | tuskofmonoceros | monoceroscaeli | monoceros]`"
       ])
+      .setColor("RANDOM")
 
       await sendEmbed(message.channelID, embed).catch(console.log);
 

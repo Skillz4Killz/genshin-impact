@@ -1,19 +1,11 @@
-import { botCache } from "../../deps.ts";
-import { translate } from "../utils/i18next.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommand, createSubcommand, sendEmbed } from "../utils/helpers.ts";
 
 createCommand({
   name: `help`,
-  arguments: [
-    {
-      name: "command",
-      type: "string",
-      lowercase: true,
-      required: false,
-    },
-  ],
-  execute: function (message, args: HelpArgs) {
+  guildOnly: true,
+  execute: async function (message, args) {
+    
     if (!args.command) {
       return message.reply({content: "https://discord.gg/26MjArxVP3", embed: new Embed()
       .setTitle("Need help, Traveler?")
@@ -27,33 +19,5 @@ createCommand({
         "Need further help? Visit our Support Server!",])
       })
     }
-
-    const command = botCache.commands.get(args.command);
-    if (!command) {
-      return message.send(`Command ${args.command} not found.`);
-    }
-
-    const description = translate(
-      message.guildID!,
-      `commands/${args.command}:DESCRIPTION`,
-    );
-
-    const embed = new Embed()
-      .setAuthor(
-        translate(
-          message.guildID!,
-          `commands/help:AUTHOR`,
-          { name: args.command },
-        ),
-      )
-      .setDescription(
-        description === "DESCRIPTION" ? command.description : description,
-      );
-
-    return message.send({ embed });
   },
 });
-
-interface HelpArgs {
-  command?: string;
-}
