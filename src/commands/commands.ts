@@ -13,17 +13,17 @@ createCommand({
 
     const first = new Embed()
       .setTitle("Information")
-      .addField("p!char (character name)", "Shows info about a specific character.", true)
-      .addField("`p!list weapons", "Lists you all available weapons and names.", true)
-      .addField("p!weapon (weapon name)", "Shows info about a specific weapon.", true)
-      .addField("p!list artifacts", "Shows you all available artifacts.", true)
-      .addField("p!artifact (artifact set name)", "Shows info about a specific artifact set.", true)
-      .addField("p!list food", "Shows you all available food/dishes.", true)
-      .addField("p!food (food name)", "Shows info about a specific food/dish.", true)
-      .addField("p!list gadgets", "Shows you all available gadgets.", true)
-      .addField("p!gadget (name)", "Shows info about a specific gadget.", true)
-      .addField("p!list materials", "Lists all materials by type.", true)
-      .addField("p!material (name)", "Shows info about a specific material.", true)
+      .addField("p!char (character name)", "Shows info about a specific character.\n", true)
+      .addField("p!list weapons", "Lists you all available weapons and names.\n", true)
+      .addField("p!weapon (weapon name)", "Shows info about a specific weapon.\n", true)
+      .addField("p!list artifacts", "Shows you all available artifacts.\n", true)
+      .addField("p!artifact (artifact set name)", "Shows info about a specific artifact set.\n", true)
+      .addField("p!list food", "Shows you all available food/dishes.\n", true)
+      .addField("p!food (food name)", "Shows info about a specific food/dish.\n", true)
+      .addField("p!list gadgets", "Shows you all available gadgets.\n", true)
+      .addField("p!gadget (name)", "Shows info about a specific gadget.\n", true)
+      .addField("p!list materials", "Lists all materials by type.\n", true)
+      .addField("p!material (name)", "Shows info about a specific material.\n", true)
       .setDescription([
         `1️⃣ Information`,
         `2️⃣ Profile`,
