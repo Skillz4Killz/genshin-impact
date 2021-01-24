@@ -86,7 +86,7 @@ createSubcommand("edit", {
     {
       name: "character",
       type: "string",
-      missing: (message) => message.reply("The adventurer rank must be between 1-60").catch(console.log),
+      missing: (message) => message.reply("You forgot to provide a char and the constellation").catch(console.log),
     },
     {
       name: "level",
@@ -100,7 +100,7 @@ createSubcommand("edit", {
       return sendDMOrResponse(message, "Invalid character name.").catch(console.log);
     }
 
-    if (args.level < 0 || args.level > 6) {
+    if ((!args.level && args.level !== 0) || args.level < 0 || args.level > 6) {
       return sendDMOrResponse(message, "Invalid character constellation.").catch(console.log);
     }
 
