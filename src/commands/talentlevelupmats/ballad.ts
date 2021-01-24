@@ -44,7 +44,7 @@ createSubcommand("material", {
       "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
       "",
       "**Source:**",
-      "Forsaken Rift *(Wednesday/Saturday/Sunday)*\n**Crafting:** 3x Teachings of Ballad",
+      "Forsaken Rift *(Wednesday/Saturday/Sunday)*\n**Crafting:** 3x Teachings of Ballad, 175 Mora",
       "",
       "**Description:**",
       "Poetry is the soul of the Land of the Wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm."
@@ -57,7 +57,7 @@ createSubcommand("material", {
       const thirdEmbed = new Embed()
       .setTitle("Philosophies of Ballad")
       .setDescription([
-        "**Rarity:** ⭐⭐⭐",
+        "**Rarity:** ⭐⭐⭐⭐",
         "",
         "**Item type:** Talent Level-Up Material",
         "",
@@ -65,7 +65,7 @@ createSubcommand("material", {
         "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
         "",
         "**Source:**",
-        "Forsaken Rift *(Wednesday/Saturday/Sunday)*\n**Crafting:** 3x Guide to Ballad",
+        "Forsaken Rift *(Wednesday/Saturday/Sunday)*\n**Crafting:** 3x Guide to Ballad, 550 Mora",
         "",
         "**Description:**",
         "Poetry is the soul of the Land of the Wind.\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas, to every corner of the world."
