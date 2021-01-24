@@ -17,9 +17,10 @@ createCommand({
         "",
         "To access the command list, please use the command `p!commands`!",
         "",
-        "Need further help? Visit our Support Server!"
+        "Need further help? Visit our Support Server!",
+
        ])
       })
-    
+    }
   },
 });
