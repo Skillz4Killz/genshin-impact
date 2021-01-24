@@ -68,7 +68,7 @@ createSubcommand("list", {
       "Philosophies of Prosperity 🔹 Philosophies of Resistance 🔹 Philosophies of Ballad 🔹 Philosophies of Diligence 🔹 Philosophies of Freedom 🔹 Philosophies of Gold",
       "",
       "[⭐⭐⭐]",
-      "Guide to Balladt 🔹 Guide to Diligencet 🔹 Guide to Diligencet 🔹 Guide to Freedomt 🔹 Guide to Freedomt 🔹 Guide to Goldt 🔹 Guide to Goldt 🔹 Guide to Prosperityt 🔹 Guide to Prosperityt 🔹 Guide to Resistancet 🔹 Guide to Resistance",
+      "Guide to Ballad 🔹 Guide to Diligencet 🔹 Guide to Diligencet 🔹 Guide to Freedomt 🔹 Guide to Freedomt 🔹 Guide to Goldt 🔹 Guide to Goldt 🔹 Guide to Prosperityt 🔹 Guide to Prosperityt 🔹 Guide to Resistancet 🔹 Guide to Resistance",
       "",
       "[⭐⭐]",
       "Teachings of Ballad 🔹 Teachings of Diligence 🔹 Teachings of Diligence 🔹 Teachings of Freedom 🔹 Teachings of Freedom 🔹 Teachings of Gold 🔹 Teachings of Gold 🔹 Teachings of Prosperity 🔹 Teachings of Prosperity 🔹 Teachings of Resistance 🔹 Teachings of Resistance",
