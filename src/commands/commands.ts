@@ -24,7 +24,7 @@ createCommand({
         "",
         "`p!food (food name)`\nShows info about a specific food/dish.",
         "",
-        "`p!gadget (name)``\nShows info about a specific gadget.",
+        "`p!gadget (name)`\nShows info about a specific gadget.",
         "",
         "`p!material (name)`\nShows info about a specific material.",
         "",
