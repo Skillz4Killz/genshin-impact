@@ -44,9 +44,9 @@ createCommand({
         "",
         "`p!edit (uid/ar/wl) (number)`\nThis allows you to edit your UID, AR or WL.",
         "",
-        "`p!remove (character name)`\nRemoves a character from your profile",
+        "`p!remove (character name)`\nRemoves a character from your profile.",
         "",
-        "`p!reset`\nReset your whole profile to 0 (delete it)",
+        "`p!reset`\nReset your whole profile to 0 (delete it).",
         "",
         `1️⃣ Information`,
         `2️⃣ Profile`,
@@ -56,13 +56,13 @@ createCommand({
      const third = new Embed()
       .setTitle("Other")
       .setDescription([
-        "`p!help`\nGet some help and the invite for our support server",
+        "`p!help`\nGet some help and the invite for our support server.",
         "",
-        "`p!invite`\nGet the invitelink for the Bot",
+        "`p!invite`\nGet the invitelink for the Bot.",
         "",
         "`p!credits`\nSpecial thanks to these people!",
         "",
-        "`p!prefix set (prefix)`\nChanges the prefix",
+        "`p!prefix set (prefix)`\nChanges the prefix.",
         "",
         "`p!emergencyfood`\nPaimon is not emergency food!",
         "",
