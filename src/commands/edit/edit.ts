@@ -100,7 +100,7 @@ createSubcommand("edit", {
       return sendDMOrResponse(message, "Invalid character name.").catch(console.log);
     }
 
-    if (args.level = 0 || args.level > 6) {
+    if (args.level < 0 || args.level > 6) {
       return sendDMOrResponse(message, "Invalid character constellation.").catch(console.log);
     }
 
