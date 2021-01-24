@@ -9,7 +9,7 @@ import { registerTasks } from "./../utils/taskHelper.ts";
 
 botCache.eventHandlers.ready = function () {
   editBotsStatus(
-    StatusTypes.DoNotDisturb,
+    StatusTypes.Online,
     "p!setup to setup profile",
     ActivityType.Streaming,
   );
