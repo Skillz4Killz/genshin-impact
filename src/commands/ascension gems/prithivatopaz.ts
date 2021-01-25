@@ -11,15 +11,16 @@ createSubcommand("material", {
   ],
   guildOnly: true,
   execute: async function (message) {
-
-      const firstEmbed = new Embed()
+    const firstEmbed = new Embed()
       .setTitle("Prithiva Topaz")
       .setDescription([
         "**Prithiva Topaz** are gemstones of varying quality used in the ascension of characters.\n\n**Prithiva Topaz** is associated with the Geo element.\n\nCan be obtained from the Geo Hypostasis, Wolf of the North Challenge, Souvenir Shop and Alchemy.\n\n**Element:** <:Geo:798483630740865044> Geo",
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712",
+      )
       .setFooter("Page 1/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
     const secondEmbed = new Embed()
       .setTitle("Prithiva Topaz Sliver")
@@ -34,12 +35,16 @@ createSubcommand("material", {
         "",
         "Prithiva Topaz Sliver is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650",
+      )
       .setFooter("Page 2/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const thirdEmbed = new Embed()
+    const thirdEmbed = new Embed()
       .setTitle("Prithiva Topaz Fragment")
       .setDescription([
         "**Rarity:** ⭐⭐⭐",
@@ -54,12 +59,16 @@ createSubcommand("material", {
         "",
         "Prithiva Topaz Fragment is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703",
+      )
       .setFooter("Page 3/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fourthEmbed = new Embed()
+    const fourthEmbed = new Embed()
       .setTitle("Prithiva Topaz Chunk")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐",
@@ -74,12 +83,16 @@ createSubcommand("material", {
         "",
         "Prithiva Topaz Chunk is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708",
+      )
       .setFooter("Page 4/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fifthEmbed = new Embed()
+    const fifthEmbed = new Embed()
       .setTitle("Prithiva Topaz Gemstone")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐⭐",
@@ -94,76 +107,109 @@ createSubcommand("material", {
         "",
         "Prithiva Topaz Gemstone is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712",
+      )
       .setFooter("Page 5/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
-},
+    createPagination(message, [
+      firstEmbed,
+      secondEmbed,
+      thirdEmbed,
+      fourthEmbed,
+      fifthEmbed,
+    ]);
+  },
 });
 
-export async function createPagination(message: Message, embeds: Embed[], page = 1 ): Promise<void> {
-    if (embeds.length === 0)
-        return;
+export async function createPagination(
+  message: Message,
+  embeds: Embed[],
+  page = 1,
+): Promise<void> {
+  if (embeds.length === 0) {
+    return;
+  }
 
-    const {channelID, author} = message;
+  const { channelID, author } = message;
 
-    let currentPage: number = page - 1;
+  let currentPage: number = page - 1;
 
-    let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
+  let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
 
-    if (!embedMessage)
-        return;
+  if (!embedMessage) {
+    return;
+  }
 
-    if (embeds.length <= 1)
-        return;
+  if (embeds.length <= 1) {
+    return;
+  }
 
-    try {
-        addReactions(
-            embedMessage.channelID,
-            embedMessage.id,
-            ['⏮️','◀️','▶️','⏭️'],
-            true
-        )
-    } catch (e) {
-        console.error(e);
-        return;
+  try {
+    addReactions(
+      embedMessage.channelID,
+      embedMessage.id,
+      ["⏮️", "◀️", "▶️", "⏭️"],
+      true,
+    );
+  } catch (e) {
+    console.error(e);
+    return;
+  }
+
+  while (true) {
+    if (!embedMessage) {
+      return;
+    }
+    const reaction = await needReaction(author.id, embedMessage.id);
+
+    if (!reaction) {
+      return;
     }
 
-    while(true) {
-        if (!embedMessage)
-            return;
-        const reaction = await needReaction(author.id, embedMessage.id);
-
-        if (!reaction)
-            return;
-
-        if(!(removeUserReaction(message.channelID, embedMessage.id, reaction, message.author.id).catch(console.error)))
-            return;
-
-        if (reaction === '◀️') {
-            currentPage--;
-        } else if (reaction === '▶️') {
-            currentPage++;
-        } else if (reaction === '⏮️') {
-            currentPage = 0;
-        } else if (reaction === '⏭️') {
-            currentPage = embeds.length - 1;
-        } else {
-            continue;
-        }
-
-        if (currentPage < 0)
-            currentPage = 0;
-
-        if (currentPage > embeds.length - 1)
-            currentPage = embeds.length - 1;
-
-        if (!embedMessage)
-            return;
-
-        if(!(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error)))
-            return;
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        embedMessage.id,
+        reaction,
+        message.author.id,
+      ).catch(console.error))
+    ) {
+      return;
     }
+
+    if (reaction === "◀️") {
+      currentPage--;
+    } else if (reaction === "▶️") {
+      currentPage++;
+    } else if (reaction === "⏮️") {
+      currentPage = 0;
+    } else if (reaction === "⏭️") {
+      currentPage = embeds.length - 1;
+    } else {
+      continue;
+    }
+
+    if (currentPage < 0) {
+      currentPage = 0;
+    }
+
+    if (currentPage > embeds.length - 1) {
+      currentPage = embeds.length - 1;
+    }
+
+    if (!embedMessage) {
+      return;
+    }
+
+    if (
+      !(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error))
+    ) {
+      return;
+    }
+  }
 }

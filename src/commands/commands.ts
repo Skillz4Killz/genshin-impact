@@ -10,7 +10,6 @@ createCommand({
   ],
   guildOnly: true,
   execute: async function (message, args) {
-
     const first = new Embed()
       .setTitle("Information")
       .setDescription([
@@ -31,9 +30,9 @@ createCommand({
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
-      ])
+      ]);
 
-      const second = new Embed()
+    const second = new Embed()
       .setTitle("Profile")
       .setDescription([
         "`p!setup`\nThis allows you to setup your profile.",
@@ -51,9 +50,9 @@ createCommand({
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
-      ])
+      ]);
 
-     const third = new Embed()
+    const third = new Embed()
       .setTitle("Other")
       .setDescription([
         "`p!help`\nGet some help and the invite for our support server.",
@@ -69,41 +68,53 @@ createCommand({
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
-      ])
+      ]);
 
-      const pages = {
-        1: { page: 1, embed: first, emoji: "1️⃣" },
-        2: { page: 2, embed: second, emoji: "2️⃣" },
-        3: { page: 3, embed: third, emoji: "3️⃣" },
-      } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
-  
-      const page = pages[args.page];
-      if (!page) return;
-  
-      // SEND FIRST EMBED
-      const response = args.msg
-        ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
-        : await message.reply({ embed: page.embed }).catch(console.log);
-      if (!response) return;
-  
-      const emojis = ["1️⃣", "2️⃣", "3️⃣"];
-      // ADD THE REACTIONS
-      if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
-  
-      // HANDLE PAGINATION
-      const reaction = await needReaction(message.author.id, response.id, {
-        filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
-      }).catch(console.log);
-      if (!reaction) return;
-  
-      const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
-      if (!selectedPage) return;
-  
-      return botCache.commands
+    const pages = {
+      1: { page: 1, embed: first, emoji: "1️⃣" },
+      2: { page: 2, embed: second, emoji: "2️⃣" },
+      3: { page: 3, embed: third, emoji: "3️⃣" },
+    } as Record<
+      number,
+      { page: number; embed: Embed; emoji: string } | undefined
+    >;
+
+    const page = pages[args.page];
+    if (!page) return;
+
+    // SEND FIRST EMBED
+    const response = args.msg
+      ? await (args.msg as Message).edit({ embed: page.embed }).catch(
+        console.log,
+      )
+      : await message.reply({ embed: page.embed }).catch(console.log);
+    if (!response) return;
+
+    const emojis = ["1️⃣", "2️⃣", "3️⃣"];
+    // ADD THE REACTIONS
+    if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
+
+    // HANDLE PAGINATION
+    const reaction = await needReaction(message.author.id, response.id, {
+      filter: (userID, reaction) =>
+        message.author.id === userID && page.emoji !== reaction,
+    }).catch(console.log);
+    if (!reaction) return;
+
+    const selectedPage = Object.values(pages).find((page) =>
+      page?.emoji === reaction
+    );
+    if (!selectedPage) return;
+
+    return botCache.commands
       .get("commands")
-      ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+      ?.execute?.(message, {
+        character: args.character,
+        page: selectedPage.page,
+        msg: response,
+      });
   },
-  });
+});
 
 interface HelpArgs {
   command?: string;

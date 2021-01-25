@@ -21,9 +21,14 @@ createCommand({
             "",
           ])
           .addField("John Without Gel", "for coding me the Bot!")
-          .addField("Ice Man", "for helping me fill out the informations aswell as testing alot!")
+          .addField(
+            "Ice Man",
+            "for helping me fill out the informations aswell as testing alot!",
+          )
           .addField("The Galaxy.", "for finding some bugs!")
-          .setThumbnail("https://i.pinimg.com/originals/67/9f/5e/679f5e627d25307be45172fd41b3ca3e.png")
+          .setThumbnail(
+            "https://i.pinimg.com/originals/67/9f/5e/679f5e627d25307be45172fd41b3ca3e.png",
+          ),
       );
     }
   },

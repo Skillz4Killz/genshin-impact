@@ -9,13 +9,21 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
     if (!args.name) {
-      return message.reply(["Available Weapons:", "", [...weapons.keys()].sort().join(" - ")].join("\n"));
+      return message.reply(
+        ["Available Weapons:", "", [...weapons.keys()].sort().join(" - ")].join(
+          "\n",
+        ),
+      );
     }
 
     const weapon = weapons.get(args.name);
     if (!weapon) {
       return message.reply(
-        ["Invalid weapon name provided. Valid names are:", "", [...weapons.keys()].sort().join(" - ")].join("\n")
+        [
+          "Invalid weapon name provided. Valid names are:",
+          "",
+          [...weapons.keys()].sort().join(" - "),
+        ].join("\n"),
       );
     }
 
@@ -49,7 +57,11 @@ weapons.forEach((c, key) =>
     name: key,
     guildOnly: true,
     execute: async function (message, args, guild) {
-      return botCache.commands.get("weapon")?.execute?.(message, { name: key }, guild);
+      return botCache.commands.get("weapon")?.execute?.(
+        message,
+        { name: key },
+        guild,
+      );
     },
   })
 );

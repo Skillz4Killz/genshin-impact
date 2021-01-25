@@ -11,15 +11,16 @@ createSubcommand("material", {
   ],
   guildOnly: true,
   execute: async function (message) {
-
-      const firstEmbed = new Embed()
+    const firstEmbed = new Embed()
       .setTitle("Vajrada Amethyst")
       .setDescription([
         "**Vajrada Amethyst** are gemstones of varying quality used in the ascension of characters.\n\n**Vajrada Amethyst** is associated with the Electro element.\n\nCan be obtained from the Electro Hypostasis Souvenir Shop and Alchemy.\n\n**Element:** <:Electro:798483560205385799> Electro",
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821",
+      )
       .setFooter("Page 1/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
     const secondEmbed = new Embed()
       .setTitle("Vajrada Amethyst Sliver")
@@ -34,12 +35,16 @@ createSubcommand("material", {
         "",
         "Vajrada Amethyst Sliver is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Vajrada_Amethyst_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074806")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Vajrada_Amethyst_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074806")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Vajrada_Amethyst_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074806",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Vajrada_Amethyst_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074806",
+      )
       .setFooter("Page 2/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const thirdEmbed = new Embed()
+    const thirdEmbed = new Embed()
       .setTitle("Vajrada Amethyst Fragment")
       .setDescription([
         "**Rarity:** ⭐⭐⭐",
@@ -54,12 +59,16 @@ createSubcommand("material", {
         "",
         "Vajrada Amethyst Fragment is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Vajrada_Amethyst_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074813")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Vajrada_Amethyst_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074813")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Vajrada_Amethyst_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074813",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Vajrada_Amethyst_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074813",
+      )
       .setFooter("Page 3/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fourthEmbed = new Embed()
+    const fourthEmbed = new Embed()
       .setTitle("Vajrada Amethyst Chunk")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐",
@@ -74,12 +83,16 @@ createSubcommand("material", {
         "",
         "Vajrada Amethyst Chunk is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Vajrada_Amethyst_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074817")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Vajrada_Amethyst_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074817")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Vajrada_Amethyst_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074817",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Vajrada_Amethyst_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074817",
+      )
       .setFooter("Page 4/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fifthEmbed = new Embed()
+    const fifthEmbed = new Embed()
       .setTitle("Vajrada Amethyst Gemstone")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐⭐",
@@ -94,76 +107,109 @@ createSubcommand("material", {
         "",
         "Vajrada Amethyst Gemstone is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821",
+      )
       .setFooter("Page 5/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
-},
+    createPagination(message, [
+      firstEmbed,
+      secondEmbed,
+      thirdEmbed,
+      fourthEmbed,
+      fifthEmbed,
+    ]);
+  },
 });
 
-export async function createPagination(message: Message, embeds: Embed[], page = 1 ): Promise<void> {
-    if (embeds.length === 0)
-        return;
+export async function createPagination(
+  message: Message,
+  embeds: Embed[],
+  page = 1,
+): Promise<void> {
+  if (embeds.length === 0) {
+    return;
+  }
 
-    const {channelID, author} = message;
+  const { channelID, author } = message;
 
-    let currentPage: number = page - 1;
+  let currentPage: number = page - 1;
 
-    let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
+  let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
 
-    if (!embedMessage)
-        return;
+  if (!embedMessage) {
+    return;
+  }
 
-    if (embeds.length <= 1)
-        return;
+  if (embeds.length <= 1) {
+    return;
+  }
 
-    try {
-        addReactions(
-            embedMessage.channelID,
-            embedMessage.id,
-            ['⏮️','◀️','▶️','⏭️'],
-            true
-        )
-    } catch (e) {
-        console.error(e);
-        return;
+  try {
+    addReactions(
+      embedMessage.channelID,
+      embedMessage.id,
+      ["⏮️", "◀️", "▶️", "⏭️"],
+      true,
+    );
+  } catch (e) {
+    console.error(e);
+    return;
+  }
+
+  while (true) {
+    if (!embedMessage) {
+      return;
+    }
+    const reaction = await needReaction(author.id, embedMessage.id);
+
+    if (!reaction) {
+      return;
     }
 
-    while(true) {
-        if (!embedMessage)
-            return;
-        const reaction = await needReaction(author.id, embedMessage.id);
-
-        if (!reaction)
-            return;
-
-        if(!(removeUserReaction(message.channelID, embedMessage.id, reaction, message.author.id).catch(console.error)))
-            return;
-
-        if (reaction === '◀️') {
-            currentPage--;
-        } else if (reaction === '▶️') {
-            currentPage++;
-        } else if (reaction === '⏮️') {
-            currentPage = 0;
-        } else if (reaction === '⏭️') {
-            currentPage = embeds.length - 1;
-        } else {
-            continue;
-        }
-
-        if (currentPage < 0)
-            currentPage = 0;
-
-        if (currentPage > embeds.length - 1)
-            currentPage = embeds.length - 1;
-
-        if (!embedMessage)
-            return;
-
-        if(!(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error)))
-            return;
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        embedMessage.id,
+        reaction,
+        message.author.id,
+      ).catch(console.error))
+    ) {
+      return;
     }
+
+    if (reaction === "◀️") {
+      currentPage--;
+    } else if (reaction === "▶️") {
+      currentPage++;
+    } else if (reaction === "⏮️") {
+      currentPage = 0;
+    } else if (reaction === "⏭️") {
+      currentPage = embeds.length - 1;
+    } else {
+      continue;
+    }
+
+    if (currentPage < 0) {
+      currentPage = 0;
+    }
+
+    if (currentPage > embeds.length - 1) {
+      currentPage = embeds.length - 1;
+    }
+
+    if (!embedMessage) {
+      return;
+    }
+
+    if (
+      !(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error))
+    ) {
+      return;
+    }
+  }
 }

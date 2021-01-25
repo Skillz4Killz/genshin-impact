@@ -9,13 +9,18 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
     if (!args.name) {
-      return message.reply(["Available Gadgets:", "", [...gadgets.keys()].sort().join(" - ")].join("\n"));
+      return message.reply(
+        ["Available Gadgets:", "", [...gadgets.keys()].sort().join(" - ")].join(
+          "\n",
+        ),
+      );
     }
 
     const gadget = gadgets.get(args.name);
     if (!gadget) {
       return message.reply(
-        ["Which gadget you searching for?", "", [...gadgets.keys()].join(" - "),].join("\n"),
+        ["Which gadget you searching for?", "", [...gadgets.keys()].join(" - ")]
+          .join("\n"),
       );
     }
 

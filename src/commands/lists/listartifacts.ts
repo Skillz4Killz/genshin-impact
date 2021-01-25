@@ -5,7 +5,6 @@ createSubcommand("list", {
   name: "artifacts",
   guildOnly: true,
   execute: async function (message, args) {
-
     const embed = new Embed()
       .setTitle("Artifactlist")
       .setDescription([
@@ -19,8 +18,8 @@ createSubcommand("list", {
         "Gladiator's Finale 🔹 Wanderer's Troupe 🔹 Noblesse Oblige 🔹 Maiden Beloved 🔹 Retracing Bolide 🔹 Crimson Witch of Flames 🔹 Lavawalker 🔹 Heart of Depth 🔹 Thundering Fury 🔹 Thundersoother 🔹 Viridescent Venerer 🔹 Blizard Strayer 🔹 Archaic Petra 🔹 Bloodstained Chivalry",
         "",
         "If you want to search for artifact infos, type `p!artifact (name)`\nThe artifact name has to be lower case and without spacing. For example `p!artifact defenderswill`",
-      ])
+      ]);
 
-      await sendEmbed(message.channelID, embed).catch(console.log);
-},
+    await sendEmbed(message.channelID, embed).catch(console.log);
+  },
 });

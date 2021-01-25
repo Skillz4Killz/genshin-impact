@@ -11,15 +11,16 @@ createSubcommand("material", {
   ],
   guildOnly: true,
   execute: async function (message) {
-
-      const firstEmbed = new Embed()
+    const firstEmbed = new Embed()
       .setTitle("Vayuda Turquoise")
       .setDescription([
         "**Vayuda Turquoise** are gemstones of varying quality used in the ascension of characters.\n\n**Vayuda Turquoise** is associated with the Anemo element.\n\nCan be obtained from the Anemo Hypostasis, Souvenir Shop and Alchemy.\n\n**Element:** <:Anemo:798483595781341194> Anemo",
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919",
+      )
       .setFooter("Page 1/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
     const secondEmbed = new Embed()
       .setTitle("Brilliant Diamond Sliver")
@@ -34,12 +35,16 @@ createSubcommand("material", {
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904",
+      )
       .setFooter("Page 2/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const thirdEmbed = new Embed()
+    const thirdEmbed = new Embed()
       .setTitle("Brilliant Diamond Fragment")
       .setDescription([
         "**Rarity:** ⭐⭐⭐",
@@ -54,12 +59,16 @@ createSubcommand("material", {
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908",
+      )
       .setFooter("Page 3/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fourthEmbed = new Embed()
+    const fourthEmbed = new Embed()
       .setTitle("Vayuda Turquoise Chunk")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐",
@@ -74,12 +83,16 @@ createSubcommand("material", {
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913",
+      )
       .setFooter("Page 4/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fifthEmbed = new Embed()
+    const fifthEmbed = new Embed()
       .setTitle("Vayuda Turquoise Gemstone")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐⭐",
@@ -94,76 +107,109 @@ createSubcommand("material", {
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919",
+      )
       .setFooter("Page 5/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
-},
+    createPagination(message, [
+      firstEmbed,
+      secondEmbed,
+      thirdEmbed,
+      fourthEmbed,
+      fifthEmbed,
+    ]);
+  },
 });
 
-export async function createPagination(message: Message, embeds: Embed[], page = 1 ): Promise<void> {
-    if (embeds.length === 0)
-        return;
+export async function createPagination(
+  message: Message,
+  embeds: Embed[],
+  page = 1,
+): Promise<void> {
+  if (embeds.length === 0) {
+    return;
+  }
 
-    const {channelID, author} = message;
+  const { channelID, author } = message;
 
-    let currentPage: number = page - 1;
+  let currentPage: number = page - 1;
 
-    let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
+  let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
 
-    if (!embedMessage)
-        return;
+  if (!embedMessage) {
+    return;
+  }
 
-    if (embeds.length <= 1)
-        return;
+  if (embeds.length <= 1) {
+    return;
+  }
 
-    try {
-        addReactions(
-            embedMessage.channelID,
-            embedMessage.id,
-            ['⏮️','◀️','▶️','⏭️'],
-            true
-        )
-    } catch (e) {
-        console.error(e);
-        return;
+  try {
+    addReactions(
+      embedMessage.channelID,
+      embedMessage.id,
+      ["⏮️", "◀️", "▶️", "⏭️"],
+      true,
+    );
+  } catch (e) {
+    console.error(e);
+    return;
+  }
+
+  while (true) {
+    if (!embedMessage) {
+      return;
+    }
+    const reaction = await needReaction(author.id, embedMessage.id);
+
+    if (!reaction) {
+      return;
     }
 
-    while(true) {
-        if (!embedMessage)
-            return;
-        const reaction = await needReaction(author.id, embedMessage.id);
-
-        if (!reaction)
-            return;
-
-        if(!(removeUserReaction(message.channelID, embedMessage.id, reaction, message.author.id).catch(console.error)))
-            return;
-
-        if (reaction === '◀️') {
-            currentPage--;
-        } else if (reaction === '▶️') {
-            currentPage++;
-        } else if (reaction === '⏮️') {
-            currentPage = 0;
-        } else if (reaction === '⏭️') {
-            currentPage = embeds.length - 1;
-        } else {
-            continue;
-        }
-
-        if (currentPage < 0)
-            currentPage = 0;
-
-        if (currentPage > embeds.length - 1)
-            currentPage = embeds.length - 1;
-
-        if (!embedMessage)
-            return;
-
-        if(!(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error)))
-            return;
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        embedMessage.id,
+        reaction,
+        message.author.id,
+      ).catch(console.error))
+    ) {
+      return;
     }
+
+    if (reaction === "◀️") {
+      currentPage--;
+    } else if (reaction === "▶️") {
+      currentPage++;
+    } else if (reaction === "⏮️") {
+      currentPage = 0;
+    } else if (reaction === "⏭️") {
+      currentPage = embeds.length - 1;
+    } else {
+      continue;
+    }
+
+    if (currentPage < 0) {
+      currentPage = 0;
+    }
+
+    if (currentPage > embeds.length - 1) {
+      currentPage = embeds.length - 1;
+    }
+
+    if (!embedMessage) {
+      return;
+    }
+
+    if (
+      !(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error))
+    ) {
+      return;
+    }
+  }
 }

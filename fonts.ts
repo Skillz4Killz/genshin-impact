@@ -1,1 +1,1 @@
-export function example () {}
+export function example() {}

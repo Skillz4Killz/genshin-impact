@@ -1,5 +1,9 @@
 import { Embed } from "../utils/Embed.ts";
-import { createCommand, createSubcommand, sendEmbed } from "../utils/helpers.ts";
+import {
+  createCommand,
+  createSubcommand,
+  sendEmbed,
+} from "../utils/helpers.ts";
 
 createCommand({
   name: `help`,

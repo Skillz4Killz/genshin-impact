@@ -11,15 +11,16 @@ createSubcommand("material", {
   ],
   guildOnly: true,
   execute: async function (message) {
-
-      const firstEmbed = new Embed()
+    const firstEmbed = new Embed()
       .setTitle("Varunada Lazurite")
       .setDescription([
         "**Varunada Lazurite** are gemstones of varying quality used in the ascension of characters.\n\n**Varunada Lazurite** is associated with the Hydro element.\n\nCan be obtained from Oceanid, Souvenir Shop and Alchemy.\n\n**Element:** <:Hydro:798483587157983282> Hydro",
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png",
+      )
       .setFooter("Page 1/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
     const secondEmbed = new Embed()
       .setTitle("Varunada Lazurite Sliver")
@@ -34,12 +35,16 @@ createSubcommand("material", {
         "",
         "Varunada Lazurite Sliver is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png",
+      )
       .setFooter("Page 2/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const thirdEmbed = new Embed()
+    const thirdEmbed = new Embed()
       .setTitle("Varunada Lazurite Fragment")
       .setDescription([
         "**Rarity:** ⭐⭐⭐",
@@ -54,12 +59,16 @@ createSubcommand("material", {
         "",
         "Varunada Lazurite Fragment is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png",
+      )
       .setFooter("Page 3/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fourthEmbed = new Embed()
+    const fourthEmbed = new Embed()
       .setTitle("Varunada Lazurite Chunk")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐",
@@ -74,12 +83,16 @@ createSubcommand("material", {
         "",
         "Varunada Lazurite Chunk is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png",
+      )
       .setFooter("Page 4/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      const fifthEmbed = new Embed()
+    const fifthEmbed = new Embed()
       .setTitle("Varunada Lazurite Gemstone")
       .setDescription([
         "**Rarity:** ⭐⭐⭐⭐⭐",
@@ -94,76 +107,109 @@ createSubcommand("material", {
         "",
         "Varunada Lazurite Gemstone is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png")
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png")
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png",
+      )
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png",
+      )
       .setFooter("Page 5/5")
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      createPagination(message, [firstEmbed,secondEmbed,thirdEmbed,fourthEmbed,fifthEmbed])
-},
+    createPagination(message, [
+      firstEmbed,
+      secondEmbed,
+      thirdEmbed,
+      fourthEmbed,
+      fifthEmbed,
+    ]);
+  },
 });
 
-export async function createPagination(message: Message, embeds: Embed[], page = 1 ): Promise<void> {
-    if (embeds.length === 0)
-        return;
+export async function createPagination(
+  message: Message,
+  embeds: Embed[],
+  page = 1,
+): Promise<void> {
+  if (embeds.length === 0) {
+    return;
+  }
 
-    const {channelID, author} = message;
+  const { channelID, author } = message;
 
-    let currentPage: number = page - 1;
+  let currentPage: number = page - 1;
 
-    let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
+  let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
 
-    if (!embedMessage)
-        return;
+  if (!embedMessage) {
+    return;
+  }
 
-    if (embeds.length <= 1)
-        return;
+  if (embeds.length <= 1) {
+    return;
+  }
 
-    try {
-        addReactions(
-            embedMessage.channelID,
-            embedMessage.id,
-            ['⏮️','◀️','▶️','⏭️'],
-            true
-        )
-    } catch (e) {
-        console.error(e);
-        return;
+  try {
+    addReactions(
+      embedMessage.channelID,
+      embedMessage.id,
+      ["⏮️", "◀️", "▶️", "⏭️"],
+      true,
+    );
+  } catch (e) {
+    console.error(e);
+    return;
+  }
+
+  while (true) {
+    if (!embedMessage) {
+      return;
+    }
+    const reaction = await needReaction(author.id, embedMessage.id);
+
+    if (!reaction) {
+      return;
     }
 
-    while(true) {
-        if (!embedMessage)
-            return;
-        const reaction = await needReaction(author.id, embedMessage.id);
-
-        if (!reaction)
-            return;
-
-        if(!(removeUserReaction(message.channelID, embedMessage.id, reaction, message.author.id).catch(console.error)))
-            return;
-
-        if (reaction === '◀️') {
-            currentPage--;
-        } else if (reaction === '▶️') {
-            currentPage++;
-        } else if (reaction === '⏮️') {
-            currentPage = 0;
-        } else if (reaction === '⏭️') {
-            currentPage = embeds.length - 1;
-        } else {
-            continue;
-        }
-
-        if (currentPage < 0)
-            currentPage = 0;
-
-        if (currentPage > embeds.length - 1)
-            currentPage = embeds.length - 1;
-
-        if (!embedMessage)
-            return;
-
-        if(!(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error)))
-            return;
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        embedMessage.id,
+        reaction,
+        message.author.id,
+      ).catch(console.error))
+    ) {
+      return;
     }
+
+    if (reaction === "◀️") {
+      currentPage--;
+    } else if (reaction === "▶️") {
+      currentPage++;
+    } else if (reaction === "⏮️") {
+      currentPage = 0;
+    } else if (reaction === "⏭️") {
+      currentPage = embeds.length - 1;
+    } else {
+      continue;
+    }
+
+    if (currentPage < 0) {
+      currentPage = 0;
+    }
+
+    if (currentPage > embeds.length - 1) {
+      currentPage = embeds.length - 1;
+    }
+
+    if (!embedMessage) {
+      return;
+    }
+
+    if (
+      !(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error))
+    ) {
+      return;
+    }
+  }
 }

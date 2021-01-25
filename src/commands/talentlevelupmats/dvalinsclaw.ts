@@ -5,7 +5,6 @@ createSubcommand("material", {
   name: "dvalinsclaw",
   guildOnly: true,
   execute: async function (message, args) {
-
     const embed = new Embed()
       .setTitle("Dvalin's Claw")
       .setDescription([
@@ -20,12 +19,16 @@ createSubcommand("material", {
         "Lv. 70+ Stormterror Challenge Reward",
         "",
         "**Description:**",
-        "A claw from the Dragon of the East.\nAs it had once torn through the flesh of the shadow dragon Durin, it used to contain his vicious poison. However, thanks to your purification and healing, it is no longer toxic."
+        "A claw from the Dragon of the East.\nAs it had once torn through the flesh of the shadow dragon Durin, it used to contain his vicious poison. However, thanks to your purification and healing, it is no longer toxic.",
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png/revision/latest/scale-to-width-down/256?cb=20210106070324")
-      .setImage("https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png/revision/latest/scale-to-width-down/256?cb=20210106070324")
-      .setColor("RANDOM")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png/revision/latest/scale-to-width-down/256?cb=20210106070324",
+      )
+      .setImage(
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png/revision/latest/scale-to-width-down/256?cb=20210106070324",
+      )
+      .setColor("RANDOM");
 
-      await sendEmbed(message.channelID, embed).catch(console.log);
-},
+    await sendEmbed(message.channelID, embed).catch(console.log);
+  },
 });

@@ -17,7 +17,9 @@ createCommand({
       return sendEmbed(
         message.channelID,
         new Embed()
-          .setImage("https://i.kym-cdn.com/photos/images/newsfeed/001/915/094/da9.png")
+          .setImage(
+            "https://i.kym-cdn.com/photos/images/newsfeed/001/915/094/da9.png",
+          ),
       );
     }
 

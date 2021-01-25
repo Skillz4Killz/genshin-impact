@@ -627,9 +627,12 @@ export const characters = new Map([
     "qiqi",
     {
       name: "Qiqi",
-      description: "Resurrected as a zombie by the adepti, she has ended up in Baizhu's care and now works at Bubu Pharmacy in Liyue Harbor.",
-      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916183756",
-      image: "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916183756",
+      description:
+        "Resurrected as a zombie by the adepti, she has ended up in Baizhu's care and now works at Bubu Pharmacy in Liyue Harbor.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916183756",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916183756",
       color: "00f9ff",
       emoji: "<:Qiqi:798578651145830401>",
       category: "Cryo",
@@ -1251,7 +1254,8 @@ export const characters = new Map([
     "jean",
     {
       name: "Jean",
-      description: "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+      description:
+        "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916180808",
       image:

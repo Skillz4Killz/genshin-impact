@@ -9,13 +9,21 @@ createCommand({
   guildOnly: true,
   execute: async function (message, args) {
     if (!args.name) {
-      return message.reply(["Available Food:", "", [...foods.keys()].sort().join(" - ")].join("\n"));
+      return message.reply(
+        ["Available Food:", "", [...foods.keys()].sort().join(" - ")].join(
+          "\n",
+        ),
+      );
     }
 
     const food = foods.get(args.name);
     if (!food) {
       return message.reply(
-        ["Did you say... **FOOD**? Which one?!", "", [...foods.keys()].join(" - "),].join("\n"),
+        [
+          "Did you say... **FOOD**? Which one?!",
+          "",
+          [...foods.keys()].join(" - "),
+        ].join("\n"),
       );
     }
 

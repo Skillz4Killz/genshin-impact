@@ -10,7 +10,6 @@ createSubcommand("list", {
   ],
   guildOnly: true,
   execute: async function (message, args) {
-
     const first = new Embed()
       .setTitle("Weapontypes")
       .setDescription([
@@ -22,9 +21,9 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://i.imgur.com/2rWapam.jpg")
+      .setThumbnail("https://i.imgur.com/2rWapam.jpg");
 
-      const second = new Embed()
+    const second = new Embed()
       .setTitle("Bows")
       .setDescription([
         "⭐⭐⭐",
@@ -45,7 +44,9 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/128?cb=20201116034023")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/128?cb=20201116034023",
+      );
 
     const third = new Embed()
       .setTitle("Polearms")
@@ -68,7 +69,9 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/128?cb=20201116033115")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/128?cb=20201116033115",
+      );
 
     const fourth = new Embed()
       .setTitle("Claymores")
@@ -91,9 +94,11 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/128?cb=20201120001015")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/128?cb=20201120001015",
+      );
 
-      const fifth = new Embed()
+    const fifth = new Embed()
       .setTitle("Swords")
       .setDescription([
         "⭐⭐⭐",
@@ -114,9 +119,11 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/128?cb=20201119235841")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/128?cb=20201119235841",
+      );
 
-      const sixth = new Embed()
+    const sixth = new Embed()
       .setTitle("Catalysts")
       .setDescription([
         "⭐⭐⭐",
@@ -137,7 +144,9 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/128?cb=20201119233859")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/128?cb=20201119233859",
+      );
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
@@ -146,14 +155,19 @@ createSubcommand("list", {
       4: { page: 4, embed: fourth, emoji: "4️⃣" },
       5: { page: 5, embed: fifth, emoji: "5️⃣" },
       6: { page: 6, embed: sixth, emoji: "6️⃣" },
-    } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
+    } as Record<
+      number,
+      { page: number; embed: Embed; emoji: string } | undefined
+    >;
 
     const page = pages[args.page];
     if (!page) return;
 
     // SEND FIRST EMBED
     const response = args.msg
-      ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
+      ? await (args.msg as Message).edit({ embed: page.embed }).catch(
+        console.log,
+      )
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
@@ -163,16 +177,22 @@ createSubcommand("list", {
 
     // HANDLE PAGINATION
     const reaction = await needReaction(message.author.id, response.id, {
-      filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
+      filter: (userID, reaction) =>
+        message.author.id === userID && page.emoji !== reaction,
     }).catch(console.log);
     if (!reaction) return;
 
-    const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
+    const selectedPage = Object.values(pages).find((page) =>
+      page?.emoji === reaction
+    );
     if (!selectedPage) return;
 
     return botCache.commands
-    .get("list")?.subcommands?.get("weapons")
-    ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
-
-},
+      .get("list")?.subcommands?.get("weapons")
+      ?.execute?.(message, {
+        character: args.character,
+        page: selectedPage.page,
+        msg: response,
+      });
+  },
 });

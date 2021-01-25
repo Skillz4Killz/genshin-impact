@@ -20,24 +20,35 @@ createCommand({
           "Available Characters:",
           "",
           [...characters.values()]
-            .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
+            .map((c) =>
+              c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "")
+                .toLowerCase()
+            )
             .sort()
             .join(" "),
-        ].join("\n")
+        ].join("\n"),
       );
     }
 
-    const character = characters.get(args.character.split(" - ").join("").replaceAll("(", "").replaceAll(")", ""));
+    const character = characters.get(
+      args.character.split(" - ").join("").replaceAll("(", "").replaceAll(
+        ")",
+        "",
+      ),
+    );
     if (!character) {
       return message.reply(
         [
           "Paimon can't find that Person... Try on of these:",
           "",
           [...characters.values()]
-            .map((c) => c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "").toLowerCase())
+            .map((c) =>
+              c.name.split(" ").join("").replaceAll("(", "").replaceAll(")", "")
+                .toLowerCase()
+            )
             .sort()
             .join(" "),
-        ].join("\n")
+        ].join("\n"),
       );
     }
 
@@ -108,11 +119,11 @@ createCommand({
         "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail);
-      for (const constellation of character.constellations) {
-        fourth.addField(constellation.name, constellation.description);
-      }
+    for (const constellation of character.constellations) {
+      fourth.addField(constellation.name, constellation.description);
+    }
 
-      const fifth = new Embed()
+    const fifth = new Embed()
       .setTitle(` ${character.name} Ascension Cost`)
       .setImage(character.ascensionCost);
 
@@ -122,14 +133,19 @@ createCommand({
       3: { page: 3, embed: third, emoji: "🪄" },
       4: { page: 4, embed: fourth, emoji: "🌟" },
       5: { page: 5, embed: fifth, emoji: "🔼" },
-    } as Record<number, { page: number; embed: Embed; emoji: string } | undefined>;
+    } as Record<
+      number,
+      { page: number; embed: Embed; emoji: string } | undefined
+    >;
 
     const page = pages[args.page];
     if (!page) return;
 
     // SEND FIRST EMBED
     const response = args.msg
-      ? await (args.msg as Message).edit({ embed: page.embed }).catch(console.log)
+      ? await (args.msg as Message).edit({ embed: page.embed }).catch(
+        console.log,
+      )
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
@@ -139,16 +155,23 @@ createCommand({
 
     // HANDLE PAGINATION
     const reaction = await needReaction(message.author.id, response.id, {
-      filter: (userID, reaction) => message.author.id === userID && page.emoji !== reaction,
+      filter: (userID, reaction) =>
+        message.author.id === userID && page.emoji !== reaction,
     }).catch(console.log);
     if (!reaction) return;
 
-    const selectedPage = Object.values(pages).find((page) => page?.emoji === reaction);
+    const selectedPage = Object.values(pages).find((page) =>
+      page?.emoji === reaction
+    );
     if (!selectedPage) return;
 
     return botCache.commands
       .get("character")
-      ?.execute?.(message, { character: args.character, page: selectedPage.page, msg: response });
+      ?.execute?.(message, {
+        character: args.character,
+        page: selectedPage.page,
+        msg: response,
+      });
   },
 });
 
@@ -159,7 +182,11 @@ characters.forEach((c) =>
     execute: async function (message, args, guild) {
       return botCache.commands
         .get("character")
-        ?.execute?.(message, { character: c.name.toLowerCase(), page: 1 }, guild);
+        ?.execute?.(
+          message,
+          { character: c.name.toLowerCase(), page: 1 },
+          guild,
+        );
     },
   })
 );
