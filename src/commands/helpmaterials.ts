@@ -5,8 +5,7 @@ createSubcommand("help", {
   name: "materials",
   aliases: ["material"],
   guildOnly: true,
-  execute: async function (message, args) {
-
+  execute: async function (message) {
     const embed = new Embed()
       .setTitle("Help Material")
       .setDescription([
@@ -34,11 +33,10 @@ createSubcommand("help", {
         "🔹 `p!material shadowofthewarriors`",
         "🔹 `p!material [shardofafoullegacy | foullegacy]`",
         "🔹 `p!material [spiritlocketofboreas | spiritlocket]`",
-        "🔹 `p!material [tuskofmonoceroscaeli | tuskofmonoceros | monoceroscaeli | monoceros]`"
+        "🔹 `p!material [tuskofmonoceroscaeli | tuskofmonoceros | monoceroscaeli | monoceros]`",
       ])
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      await sendEmbed(message.channelID, embed).catch(console.log);
-  
+    await sendEmbed(message.channelID, embed).catch(console.log);
   },
 });

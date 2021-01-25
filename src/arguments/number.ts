@@ -6,6 +6,6 @@ botCache.arguments.set("number", {
     const [number] = parameters;
 
     const valid = Number(number);
-    if (valid) return valid;
+    if (valid || valid === 0) return valid;
   },
 });
