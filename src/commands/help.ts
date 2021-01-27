@@ -23,6 +23,6 @@ createCommand({
           "",
           "Need further help? Visit our Support Server!",
         ]),
-    });
+    }).catch(console.log);
   },
 });
