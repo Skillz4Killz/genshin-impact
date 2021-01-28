@@ -17,7 +17,6 @@ createCommand({
           .alertReply(
             "You may have your DM's blocked or too many users are using the bot at the moment.",
           )
-          .catch(console.log);
 
         console.log(error);
       });
