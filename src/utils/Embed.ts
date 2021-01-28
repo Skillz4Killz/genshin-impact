@@ -34,7 +34,6 @@ export class Embed {
   title?: string;
   thumbnail?: EmbedImage;
   url?: string;
-  embedFile: { blob: unknown; name: string; } | undefined;
 
   constructor(enforceLimits = true) {
     // By default we will always want to enforce discord limits but this option allows us to bypass for whatever reason.
