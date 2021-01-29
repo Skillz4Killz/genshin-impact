@@ -11,9 +11,9 @@ createSubcommand("list", {
   guildOnly: true,
   execute: async function (message, args) {
     const first = new Embed()
-      .setTitle("Weapontypes")
+      .setTitle("Overview")
       .setDescription([
-        `1️⃣ Weapontypelist`,
+        `1️⃣ Overview`,
         "",
         `2️⃣ Bow`,
         `3️⃣ Polearm`,
@@ -37,7 +37,7 @@ createSubcommand("list", {
         "",
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon ravenbow`",
         "",
-        `1️⃣ Weapontypelist`,
+        `1️⃣ Overview`,
         `2️⃣ Bow`,
         `3️⃣ Polearm`,
         `4️⃣ Claymore`,
@@ -62,7 +62,7 @@ createSubcommand("list", {
         "",
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon blacktassel`",
         "",
-        `1️⃣ Weapontypelist`,
+        `1️⃣ Overview`,
         `2️⃣ Bow`,
         `3️⃣ Polearm`,
         `4️⃣ Claymore`,
@@ -87,7 +87,7 @@ createSubcommand("list", {
         "",
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridergreatsword`",
         "",
-        `1️⃣ Weapontypelist`,
+        `1️⃣ Overview`,
         `2️⃣ Bow`,
         `3️⃣ Polearm`,
         `4️⃣ Claymore`,
@@ -112,7 +112,7 @@ createSubcommand("list", {
         "",
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridersword`",
         "",
-        `1️⃣ Weapontypelist`,
+        `1️⃣ Overview`,
         `2️⃣ Bow`,
         `3️⃣ Polearm`,
         `4️⃣ Claymore`,
@@ -137,7 +137,7 @@ createSubcommand("list", {
         "",
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon memoryofdust`",
         "",
-        `1️⃣ Weapontypelist`,
+        `1️⃣ Overview`,
         `2️⃣ Bow`,
         `3️⃣ Polearm`,
         `4️⃣ Claymore`,
