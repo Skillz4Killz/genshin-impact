@@ -1,5 +1,5 @@
-import { Embed } from "../utils/Embed.ts";
-import { createSubcommand, sendEmbed } from "../utils/helpers.ts";
+import { Embed } from "../../utils/Embed.ts";
+import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("help", {
   name: "materials",
