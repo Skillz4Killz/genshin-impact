@@ -38,11 +38,6 @@ createSubcommand("list", {
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon ravenbow`",
         "",
         `1️⃣ Overview`,
-        `2️⃣ Bow`,
-        `3️⃣ Polearm`,
-        `4️⃣ Claymore`,
-        `5️⃣ Sword`,
-        `6️⃣ Catalyst`,
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/128?cb=20201116034023",
@@ -63,11 +58,6 @@ createSubcommand("list", {
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon blacktassel`",
         "",
         `1️⃣ Overview`,
-        `2️⃣ Bow`,
-        `3️⃣ Polearm`,
-        `4️⃣ Claymore`,
-        `5️⃣ Sword`,
-        `6️⃣ Catalyst`,
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/128?cb=20201116033115",
@@ -88,11 +78,6 @@ createSubcommand("list", {
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridergreatsword`",
         "",
         `1️⃣ Overview`,
-        `2️⃣ Bow`,
-        `3️⃣ Polearm`,
-        `4️⃣ Claymore`,
-        `5️⃣ Sword`,
-        `6️⃣ Catalyst`,
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/128?cb=20201120001015",
@@ -113,11 +98,6 @@ createSubcommand("list", {
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridersword`",
         "",
         `1️⃣ Overview`,
-        `2️⃣ Bow`,
-        `3️⃣ Polearm`,
-        `4️⃣ Claymore`,
-        `5️⃣ Sword`,
-        `6️⃣ Catalyst`,
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/128?cb=20201119235841",
@@ -138,11 +118,6 @@ createSubcommand("list", {
         "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon memoryofdust`",
         "",
         `1️⃣ Overview`,
-        `2️⃣ Bow`,
-        `3️⃣ Polearm`,
-        `4️⃣ Claymore`,
-        `5️⃣ Sword`,
-        `6️⃣ Catalyst`,
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/128?cb=20201119233859",
