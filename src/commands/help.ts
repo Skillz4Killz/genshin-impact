@@ -8,7 +8,6 @@ import {
 createCommand({
   name: `help`,
   arguments: [{ name: "subcommand", type: "subcommand", required: false }],
-  botChannelPermissions: ["SEND_MESSAGES", "ATTACH_FILES"],
   guildOnly: true,
   execute: async function (message) {
     await message.reply({
