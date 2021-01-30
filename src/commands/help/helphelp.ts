@@ -8,7 +8,7 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help Help")
       .setDescription([
-        "🔹 `p!hlep edit`",
+        "🔹 `p!help edit`",
         "🔹 `p!help [gadgets | gadget]`",
         "🔹 `p!help help`",
         "🔹 `p!help [materials | material]`",
