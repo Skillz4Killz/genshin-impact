@@ -1,6 +1,5 @@
 import { Milliseconds } from "../utils/constants/time.ts";
-import { botCache, cache, cacheHandlers } from "../../deps.ts";
-import { botID } from "https://deno.land/x/discordeno@10.0.2/src/bot.ts";
+import { botCache, botID, cache, cacheHandlers } from "../../deps.ts";
 
 const MESSAGE_LIFETIME = Milliseconds.MINUTE * 10;
 const MEMBER_LIFETIME = Milliseconds.MINUTE * 30;
