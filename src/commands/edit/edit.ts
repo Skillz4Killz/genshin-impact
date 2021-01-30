@@ -13,6 +13,7 @@ function sendDMOrResponse(message: Message, content: string | MessageContent) {
 
 createCommand({
   name: "edit",
+  aliases: ["add"],
   arguments: [{ name: "subcommand", type: "subcommand" }],
 });
 
