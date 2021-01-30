@@ -7,7 +7,7 @@ createSubcommand("help", {
   guildOnly: true,
   execute: async function (message) {
     const embed = new Embed()
-      .setTitle("Help Edit")
+      .setTitle("Help Edit/Add")
       .setDescription([
         "🔹 `p!edit uid (UID)`",
         "🔹 `p!edit [ar | adventurerrank] (1-60)`",
