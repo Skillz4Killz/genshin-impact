@@ -132,22 +132,44 @@ export function editEmbed(message: Message, embed: Embed, content?: string) {
 
 // Very important to make sure files are reloaded properly
 let uniqueFilePathCounter = 0;
+let paths: string[] = [];
 /** This function allows reading all files in a folder. Useful for loading/reloading commands, monitors etc */
 export async function importDirectory(path: string) {
   const files = Deno.readDirSync(Deno.realPathSync(path));
+  const folder = path.substring(path.indexOf("/src/") + 5);
+  if (!folder.includes("/")) console.log(`[Import] Loading ${folder}...`);
 
   for (const file of files) {
     if (!file.name) continue;
 
-    const currentPath = `${path}/${file.name}`;
+    const currentPath = `${path}/${file.name}`.replaceAll("\\", "/");
     if (file.isFile) {
-      import(`file:///${currentPath}#${uniqueFilePathCounter}`);
+      paths.push(
+        `import "./${
+          currentPath.substring(currentPath.indexOf("src/"))
+        }#${uniqueFilePathCounter}";`,
+      );
       continue;
     }
 
     importDirectory(currentPath);
   }
   uniqueFilePathCounter++;
+}
+
+export async function fileLoader() {
+  await Deno.writeTextFile("fileloader.ts", paths.join("\n"));
+  console.log(Deno.cwd() + "/fileloader.ts");
+  console.log(
+    `file:///` + Deno.cwd() + `/fileloader.ts#${uniqueFilePathCounter}`,
+  );
+  console.log(`file:///fileloader.ts#${uniqueFilePathCounter}`);
+  console.log(
+    `file:///${Deno.realPathSync("./fileloader.ts")}#${uniqueFilePathCounter}`,
+  );
+  await import(
+    `file:///${Deno.realPathSync("./fileloader.ts")}#${uniqueFilePathCounter}`
+  );
 }
 
 export function getTime() {
