@@ -16,7 +16,11 @@ createSubcommand("patchnotes", {
       .setDescription([
         "**Release Date:** 3. February 2021",
         "",
-        "**Download Size:** 4,19 GB",
+        "**Download Size:*",
+        "PC: 4,19 GB",
+        "Smartphone: 2,2 GB",
+        "Playstation: NA",
+        "Switch: NA",
         "",
         "**Dear Travelers,**\n\nTo ensure all Travelers have the best-possible Genshin Impact experience, our developers will soon begin performing update maintenance. After this is complete, the game will update to a new version.\nAfter Travelers install the new game client, they will be able to continue playing. It is recommended to install the update over Wi-Fi owing to the large file size.\nWhile the update maintenance is in progress, Travelers will be unable to log in to the game. Please take note of the update time and schedule your game time accordingly to avoid losing your progress. We hope Travelers will bear with us during the disruption.",
       ])
