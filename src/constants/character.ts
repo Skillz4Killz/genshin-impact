@@ -2581,4 +2581,94 @@ export const characters = new Map([
       ],
     },
   ],
+  [
+    "xiao",
+    {
+      name: "Xiao",
+      description:
+        "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916152108",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916152108",
+      color: "03fd9e",
+      emoji: "<:Xiao:798578017197883412>",
+      category: "Cryo",
+      rarity: "⭐⭐⭐⭐",
+      element: "<:Anemo:798483595781341194>",
+      weapon: "Polearm",
+      nation: "Liyue",
+      affiliation: "Liyue Adeptus",
+      specialDish: "NA",
+      constellation: "Alatus Nemeseos",
+      birthday: "NA",
+      ascensionCost: "https://i.imgur.com/9mfEloX.png",
+      activeTalents: [
+        {
+          name: "Whirlwind Thrust",
+          description:
+            "**Normal Attack**\nPerforms up to 6 rapid strikes.\n\n**Charged Attack**\nConsumes Stamina to perform an upward thrust.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+        },
+        {
+          name: "Skill: Lemniscatic Wind Cycling",
+          description:
+            "Performs a high-speed dash, dealing **Anemo DMG** to enemies in his path.\nCan be used while airbone.\nStarts with 2 charges.\n",
+        },
+        {
+          name: "Burst: Bane of All Evil",
+          description:
+            "Dons the Yaksha's Mask that once struck fear into gods and demons alike.\n\n**Yaksha's Mask:**\n► Greatly increases Xiao's jumping ability.\n► Increases Xiao's attack AoE and DMG.\n► Xiao's attack DMG is converted to **Anemo DMG**, which cannot be overriden by any other elemental infusion.\n► In this state, Xiao will continuously lose HP.\n\nThe effects of this skill end when Xiao leaves the field.",
+        },
+      ],
+      passiveTalents: [
+        {
+          name: "Evil Conqueror - Tamer of Demons",
+          description:
+            "Starting Bane of All Evil increases Xiao's DMG by 5%. After this, Xiao's DMG continues to increase by 5% every 3s until the skill ends. Max 25% increase.\n",
+        },
+        {
+          name: "Dissolution Eon - Heaven Fall",
+          description:
+            "When Lemniscatic Wind Cycling is used, increases all subsequent Lemniscatic Wind Cycling's DMG by 10% for 6s. Max 3 stacks. Duration refreshes with new stacks.\n",
+        },
+        {
+          name: "Transcension - Gravity Defier",
+          description:
+            "Decreases all party member's falling DMG by 20%.",
+        },
+      ],
+      constellations: [
+        {
+          name: "C1: Dissolution Eon - Destroyer of Worlds",
+          description:
+            "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+        },
+        {
+          name: "C2: Annihilation Eon - Blossom of Kaleidos",
+          description:
+            "When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%.",
+        },
+        {
+          name: "C3: Evil Conqueror - Wrath Deity",
+          description:
+            "Increases Lemniscatic Wind Cycling's skill level by 3. Max level is 15.",
+        },
+        {
+          name: "C4: Transcension - Extinction of Suffering",
+          description:
+            "When Xiao's HP falls below 50%, gains a 100% DEF Bonus.",
+        },
+        {
+          name: "C5: Evolution Eon - Origin of Ignorance",
+          description:
+            "Increases Bane of All Evil's skill level by 3. Max level is 15.",
+        },
+        {
+          name: "C6: Evil Conqueror - Vigilant Yaksha",
+          description:
+            "During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s.",
+        },
+      ],
+    },
+  ],
 ]);

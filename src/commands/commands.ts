@@ -27,6 +27,8 @@ createCommand({
         "",
         "`p!material (name)`\nShows info about a specific material.",
         "",
+        "`p!update (version)`\nShows info about a specific game update.",
+        "",
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,

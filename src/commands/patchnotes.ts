@@ -4,22 +4,24 @@ import {
 } from "../utils/helpers.ts";
 
 createCommand({
-  name: `help`,
+  name: "patchnotes",
+  aliases: ["patchnote", "update", "version"],
   arguments: [{ name: "subcommand", type: "subcommand", required: false }],
   guildOnly: true,
   execute: async function (message) {
     await message.reply({
-      content: "https://discord.gg/26MjArxVP3",
       embed: new Embed()
         .setTitle("Need help, Traveler?")
         .setDescription([
-          "To set up your profile run `p!setup` and go to my DMs!",
+          "`p!update 1.1`",
+          "**not availabable yet**",
           "",
-          "To check your profile, run the command `p!profile`!",
+          "`p!update 1.2`",
+          "**not availabable yet**",
           "",
-          "To access the command list, please use the command `p!commands`!",
+          "`p!update 1.3`",
+          "'All That Glitters'",
           "",
-          "Need further help? Visit our Support Server!",
         ]),
     }).catch(console.log);
   },
