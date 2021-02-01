@@ -16,7 +16,7 @@ createSubcommand("patchnotes", {
       .setDescription([
         "**Release Date:** 3. February 2021",
         "",
-        "**Download Size:*",
+        "**Download Size:**",
         "PC: 4,19 GB",
         "Smartphone: 2,2 GB",
         "Playstation: NA",

@@ -2586,7 +2586,7 @@ export const characters = new Map([
     {
       name: "Xiao",
       description:
-        "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+        "A yaksha adeptus who defends Liyue. Also heralded as the 'Conqueror of Demons' or 'Vigilant Yaksha.'",
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916152108",
       image:
@@ -2594,7 +2594,7 @@ export const characters = new Map([
       color: "03fd9e",
       emoji: "<:Xiao:798578017197883412>",
       category: "Cryo",
-      rarity: "⭐⭐⭐⭐",
+      rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194>",
       weapon: "Polearm",
       nation: "Liyue",
