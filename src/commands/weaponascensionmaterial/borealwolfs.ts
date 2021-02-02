@@ -62,7 +62,7 @@ createSubcommand("material", {
       "The life of a wolf is not without violence; broken bones or cracked teeth are nothing special.\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family."
     ])
     .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Boreal_Wolf%27s_Cracked_Tooth.png/revision/latest/scale-to-width-down/256?cb=20210109220038")
-    .setFooter("Page 4/5")
+    .setFooter("Page 3/5")
     .setTimestamp()
     .setColor("RANDOM");
 
@@ -80,7 +80,7 @@ createSubcommand("material", {
       "The wolf pack also understands that humans are not solitary creatures. The honorary broken tooth is a parting gift said to bring protection and luck.\nIn the legends of a far-off world, a female wolf once adopted two great humans. Their home was known as the Cave of Wolves, or Lupercal - that word meaning the same thing as Lupical does in this world."
     ])
     .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Boreal_Wolf%27s_Broken_Fang.png/revision/latest/scale-to-width-down/256?cb=20210109220033")
-    .setFooter("Page 3/5")
+    .setFooter("Page 4/5")
     .setTimestamp()
     .setColor("RANDOM");
 

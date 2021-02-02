@@ -12,6 +12,7 @@ createSubcommand("help", {
         "🔹 `p!help [gadgets | gadget]`",
         "🔹 `p!help help`",
         "🔹 `p!help [materials | material]`",
+        "🔹 `p!help [patchnote | patchnotes | update | version]`",
         "🔹 `p!help profile`",
         "🔹 `p!help remove`",
         "🔹 `p!help reset`",

@@ -53,9 +53,26 @@ createSubcommand("help", {
           .setTimestamp()
           .setColor("RANDOM");
 
+          const thirdEmbed = new Embed()
+        .setTitle("Grain of Aerosiderite")
+        .setDescription([
+          "🔹 `p!material [wanderersadvice | adventurersexperience | heroswit]`",
+          "🔹 `p!material [horn | heavyhorn | blackbronzehorn | blackcrystalhorn'",
+          "🔹 `p!material [chaos | chaoscircuit | chaosdevice | chaoscircuit`",
+          "🔹 `p!material [mask | damagedmask | stainedmask | omniousmask`",
+          "🔹 `p!material `",
+          "🔹 `p!material `",
+          "🔹 `p!material `",
+          "🔹 `p!material `",
+          ])
+          .setFooter("Page 2/2")
+          .setTimestamp()
+          .setColor("RANDOM");
+
       createPagination(message, [
         firstEmbed,
         secondEmbed,
+        thirdEmbed
       ]);
     },
   });

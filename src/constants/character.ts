@@ -2617,7 +2617,7 @@ export const characters = new Map([
         {
           name: "Burst: Bane of All Evil",
           description:
-            "Dons the Yaksha's Mask that once struck fear into gods and demons alike.\n\n**Yaksha's Mask:**\n► Greatly increases Xiao's jumping ability.\n► Increases Xiao's attack AoE and DMG.\n► Xiao's attack DMG is converted to **Anemo DMG**, which cannot be overriden by any other elemental infusion.\n► In this state, Xiao will continuously lose HP.\n\nThe effects of this skill end when Xiao leaves the field.",
+            "Dons the Yaksha's Mask that once struck fear into gods and demons alike.\n\n**Yaksha's Mask:**\n► Greatly increases Xiao's jumping ability.\n► Increases Xiao's attack AoE and DMG.\n► Xiao's attack DMG is converted to **Anemo DMG**, which cannot be overriden by any other elemental infusion.\n► In this state, Xiao will continuously lose HP.\n\nThe effects of this skill end when Xiao leaves the field.\n",
         },
       ],
       passiveTalents: [
@@ -2641,7 +2641,7 @@ export const characters = new Map([
         {
           name: "C1: Dissolution Eon - Destroyer of Worlds",
           description:
-            "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+            "Increases Lemniscatic Wind Cycling's charges by 1.",
         },
         {
           name: "C2: Annihilation Eon - Blossom of Kaleidos",
