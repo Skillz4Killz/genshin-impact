@@ -13,7 +13,8 @@ createCommand({
           "You forgot to provide the name of a material.",
           "",
           "If you need help, try `p!help materials`",
-        ]),
+        ])
+        .setTimestamp()
     }).catch(console.log);
   },
 });
