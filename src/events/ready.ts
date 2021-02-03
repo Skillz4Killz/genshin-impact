@@ -23,6 +23,8 @@ botCache.eventHandlers.ready = function () {
 
   registerTasks();
 
+  botCache.fullyReady = true;
+
   console.log(
     `[READY] Bot is online and ready in ${cache.guilds.size} guild(s)!`,
   );
