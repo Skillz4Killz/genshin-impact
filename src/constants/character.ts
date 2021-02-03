@@ -2593,7 +2593,7 @@ export const characters = new Map([
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916152108",
       color: "03fd9e",
       emoji: "<:Xiao:798578017197883412>",
-      category: "Cryo",
+      category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194>",
       weapon: "Polearm",
