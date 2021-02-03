@@ -25,4 +25,8 @@ export const botCache = {
   tasks: new Collection<string, Task>(),
   runningTasks: [] as number[],
   memberLastActive: new Collection<string, number>(),
+  activeGuildIDs: new Set<string>(),
+  dispatchedGuildIDs: new Set<string>(),
+  dispatchedChannelIDs: new Set<string>(),
+  fullyReady: false,
 };
