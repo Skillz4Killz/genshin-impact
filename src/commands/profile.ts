@@ -46,7 +46,9 @@ createCommand({
         `**AR:** ${settings.adventurerRank}`,
         `**WL:** ${settings.worldLevel}`,
       ])
+      .setFooter("If your char levels are 'undefined', run the setup again or edit the char level")
       .setThumbnail(member.avatarURL);
+      
 
     for (
       const category of categories.sort(
