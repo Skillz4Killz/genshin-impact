@@ -100,6 +100,8 @@ createSubcommand("patchnotes", {
       "Lantern Rite Tales III: Reach the Festive Fever stage 'Glow of a Thousand Lanterns,' complete the questline 'Light Upon the Sea,' and complete all requests in 'Lantern Rite Tales II' to unlock.",
       "● Complete requests in 'Lantern Rite Tales' to win Primogems and increase Festive Fever. Increase Festive Fever to progress through the Lantern Rite.",
       "※ After the event gameplay ends on 2021/02/28 03:59:59, requests will no longer be available to complete.",
+      "",
+      "",
       "**〓Theater Mechanicus〓**",
       "Unlock Criteria:",
       "Complete the quests 'The Origin of the Lanterns' and 'Liyue: Theater Mechanicus' to unlock",

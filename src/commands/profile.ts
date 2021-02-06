@@ -63,7 +63,7 @@ createCommand({
         `${category.emoji} ${category.name}`,
         settings.characters
           // SORT HIGHEST TO LOWEST
-          .sort((a, b) => b.constellationLevel - a.constellationLevel)
+          .sort((a, b) => b.charLevel - a.charLevel)
           .map((character) => {
             const char = characters.get(character.name.toLowerCase());
             // NOT A CHAR IN CONSTANTS
@@ -74,7 +74,7 @@ createCommand({
             // CHAR DETAILS
             return `${
               char ? `${char.emoji} ` : ""
-            }${character.name} C${character.constellationLevel}`;
+            }${character.name}\n*C${character.constellationLevel} - Lv. ${character.charLevel}*`;
           })
           // REMOVES EMPTY STRINGS
           .filter((x) => x)

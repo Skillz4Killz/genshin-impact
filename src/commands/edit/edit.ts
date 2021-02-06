@@ -49,7 +49,7 @@ createSubcommand("edit", {
   aliases: ["wl"],
   arguments: [
     {
-      name: "level",
+      name: "worldlevel",
       type: "number",
       missing: (message) =>
         message.reply("The world level must be between 0-8").catch(console.log),
@@ -57,13 +57,13 @@ createSubcommand("edit", {
   ],
   execute: async function (message, args) {
     if (args.level < 0 || args.level > 8) {
-      return sendDMOrResponse(message, "The world level must be between 0-8");
+      return sendDMOrResponse(message, "The worldlevel must be between 0-8");
     }
 
     db.users
-      .update(message.author.id, { worldLevel: args.level })
+      .update(message.author.id, { worldLevel: args.worldlevel })
       .then(() =>
-        sendDMOrResponse(message, "Edited the World Level!").catch(console.log)
+        sendDMOrResponse(message, "Edited the worldlevel!").catch(console.log)
       )
       .catch(console.log);
   },
@@ -74,7 +74,7 @@ createSubcommand("edit", {
   aliases: ["ar"],
   arguments: [
     {
-      name: "level",
+      name: "rank",
       type: "number",
       missing: (message) =>
         message.reply("The adventurer rank must be between 1-60").catch(
@@ -83,7 +83,7 @@ createSubcommand("edit", {
     },
   ],
   execute: async function (message, args) {
-    if (args.level < 1 || args.level > 60) {
+    if (args.rank < 1 || args.rank > 60) {
       return sendDMOrResponse(
         message,
         "The adventurer rank must be between 1-60",
@@ -91,9 +91,9 @@ createSubcommand("edit", {
     }
 
     db.users
-      .update(message.author.id, { adventurerRank: args.level })
+      .update(message.author.id, { adventurerRank: args.rank })
       .then(() =>
-        sendDMOrResponse(message, "Edited the Adventurer Rank!").catch(
+        sendDMOrResponse(message, "Edited the adventurer rank!").catch(
           console.log,
         )
       )
@@ -108,35 +108,48 @@ createSubcommand("edit", {
     {
       name: "character",
       type: "string",
-      missing: (message) =>
-        message.reply("You forgot to provide a char and the constellation")
-          .catch(console.log),
+      missing: (message) => {
+        message.reply("You forgot to provide a char.").catch(console.log)
+      }
     },
+    {
+      name: "type",
+      type: "string",
+      literals: ["const", "level"],
+      missing: (message) =>
+              message.reply("You forgot to provide the type (const/level) followed by the constellation/level.")
+                .catch(console.log),
+          },
     {
       name: "level",
       type: "number",
-      missing: (message) =>
-        message.reply("You forgot to provide the constellation (0-6)").catch(
-          console.log,
-        ),
-    },
+      missing: (message) => {
+          message.reply("You forgot to provide the new level.")
+          .catch(console.log)
+        }
+    }
   ],
   execute: async function (message, args) {
     const character = characters.get(args.character);
     if (!character) {
-      return sendDMOrResponse(message, "Invalid character name.").catch(
-        console.log,
-      );
+      return sendDMOrResponse(message, "Invalid character name.").catch(console.log);
     }
 
-    if (args.level < 0 || args.level > 6) {
-      return sendDMOrResponse(message, "Invalid character constellation.")
-        .catch(console.log);
+    if (args.type === "const") {
+      if (args.level < 0 || args.level > 6) {
+        return sendDMOrResponse(message, "Invalid constellation level (0-6).")
+          .catch(console.log);
+      }
+    } else if (args.type === "level") {
+      if (args.level < 1 || args.level > 90) {
+        return sendDMOrResponse(message, "Invalid character level (1-90).")
+          .catch(console.log);
+      }
     }
 
     const settings = await db.users.get(message.author.id);
     if (!settings) {
-      return sendDMOrResponse(message, "I can't find this profile.. ").catch(
+      return sendDMOrResponse(message, "I can't find your profile...").catch(
         console.log,
       );
     }
@@ -144,23 +157,111 @@ createSubcommand("edit", {
     if (settings.characters.some((c) => c.name === character.name)) {
       settings.characters = settings.characters.map((c) =>
         c.name === character.name
-          ? { name: c.name, constellationLevel: args.level }
+          ? { 
+              name: c.name, 
+              constellationLevel: args.type === "const"
+                ? args.level 
+                : c.constellationLevel,
+              charLevel: args.type === "level"
+                ? args.level
+                : c.charLevel
+            }
           : c
       );
     } else {
       settings.characters.push({
         name: character.name,
-        constellationLevel: args.level,
+        constellationLevel: args.type === "const"
+          ? args.level 
+          : 0,
+        charLevel: args.type === "level"
+          ? args.level 
+          : 1,
       });
     }
 
-    db.users
+    await db.users
       .update(message.author.id, {
         characters: settings.characters,
       })
-      .then(() =>
-        sendDMOrResponse(message, "Edited the character!").catch(console.log)
-      )
       .catch(console.log);
-  },
+
+    return sendDMOrResponse(message, "Edited the character!").catch(console.log)
+  }
+
+
+//  arguments: [
+//    {
+//      name: "character",
+//      type: "string",
+//      missing: (message) =>
+//        message.reply("You forgot to provide a char and the constellation")
+//          .catch(console.log),
+//    },
+//    {
+//      name: "constlevel",
+//      type: "number",
+//      missing: (message) =>
+//        message.reply("You forgot to provide the constellation (0-6)").catch(
+//          console.log,
+//        ),
+//    },
+//    {
+//      name: "charlevel",
+//      type: "number",
+//      missing: (message) =>
+//        message.reply("You forgot to provide the level (1-90)").catch(
+//          console.log,
+//        ), 
+//    }, 
+//  ], 
+  
+  // execute: async function (message, args) {
+  //   const character = characters.get(args.character);
+  //   if (!character) {
+  //     return sendDMOrResponse(message, "Invalid character name.").catch(
+  //       console.log,
+  //     );
+  //   }
+
+  //   if (args.constlevel < 0 || args.constlevel > 6) {
+  //     return sendDMOrResponse(message, "Invalid character constellation.")
+  //       .catch(console.log);
+  //   }
+
+  //   if (args.charlevel < 1 || args.charlevel > 90) {
+  //     return sendDMOrResponse(message, "Invalid character level.")
+  //       .catch(console.log);
+  //   }
+
+  //   const settings = await db.users.get(message.author.id);
+  //   if (!settings) {
+  //     return sendDMOrResponse(message, "I can't find this profile...").catch(
+  //       console.log,
+  //     );
+  //   }
+
+  //   if (settings.characters.some((c) => c.name === character.name)) {
+  //     settings.characters = settings.characters.map((c) =>
+  //       c.name === character.name
+  //         ? { name: c.name, constellationLevel: args.constlevel, charLevel: args.charlevel }
+  //         : c
+  //     );
+  //   } else {
+  //     settings.characters.push({
+  //       name: character.name,
+  //       constellationLevel: args.constlevel,
+  //       charLevel: args.charlevel,
+  //     });
+  //   }
+
+  //   db.users
+  //     .update(message.author.id, {
+  //       characters: settings.characters,
+  //     })
+  //     .then(() =>
+  //       sendDMOrResponse(message, "Edited the character!").catch(console.log)
+  //     )
+  //     .catch(console.log);
+  // },
 });

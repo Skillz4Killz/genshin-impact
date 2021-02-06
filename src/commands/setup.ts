@@ -60,7 +60,7 @@ createCommand({
       if (!hasChar) {
         await sendDirectMessage(
           message.author.id,
-          "Did you fall asleep? Let's try again later..",
+          "Did you fall asleep? Let's try again later...",
         ).catch(console.log);
         // CANCEL OUT
         return;
@@ -86,7 +86,33 @@ createCommand({
       ).catch(console.log);
       // THE USER PROVIDED NO VALID RESPONSE IN THE TIME GIVEN
       if (!constellationLevel) {
-        await sendDirectMessage(message.author.id, "Cancelling setup...").catch(
+        await sendDirectMessage(message.author.id, "Did you fall asleep? Let's try again later...").catch(
+          console.log,
+        );
+        // CANCEL OUT
+        return;
+      }
+
+      // SINCE THE USER OWNS THIS CHARACTERS WE CAN ASK FOR MORE INFO
+      await sendDirectMessage(
+        message.author.id,
+        [
+          "On what level is your character? Between 1-90",
+        ].join("\n"),
+      ).catch(console.log);
+
+      // WAIT FOR CONSTELLATION LEVEL RESPONSE
+      const charLevel = await needMessage(
+        message.author.id,
+        hasCharQuestion.channelID,
+        {
+          // MAX IS 90. MIN IS 1
+          filter: (msg) => validateNumberFilter(msg, 90, 1),
+        },
+      ).catch(console.log);
+      // THE USER PROVIDED NO VALID RESPONSE IN THE TIME GIVEN
+      if (!charLevel) {
+        await sendDirectMessage(message.author.id, "Did you fall asleep? Let's try again later...").catch(
           console.log,
         );
         // CANCEL OUT
@@ -97,6 +123,7 @@ createCommand({
       ownedCharacters.push({
         name: character.name,
         constellationLevel: Number(constellationLevel.content),
+        charLevel: Number(charLevel.content)
       });
     }
 

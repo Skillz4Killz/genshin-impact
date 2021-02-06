@@ -37,4 +37,6 @@ export interface OwnedCharacter {
   name: string;
   /** The level of this character constellation */
   constellationLevel: number;
+  /** The level of this character */
+  charLevel: number;
 }
