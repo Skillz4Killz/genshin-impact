@@ -26,14 +26,6 @@ createSubcommand("help", {
           "🔹 `p!material [gold | teachingsofgold | guidetogold | philosophiesofgold]`",
           "🔹 `p!material [prosperity | teachingsofprosperity | guidetoprosperity | philosophiesofprosperity]`",
           "🔹 `p!material [resistance | teachingsofresistance | guidetoresistance | philosophiesofresistance]`",
-        ])
-        .setFooter("Page 1/2")
-        .setTimestamp()
-        .setColor("RANDOM");
-    
-        const secondEmbed = new Embed()
-        .setTitle("Grain of Aerosiderite")
-        .setDescription([
           "🔹 `p!material crownofinsight`",
           "🔹 `p!material dvalinsclaw`",
           "🔹 `p!material dvalinsplume`",
@@ -43,29 +35,46 @@ createSubcommand("help", {
           "🔹 `p!material [shardofafoullegacy | foullegacy]`",
           "🔹 `p!material [spiritlocketofboreas | spiritlocket]`",
           "🔹 `p!material [tuskofmonoceroscaeli | tuskofmonoceros | monoceroscaeli | monoceros]`",
-          "",
+        ])
+        .setFooter("Page 1/3")
+        .setTimestamp()
+        .setColor("RANDOM");
+    
+        const secondEmbed = new Embed()
+        .setTitle("Help Material")
+        .setDescription([
+          "**Weapon Ascension Material**",
           "🔹 `p!material [aerosiderite | pieceofaerosiderite | grainofaerosiderite | bitofaerosiderite | chunkofaerosiderite]`",
           "🔹 `p!material [boreal | borealwolf | borealwolfs | borealwolfsmilktooth | borealwolfsbrokenfang | borealwolfscrackedtooth | borealwolfsnostalgia | milktooth | brokenfang | crackedtooth | nostalgia]`",
           "🔹 `p!material [dandeliongladiator | fettersofthedandeliongladiator | chainsofthedandeliongladiator | shacklesofthedandeliongladiator | dreamofthedandeliongladiator]`",
           "🔹 `p!material [mistveiled | mistveiledleadelixir | mistveiledmercuryelixir | mistveiledgoldelixir | mistveiledprimoelixir]`",
+          "",
+          "**Character EXP Material**",
+          "🔹 `p!material [wanderersadvice | adventurersexperience | heroswit]`",
+          "",
+          "**Weapon Enhancement Material**",
+          "🔹 `p!material enhancementore`",
+          "🔹 `p!material [festeringdragonmarrow | festeringdragon | dragonmarrow]`",
           ])
-          .setFooter("Page 2/2")
+          .setFooter("Page 2/3")
           .setTimestamp()
           .setColor("RANDOM");
 
           const thirdEmbed = new Embed()
-        .setTitle("Grain of Aerosiderite")
+        .setTitle("Help Material")
         .setDescription([
-          "🔹 `p!material [wanderersadvice | adventurersexperience | heroswit]`",
-          "🔹 `p!material [horn | heavyhorn | blackbronzehorn | blackcrystalhorn'",
-          "🔹 `p!material [chaos | chaoscircuit | chaosdevice | chaoscircuit`",
-          "🔹 `p!material [mask | damagedmask | stainedmask | omniousmask`",
+          "**Common Ascension Material**",
+          "🔹 `p!material [horn | heavyhorn | blackbronzehorn | blackcrystalhorn]`",
+          "🔹 `p!material [chaos | chaoscircuit | chaosdevice | chaoscircuit]`",
+          "🔹 `p!material [mask | damagedmask | stainedmask | omniousmask]`",
+          "🔹 `p!material [sacrificialknife | hunterssacrificialknife | agentssacrificialknife | Inspectorssacrificialknife]`",
+          "🔹 `p!material `",
           "🔹 `p!material `",
           "🔹 `p!material `",
           "🔹 `p!material `",
           "🔹 `p!material `",
           ])
-          .setFooter("Page 2/2")
+          .setFooter("Page 2/3")
           .setTimestamp()
           .setColor("RANDOM");
 

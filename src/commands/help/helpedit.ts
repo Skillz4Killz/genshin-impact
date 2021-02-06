@@ -12,12 +12,14 @@ createSubcommand("help", {
         "🔹 `p!edit uid (UID)`",
         "🔹 `p!edit [ar | adventurerrank] (1-60)`",
         "🔹 `p!edit [wl | worldlevel] (0-8)`",
-        "🔹 `p!edit [char | character] (char name) (constellation 0-6)`",
+        "🔹 `p!edit [char | character] (char name) const (constellation 0-6)`",
+        "🔹 `p!edit [char | character] (char name) level (level 1-90)`",
         "",
         "🔹 `p!add uid (UID)`",
         "🔹 `p!add [ar | adventurerrank] (1-60)`",
         "🔹 `p!add [wl | worldlevel] (0-8)`",
-        "🔹 `p!add [char | character] (char name) (constellation 0-6)`",
+        "🔹 `p!add [char | character] (char name) const (constellation 0-6)`",
+        "🔹 `p!add [char | character] (char name) level (level 1-90)`",
       ])
       .setColor("RANDOM");
 

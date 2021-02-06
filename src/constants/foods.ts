@@ -1119,7 +1119,7 @@ export const foods = new Map([
     },
   ],
   [
-    "rockinriffinchicken!",
+    "rockinriffinchicken",
     {
       name: "Rockin' Riffin' Chicken!",
       image:
@@ -1557,4 +1557,73 @@ export const foods = new Map([
       effect: "Restores **300** HP.",
     },
   ],
+  [
+    "vegetarianabalone",
+    {
+      name: "Vegetarian Abalone",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Vegetarian_Abalone.png/revision/latest/scale-to-width-down/307?cb=20210204003616",
+      description:
+        "A vegetarian dish with a rich flavor. The matsutake has been sliced thin and fried till golden before pouring the sauce. The matsutake meat is sumptuous and has flavor to match that of fresh abalone — almost enough to make you think it was the real thing.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "2x Matsutake, 2x Snapdragon",
+      dishType: "Guardian's Dish",
+      proficiency: "10",
+      obtainable: "Can be purchased from Verr Goldet for 2500 Mora.",
+      effect: "Revives a character and restores **250/400/550** HP",
+    },
+  ],
+  [
+    "stoneharbordelicacies",
+    {
+      name: "Stone Harbor Delicacies",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Stone_Harbor_Delicacies.png/revision/latest/scale-to-width-down/307?cb=20210204003255",
+      description:
+        "Wok-fried vegetarian food. A stir-fried selection of three ingredients hailing from Liyue. Though the methodology is simple, it brings out the intense, innate flavors of the ingredients, and does not fade in brilliance when compared to some high-class delicacy.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "1x Potato, 1x Violetgrass, 1x Matsutake",
+      dishType: "Guardian's Dish",
+      proficiency: "10",
+      obtainable: "Obtainable from Licai for 2,500 Mora after reaching Adventure Rank ??",
+      effect: "Increases all party members' CRIT Rate by **6/9/12%** for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    },
+  ],
+  [
+    "fullmoonegg",
+    {
+      name: "Fullmoon Egg",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Fullmoon_Egg.png/revision/latest/scale-to-width-down/308?cb=20210204002703",
+      description:
+        "One of Liyue's traditional snacks. The egg has been beaten into the flour to form a dough and the shrimp and fish have been diced, minced, and packaged into the shape of a teacup, before being garnished with whole shrimp and steamed in a pot. The resulting design is like that of clouds embracing the moon, hence the name Fullmoon Egg.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "4x Fish, 2x Shrimp Meat, 2x Bird Egg, 1x Flour",
+      dishType: "Guardian's Dish",
+      proficiency: "15",
+      obtainable: "Obtainable from Yueshu for 5,000 Mora after reaching Adventure Rank ??.",
+      effect: "Revives a character and restores **900/1.200/1.500** HP.",
+    },
+  ],
+// ** TODO **  
+//  [
+//    "ghostlymarch",
+//    {
+//      name: "Ghostly March",
+//      image:
+//        "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Ghostly_March.png/revision/latest/scale-to-width-down/113?cb=20210204083827",
+//      description:
+//        "None",
+//      color: "RANDOM",
+//      stars: "⭐⭐",
+//      recipe: "2x matsutake, 2x Snapdragon",
+//      dishType: "Special Guradian's Dish",
+//      proficiency: "None",
+//      obtainable: "Cook Vegetarian Abalone with Hu Tao",
+//      effect: "Revives a character and restores **900/1.200/1.500** HP.",
+//    },
+//  ],
 ]);
