@@ -46,7 +46,7 @@ createCommand({
         `**AR:** ${settings.adventurerRank}`,
         `**WL:** ${settings.worldLevel}`,
       ])
-      .setFooter("If your char levels are 'undefined', run the setup again or edit the char level with `p!edit char (char name) level (level 1-90)")
+      .setFooter("If your char levels are 'undefined', run the setup again or edit the char level with `p!edit char (char name) level (level 1-90)`")
       .setThumbnail(member.avatarURL);
       
 
