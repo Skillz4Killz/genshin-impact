@@ -16,7 +16,7 @@ createSubcommand("help", {
         "🔹 `p!gadget condensedresin`",
         "🔹 `p!gadget windcatcher`",
         "🔹 `p!gadget nre`",
-        "🔹 `p!gadget geotreasuregompass`",
+        "🔹 `p!gadget geotreasurecompass`",
         "🔹 `p!gadget anemotreasurecompass`",
         "🔹 `p!gadget portablewaypoint`",
         "🔹 `p!gadget kamera`",

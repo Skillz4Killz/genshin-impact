@@ -27,11 +27,11 @@ createCommand({
     const embed = new Embed()
       .setTitle(gadget.name)
       .setDescription([
-        `**Source:** ${gadget.source}`,
+        `**Source:**\n${gadget.source}`,
         "",
         `**Crafting Type:**\n${gadget.craftingType}`,
         "",
-        `**Crafting Cost:** ${gadget.craftingCost}`,
+        `**Crafting Cost:**\n${gadget.craftingCost}`,
         "",
         `**Effect:**\n${gadget.effect}`,
         "",

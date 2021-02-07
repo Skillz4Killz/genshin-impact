@@ -17,6 +17,7 @@ createSubcommand("help", {
         "🔹 `p!help remove`",
         "🔹 `p!help reset`",
         "🔹 `p!help setup`",
+        "🔹 `p!help [weapon | weapons]`",
       ])
       .setTimestamp()
       .setColor("RANDOM");

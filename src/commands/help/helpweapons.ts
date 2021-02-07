@@ -33,6 +33,7 @@ createSubcommand("help", {
         "🔹 `p!help skywardharp`",
       ])
       .setTimestamp()
+      .setFooter("Page 1/5")
 
     const second = new Embed()
       .setTitle("Polearms")
@@ -57,6 +58,7 @@ createSubcommand("help", {
         "🔹 `p!help staffofhoma`",
       ])
       .setTimestamp()
+      .setFooter("Page 2/5")
 
     const third = new Embed()
       .setTitle("Claymores")
@@ -85,6 +87,7 @@ createSubcommand("help", {
         "🔹 `p!help Skyward Pride`",
       ])
       .setTimestamp()
+      .setFooter("Page 3/5")
 
     const fourth = new Embed()
       .setTitle("Swords")
@@ -114,6 +117,7 @@ createSubcommand("help", {
         "🔹 `p!help primordialjadecutter`",
       ])
       .setTimestamp()
+      .setFooter("Page 4/5")
 
     const fifth = new Embed()
       .setTitle("Catalysts")
@@ -140,6 +144,7 @@ createSubcommand("help", {
         "🔹 `p!help Skyward Atlas`",
       ])
       .setTimestamp()
+      .setFooter("Page 5/5")
 
       createPagination(message, [
         first,
