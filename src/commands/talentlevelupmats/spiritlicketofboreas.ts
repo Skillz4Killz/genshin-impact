@@ -17,7 +17,7 @@ createSubcommand("material", {
         "<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Ningguang:798571977120022578> Ningguang\n<:Sucrose:798578072756158475> Sucrose",
         "",
         "**Source:**",
-        "Lv. 70+ Wolf of the North Challenge Reward",
+        "🔹 Lv. 70+ Wolf of the North Challenge Reward",
         "",
         "**Description:**",
         "A bit of the Great Wolf King of the North's power drawn from its soul. This land was once a realm of sub-zero blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. In its final moments, it finally realized the chilling north wind could only extinguish life, not nurture it; therefore, Boreas let its powers freely flow into the land to protect it and its inhabitants.",

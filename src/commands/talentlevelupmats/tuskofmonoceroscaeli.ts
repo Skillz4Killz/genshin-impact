@@ -17,7 +17,7 @@ createSubcommand("material", {
         "<:Albedo:798579345916559370> Albedo\n<:Xinyan:798577406427529246> Xinyan\n<:Zhongli:798577390577254441> Zhongli",
         "",
         "**Source:**",
-        "Lv. 70+ Childe Challenge Reward",
+        "🔹 Lv. 70+ Childe Challenge Reward",
         "",
         "**Description:**",
         "The horn of a whale that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is said that the shape of one's constellation determines one's character. The image of a whale cruising across the celestial heights represents a solipsism that seeks to crush and devour all in its path.\nEmbracing this aspect of himself, Childe gleefully summoned one such beast before throwing himself into battle against you.",

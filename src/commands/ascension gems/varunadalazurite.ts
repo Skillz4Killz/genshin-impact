@@ -31,7 +31,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Oceanid\nPurchased from the Souvenir Shop",
+        "**Source:**\n🔹 Dropped by Oceanid\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Agnidus Agate Sliver, 1x Dust of Azoth",
         "",
         "Varunada Lazurite Sliver is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
@@ -55,7 +55,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.40+ Oceanid\n**Crafting:** 3x Varunada Lazurite Sliver, 300 Mora",
+        "**Source:**\n🔹 Dropped by Lv.40+ Oceanid\n🔹 **Crafting:** 3x Varunada Lazurite Sliver, 300 Mora\n🔹 **Crafting:** 1x Agnidus Agate Fragment, 3x Dust of Azoth",
         "",
         "Varunada Lazurite Fragment is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
@@ -79,7 +79,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.60+ Oceanid\n**Crafting:** 3x Varunada Lazurite Fragment, 900 Mora",
+        "**Source:**\n🔹 Dropped by Lv.60+ Oceanid\n🔹 **Crafting:** 3x Varunada Lazurite Fragment, 900 Mora\n🔹 **Crafting:** 1x Agnidus Agate Chunk, 9x Dust of Azoth",
         "",
         "Varunada Lazurite Chunk is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])
@@ -103,7 +103,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.75+ Oceanid\n**Crafting:** 3x Varunada Lazurite Chunk, 2.700 Mora",
+        "**Source:**\n🔹 Dropped by Lv.75+ Oceanid\n🔹 **Crafting:** 3x Varunada Lazurite Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Agnidus Agate Gemstone, 27x Dust of Azoth",
         "",
         "Varunada Lazurite Gemstone is used for the following character ascensions:\n\n<:Barbara:798579079221215272> Barbara\n:Childe:798579167843057665> Childe\n<:Mona:798582495674105876> Mona\n<:Xingqiu:798577525265399838> Xingqiu",
       ])

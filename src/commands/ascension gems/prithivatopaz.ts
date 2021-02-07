@@ -31,7 +31,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Geo Hypostasis\nWolf of the North Challenge Reward\nPurchased from the Souvenir Shop",
+        "**Source:**\n🔹 Dropped by Geo Hypostasis\n🔹 Wolf of the North Challenge Reward\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Agnidus Agate Sliver, 1x Dust of Azoth",
         "",
         "Prithiva Topaz Sliver is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
@@ -55,7 +55,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.40+ Geo Hypostasis\nLv.40+ Wolf of the North Challenge Reward\n**Crafting:** 3x Prithiva Topaz Sliver, 300 Mora",
+        "**Source:**\n🔹 Dropped by Lv.40+ Geo Hypostasis\n🔹 Lv.40+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Prithiva Topaz Sliver, 300 Mora\n🔹 **Crafting:** 1x Agnidus Agate Fragment, 3x Dust of Azoth",
         "",
         "Prithiva Topaz Fragment is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
@@ -79,7 +79,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.60+ Geo Hypostasis\nLv. 60+ Wolf of the North Challenge Reward\n**Crafting:** 3x Prithiva Topaz Fragment, 900 Mora",
+        "**Source:**\n🔹 Dropped by Lv.60+ Geo Hypostasis\n🔹 Lv. 60+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Prithiva Topaz Fragment, 900 Mora\n🔹 **Crafting:** 1x Agnidus Agate Chunk, 9x Dust of Azoth",
         "",
         "Prithiva Topaz Chunk is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])
@@ -103,7 +103,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.75+ Geo Hypostasis\nLv. 75+ Wolf of the North Challenge Reward\n**Crafting:** 3x Prithiva Topaz Chunk, 2.700 Mora",
+        "**Source:**\n🔹 Dropped by Lv.75+ Geo Hypostasis\n🔹 Lv. 75+ Wolf of the North Challenge Reward\🔹 **Crafting:** 3x Prithiva Topaz Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Agnidus Agate Gemstone, 27x Dust of Azoth",
         "",
         "Prithiva Topaz Gemstone is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
       ])

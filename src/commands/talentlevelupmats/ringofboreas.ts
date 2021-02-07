@@ -16,7 +16,7 @@ createSubcommand("material", {
         "<:Barbara:798579079221215272> Barbara\n<:Klee:798578917464080404> Klee\n<:Keqing:798578899956006914> Keqing\n<:Mona:798582495674105876> Mona",
         "",
         "**Source:**",
-        "Lv. 70+ Wolf of the North Challenge Reward",
+        "🔹 Lv. 70+ Wolf of the North Challenge Reward",
         "",
         "**Description:**",
         "A bit of crystallized ice from the Great Wolf King of the North.\nThis land was once a realm of sub-zero blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. Though its powers may have diminished, flash-freezing the land is still a breeze.",

@@ -31,7 +31,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Electro Hypostasis\nPurchased from the Souvenir Shop",
+        "**Source:**\n🔹 Dropped by Electro Hypostasis\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Agnidus Agate Sliver, 1x Dust of Azoth",
         "",
         "Vajrada Amethyst Sliver is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
@@ -55,7 +55,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.40+ Electro Hypostasis\n**Crafting:** 3x Vajrada Amethyst Sliver, 300 Mora",
+        "**Source:**\n🔹 Dropped by Lv.40+ Electro Hypostasis\n🔹 **Crafting:** 3x Vajrada Amethyst Sliver, 300 Mora\n🔹 **Crafting:** 1x Agnidus Agate Fragment, 3x Dust of Azoth",
         "",
         "Vajrada Amethyst Fragment is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
@@ -79,7 +79,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.60+ Electro Hypostasis\n**Crafting:** 3x Vajrada Amethyst Fragment, 900 Mora",
+        "**Source:**\n🔹 Dropped by Lv.60+ Electro Hypostasis\n🔹 **Crafting:** 3x Vajrada Amethyst Fragment, 900 Mora\n🔹 **Crafting:** 1x Agnidus Agate Chunk, 9x Dust of Azoth",
         "",
         "Vajrada Amethyst Chunk is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])
@@ -103,7 +103,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.75+ Electro Hypostasis\n**Crafting:** 3x Vajrada Amethyst Chunk, 2.700 Mora",
+        "**Source:**\n🔹 Dropped by Lv.75+ Electro Hypostasis\n🔹 **Crafting:** 3x Vajrada Amethyst Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Agnidus Agate Gemstone, 27x Dust of Azoth",
         "",
         "Vajrada Amethyst Gemstone is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
       ])

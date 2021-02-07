@@ -16,7 +16,7 @@ createSubcommand("material", {
         "<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Jean:798578932031029308> Jean",
         "",
         "**Source:**",
-        "Lv. 70+ Stormterror Challenge Reward",
+        "🔹 Lv. 70+ Stormterror Challenge Reward",
         "",
         "**Description:**",
         "A feather from the tail of the Dragon of the East.\nAs a dragon's feather it has experienced more than a thousand years' worth of winds. Its ambition to be free almost evokes light breezes to break it off its current shackles, but its previous owner's recognition of you has kept it in your hands.",

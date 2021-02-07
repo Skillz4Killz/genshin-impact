@@ -16,7 +16,7 @@ createSubcommand("material", {
         "<:Ganyu:798579013084774504> Ganyu",
         "",
         "**Source:**",
-        "Lv. 70+ Childe Challenge Reward",
+        "🔹 Lv. 70+ Childe Challenge Reward",
         "",
         "**Description:**",
         "A fragment of power that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is the product of a will to fight that has been honed over countless slaughters.\nIf humans do indeed have destinies, then his must surely have been twisted by such deeds. Why else, then, would he always be at the heart of every conflict?",

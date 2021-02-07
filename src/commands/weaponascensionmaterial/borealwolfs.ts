@@ -17,7 +17,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Ascension Material",
         "",
         "**Source:**",
-        "Cecilia Garden *(Tuesday/Friday/Sunday)*",
+        "🔹 Cecilia Garden *(Tuesday/Friday/Sunday)*\n🔹 Crafting",
         "",
         "**Boreal Wolf's** is used for the following weapon ascensions:"
       ])
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Ascension Material",
         "",
         "**Source:**",
-        "Cecilia Garden *(Tuesday/Friday/Sunday)*",
+        "🔹 Cecilia Garden *(Tuesday/Friday/Sunday)*\n🔹 Crafting",
         "",
         "**Description:**",
         "Andrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf's cub possess great potential.\nIn the past, the gods had the responsibility to love all people, which made Andrius quite the oddball for only adopting abandoned babies and accepting wanderers."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Cecilia Garden *(Tuesday/Friday/Sunday)*\n2.) Crafting: 3x Boreal Wolf's Milk Tooth, 125 Mora",
+      "🔹 Cecilia Garden *(Tuesday/Friday/Sunday)*\n🔹 Crafting: 3x Boreal Wolf's Milk Tooth, 125 Mora",
       "",
       "**Description:**",
       "The life of a wolf is not without violence; broken bones or cracked teeth are nothing special.\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Cecilia Garden *(Tuesday/Friday/Sunday)*\n2.) Crafting: 3x Boreal Wolf's Cracked Tooth, 350 Mora",
+      "🔹 Cecilia Garden *(Tuesday/Friday/Sunday)*\n🔹 Crafting: 3x Boreal Wolf's Cracked Tooth, 350 Mora",
       "",
       "**Description:**",
       "The wolf pack also understands that humans are not solitary creatures. The honorary broken tooth is a parting gift said to bring protection and luck.\nIn the legends of a far-off world, a female wolf once adopted two great humans. Their home was known as the Cave of Wolves, or Lupercal - that word meaning the same thing as Lupical does in this world."
@@ -92,7 +92,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Cecilia Garden *(Tuesday/Friday/Sunday)*\n2.) Crafting: 3x Boreal Wolf's Broken Fang, 1.075 Mora",
+      "🔹 Cecilia Garden *(Tuesday/Friday/Sunday)*\n🔹 Crafting: 3x Boreal Wolf's Broken Fang, 1.075 Mora",
       "",
       "**Description:**",
       "The Wolf King, believing itself to despise humans, thought itself unable to envision a happy life for humanity, making it unworthy of becoming the Lord of the Winds of the world. Therefore, it chose to disappear. Yet, in truth, it gazed on the ones the world abandoned ever so gently."

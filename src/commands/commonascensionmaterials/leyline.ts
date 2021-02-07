@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "treasurehoarderinsignia",
-  aliases: ["silverraveninsignia", "goldenraveninsignia", "raveninsignia"],
+  name: "deadleyline",
+  aliases: ["deadleylinebranch", "deadleylineleaves", "leylinesprouts"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Treasure Hoarder-, Silver Raven- and Golden Raven Insignia")
+      .setTitle("Dead Ley Line Branch, Dead Ley Line Leaves and Ley Line Sprouts")
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Treasure Hoarders\n🔹 Crafting",
+        "🔹 Dropped by Abyss Mages\n🔹 Crafting",
         "",
-        "**Treasure Hoarder-, Silver Raven- and Golden Raven Insignia** are used for the following weapon and character ascensions:"
+        "**Dead Ley Line Branch, Dead Ley Line Leaves and Ley Line Sprouts** are used for the following weapon ascensions:"
       ])
-      .addField("⭐⭐⭐", "Emerald Orb\nFillet Blade\nMessenger\nSkyrider Greatsword", true)
-      .addField("⭐⭐⭐⭐", "Alley Hunter\nCrescent Pike\nLion's Roar\nPrototype Crescent\nSacrificial Fragments\nSword of Descension\nWhiteblind\n\n<:Beidou:798579120479928360> Beidou\n<:Bennett:798579139430973500> Bennett\n<:Kaeya:798578983775240242> Kaeya\n<:Xinyan:798577406427529246> Xinyan", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Cutter\nThe Unforged\nVortex Vanquisher", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220636")
+      .addField("⭐⭐⭐", "Bloodtainted Greatsword\nHarbinger of Dawn\nSharpshooter's Oath\nThrilling Tales of Dragon Slayers	", true)
+      .addField("⭐⭐⭐⭐", "Alley Hunter\nDeathmatch\nSacrificial Bow\nSacrificial Greatsword\nSword of Descension\nThe Black Sword\nThe Flute\nThe Widsith\nWine and Song", true)
+      .addField("⭐⭐⭐⭐⭐", "Skyward Atlas\nSkyward Blade\nSkyward Harp\nSkyward Pride", true)
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Dead_Ley_Line_Leaves.png/revision/latest/scale-to-width-down/256?cb=20210106071145")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Treasure Hoarder Insignia")
+    .setTitle("Dead Ley Line Branch")
       .setDescription([
-        "**Rarity:** ⭐",
+        "**Rarity:** ⭐⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Treasure Hoarders",
+        "🔹 Dropped by Abyss Mages",
         "",
         "**Description:**",
-        "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?"
+        "Fragile branches from deep within the earth. Even after years of age, from beneath it's mottled surface you can see that its power is not yet entirely lost."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220643")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Dead_Ley_Line_Branch.png/revision/latest/scale-to-width-down/256?cb=20210106071133")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Silver Raven Insignia")
-    .setDescription([
-      "**Rarity:** ⭐⭐",
-      "",
-      "**Item type:** Common Ascension Material",
-      "",
-      "**Source:**",
-      "🔹 Dropped by Lv. 40+ Treasure Hoarders\n🔹 Crafting: 3x Treasure Hoarder Insignia, 25 Mora",
-      "",
-      "**Description:**",
-      "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member."
-    ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220650")
-    .setFooter("Page 3/4")
-    .setTimestamp()
-    .setColor("RANDOM");
-
-    const fourthEmbed = new Embed()
-    .setTitle("Golden Raven Insignia")
+    .setTitle("Dead Ley Line Leaves")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Treasure Hoarders\n🔹 Crafting: 3x Silver Raven Insignia, 50 Mora",
+      "🔹 Dropped by Lv. 40 Abyss Mages\n🔹 Crafting: 3x Dead Ley Line Branch, 50 Mora",
       "",
       "**Description:**",
-      "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die."
+      "A twig from deep within the earth. Though it is far from where it once lay, its leaves still pulsate with energy."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220636")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Dead_Ley_Line_Leaves.png/revision/latest/scale-to-width-down/256?cb=20210106071145")
+    .setFooter("Page 3/4")
+    .setTimestamp()
+    .setColor("RANDOM");
+
+    const fourthEmbed = new Embed()
+    .setTitle("Ley Line Sprouts")
+    .setDescription([
+      "**Rarity:** ⭐⭐⭐⭐",
+      "",
+      "**Item type:** Common Ascension Material",
+      "",
+      "**Source:**",
+      "🔹 Dropped by Lv. 40 Abyss Mages\n🔹 Crafting: 3x Dead Ley Line Leaves, 125 Mora",
+      "",
+      "**Description:**",
+      "It is said that there was a great tree whose roots once spread out to every corner of the world, and this branch is said to be part of it. It is almost if it was never broken off and taken far away, for its vitality is such that it still sprouts new leaves even now."
+    ])
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Ley_Line_Sprouts.png/revision/latest/scale-to-width-down/256?cb=20210106071202")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

@@ -17,7 +17,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Ascension Material",
         "",
         "**Source:**",
-        "1.) Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n2.) Purchased from the Souvenir Shop in Liyue",
+        "🔹 Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n🔹 Purchased from the Souvenir Shop in Liyue\n🔹 Crafting",
         "",
         "**Aerosiderite** is used for the following weapon ascensions:"
       ])
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Ascension Material",
         "",
         "**Source:**",
-        "1.) Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n2.) Purchased from the Souvenir Shop in Liyue",
+        "🔹 Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n🔹 Purchased from the Souvenir Shop in Liyue",
         "",
         "**Description:**",
         "Jueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Danding (Alchemy), Fulu (Sigils), and Waijing (Sub-Space Creation)."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n2.) Crafting: 3x Mist Veiled Lead Elixir, 125 Mora",
+      "🔹 Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n🔹 Crafting: 3x Mist Veiled Lead Elixir, 125 Mora",
       "",
       "**Description:**",
       "With Fulu (Sigils), the adepti can store their power in the form of symbols, and with Waijing (Sub-Space Creation) they can fashion a cosmic paradise with the power of their minds. The manufacture of elixirs, however, has always been shrouded in mystery, for certain death follows for any who swallow them."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n2.) Crafting: 3x Mist Veiled Mercury Elixir, 350 Mora",
+      "🔹 Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n🔹 Crafting: 3x Mist Veiled Mercury Elixir, 350 Mora",
       "",
       "**Description:**",
       "Elixirs are in fact pills made from metal alloys. They were created by the adepti, and are able to grant weapons transcendent powers.\nHowever, they are rarely seen in the world due to the hubris of the practitioners of martial arts, who prized the ways of combat over the paths of the adepti."
@@ -92,7 +92,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n2.) Crafting: 3x Mist Veiled Gold Elixir, 1.075 Mora",
+      "🔹 Hidden Palace of Lianshan Formula *(Tuesday/Friday/Sunday)*\n🔹 Crafting: 3x Mist Veiled Gold Elixir, 1.075 Mora",
       "",
       "**Description:**",
       "An elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case."

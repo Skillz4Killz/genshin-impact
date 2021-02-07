@@ -68,11 +68,12 @@ createSubcommand("help", {
           "🔹 `p!material [chaos | chaoscircuit | chaosdevice | chaoscircuit]`",
           "🔹 `p!material [mask | damagedmask | stainedmask | omniousmask]`",
           "🔹 `p!material [sacrificialknife | hunterssacrificialknife | agentssacrificialknife | Inspectorssacrificialknife]`",
-          "🔹 `p!material `",
-          "🔹 `p!material `",
-          "🔹 `p!material `",
-          "🔹 `p!material `",
-          "🔹 `p!material `",
+          "🔹 `p!material [treasurehoarderinsignia | silverraveninsignia | goldenraveninsignia | raveninsignia]`",
+          "🔹 `p!material [deadleyline | deadleylinebranch | deadleylineleaves | leylinesprouts]`",
+          "🔹 `p!material [fatuiinsignia | recruitsinsignia | sergeantsinsignia | lieutenantsinsignia]`",
+          "",
+          "**Other**",
+          "🔹 `p!material dustofazoth`",
           ])
           .setFooter("Page 2/3")
           .setTimestamp()

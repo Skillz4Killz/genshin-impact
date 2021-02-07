@@ -557,24 +557,23 @@ export const weapons = new Map([
         "CRIT Hits have a **60/70/80/90/100%** chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every **12/10,5/9/7,5/6s**",
     },
   ],
-  //  CBT3 **TODO**
-  //  [
-  //    "lithicspear",
-  //    {
-  //      name: "Lithic Spear",
-  //      description: "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
-  //      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest/scale-to-width-down/151?cb=20201116042459",
-  //      color: "RANDOM",
-  //      category: "Polearm",
-  //      stars: "⭐⭐⭐⭐",
-  //      baseAttack: "42",
-  //      secondaryStat: "DMG Bonus",
-  //      secondaryStatValue: "9%",
-  //      specialAbility: "Lithic Axiom - Subjugating Evil",
-  //      moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Spear",
-  //      refinement: "Normal Attack hits have a 20% chance of causing the next Charged Attack performed in the following 10s to deal 40% increased DMG.",
-  //    },
-  //  ],
+    [
+      "lithicspear",
+      {
+        name: "Lithic Spear",
+        description: "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+        thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest/scale-to-width-down/151?cb=20201116042459",
+        color: "RANDOM",
+        category: "Polearm",
+        stars: "⭐⭐⭐⭐",
+        baseAttack: "42",
+        secondaryStat: "DMG Bonus",
+        secondaryStatValue: "9%",
+        specialAbility: "Lithic Axiom - Subjugating Evil",
+        moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Spear",
+        refinement: "Normal Attack hits have a 20% chance of causing the next Charged Attack performed in the following 10s to deal 40% increased DMG.",
+      },
+    ],
   [
     "dragonspienspear",
     {
@@ -916,24 +915,23 @@ export const weapons = new Map([
         "After damaging an opponent with an Elemental Skill, the skill has a **40/50/60/70/80%** chance to end its own CD. Can only occur once every **30/26/22/19/16s**.",
     },
   ],
-  // CBT3 **TODO**
-  //[
-  //  "lithicblade",
-  //  {
-  //    name: "Lithic Blade",
-  //    description: "A greatsword carved and chiseled from the very bedrock of Liyue.",
-  //    thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Lithic_Blade.png/revision/latest/scale-to-width-down/176?cb=20200716172440",
-  //    color: "RANDOM",
-  //    category: "Claymore",
-  //    stars: "⭐⭐⭐⭐",
-  //    baseAttack: "41",
-  //    secondaryStat: "CRIT DMG",
-  //    secondaryStatValue: "16%",
-  //    specialAbility: "Lithic Axiom - Unity",
-  //    moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Blade",
-  //    refinement: "For every character in the party who hails from Liyue, the character who equips this weapon gains **6/7/8/9/10%** ATK increase and **2/3/4/5/6%** CRIT Rate increase.",
-  //  },
-  //],
+  [
+    "lithicblade",
+    {
+      name: "Lithic Blade",
+      description: "A greatsword carved and chiseled from the very bedrock of Liyue.",
+      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Lithic_Blade.png/revision/latest/scale-to-width-down/176?cb=20200716172440",
+      color: "RANDOM",
+      category: "Claymore",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "41",
+      secondaryStat: "CRIT DMG",
+      secondaryStatValue: "16%",
+      specialAbility: "Lithic Axiom - Unity",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Blade",
+      refinement: "For every character in the party who hails from Liyue, the character who equips this weapon gains **6/7/8/9/10%** ATK increase and **2/3/4/5/6%** CRIT Rate increase.",
+    },
+  ],
   [
     "serpentspine",
     {
@@ -1862,6 +1860,46 @@ export const weapons = new Map([
       moreInfo: "https://genshin-impact.fandom.com/wiki/Skyward_Harp",
       refinement:
         "Increases CRIT DMG by 20%. Hits have a **60/70/80/90/100%** chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every **4/3,5/3/2,5/2s**.",
+    },
+  ],
+  [
+    "primordialjadecutter",
+    {
+      name: "Primordial Jade Cutter",
+      description:
+        "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210204160749",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "44",
+      secondaryStat: "CRIT Rate",
+      secondaryStatValue: "9,6%",
+      specialAbility: "Protector's Virtue",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Primordial_Jade_Cutter",
+      refinement:
+        "HP increased by **20/25/30/35/40%**. Additionally, provides an ATK Bonus based on **1,2/1,5/1,8/2,1/2,4%** of the wielder's Max HP.",
+    },
+  ],
+  [
+    "staffofhoma",
+    {
+      name: "Staff of Homa",
+      description:
+        "A 'firewood staff' that was once used in ancient and long-lost rituals.",
+      thumbnail:
+        "https://genshin.honeyhunterworld.com/img/weapon/staff_of_homa.png",
+      color: "RANDOM",
+      category: "Polearm",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "46",
+      secondaryStat: "CRIT DMG",
+      secondaryStatValue: "14,4",
+      specialAbility: "Reckless Cinnabar",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Primordial_Jade_Cutter",
+      refinement:
+        "HP increased by **20/25/30/35/40%**. Additionally, provides an ATK Bonus based on **0,8/1,0/1,2/1,4/1,6%** of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional **1,0/1,2/1,4/1,6/1,8%** of Max HP.",
     },
   ],
 ]);

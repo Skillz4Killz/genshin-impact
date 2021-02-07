@@ -12,13 +12,13 @@ createSubcommand("help", {
         "🔹 `p!patchnote`",
         "🔹 `p!patchnotes`",
         "🔹 `p!update`",
-        "🔹 `pversion`",
+        "🔹 `p!sversion`",
         "Lists all available updates/versions.",
         "",
         "🔹 `p!patchnote (version)`",
         "🔹 `p!patchnotes (version)`",
         "🔹 `p!update (version)`",
-        "🔹 `pversion (version)`",
+        "🔹 `p!version (version)`",
         "Shows all informations about a version."
       ])
       .setColor("RANDOM");

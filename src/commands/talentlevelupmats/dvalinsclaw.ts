@@ -16,7 +16,7 @@ createSubcommand("material", {
         "<:Lisa:798578725716361267> Lisa\n<:Noelle:798578667508072458> Noelle\n<:Razor:798578623900024862> Razor\n<:Xiangling:798578032935436329> Xiangling",
         "",
         "**Source:**",
-        "Lv. 70+ Stormterror Challenge Reward",
+        "🔹 Lv. 70+ Stormterror Challenge Reward",
         "",
         "**Description:**",
         "A claw from the Dragon of the East.\nAs it had once torn through the flesh of the shadow dragon Durin, it used to contain his vicious poison. However, thanks to your purification and healing, it is no longer toxic.",

@@ -13,8 +13,6 @@ createSubcommand("help", {
         "🔹 `p!gadget anemoculusresonancestone`",
         "🔹 `p!gadget adeptiseekersstove`",
         "🔹 `p!gadget warmingbottle`",
-        "",
-        "**Talent Level-Up Materials**",
         "🔹 `p!gadget condensedresin`",
         "🔹 `p!gadget windcatcher`",
         "🔹 `p!gadget nre`",
@@ -26,6 +24,7 @@ createSubcommand("help", {
         "🔹 `p!gadget miniseeliedayflower`",
         "🔹 `p!gadget miniseelierose`",
         "🔹 `p!gadget treasureseekingseelie`",
+        "🔹 `p!gadget parametrictransformer`"
       ])
       .setColor("RANDOM");
 

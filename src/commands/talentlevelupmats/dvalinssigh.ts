@@ -16,7 +16,7 @@ createSubcommand("material", {
         "<:Amber:798579318262988810> Amber\n<:Beidou:798579120479928360> Beidou\n<:Chongyun:798579223241162792> Chongyun\n<:Traveler:798976293613600829> Traveler",
         "",
         "**Source:**",
-        "Lv. 70+ Stormterror Challenge Reward",
+        "🔹 Lv. 70+ Stormterror Challenge Reward",
         "",
         "**Description:**",
         "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\nBeautiful and transparent, both trade winds and tornadoes will work in its name. The winds moves as its companion, its voice, and its freedom.\nIts enemies are the thousands who stand against the wind.",

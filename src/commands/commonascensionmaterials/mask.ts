@@ -17,7 +17,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "1.) Dropped by Hilichurls\n2.) Dropped by some ranged Hilichurls\n3.) Dropped by some Samachurls\n4.) Dropped by some Mitachurls",
+        "🔹 Dropped by Hilichurls\n🔹 Dropped by some ranged Hilichurls\n🔹 Dropped by some Samachurls\n🔹 Dropped by some Mitachurls\n🔹 Crafting",
         "",
         "**Ominous Mask** is used for the following weapon and character ascensions:"
       ])
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "1.) Dropped by Hilichurls\n2.) Dropped by some ranged Hilichurls\n3.) Dropped by some Samachurls\n4.) Dropped by some Mitachurls",
+        "🔹 Dropped by Hilichurls\n🔹 Dropped by some ranged Hilichurls\n🔹 Dropped by some Samachurls\n🔹 Dropped by some Mitachurls",
         "",
         "**Description:**",
         "A broken bone mask that once belonged to some hilichurl.\nNow more broken than complete, it can no longer perform its primary function."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv. 40+ Hilichurls\n2.) Dropped by some Lv. 40+ ranged Hilichurls\n3.) Dropped by some Lv. 40+ Samachurls\n4.) Dropped by some Lv. 40+ Mitachurls\n5.) Crafting: 3x Damaged Mask, 25 Mora",
+      "🔹 Dropped by Lv. 40+ Hilichurls\n🔹 Dropped by some Lv. 40+ ranged Hilichurls\n🔹 Dropped by some Lv. 40+ Samachurls\n🔹 Dropped by some Lv. 40+ Mitachurls\n🔹 Crafting: 3x Damaged Mask, 25 Mora",
       "",
       "**Description:**",
       "A bone mask covered in unidentifiable stains and a mysterious odor.\nYet such is the devotion of hilichurls to masks that they will wear it nonetheless."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv. 60+ Hilichurls\n2.) Dropped by some Lv. 60+ ranged Hilichurls\n3.) Dropped by some Lv. 60+ Samachurls\n4.) Dropped by some Lv. 60+ Mitachurls\n5.) Crafting: 3x Stained Mask, 50 Mora",
+      "🔹 Dropped by Lv. 60+ Hilichurls\n🔹 Dropped by some Lv. 60+ ranged Hilichurls\n🔹 Dropped by some Lv. 60+ Samachurls\n🔹 Dropped by some Lv. 60+ Mitachurls\n🔹 Crafting: 3x Stained Mask, 50 Mora",
       "",
       "**Description:**",
       "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\nNo-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water."

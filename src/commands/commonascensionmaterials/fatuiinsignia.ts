@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "treasurehoarderinsignia",
-  aliases: ["silverraveninsignia", "goldenraveninsignia", "raveninsignia"],
+  name: "fatuiinsignia",
+  aliases: ["recruitsinsignia", "sergeantsinsignia", "lieutenantsinsignia"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Treasure Hoarder-, Silver Raven- and Golden Raven Insignia")
+      .setTitle("Recruit's-, Sergeant's- and Lieutenant's Insignia")
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Treasure Hoarders\n🔹 Crafting",
+        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages\n🔹 Crafting",
         "",
-        "**Treasure Hoarder-, Silver Raven- and Golden Raven Insignia** are used for the following weapon and character ascensions:"
+        "**Recruit's-, Sergeant's- and Lieutenant's Insignia** are used for the following weapon and character ascensions:"
       ])
-      .addField("⭐⭐⭐", "Emerald Orb\nFillet Blade\nMessenger\nSkyrider Greatsword", true)
-      .addField("⭐⭐⭐⭐", "Alley Hunter\nCrescent Pike\nLion's Roar\nPrototype Crescent\nSacrificial Fragments\nSword of Descension\nWhiteblind\n\n<:Beidou:798579120479928360> Beidou\n<:Bennett:798579139430973500> Bennett\n<:Kaeya:798578983775240242> Kaeya\n<:Xinyan:798577406427529246> Xinyan", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Cutter\nThe Unforged\nVortex Vanquisher", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220636")
+      .addField("⭐⭐⭐", "Skyrider Sword\nTwin Nephrite\nWhite Tassel", true)
+      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nCompound Bow\nDragonspine Spear\nFavonius Greatsword\nFestering Desire\nPrototype Rancour\nRoyal Spear\n\n<:Ningguang:798571977120022578> Ningguang", true)
+      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\n\n<:Diluc:798579247945613332> Diluc\n<:Childe:798579167843057665> Tartaglia", true)
+      .setThumbnail("hhttps://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Treasure Hoarder Insignia")
+    .setTitle("Recruit's Insignia")
       .setDescription([
         "**Rarity:** ⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Treasure Hoarders",
+        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages",
         "",
         "**Description:**",
-        "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?"
+        "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220643")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220719")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Silver Raven Insignia")
+    .setTitle("Agent's Sacrificial Knife")
     .setDescription([
       "**Rarity:** ⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 40+ Treasure Hoarders\n🔹 Crafting: 3x Treasure Hoarder Insignia, 25 Mora",
+      "🔹 Dropped by Lv. 40+ Skirmishers\n🔹 Dropped by some Lv. 40+ Agents\n🔹 Dropped by some Lv. 40+ Electro Cicin Mages\n🔹 Crafting: 3x Recruit's Insignia, 25 Mora",
       "",
       "**Description:**",
-      "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member."
+      "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220650")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
     .setFooter("Page 3/4")
     .setTimestamp()
     .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
-    .setTitle("Golden Raven Insignia")
+    .setTitle("Lieutenant's Insignia")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Treasure Hoarders\n🔹 Crafting: 3x Silver Raven Insignia, 50 Mora",
+      "🔹 Dropped by Lv. 60+ Skirmishers\n🔹 Dropped by some Lv. 60+ Agents\n🔹 Dropped by some Lv. 60+ Electro Cicin Mages\n🔹 Crafting: 3x Sergeant's Insignia, 50 Mora",
       "",
       "**Description:**",
-      "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die."
+      "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220636")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220723")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

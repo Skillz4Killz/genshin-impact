@@ -12,19 +12,19 @@ createSubcommand("material", {
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Sacrificial Knife")
+      .setTitle("Horn")
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "Dropped by Mitachurls",
+        "🔹 Dropped by Mitachurls\n🔹 Crafting",
         "",
         "**Horn** is used for the following weapon ascensions:"
       ])
       .addField("⭐⭐⭐", "Cool Steel\nFerrous Shadow\nMagic Guide\nRaven Bow", true)
       .addField("⭐⭐⭐⭐", "Favonius Codex\nFavonius Sword\nFestering Desire\nRoyal Grimoire\nRoyal Longsword\nSnow-Tombed Starsilver\nThe Bell\nThe Stringless\nThe Viridescent Hunt", true)
       .addField("⭐⭐⭐⭐⭐", "Aquila Favonia", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Hunter%27s_Sacrificial_Knife.png/revision/latest/scale-to-width-down/256?cb=20210109223410")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/42/Item_Black_Bronze_Horn.png/revision/latest/scale-to-width-down/256?cb=20210109220825")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "Dropped by Mitachurls",
+        "🔹 Dropped by Mitachurls",
         "",
         "**Description:**",
         "A crude horn used by hilichurls to warn each other. Given the damage to the horn, it won't be warning anyone any time soon."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv.40+ Mitachurls\n2.) Crafting: 3x Heavy Horn, 50 Mora",
+      "🔹 Dropped by Lv. 40+ Mitachurls\n🔹 Crafting: 3x Heavy Horn, 50 Mora",
       "",
       "**Description:**",
       "A metallic monster horn that can only be obtained from especially strong hilichurls, since blowing on the horn takes real strength."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv.60+ Mitachurls\n2.) Crafting: 3x Black Bronze Horn, 125 Mora",
+      "🔹 Dropped by Lv. 60+ Mitachurls\n🔹 Crafting: 3x Black Bronze Horn, 125 Mora",
       "",
       "**Description:**",
       "A metallic horn with an ominous shine decorated with black crystals of an unknown source. It has hardly been used at all. It is likely a ceremonial item of the hilichurls'."

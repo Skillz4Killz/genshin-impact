@@ -31,7 +31,7 @@ createSubcommand("material", {
         "",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\nAdventure Rank 15 Reward (1x)",
+        "**Source:**\n🔹 Adventure Rank 15 Reward (1x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
       ])
@@ -53,7 +53,7 @@ createSubcommand("material", {
         "",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\nAdventure Rank 25 Reward (3x)\nAdventure Rank 26 Reward (2x)\nAdventure Rank 28 Reward (2x)\nAdventure Rank 30 Reward (2x)",
+        "**Source:**\n🔹 Adventure Rank 25 Reward (3x)\n🔹 Adventure Rank 26 Reward (2x)\n🔹 Adventure Rank 28 Reward (2x)\n🔹 Adventure Rank 30 Reward (2x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
       ])
@@ -75,7 +75,7 @@ createSubcommand("material", {
         "",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\nAdventure Rank 35 Reward (3x)\nAdventure Rank 38 Reward (3x)\nAdventure Rank 40 Reward (3x)",
+        "**Source:**\n🔹 Adventure Rank 35 Reward (3x)\n🔹 Adventure Rank 38 Reward (3x)\n🔹 Adventure Rank 40 Reward (3x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
       ])
@@ -97,7 +97,7 @@ createSubcommand("material", {
         "",
         "**Description:** Welcome to this world.",
         "",
-        "**Source:**\nAdventure Rank 41 Reward (2x)\nAdventure Rank 42 Reward (2x)\nAdventure Rank 45 Reward (2x)",
+        "**Source:**\n🔹 Adventure Rank 41 Reward (2x)\n🔹 Adventure Rank 42 Reward (2x)\n🔹 Adventure Rank 45 Reward (2x)",
         "",
         "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
       ])

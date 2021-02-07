@@ -31,7 +31,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Anemo Hypostasis\nPurchased from the Souvenir Shop",
+        "**Source:**\n🔹 Dropped by Anemo Hypostasis\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Agnidus Agate Sliver, 1x Dust of Azoth",
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
@@ -55,7 +55,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.40+ Anemo Hypostasis\n**Crafting:** 3x Vayuda Turquoise Sliver, 300 Mora",
+        "**Source:**\n🔹 Dropped by Lv.40+ Anemo Hypostasis\n🔹 **Crafting:** 3x Vayuda Turquoise Sliver, 300 Mora\n🔹 **Crafting:** 1x Agnidus Agate Fragment, 3x Dust of Azoth",
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
@@ -79,7 +79,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv.60+ Anemo Hypostasis\n**Crafting:** 3x Vayuda Turquoise Fragment, 900 Mora",
+        "**Source:**\n🔹 Dropped by Lv.60+ Anemo Hypostasis\n🔹 **Crafting:** 3x Vayuda Turquoise Fragment, 900 Mora\n🔹 **Crafting:** 1x Agnidus Agate Chunk, 9x Dust of Azoth",
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])
@@ -103,7 +103,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\nDropped by Lv. 75+ Anemo Hypostasis\n**Crafting:** 3x Vayuda Turquoise Chunk, 2.700 Mora",
+        "**Source:**\n🔹 Dropped by Lv. 75+ Anemo Hypostasis\n🔹 **Crafting:** 3x Vayuda Turquoise Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Agnidus Agate Gemstone, 27x Dust of Azoth",
         "",
         "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
       ])

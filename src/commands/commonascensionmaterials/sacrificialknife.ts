@@ -17,7 +17,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "Dropped by Agents",
+        "🔹 Dropped by Agents\n🔹 Crafting",
         "",
         "**Sacrificial Knife** is used for the following weapon ascensions:"
       ])
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "Dropped by Agents",
+        "🔹 Dropped by Agents",
         "",
         "**Description:**",
         "A sharp alloy weapon. Though its owner has been lost, it still reflects a disturbingly cold light."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv.40+ Agents\n2.) Crafting: 3x Hunter's Sacrificial Knife, 50 Mora",
+      "🔹 Dropped by Lv.40+ Agents\n🔹 Crafting: 3x Hunter's Sacrificial Knife, 50 Mora",
       "",
       "**Description:**",
       "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv.60+ Agents\n2.) Crafting: 3x Agent's Sacrificial Knife, 125 Mora",
+      "🔹 Dropped by Lv. 60+ Agents\n🔹 Crafting: 3x Agent's Sacrificial Knife, 125 Mora",
       "",
       "**Description:**",
       "In the hands of its lord, this fierce weapon has handled many 'debts'. No-one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness."

@@ -18,7 +18,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Enhancement Material",
         "",
         "**Source:**",
-        "1.) Forging: 2x Iron Chunk, 5 Mora\n2.) Random Event Reward",
+        "🔹 Forging: 2x Iron Chunk, 5 Mora\n🔹 Random Event Reward",
         "",
         "**Description:**",
         "Weapon EXP material. Gives 400 EXP. A refined ingot with endless possibilities that can be used to enhance weapons."
@@ -35,7 +35,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Enhancement Material",
       "",
       "**Source:**",
-      "1.) Forging: 3x White Iron Chunk, 10 Mora\n2.) Random Event Reward",
+      "🔹 Forging: 3x White Iron Chunk, 10 Mora\n🔹 Random Event Reward",
       "",
       "**Description:**",
       "Weapon EXP material. Gives 2,000 EXP. For reasons unknown, this special and refined ore can be absorbed by weapons to greatly increase their strengths."
@@ -53,7 +53,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Enhancement Material",
       "",
       "**Source:**",
-      "1.) Forging: 4x Crystal Chunk, 50 Mora\n2.) Forging: 3x Magical Crystal Chunk, 10x Original Resin, 100 Mora\n3.) Random Event Reward",
+      "🔹 Forging: 4x Crystal Chunk, 50 Mora\n🔹 Forging: 3x Magical Crystal Chunk, 10x Original Resin, 100 Mora\n🔹 Random Event Reward",
       "",
       "**Description:**",
       "Weapon EXP material. Gives 10,000 EXP. Legend has it that this refined ingot contains the memories of battles that had taken place on the land. The weapons that benefit from these memories naturally become sentient."

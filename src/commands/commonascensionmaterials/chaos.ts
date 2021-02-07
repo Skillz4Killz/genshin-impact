@@ -17,7 +17,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "1.) Dropped by Ruin Guards\n2.) Dropped by Ruin Hunters",
+        "🔹 Dropped by Ruin Guards\n🔹 Dropped by Ruin Hunters\n🔹 Crafting",
         "",
         "**Chaos Device/Circuit/Core** is used for the following weapon ascensions:"
       ])
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "1.) Dropped by Ruin Guards\n2.) Dropped by Ruin Hunters",
+        "🔹 Dropped by Ruin Guards\n🔹 Dropped by Ruin Hunters",
         "",
         "**Description:**",
         "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv. 60+ Ruin Guards\n2.) Dropped by Lv. 60+ Ruin Hunters\n3.) Crafting: 3x Chaos, 50 Mora",
+      "🔹 Dropped by Lv. 60+ Ruin Guards\n🔹 Dropped by Lv. 60+ Ruin Hunters\n🔹 Crafting: 3x Chaos, 50 Mora",
       "",
       "**Description:**",
       "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no-one is able to make sense of how it worked."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "1.) Dropped by Lv.60+ Mitachurls\n2.) Crafting: 3x Black Bronze Horn, 125 Mora",
+      "🔹 Dropped by Lv.60+ Mitachurls\n🔹 Crafting: 3x Black Bronze Horn, 125 Mora",
       "",
       "**Description:**",
       "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world."

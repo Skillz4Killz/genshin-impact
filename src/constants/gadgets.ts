@@ -31,7 +31,7 @@ export const gadgets = new Map([
     },
   ],
   [
-    "ccondensedresin",
+    "condensedresin",
     {
       name: "Condensed Resin",
       image:
@@ -236,6 +236,21 @@ export const gadgets = new Map([
       craftingType: "None",
       craftingCost: "None",
       effect: "Reveals the presence of Iron Coins.",
+    },
+  ],
+  [
+    "parametrictransformer",
+    {
+      name: "Parametric Transformer",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Parametric_Transformer.png/revision/latest/scale-to-width-down/256?cb=20210205134928",
+      rarity: "⭐⭐⭐⭐",
+      source: "Reward from Tianqiu Treasure Trail World Quest",
+      description:
+        "This mysterious device, discovered within the ruins, has the power to accelerate cycles and 'transmute' material objects. generally speaking, everything is undergoing a cycle. Memories and elements surge within the ley lines, rotten fallen fruits return to the soil, and the trees born from the soil will one day bear their crystalline fruit...",
+      craftingType: "None",
+      craftingCost: "None",
+      effect: "A device that can transmute up to 150 materials placed within to convert it into some other material. Use Elemental Attacks to generate energy for the transmutation. It has a cooldown of 7 days.",
     },
   ],
 ]);

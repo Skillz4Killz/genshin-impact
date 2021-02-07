@@ -17,7 +17,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Ascension Material",
         "",
         "**Source:**",
-        "1.) Cecilia Garden *(Wednesday/Saturday/Sunday)*",
+        "🔹 Cecilia Garden *(Wednesday/Saturday/Sunday)*",
         "",
         "**Aerosiderite** is used for the following weapon ascensions:"
       ])
@@ -37,7 +37,7 @@ createSubcommand("material", {
         "**Item type:** Weapon Ascension Material",
         "",
         "**Source:**",
-        "1.) Cecilia Garden *(Wednesday/Saturday/Sunday)*",
+        "🔹 Cecilia Garden *(Wednesday/Saturday/Sunday)*",
         "",
         "**Description:**",
         "It's a human thing to exaggerate on a hero's story, even to the point of elevating the fetters that once bound the hero to the level of an enemy of true freedom.\nAs a result, these fetters were granted extraordinary powers."
@@ -56,7 +56,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Cecilia Garden *(Wednesday/Saturday/Sunday)*\n2.) Crafting: 3x Fetters of the Dandelion Gladiator, 125 Mora",
+      "🔹 Cecilia Garden *(Wednesday/Saturday/Sunday)*\n🔹 Crafting: 3x Fetters of the Dandelion Gladiator, 125 Mora",
       "",
       "**Description:**",
       "The chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of them."
@@ -74,7 +74,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Cecilia Garden *(Wednesday/Saturday/Sunday)*\n2.) Crafting: 3x Chains of the Dandelion Gladiator, 350 Mora",
+      "🔹 Cecilia Garden *(Wednesday/Saturday/Sunday)*\n🔹 Crafting: 3x Chains of the Dandelion Gladiator, 350 Mora",
       "",
       "**Description:**",
       "Vennessa was not truly bound by her chains. If she had so wished, no ordinary physical constraints forged in Mondstadt could have held her, for the land there yielded no ore of exceptional quality, nor did it possess the divine flame of her ancestral home.\nShe was only bound by her responsibility to take care of her tribespeople."
@@ -92,7 +92,7 @@ createSubcommand("material", {
       "**Item type:** Weapon Ascension Material",
       "",
       "**Source:**",
-      "1.) Cecilia Garden *(Wednesday/Saturday/Sunday)*\n2.) Crafting: 3x Shackles of the Dandelion Gladiator, 1,075 Mora",
+      "🔹 Cecilia Garden *(Wednesday/Saturday/Sunday)*\n🔹 Crafting: 3x Shackles of the Dandelion Gladiator, 1,075 Mora",
       "",
       "**Description:**",
       "Vennessa was freed from her slavery, but that which constrained her only grew greater - from her tribesmen to all of Mondstadt, and even to the concept of freedom itself, extending to the whole world.\nWhat she really hoped for, in truth, was that the world might grow stronger."

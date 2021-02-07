@@ -14,28 +14,45 @@ createSubcommand("list", {
       .setTitle("Overview")
       .setDescription([
         `1️⃣ Overview`,
-        `2️⃣ Character EXP Material‎s`,
+        `2️⃣ Character EXP Material‎s & Weapon Enhancement Material‎s`,
         `3️⃣ Character Ascension Materials`,
         `4️⃣ Talent Level-Up Materials`,
-        `5️⃣ Weapon Enhancement Material‎s`,
-        `6️⃣ Weapon Ascension Materials`,
-        `7️⃣ Forging Materials`,
-        `8️⃣ Local Specialty`,
-        `9️⃣ Cooking Ingredients`,
+        `5️⃣ Weapon Ascension Materials`,
+        `6️⃣ Forging Materials`,
+        `7️⃣ Local Specialty`,
+        `8️⃣ Cooking Ingredients`,
+        `9️⃣ Other`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const second = new Embed()
-      .setTitle("Character EXP Material‎s")
+      .setTitle("Character EXP Material‎s & Weapon Enhancement Material‎s")
       .setDescription([
+        "**Character EXP Material‎s**",
         "[⭐⭐⭐⭐]\nHero's Wit",
         "",
         "[⭐⭐⭐]\nAdventurer's Experience",
         "",
         "[⭐⭐]\nWanderer's Advice",
         "",
+        "",
+        "**Weapon Enhancement Material‎s**",
+        "[⭐⭐⭐⭐]",
+        "Festering Dragon Marrow",
+        "",
+        "[⭐⭐⭐]",
+        "Mystic Enhancement Ore",
+        "",
+        "[⭐⭐]",
+        "Fine Enhancement Ore",
+        "",
+        "[⭐]",
+        "Enhancement Ore",
+        "",
         `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const third = new Embed()
@@ -55,6 +72,7 @@ createSubcommand("list", {
         "",
         `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const fourth = new Embed()
@@ -74,89 +92,85 @@ createSubcommand("list", {
         "",
         `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const fifth = new Embed()
-      .setTitle("Weapon Enhancement Material‎s")
-      .setDescription([
-        "[⭐⭐⭐⭐]",
-        "Festering Dragon Marrow",
-        "",
-        "[⭐⭐⭐]",
-        "Mystic Enhancement Ore",
-        "",
-        "[⭐⭐]",
-        "Fine Enhancement Ore",
-        "",
-        "[⭐]",
-        "Enhancement Ore",
+    .setTitle("Weapon Ascension Materials")
+    .setDescription([
+      "[⭐⭐⭐⭐⭐]",
+      "Boreal Wolf's Nostalgia 🔹 Chunk of Aerosiderite 🔹 Divine Body from Guyun 🔹 Dream of the Dandelion Gladiator 🔹 Mist Veiled Primo Elixir 🔹 Scattered Piece of Decarabian's Dream",
+      "",
+      "[⭐⭐⭐⭐]",
+      "Bit of Aerosiderite 🔹 Boreal Wolf's Broken Fang 🔹 Fragment of Decarabian's Epic 🔹 Mist Veiled Gold Elixir 🔹 Relic from Guyun 🔹 Shackles of the Dandelion Gladiator",
+      "",
+      "[⭐⭐⭐]",
+      "Boreal Wolf's Cracked Tooth 🔹 Chains of the Dandelion Gladiator 🔹 Debris of Decarabian's City 🔹 Lustrous Stone from Guyun 🔹 Mist Veiled Mercury Elixir 🔹 Piece of Aerosiderite",
+      "",
+      "[⭐⭐]",
+      "Boreal Wolf's Milk Tooth 🔹 Fetters of the Dandelion Gladiator 🔹 Grain of Aerosiderite 🔹 Luminous Sands from Guyun 🔹 Mist Veiled Lead Elixir 🔹 Tile of Decarabian's Tower",
         "",
         `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const sixth = new Embed()
-      .setTitle("Weapon Ascension Materials")
-      .setDescription([
-        "[⭐⭐⭐⭐⭐]",
-        "Boreal Wolf's Nostalgia 🔹 Chunk of Aerosiderite 🔹 Divine Body from Guyun 🔹 Dream of the Dandelion Gladiator 🔹 Mist Veiled Primo Elixir 🔹 Scattered Piece of Decarabian's Dream",
-        "",
-        "[⭐⭐⭐⭐]",
-        "Bit of Aerosiderite 🔹 Boreal Wolf's Broken Fang 🔹 Fragment of Decarabian's Epic 🔹 Mist Veiled Gold Elixir 🔹 Relic from Guyun 🔹 Shackles of the Dandelion Gladiator",
-        "",
-        "[⭐⭐⭐]",
-        "Boreal Wolf's Cracked Tooth 🔹 Chains of the Dandelion Gladiator 🔹 Debris of Decarabian's City 🔹 Lustrous Stone from Guyun 🔹 Mist Veiled Mercury Elixir 🔹 Piece of Aerosiderite",
-        "",
-        "[⭐⭐]",
-        "Boreal Wolf's Milk Tooth 🔹 Fetters of the Dandelion Gladiator 🔹 Grain of Aerosiderite 🔹 Luminous Sands from Guyun 🔹 Mist Veiled Lead Elixir 🔹 Tile of Decarabian's Tower",
+    .setTitle("Forging Materials")
+    .setDescription([
+      "[⭐⭐⭐⭐⭐]",
+      "Northlander Bow Prototype 🔹 Northlander Catalyst Prototype 🔹 Northlander Claymore Prototype 🔹 Northlander Polearm Prototype 🔹 Northlander Sword Prototype 🔹 Scattered Piece of Decarabian's Dream",
+      "",
+      "🔹 Crystal Chunk",
+      "🔹 Iron Chunk",
+      "🔹 Magical Crystal Chunk",
+      "🔹 White Iron Chunk",
         "",
         `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const seventh = new Embed()
-      .setTitle("Forging Materials")
-      .setDescription([
-        "[⭐⭐⭐⭐⭐]",
-        "Northlander Bow Prototype 🔹 Northlander Catalyst Prototype 🔹 Northlander Claymore Prototype 🔹 Northlander Polearm Prototype 🔹 Northlander Sword Prototype 🔹 Scattered Piece of Decarabian's Dream",
-        "",
-        "🔹 Crystal Chunk",
-        "🔹 Iron Chunk",
-        "🔹 Magical Crystal Chunk",
-        "🔹 White Iron Chunk",
-        "",
-        `1️⃣ Overview`,
+    .setTitle("Local Specialty")
+    .setDescription([
+      "**[Mondstadt]**",
+      "Calla Lily 🔹 Cecilia 🔹 Dandelion Seed 🔹 Philanemo Mushroom 🔹 Small Lamp Grass 🔹 Valberry 🔹 Windwheel Aster 🔹 Wolfhook",
+      "",
+      "**[Liyue]**",
+      "Cor Lapis 🔹 Glaze Lily 🔹 Jueyun Chili 🔹 Noctilucous Jade 🔹 Qingxin 🔹 Silk Flower 🔹 Starconch 🔹 Violetgrass",
+      "",
+      `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const eighth = new Embed()
-      .setTitle("Local Specialty")
-      .setDescription([
-        "**[Mondstadt]**",
-        "Calla Lily 🔹 Cecilia 🔹 Dandelion Seed 🔹 Philanemo Mushroom 🔹 Small Lamp Grass 🔹 Valberry 🔹 Windwheel Aster 🔹 Wolfhook",
-        "",
-        "**[Liyue]**",
-        "Cor Lapis 🔹 Glaze Lily 🔹 Jueyun Chili 🔹 Noctilucous Jade 🔹 Qingxin 🔹 Silk Flower 🔹 Starconch 🔹 Violetgrass",
-        "",
-        `1️⃣ Overview`,
+    .setTitle("Cooking Ingredients")
+    .setDescription([
+      "Almond 🔹 Bacon 🔹 Bamboo Shoot 🔹 Berry 🔹 Bird Egg 🔹 Butter 🔹 Cabbage 🔹 Calla Lily 🔹 Carrot 🔹 Cheese",
+      "",
+      "Chilled Meat 🔹 Crab 🔹 Crab Roe 🔹 Cream 🔹 Fish 🔹 Flour 🔹 Fowl 🔹 Ham 🔹 Jam 🔹 Jueyun Chili",
+      "",
+      "Lotus Head 🔹 Matsutake 🔹 Milk 🔹 Mint 🔹 Mushroom 🔹 Onion 🔹 Pepper 🔹 Pinecone 🔹 Potato 🔹 Qingxin",
+      "",
+      "Radish 🔹 Raw Meat 🔹 Rice 🔹 Salt 🔹 Sausage 🔹 Shrimp Meat 🔹 Small Lamp Grass 🔹 Smoked Fowl 🔹 Snapdragon 🔹 Sugar",
+      "",
+      "Sweet Flower 🔹 Tofu 🔹 Tomato 🔹 Violetgrass 🔹 Wheat",
+      "",
+      `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const nineth = new Embed()
-      .setTitle("Cooking Ingredients")
-      .setDescription([
-        "Almond 🔹 Bacon 🔹 Bamboo Shoot 🔹 Berry 🔹 Bird Egg 🔹 Butter 🔹 Cabbage 🔹 Calla Lily 🔹 Carrot 🔹 Cheese",
-        "",
-        "Chilled Meat 🔹 Crab 🔹 Crab Roe 🔹 Cream 🔹 Fish 🔹 Flour 🔹 Fowl 🔹 Ham 🔹 Jam 🔹 Jueyun Chili",
-        "",
-        "Lotus Head 🔹 Matsutake 🔹 Milk 🔹 Mint 🔹 Mushroom 🔹 Onion 🔹 Pepper 🔹 Pinecone 🔹 Potato 🔹 Qingxin",
-        "",
-        "Radish 🔹 Raw Meat 🔹 Rice 🔹 Salt 🔹 Sausage 🔹 Shrimp Meat 🔹 Small Lamp Grass 🔹 Smoked Fowl 🔹 Snapdragon 🔹 Sugar",
-        "",
-        "Sweet Flower 🔹 Tofu 🔹 Tomato 🔹 Violetgrass 🔹 Wheat",
-        "",
-        `1️⃣ Overview`,
+    .setTitle("Other")
+    .setDescription([
+      "Dust of Azoth",
+      "",
+      `1️⃣ Overview`,
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     const pages = {
