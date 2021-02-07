@@ -21,6 +21,7 @@ createSubcommand("help", {
         "🔹 `p!version (version)`",
         "Shows all informations about a version."
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

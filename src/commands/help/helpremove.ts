@@ -11,6 +11,7 @@ createSubcommand("help", {
         "🔹 `p!remove (char name)`",
         "Removes a character from your profile."
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

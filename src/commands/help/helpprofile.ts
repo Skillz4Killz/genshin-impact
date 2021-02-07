@@ -14,6 +14,7 @@ createSubcommand("help", {
         "🔹 `p!profile [@user | userID]`",
         "Shows the profile of the user."
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

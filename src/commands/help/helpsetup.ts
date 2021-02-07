@@ -11,6 +11,7 @@ createSubcommand("help", {
         "🔹 `p!setup`",
         "Starts the profile setup progress",
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

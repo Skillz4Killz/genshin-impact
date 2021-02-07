@@ -75,7 +75,7 @@ createSubcommand("help", {
           "**Other**",
           "🔹 `p!material dustofazoth`",
           ])
-          .setFooter("Page 2/3")
+          .setFooter("Page 3/3")
           .setTimestamp()
           .setColor("RANDOM");
 

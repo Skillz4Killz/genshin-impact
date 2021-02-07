@@ -14,6 +14,7 @@ createSubcommand("help", {
         "🔹 `p!list materials`",
         "🔹 `p!list weapons`",
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

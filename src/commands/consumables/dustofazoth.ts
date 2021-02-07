@@ -22,9 +22,6 @@ createSubcommand("material", {
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Dust_of_Azoth.png/revision/latest/scale-to-width-down/215?cb=20210127005119",
       )
-      .setImage(
-        "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Dust_of_Azoth.png/revision/latest/scale-to-width-down/215?cb=20210127005119",
-      )
       .setTimestamp()
       .setColor("RANDOM");
 

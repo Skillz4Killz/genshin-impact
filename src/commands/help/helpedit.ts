@@ -21,6 +21,7 @@ createSubcommand("help", {
         "🔹 `p!add [char | character] (char name) const (constellation 0-6)`",
         "🔹 `p!add [char | character] (char name) level (level 1-90)`",
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

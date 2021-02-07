@@ -11,6 +11,7 @@ createSubcommand("help", {
         "🔹 `p!reset`",
         "Reset your whole profile."
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

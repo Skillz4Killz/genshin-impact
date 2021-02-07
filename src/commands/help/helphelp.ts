@@ -18,6 +18,7 @@ createSubcommand("help", {
         "🔹 `p!help reset`",
         "🔹 `p!help setup`",
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

@@ -32,7 +32,8 @@ createCommand({
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
-      ]);
+      ])
+      .setTimestamp()
 
     const second = new Embed()
       .setTitle("Profile")
@@ -54,7 +55,9 @@ createCommand({
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
-      ]);
+        
+      ])
+      .setTimestamp()
 
     const third = new Embed()
       .setTitle("Other")
@@ -74,7 +77,8 @@ createCommand({
         `1️⃣ Information`,
         `2️⃣ Profile`,
         `3️⃣ Other`,
-      ]);
+      ])
+      .setTimestamp()
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },

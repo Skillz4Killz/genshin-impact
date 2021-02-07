@@ -3,7 +3,7 @@ import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("help", {
   name: "gadget",
-  aliases: ["gadget"],
+  aliases: ["gadgets"],
   guildOnly: true,
   execute: async function (message) {
     const embed = new Embed()
@@ -26,6 +26,7 @@ createSubcommand("help", {
         "🔹 `p!gadget treasureseekingseelie`",
         "🔹 `p!gadget parametrictransformer`"
       ])
+      .setTimestamp()
       .setColor("RANDOM");
 
     await sendEmbed(message.channelID, embed).catch(console.log);

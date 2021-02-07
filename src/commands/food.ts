@@ -44,6 +44,7 @@ createCommand({
         "",
         `**Effect:**\n${food.effect}`,
       ])
+      .setTimestamp()
       .setThumbnail(food.image)
       .setColor(food.color);
 

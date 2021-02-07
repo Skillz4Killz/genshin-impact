@@ -37,6 +37,7 @@ createCommand({
         "",
         `**Description:**\n${gadget.description}`,
       ])
+      .setTimestamp()
       .setThumbnail(gadget.image)
       .setColor("RANDOM");
 

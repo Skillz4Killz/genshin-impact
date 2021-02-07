@@ -32,6 +32,7 @@ createSubcommand("help", {
         "🔹 `p!help amosbow`",
         "🔹 `p!help skywardharp`",
       ])
+      .setTimestamp()
 
     const second = new Embed()
       .setTitle("Polearms")
@@ -55,6 +56,7 @@ createSubcommand("help", {
         "🔹 `p!help primordialjadewinged-spear`",
         "🔹 `p!help staffofhoma`",
       ])
+      .setTimestamp()
 
     const third = new Embed()
       .setTitle("Claymores")
@@ -82,6 +84,7 @@ createSubcommand("help", {
         "🔹 `p!help Wolf's Gravestone`",
         "🔹 `p!help Skyward Pride`",
       ])
+      .setTimestamp()
 
     const fourth = new Embed()
       .setTitle("Swords")
@@ -110,6 +113,7 @@ createSubcommand("help", {
         "🔹 `p!help skywardblade`",
         "🔹 `p!help primordialjadecutter`",
       ])
+      .setTimestamp()
 
     const fifth = new Embed()
       .setTitle("Catalysts")
@@ -135,6 +139,7 @@ createSubcommand("help", {
         "🔹 `p!help Memory of Dust`",
         "🔹 `p!help Skyward Atlas`",
       ])
+      .setTimestamp()
 
       createPagination(message, [
         first,
