@@ -41,26 +41,26 @@ botCache.tasks.set("sweeper", {
   },
 });
 
-botCache.tasks.set("sweeper_guilds", {
-  name: "sweeper_guilds",
-  interval: Milliseconds.HOUR,
-  execute: async function () {
-    cache.guilds.forEach(async function (guild) {
-      if (botCache.activeGuildIDs.has(guild.id)) return;
+// botCache.tasks.set("sweeper_guilds", {
+//   name: "sweeper_guilds",
+//   interval: Milliseconds.HOUR,
+//   execute: async function () {
+//     cache.guilds.forEach(async function (guild) {
+//       if (botCache.activeGuildIDs.has(guild.id)) return;
 
-      // This is an inactive guild. Not a single thing has happened for atleast 60 minutes.
-      cache.guilds.delete(guild.id);
-      botCache.dispatchedGuildIDs.add(guild.id);
-    });
+//       // This is an inactive guild. Not a single thing has happened for atleast 60 minutes.
+//       cache.guilds.delete(guild.id);
+//       botCache.dispatchedGuildIDs.add(guild.id);
+//     });
 
-    cache.channels.forEach(async function (channel) {
-      if (!botCache.dispatchedGuildIDs.has(channel.guildID)) return;
+//     cache.channels.forEach(async function (channel) {
+//       if (!botCache.dispatchedGuildIDs.has(channel.guildID)) return;
 
-      cache.channels.delete(channel.id);
-      botCache.dispatchedChannelIDs.add(channel.id);
-    });
+//       cache.channels.delete(channel.id);
+//       botCache.dispatchedChannelIDs.add(channel.id);
+//     });
 
-    // Reset activity for next interval
-    botCache.activeGuildIDs.clear();
-  },
-});
+//     // Reset activity for next interval
+//     botCache.activeGuildIDs.clear();
+//   },
+// });
