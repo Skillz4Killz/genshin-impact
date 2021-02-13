@@ -27,7 +27,7 @@ export const parsePrefix = (guildID?: string) => {
 export const parseCommand = (commandName: string) => {
   const command = botCache.commands.get(commandName);
   if (command) return command;
-
+  botCache.stats.commandsRan += 1;
   // Check aliases if the command wasn't found
   return botCache.commands.find((cmd) =>
     Boolean(cmd.aliases?.includes(commandName))

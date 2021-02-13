@@ -8,6 +8,7 @@ const UPTIME = Date.now();
 createCommand({
   name: `stats`,
   guildOnly: true,
+  botChannelPermissions: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
   execute: async (message) => {
     let totalMemberCount = 0;
     let cachedMemberCount = 0;
@@ -47,7 +48,7 @@ createCommand({
         BigInt(stats.messagesDeleted || "0")
       )}`,
       `**Edited:** ${botCache.helpers.shortNumber(
-        BigInt(stats.messagesEdited || "0")
+        BigInt(stats.messagesUpdated || "0")
       )}`,
       `**Commands:** ${botCache.helpers.shortNumber(
         BigInt(stats.commandsRan || "0")

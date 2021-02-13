@@ -42,6 +42,7 @@ export interface OwnedCharacter {
 }
 
 export interface ClientStatsSchema {
+  messagesUpdated: string;
   id: string;
   botID: string;
   // Bot Statistics. Using string to prevent big ints from breaking.
