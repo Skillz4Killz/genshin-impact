@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "fatuiinsignia",
-  aliases: ["recruitsinsignia", "sergeantsinsignia", "lieutenantsinsignia"],
+  name: "boneshard",
+  aliases: ["fragileboneshard", "sturdyboneshard", "fossilizedboneshard"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Recruit's-, Sergeant's- and Lieutenant's Insignia")
+      .setTitle("Bone Shard") 
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages\n🔹 Crafting",
-        "",
-        "**Recruit's-, Sergeant's- and Lieutenant's Insignia** are used for the following weapon and character ascensions:"
+        "🔹 Dropped by Geovishaps\n🔹 Crafting", 
+        "", 
+        "**Bone Shard** is used for the following weapon ascensions:" 
       ])
-      .addField("⭐⭐⭐", "Skyrider Sword\nTwin Nephrite\nWhite Tassel", true)
-      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nCompound Bow\nDragonspine Spear\nFavonius Greatsword\nFestering Desire\nPrototype Rancour\nRoyal Spear\n\n<:Ningguang:798571977120022578> Ningguang", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\n\n<:Diluc:798579247945613332> Diluc\n<:Childe:798579167843057665> Tartaglia", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+      .addField("⭐⭐⭐", "Black Tassel\nSkyrider Greatsword\nSkyrider Sword", true)
+      .addField("⭐⭐⭐⭐", "Compound Bow\nIron Sting\nMappa Mare\nPrototype Archaic\nPrototype Starglitter\nSerpent Spine", true)
+      .addField("⭐⭐⭐⭐⭐", "Memory of Dust\nVortex Vanquisher", true)
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Sturdy_Bone_Shard.png/revision/latest/scale-to-width-down/256?cb=20210109215136")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Recruit's Insignia")
+    .setTitle("Fragile Bone Shard")
       .setDescription([
         "**Rarity:** ⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages",
+        "🔹 Dropped by Geovishaps",
         "",
         "**Description:**",
-        "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking."
+        "A bone shard once carried by a Geovishap Hatchling. Although they are quite fragile, they seem to still harbor some indescribable power."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220719")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Fragile_Bone_Shard.png/revision/latest/scale-to-width-down/256?cb=20210109215139")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Agent's Sacrificial Knife")
+    .setTitle("Sturdy Bone Shard")
     .setDescription([
       "**Rarity:** ⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 40+ Skirmishers\n🔹 Dropped by some Lv. 40+ Agents\n🔹 Dropped by some Lv. 40+ Electro Cicin Mages\n🔹 Crafting: 3x Recruit's Insignia, 25 Mora",
+      "🔹 Dropped by Geovishaps\n🔹 Crafting: 3x Fragile Bone Shard, 25 Mora",
       "",
       "**Description:**",
-      "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it."
+      "A fragment of an unknown creature's bones that appear to be prized by Geovishap Hatchlings for some reason.\nThe fragment appears to be quite aged. Despite being dragon-like beasts with no spoken language, they still seem to have some sort of special affection for these bone shards."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Sturdy_Bone_Shard.png/revision/latest/scale-to-width-down/256?cb=20210109215136")
     .setFooter("Page 3/4")
     .setTimestamp()
     .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
-    .setTitle("Lieutenant's Insignia")
+    .setTitle("Fossilized Bone Shard")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Skirmishers\n🔹 Dropped by some Lv. 60+ Agents\n🔹 Dropped by some Lv. 60+ Electro Cicin Mages\n🔹 Crafting: 3x Sergeant's Insignia, 50 Mora",
+      "🔹 Dropped by Geovishaps\n🔹 Crafting: 3x Sturdy Bone Shard, 50 Mora",
       "",
       "**Description:**",
-      "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group."
+      "A fossilized bone fragment sometimes found after defeating Geovishap Hatchlings.\nGeovishap Hatchlings all dream of growing into great dragons one day. They see these fossils as dragon bones and greatly cherish them, perhaps because they too hope to attain the dragons' longevity and power."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220723")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Fossilized_Bone_Shard.png/revision/latest/scale-to-width-down/256?cb=20210109215145")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

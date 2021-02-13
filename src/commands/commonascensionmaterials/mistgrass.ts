@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "fatuiinsignia",
-  aliases: ["recruitsinsignia", "sergeantsinsignia", "lieutenantsinsignia"],
+  name: "mistgrass",
+  aliases: ["mistgrasspollen", "mistgrasswick"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Recruit's-, Sergeant's- and Lieutenant's Insignia")
+      .setTitle("Mist Grass") 
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages\n🔹 Crafting",
-        "",
-        "**Recruit's-, Sergeant's- and Lieutenant's Insignia** are used for the following weapon and character ascensions:"
+        "🔹 Dropped by Fatui Cicin Mages\n🔹 Crafting", 
+        "", 
+        "**Mist Grass** is used for the following weaponn ascensions:" 
       ])
-      .addField("⭐⭐⭐", "Skyrider Sword\nTwin Nephrite\nWhite Tassel", true)
-      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nCompound Bow\nDragonspine Spear\nFavonius Greatsword\nFestering Desire\nPrototype Rancour\nRoyal Spear\n\n<:Ningguang:798571977120022578> Ningguang", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\n\n<:Diluc:798579247945613332> Diluc\n<:Childe:798579167843057665> Tartaglia", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+      .addField("⭐⭐⭐", "Debate Club\nFillet Blade\nHalberd\nMessenger\nTwin Nephrite", true)
+      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nDragon's Bane\nDragonspine Spear\nEye of Perception\nPrototype Amber\nPrototype Crescent\nPrototype Rancour\nRainslasher\nRoyal Spear", true)
+      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Cutter\nThe Unforged", true)
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Mist_Grass.png/revision/latest/scale-to-width-down/256?cb=20201210053537")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Recruit's Insignia")
+    .setTitle("Mist Grass Pollen")
       .setDescription([
-        "**Rarity:** ⭐",
+        "**Rarity:** ⭐⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages",
+        "🔹 Dropped by Whopperflower",
         "",
         "**Description:**",
-        "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking."
+        "Strange spores created by Mist Grass in enclosed spaces. They are the Cicins' favorite food."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220719")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Mist_Grass_Pollen.png/revision/latest/scale-to-width-down/256?cb=20201210053615")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Agent's Sacrificial Knife")
-    .setDescription([
-      "**Rarity:** ⭐⭐",
-      "",
-      "**Item type:** Common Ascension Material",
-      "",
-      "**Source:**",
-      "🔹 Dropped by Lv. 40+ Skirmishers\n🔹 Dropped by some Lv. 40+ Agents\n🔹 Dropped by some Lv. 40+ Electro Cicin Mages\n🔹 Crafting: 3x Recruit's Insignia, 25 Mora",
-      "",
-      "**Description:**",
-      "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it."
-    ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
-    .setFooter("Page 3/4")
-    .setTimestamp()
-    .setColor("RANDOM");
-
-    const fourthEmbed = new Embed()
-    .setTitle("Lieutenant's Insignia")
+    .setTitle("Mist Grass")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Skirmishers\n🔹 Dropped by some Lv. 60+ Agents\n🔹 Dropped by some Lv. 60+ Electro Cicin Mages\n🔹 Crafting: 3x Sergeant's Insignia, 50 Mora",
+      "🔹 Dropped by Lv. 40+ Fatui Cicin Mages\n🔹 Crafting: 3x Mist Grass Pollen, 50 Mora",
       "",
       "**Description:**",
-      "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group."
+      "Well-preserved Mist Grass. Some would take advantage of the Cicins' love for the Mist Grass to control them."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220723")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Mist_Grass.png/revision/latest/scale-to-width-down/256?cb=20201210053537")
+    .setFooter("Page 3/4")
+    .setTimestamp()
+    .setColor("RANDOM");
+
+    const fourthEmbed = new Embed()
+    .setTitle("Mist Grass Wick")
+    .setDescription([
+      "**Rarity:** ⭐⭐⭐⭐",
+      "",
+      "**Item type:** Common Ascension Material",
+      "",
+      "**Source:**",
+      "🔹 Dropped by Lv.60+ Fatui Cicin Mages\n🔹 Crafting: 3x Mist Grass, 125 Mora",
+      "",
+      "**Description:**",
+      "A rare bundle of Mist Grass that gives off a faint glow. Those who carry it invite both the Cicins and misfortune."
+    ])
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_Mist_Grass_Wick.png/revision/latest/scale-to-width-down/256?cb=20201210053456")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

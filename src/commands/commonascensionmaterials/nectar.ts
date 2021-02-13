@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "fatuiinsignia",
-  aliases: ["recruitsinsignia", "sergeantsinsignia", "lieutenantsinsignia"],
+  name: "nectar",
+  aliases: ["whopperflowernectar", "shimmeringnectar", "energynectar"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Recruit's-, Sergeant's- and Lieutenant's Insignia")
+      .setTitle("Nectar") 
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages\n🔹 Crafting",
-        "",
-        "**Recruit's-, Sergeant's- and Lieutenant's Insignia** are used for the following weapon and character ascensions:"
+        "🔹 Dropped by Whopperflower\n🔹 Crafting", 
+        "", 
+        "**Nectar** is used for the following weapon and character ascensions:" 
       ])
-      .addField("⭐⭐⭐", "Skyrider Sword\nTwin Nephrite\nWhite Tassel", true)
-      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nCompound Bow\nDragonspine Spear\nFavonius Greatsword\nFestering Desire\nPrototype Rancour\nRoyal Spear\n\n<:Ningguang:798571977120022578> Ningguang", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\n\n<:Diluc:798579247945613332> Diluc\n<:Childe:798579167843057665> Tartaglia", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+      .addField("⭐⭐⭐", "Ferrous Shadow\nHalberd", true)
+      .addField("⭐⭐⭐⭐", "Blackcliff Warbow\nDeathmatch\nFavonius Warbow\nFrostbearer\nIron Sting\nSerpent Spine\nSolar Pearl\nThe Bell\n\n<:Sucrose:798578072756158475> Sucrose", true)
+      .addField("⭐⭐⭐⭐⭐", "<:Ganyu:798579013084774504> Ganyu\n<:Keqing:798578899956006914> Keqing\n<:Mona:798582495674105876> Mona", true)
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png/revision/latest/scale-to-width-down/256?cb=20210112155006")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Recruit's Insignia")
+    .setTitle("Whopperflower Nectar")
       .setDescription([
         "**Rarity:** ⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages",
+        "🔹 Dropped by Whopperflower",
         "",
         "**Description:**",
-        "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking."
+        "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220719")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png/revision/latest/scale-to-width-down/256?cb=20210109215225")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Agent's Sacrificial Knife")
+    .setTitle("Shimmering Nectar")
     .setDescription([
       "**Rarity:** ⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 40+ Skirmishers\n🔹 Dropped by some Lv. 40+ Agents\n🔹 Dropped by some Lv. 40+ Electro Cicin Mages\n🔹 Crafting: 3x Recruit's Insignia, 25 Mora",
+      "🔹 Dropped by Lv. 40+ Whopperflower\n🔹 Crafting: 3x Whopperflower Nectar, 25 Mora",
       "",
       "**Description:**",
-      "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it."
+      "Nectar that is full of pure elements.\nScholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png/revision/latest/scale-to-width-down/256?cb=20210112155006")
     .setFooter("Page 3/4")
     .setTimestamp()
     .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
-    .setTitle("Lieutenant's Insignia")
+    .setTitle("Energy Nectar")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Skirmishers\n🔹 Dropped by some Lv. 60+ Agents\n🔹 Dropped by some Lv. 60+ Electro Cicin Mages\n🔹 Crafting: 3x Sergeant's Insignia, 50 Mora",
+      "🔹 Dropped by Lv. 60+ Whopperflower\n🔹 Crafting: 3x Shimmering Nectar, 50 Mora",
       "",
       "**Description:**",
-      "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group."
+      "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220723")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png/revision/latest/scale-to-width-down/256?cb=20210112155010")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

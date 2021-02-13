@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "fatuiinsignia",
-  aliases: ["recruitsinsignia", "sergeantsinsignia", "lieutenantsinsignia"],
+  name: "slime",
+  aliases: ["slimecondensate", "slimesecretions", "slimeconcentrate"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Recruit's-, Sergeant's- and Lieutenant's Insignia")
+      .setTitle("Slime") 
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages\n🔹 Crafting",
-        "",
-        "**Recruit's-, Sergeant's- and Lieutenant's Insignia** are used for the following weapon and character ascensions:"
+        "🔹 Dropped by Slimes\n🔹 Crafting", 
+        "", 
+        "**Slime** is used for the following weapon and character ascensions:" 
       ])
-      .addField("⭐⭐⭐", "Skyrider Sword\nTwin Nephrite\nWhite Tassel", true)
-      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nCompound Bow\nDragonspine Spear\nFavonius Greatsword\nFestering Desire\nPrototype Rancour\nRoyal Spear\n\n<:Ningguang:798571977120022578> Ningguang", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\n\n<:Diluc:798579247945613332> Diluc\n<:Childe:798579167843057665> Tartaglia", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+      .addField("⭐⭐⭐", "Harbinger of Dawn\nMagic Guide\nSharpshooter's Oath\nWhite Iron Greatsword", true)
+      .addField("⭐⭐⭐⭐", "Favonius Lance\nMappa MareRoyal Bow\nRoyal Greatsword\nSacrificial Bow\nSnow-Tombed Starsilver\nThe Black Sword\nThe Flute\n\n<:Lisa:798578725716361267> Lisa\n<:Xiangling:798578032935436329> Xiangling", true)
+      .addField("⭐⭐⭐⭐⭐", "Amos' Bow\nLost Prayer to the Sacred Winds\nSkyward Blade\nSkyward Pride\n\n<:Venti:798578059891834890> Venti\n<:Xiao:798578017197883412> Xiao\n<:Zhongli:798577390577254441> Zhongli", true)
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png/revision/latest/scale-to-width-down/256?cb=20210109220910")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Recruit's Insignia")
+    .setTitle("Slime Condensate")
       .setDescription([
         "**Rarity:** ⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages",
+        "🔹 Dropped by Slimes",
         "",
         "**Description:**",
-        "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking."
+        "A thick coating found on slimes. Most commonly seen material in elemental workshops."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220719")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png/revision/latest/scale-to-width-down/256?cb=20210109220914")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Agent's Sacrificial Knife")
+    .setTitle("Slime Secretions")
     .setDescription([
       "**Rarity:** ⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 40+ Skirmishers\n🔹 Dropped by some Lv. 40+ Agents\n🔹 Dropped by some Lv. 40+ Electro Cicin Mages\n🔹 Crafting: 3x Recruit's Insignia, 25 Mora",
+      "🔹 Dropped by Lv.40+ Slimes\n🔹 Crafting: 3x Slime Condensate, 25 Mora",
       "",
       "**Description:**",
-      "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it."
+      "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png/revision/latest/scale-to-width-down/256?cb=20210109220910")
     .setFooter("Page 3/4")
     .setTimestamp()
     .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
-    .setTitle("Lieutenant's Insignia")
+    .setTitle("Slime Concentrate")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Skirmishers\n🔹 Dropped by some Lv. 60+ Agents\n🔹 Dropped by some Lv. 60+ Electro Cicin Mages\n🔹 Crafting: 3x Sergeant's Insignia, 50 Mora",
+      "🔹 Dropped by Lv.60+ Slimes\n🔹 Crafting: 3x Slime Secretions, 50 Mora",
       "",
       "**Description:**",
-      "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group."
+      "Concentrated slime essence. When left on its own, it will begin to move on its own."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220723")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png/revision/latest/scale-to-width-down/256?cb=20210109220909")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

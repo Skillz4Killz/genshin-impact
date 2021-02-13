@@ -72,10 +72,10 @@ createSubcommand("material", {
         "Character EXP material. Gives 20,000 EXP. These experiences are extremely precious for a pilgrim traveling through Teyvat in order to be closer to Celestia.",
       ])
       .setThumbnail(
-        "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png/revision/latest/scale-to-width-down/256?cb=20210106072255",
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/256?cb=20201116222208",
       )
       .setImage(
-        "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png/revision/latest/scale-to-width-down/256?cb=20210106072255",
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/256?cb=20201116222208",
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM");

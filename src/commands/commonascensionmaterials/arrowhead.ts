@@ -4,82 +4,82 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("material", {
-  name: "fatuiinsignia",
-  aliases: ["recruitsinsignia", "sergeantsinsignia", "lieutenantsinsignia"],
+  name: "arrowhead",
+  aliases: ["firmarrowhead", "sharparrowhead", "weatheredarrowhead"],
   arguments: [
     { name: "page", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message) {
     const firstEmbed = new Embed()
-      .setTitle("Recruit's-, Sergeant's- and Lieutenant's Insignia")
+      .setTitle("Arrow Head") 
       .setDescription([
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages\n🔹 Crafting",
-        "",
-        "**Recruit's-, Sergeant's- and Lieutenant's Insignia** are used for the following weapon and character ascensions:"
+        "🔹 Dropped by Hilichurl Shooter\n🔹 Crafting", 
+        "", 
+        "**Arrow Head** is used for the following weapon and character ascensions:" 
       ])
-      .addField("⭐⭐⭐", "Skyrider Sword\nTwin Nephrite\nWhite Tassel", true)
-      .addField("⭐⭐⭐⭐", "Blackcliff Pole\nBlackcliff Slasher\nCompound Bow\nDragonspine Spear\nFavonius Greatsword\nFestering Desire\nPrototype Rancour\nRoyal Spear\n\n<:Ningguang:798571977120022578> Ningguang", true)
-      .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\n\n<:Diluc:798579247945613332> Diluc\n<:Childe:798579167843057665> Tartaglia", true)
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+      .addField("⭐⭐⭐", "Black Tassel\nBloodtainted Greatsword\nCool Steel\nRaven Bow", true)
+      .addField("⭐⭐⭐⭐", "Blackcliff Longsword\nFavonius Sword\nPrototype Amber\nRoyal Longsword\nSacrificial Greatsword\nThe Stringless\nThe Viridescent Hunt\n\n<:Amber:798579318262988810> Amber\n<:Diona:798582510480785409> Diona\n<:Fischl:798579031381114890> Fischl", true)
+      .addField("⭐⭐⭐⭐⭐", "Aquila Favonia\nSkyward Atlas\nSkyward Harp\n\n<:Traveler:798976293613600829> Traveler", true)
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png/revision/latest/scale-to-width-down/256?cb=20201210053042")
       .setFooter("Page 1/4")
       .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
-    .setTitle("Recruit's Insignia")
+    .setTitle("Firm Arrowhead")
       .setDescription([
         "**Rarity:** ⭐",
         "",
         "**Item type:** Common Ascension Material",
         "",
         "**Source:**",
-        "🔹 Dropped by Skirmishers\n🔹 Dropped by some Agents\n🔹 Dropped by some Electro Cicin Mages",
+        "🔹 Dropped by Hilichurl Shooter",
         "",
         "**Description:**",
-        "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking."
+        "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear."
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220719")
+      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png/revision/latest/scale-to-width-down/256?cb=20201210052906")
       .setFooter("Page 2/4")
       .setTimestamp()
       .setColor("RANDOM");
       
 
     const thirdEmbed = new Embed()
-    .setTitle("Agent's Sacrificial Knife")
+    .setTitle("Sharp Arrowhead")
     .setDescription([
       "**Rarity:** ⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 40+ Skirmishers\n🔹 Dropped by some Lv. 40+ Agents\n🔹 Dropped by some Lv. 40+ Electro Cicin Mages\n🔹 Crafting: 3x Recruit's Insignia, 25 Mora",
+      "🔹 Dropped by Lv. 40+ Hilichurl Shooter\n🔹 Crafting: 3x Firm Arrowhead, 25 Mora",
       "",
       "**Description:**",
-      "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it."
+      "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220720")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png/revision/latest/scale-to-width-down/256?cb=20201210053042")
     .setFooter("Page 3/4")
     .setTimestamp()
     .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
-    .setTitle("Lieutenant's Insignia")
+    .setTitle("Weathered Arrowhead")
     .setDescription([
       "**Rarity:** ⭐⭐⭐",
       "",
       "**Item type:** Common Ascension Material",
       "",
       "**Source:**",
-      "🔹 Dropped by Lv. 60+ Skirmishers\n🔹 Dropped by some Lv. 60+ Agents\n🔹 Dropped by some Lv. 60+ Electro Cicin Mages\n🔹 Crafting: 3x Sergeant's Insignia, 50 Mora",
+      "🔹 Dropped by Lv. 60+ Hilichurl Shooter\n🔹 Crafting: 3x Sharp Arrowhead, 50 Mora",
       "",
       "**Description:**",
-      "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group."
+      "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\nHowever it represents the pride of a hunter and acts as both an amulet and a medal."
     ])
-    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png/revision/latest/scale-to-width-down/256?cb=20210109220723")
+    .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png/revision/latest/scale-to-width-down/256?cb=20201210053107")
     .setFooter("Page 4/4")
     .setTimestamp()
     .setColor("RANDOM");

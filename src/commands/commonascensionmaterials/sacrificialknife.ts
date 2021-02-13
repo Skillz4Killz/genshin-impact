@@ -22,7 +22,7 @@ createSubcommand("material", {
         "**Sacrificial Knife** is used for the following weapon ascensions:"
       ])
       .addField("⭐⭐⭐", "Dark Iron Sword\nEmerald Orb\nSlingshot\nWhite Tassel", true)
-      .addField("⭐⭐⭐⭐", "Blackcliff Agate\nBlackcliff Longsword\nBlackcliff Warbow\nCrescent Pike\nLion's Roar\nRust\nSolar Pearl\n", true)
+      .addField("⭐⭐⭐⭐", "Blackcliff Agate\nBlackcliff Longsword\nBlackcliff Warbow\nCrescent Pike\nLion's Roar\nRust\nSolar Pearl", true)
       .addField("⭐⭐⭐⭐⭐", "Primordial Jade Winged-Spear\nSummit Shaper", true)
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Hunter%27s_Sacrificial_Knife.png/revision/latest/scale-to-width-down/256?cb=20210109223410")
       .setFooter("Page 1/4")
