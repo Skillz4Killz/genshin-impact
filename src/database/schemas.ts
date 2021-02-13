@@ -40,3 +40,16 @@ export interface OwnedCharacter {
   /** The level of this character */
   charLevel: number;
 }
+
+export interface ClientStatsSchema {
+  id: string;
+  botID: string;
+  // Bot Statistics. Using string to prevent big ints from breaking.
+  messagesProcessed: string;
+  messagesDeleted: string;
+  messagesEdited: string;
+  messagesSent: string;
+  reactionsAddedProcessed: string;
+  reactionsRemovedProcessed: string;
+  commandsRan: string;
+}

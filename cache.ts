@@ -2,11 +2,13 @@ import { Collection, Guild, Message } from "./deps.ts";
 import { MessageCollector, ReactionCollector } from "./src/types/collectors.ts";
 import { Argument, Command, PermissionLevels } from "./src/types/commands.ts";
 import { CustomEvents } from "./src/types/events.ts";
+import { Helpers } from "./src/types/helpers.ts";
 import { Monitor } from "./src/types/monitors.ts";
 import { Task } from "./src/types/tasks.ts";
 
 export const botCache = {
   arguments: new Collection<string, Argument>(),
+  helpers: {} as Helpers,
   commands: new Collection<string, Command>(),
   eventHandlers: {} as CustomEvents,
   guildPrefixes: new Collection<string, string>(),
@@ -26,6 +28,17 @@ export const botCache = {
   runningTasks: [] as number[],
   memberLastActive: new Collection<string, number>(),
   activeGuildIDs: new Set<string>(),
+  stats: {
+    messagesProcessed: 0,
+    messagesDeleted: 0,
+    messagesEdited: 0,
+    messagesSent: 0,
+    reactionsAddedProcessed: 0,
+    reactionsRemovedProcessed: 0,
+    commandsRan: 0,
+    feedbacksSent: 0,
+    automod: 0,
+  },
   // dispatchedGuildIDs: new Set<string>(),
   // dispatchedChannelIDs: new Set<string>(),
   fullyReady: false,

@@ -30,9 +30,6 @@ createSubcommand("material", {
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Wanderer%27s_Advice.png/revision/latest/scale-to-width-down/256?cb=20201116222406",
       )
-      .setImage(
-        "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Wanderer%27s_Advice.png/revision/latest/scale-to-width-down/256?cb=20201116222406",
-      )
       .setFooter("Page 1/3")
       .setColor("RANDOM");
 
@@ -52,9 +49,6 @@ createSubcommand("material", {
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/256?cb=20201116222310",
       )
-      .setImage(
-        "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/256?cb=20201116222310",
-      )
       .setFooter("Page 2/3")
       .setColor("RANDOM");
 
@@ -72,9 +66,6 @@ createSubcommand("material", {
         "Character EXP material. Gives 20,000 EXP. These experiences are extremely precious for a pilgrim traveling through Teyvat in order to be closer to Celestia.",
       ])
       .setThumbnail(
-        "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/256?cb=20201116222208",
-      )
-      .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/256?cb=20201116222208",
       )
       .setFooter("Page 3/3")

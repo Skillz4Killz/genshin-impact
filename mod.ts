@@ -24,6 +24,7 @@ await Promise.all(
 // Loads languages
 await loadLanguages();
 await import("./src/database/database.ts");
+await importDirectory(Deno.realPathSync("./src/helpers"));
 
 startBot({
   token: configs.token,
