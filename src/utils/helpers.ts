@@ -13,21 +13,57 @@ import { Milliseconds } from "./constants/time.ts";
 
 /** This function should be used when you want to convert milliseconds to a human readable format like 1d5h. */
 export function humanizeMilliseconds(milliseconds: number) {
-  // Gets ms into seconds
-  const time = milliseconds / 1000;
-  if (time < 1) return "1s";
+  const years = Math.floor(milliseconds / botCache.constants.milliseconds.YEAR);
+  const months = Math.floor(
+    (milliseconds % botCache.constants.milliseconds.YEAR) /
+      botCache.constants.milliseconds.MONTH,
+  );
+  const weeks = Math.floor(
+    ((milliseconds % botCache.constants.milliseconds.YEAR) %
+      botCache.constants.milliseconds.MONTH) /
+      botCache.constants.milliseconds.WEEK,
+  );
+  const days = Math.floor(
+    (((milliseconds % botCache.constants.milliseconds.YEAR) %
+      botCache.constants.milliseconds.MONTH) %
+      botCache.constants.milliseconds.WEEK) /
+      botCache.constants.milliseconds.DAY,
+  );
+  const hours = Math.floor(
+    ((((milliseconds % botCache.constants.milliseconds.YEAR) %
+      botCache.constants.milliseconds.MONTH) %
+      botCache.constants.milliseconds.WEEK) %
+      botCache.constants.milliseconds.DAY) /
+      botCache.constants.milliseconds.HOUR,
+  );
+  const minutes = Math.floor(
+    (((((milliseconds % botCache.constants.milliseconds.YEAR) %
+      botCache.constants.milliseconds.MONTH) %
+      botCache.constants.milliseconds.WEEK) %
+      botCache.constants.milliseconds.DAY) %
+      botCache.constants.milliseconds.HOUR) /
+      botCache.constants.milliseconds.MINUTE,
+  );
+  const seconds = Math.floor(
+    (((((milliseconds % botCache.constants.milliseconds.YEAR) %
+          botCache.constants.milliseconds.MONTH) %
+          botCache.constants.milliseconds.WEEK) %
+          botCache.constants.milliseconds.DAY) %
+          botCache.constants.milliseconds.HOUR) %
+        botCache.constants.milliseconds.MINUTE / 1000,
+  );
 
-  const days = Math.floor(time / 86400);
-  const hours = Math.floor((time % 86400) / 3600);
-  const minutes = Math.floor(((time % 86400) % 3600) / 60);
-  const seconds = Math.floor(((time % 86400) % 3600) % 60);
-
+  const yearString = years ? `${years}y ` : "";
+  const monthString = months ? `${months}mo ` : "";
+  const weekString = weeks ? `${weeks}w ` : "";
   const dayString = days ? `${days}d ` : "";
   const hourString = hours ? `${hours}h ` : "";
   const minuteString = minutes ? `${minutes}m ` : "";
   const secondString = seconds ? `${seconds}s ` : "";
 
-  return `${dayString}${hourString}${minuteString}${secondString}`;
+  return `${yearString}${monthString}${weekString}${dayString}${hourString}${minuteString}${secondString}`
+    .trimEnd() ||
+    "1s";
 }
 
 /** This function helps convert a string like 1d5h to milliseconds. */
@@ -48,19 +84,19 @@ export function stringToMilliseconds(text: string) {
     const [letter] = validMatch;
     if (!number || !letter) return;
 
-    let multiplier = Milliseconds.SECOND;
+    let multiplier = botCache.constants.milliseconds.SECOND;
     switch (letter.toLowerCase()) {
       case `w`:
-        multiplier = Milliseconds.WEEK;
+        multiplier = botCache.constants.milliseconds.WEEK;
         break;
       case `d`:
-        multiplier = Milliseconds.DAY;
+        multiplier = botCache.constants.milliseconds.DAY;
         break;
       case `h`:
-        multiplier = Milliseconds.HOUR;
+        multiplier = botCache.constants.milliseconds.HOUR;
         break;
       case `m`:
-        multiplier = Milliseconds.MINUTE;
+        multiplier = botCache.constants.milliseconds.MINUTE;
         break;
     }
 

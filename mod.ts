@@ -15,6 +15,7 @@ await Promise.all(
     "./src/events",
     "./src/arguments",
     "./src/monitors",
+    "./src/constants",
     "./src/tasks",
     "./src/permissionLevels",
     "./src/events",
@@ -24,7 +25,9 @@ await Promise.all(
 // Loads languages
 await loadLanguages();
 await import("./src/database/database.ts");
+await importDirectory(Deno.realPathSync("./src/constants"));
 await importDirectory(Deno.realPathSync("./src/helpers"));
+await importDirectory(Deno.realPathSync("./src/events"));
 
 startBot({
   token: configs.token,
