@@ -13,10 +13,10 @@ createCommand({
         "Thanks for letting me guide you through the setup of your profile!",
       ).catch(async (error) => {
         // DMS MAY BE BLOCKED
-        await message
-          .alertReply(
-            "You may have your DM's blocked or too many users are using the bot at the moment.",
-          )
+        //await message
+        //  .alertReply(
+        //    "You may have your DM's blocked or too many users are using the bot at the moment.",
+        //  )
 
         console.log(error);
       });
