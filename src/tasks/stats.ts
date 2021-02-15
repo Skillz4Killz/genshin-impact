@@ -14,7 +14,7 @@ botCache.tasks.set(`stats`, {
         botID,
         messagesProcessed: "0",
         messagesDeleted: "0",
-        messagesEdited: "0",
+        messagesUpdated: "0",
         messagesSent: "0",
         reactionsAddedProcessed: "0",
         reactionsRemovedProcessed: "0",
@@ -38,14 +38,14 @@ botCache.tasks.set(`stats`, {
     botCache.stats.commandsRan = 0;
 
     // Update the stats in the database.
-    await db.client.update(botID, {
+    await db.clientstats.update(botID, {
       ...stats,
       messagesDeleted: String(
         BigInt(stats.messagesDeleted || "0") +
           BigInt(currentBotStats.messagesDeleted),
       ),
-      messagesEdited: String(
-        BigInt(stats.messagesEdited || "0") +
+      messagesUpdated: String(
+        BigInt(stats.messagesUpdated || "0") +
           BigInt(currentBotStats.messagesUpdated),
       ),
       messagesProcessed: String(

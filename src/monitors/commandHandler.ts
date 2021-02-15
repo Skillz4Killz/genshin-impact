@@ -10,7 +10,6 @@ import {
   black,
   botCache,
   botID,
-  cache,
   green,
   Guild,
   Message,
@@ -26,8 +25,8 @@ export const parsePrefix = (guildID?: string) => {
 
 export const parseCommand = (commandName: string) => {
   const command = botCache.commands.get(commandName);
-  if (command) return command;
   botCache.stats.commandsRan += 1;
+  if (command) return command;
   // Check aliases if the command wasn't found
   return botCache.commands.find((cmd) =>
     Boolean(cmd.aliases?.includes(commandName))

@@ -28,7 +28,7 @@ createCommand({
         botID,
         messagesProcessed: "0",
         messagesDeleted: "0",
-        messagesEdited: "0",
+        messagesUpdated: "0",
         messagesSent: "0",
         reactionsAddedProcessed: "0",
         reactionsRemovedProcessed: "0",

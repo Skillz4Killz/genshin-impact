@@ -1,15 +1,3 @@
-export interface ClientSchema {
-  messagesSent: string;
-  messagesDeleted: string;
-  messagesEdited: string;
-  commandsRan: string;
-  reactionsAddedProcessed: string;
-  reactionsRemovedProcessed: string;
-  messagesProcessed: string;
-  /** The bot id */
-  id: string;
-}
-
 export interface GuildSchema {
   /** The guild id */
   id: string;
@@ -42,13 +30,12 @@ export interface OwnedCharacter {
 }
 
 export interface ClientStatsSchema {
-  messagesUpdated: string;
   id: string;
   botID: string;
   // Bot Statistics. Using string to prevent big ints from breaking.
   messagesProcessed: string;
   messagesDeleted: string;
-  messagesEdited: string;
+  messagesUpdated: string;
   messagesSent: string;
   reactionsAddedProcessed: string;
   reactionsRemovedProcessed: string;
