@@ -15,6 +15,7 @@ await Promise.all(
     "./src/events",
     "./src/arguments",
     "./src/monitors",
+    "./src/constants",
     "./src/tasks",
     "./src/permissionLevels",
     "./src/events",
