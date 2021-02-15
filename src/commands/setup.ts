@@ -1,4 +1,5 @@
-import { Message, sendDirectMessage } from "../../deps.ts";
+import { Message } from "../../deps.ts";
+import { sendDirectMessage } from "https://deno.land/x/discordeno@10.3.0/mod.ts"
 import { characters } from "../constants/character.ts";
 import { db } from "../database/database.ts";
 import { needMessage, needReaction } from "../utils/collectors.ts";
@@ -11,7 +12,7 @@ createCommand({
       const dm = await sendDirectMessage(
         message.author.id,
         "Thanks for letting me guide you through the setup of your profile!",
-      ).catch(async (error) => {
+      ).catch(async (error: any) => {
         // DMS MAY BE BLOCKED
         await message
           .alertReply(
