@@ -10,6 +10,7 @@ import {
   black,
   botCache,
   botID,
+  cache,
   green,
   Guild,
   Message,
