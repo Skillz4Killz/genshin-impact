@@ -26,6 +26,7 @@ await Promise.all(
 await loadLanguages();
 await import("./src/database/database.ts");
 await importDirectory(Deno.realPathSync("./src/constants"));
+await importDirectory(Deno.realPathSync("./src/helpers"));
 await importDirectory(Deno.realPathSync("./src/events"));
 
 startBot({
