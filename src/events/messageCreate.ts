@@ -8,11 +8,9 @@ import {
   memberIDHasPermission,
 } from "../../deps.ts";
 
-botCache.stats.messagesSent += 1;
-
 botCache.eventHandlers.messageCreate = async function (message) {
   botCache.memberLastActive.set(message.author.id, message.timestamp);
-  botCache.stats.messagesProcessed += 1;
+  botCache.stats.messagesSent += 1;
   if (message.author.id === botID) botCache.stats.messagesSent += 1;
   botCache.monitors.forEach(async (monitor) => {
     // The !== false is important because when not provided we default to true
