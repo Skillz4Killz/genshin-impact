@@ -30,7 +30,7 @@ botCache.tasks.set(`stats`, {
 
     // Reset current stats
     botCache.stats.messagesDeleted = 0;
-    botCache.stats.messagesEdited = 0;
+    botCache.stats.messagesUpdated = 0;
     botCache.stats.messagesProcessed = 0;
     botCache.stats.messagesSent = 0;
     botCache.stats.reactionsAddedProcessed = 0;
@@ -46,7 +46,7 @@ botCache.tasks.set(`stats`, {
       ),
       messagesEdited: String(
         BigInt(stats.messagesEdited || "0") +
-          BigInt(currentBotStats.messagesEdited),
+          BigInt(currentBotStats.messagesUpdated),
       ),
       messagesProcessed: String(
         BigInt(stats.messagesProcessed || "0") +
