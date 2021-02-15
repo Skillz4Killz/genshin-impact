@@ -18,7 +18,10 @@ const categories = [
 createCommand({
   name: "profile",
   guildOnly: true,
-  arguments: [{ name: "member", type: "member", required: false }],
+  arguments: [
+    { name: "member", type: "member", required: false },
+    { name: "id", type: "snowflake", required: false },
+],
   execute: async function (message, args: CommandArgs) {
     const member = args.member || message.member;
     if (!member) return;
