@@ -25,6 +25,7 @@ export interface Helpers {
     cleanNumber: (number: bigint | number | string) => string;
     shortNumber: (number: bigint | number | string) => string;
     booleanEmoji: (bool: boolean) => string;
+    reactError: (message: Message, vip?: boolean) => Promise<void>;
 
     // Collectors
   needMessage: (
