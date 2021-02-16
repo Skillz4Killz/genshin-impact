@@ -1,3 +1,4 @@
+import { guildBannerURL } from "https://deno.land/x/discordeno@10.3.0/src/api/handlers/guild.ts";
 import { configs } from "../../configs.ts";
 import { botCache, botID, sendMessage } from "../../deps.ts";
 import { Embed } from "../utils/Embed.ts";
@@ -16,6 +17,7 @@ botCache.eventHandlers.guildCreate = async (guild) => {
       true,
     )
     .addField("Shard ID", `${guild.shardID}`)
+    .setThumbnail(guild.iconURL() ?? "")
     .setTimestamp();
 
   await sendMessage(configs.channelIDs.serverStats, { embed }).catch(
@@ -35,7 +37,9 @@ botCache.eventHandlers.guildDelete = async (guild) => {
       "Members",
       botCache.helpers.cleanNumber(guild.memberCount),
       true,
-    ).setTimestamp();
+    )
+    .setThumbnail(guild.iconURL() ?? "")
+    .setTimestamp();
 
   await sendMessage(configs.channelIDs.serverStats, { embed }).catch(
     console.log,
