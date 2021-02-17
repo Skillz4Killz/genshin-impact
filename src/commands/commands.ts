@@ -15,7 +15,7 @@ createCommand({
       .setDescription([
         "`p!char (character name)`\nShows info about a specific character.",
         "",
-        "`p!list (weapons | artifacts | food | gadgets | materials)`\nShows you a list of the specific type.",
+        "`p!list (weapons | artifacts | food | gadgets | materials | domains)`\nShows you a list of the specific type.",
         "",
         "`p!weapon (weapon name)`\nShows info about a specific weapon.",
         "",
