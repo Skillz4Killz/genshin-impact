@@ -1,6 +1,5 @@
-import { guildBannerURL } from "https://deno.land/x/discordeno@10.3.0/src/api/handlers/guild.ts";
 import { configs } from "../../configs.ts";
-import { botCache, botID, sendMessage } from "../../deps.ts";
+import { botCache, sendMessage } from "../../deps.ts";
 import { Embed } from "../utils/Embed.ts";
 
 botCache.eventHandlers.guildCreate = async (guild) => {
