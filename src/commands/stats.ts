@@ -63,12 +63,6 @@ createCommand({
         BigInt(stats.reactionsRemovedProcessed || "0")
       )}`,
     ];
-
-    for (const guild of cache.guilds.values()) {
-      totalMemberCount += guild.memberCount;
-      cachedMemberCount += guild.members.size;
-    }
-
     const embed = new Embed()
       .setAuthor(
         `${message.guild?.botMember?.nick || message.guild?.bot?.tag} Stats`,
