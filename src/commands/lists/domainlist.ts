@@ -1,6 +1,6 @@
-import { createPagination } from "../../tasks/pagination.ts";
 import { Embed } from "../../utils/Embed.ts";
-import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
+import { createSubcommand } from "../../utils/helpers.ts";
+import { createPagination } from "../../utils/pagination.ts";
 
 createSubcommand("list", {
   name: "domains",
