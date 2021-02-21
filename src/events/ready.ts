@@ -7,10 +7,8 @@ import {
 } from "../../deps.ts";
 import { registerTasks } from "./../utils/taskHelper.ts";
 
-console.log("one")
 botCache.eventHandlers.ready = function () {
   
-  console.log("botcache")
   console.log(`Loaded ${botCache.arguments.size} Argument(s)`);
   console.log(`Loaded ${botCache.commands.size} Command(s)`);
   console.log(`Loaded ${Object.keys(botCache.eventHandlers).length} Event(s)`);
