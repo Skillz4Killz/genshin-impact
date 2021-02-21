@@ -3,7 +3,7 @@ import { Embed } from "../utils/Embed.ts";
 import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
-  name: "material",
+  name: "domain",
   arguments: [{ name: "subcommand", type: "subcommand", required: false }],
   guildOnly: true,
   execute: async function (message) {
@@ -12,9 +12,9 @@ createCommand({
       embed: new Embed()
         .setTitle("Need help, Traveler?")
         .setDescription([
-          "You forgot to provide the name of a material.",
+          "You forgot to provide the name of a domain.",
           "",
-          `If you need help, try \`${prefix}help materials\``,
+          `If you need help, try \`${prefix}help domains\``,
         ])
         .setTimestamp()
     }).catch(console.log);

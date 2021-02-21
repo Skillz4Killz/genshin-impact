@@ -1,3 +1,4 @@
+import { parsePrefix } from "../monitors/commandHandler.ts";
 import { Embed } from "../utils/Embed.ts";
 import {
   createCommand,
@@ -9,17 +10,18 @@ createCommand({
   arguments: [{ name: "subcommand", type: "subcommand", required: false }],
   guildOnly: true,
   execute: async function (message) {
+    const prefix = parsePrefix(message.guildID);
     await message.reply({
       embed: new Embed()
         .setTitle("Need help, Traveler?")
         .setDescription([
-          "`p!update 1.1`",
+          `\`${prefix}update 1.1\``,
           "**not availabable yet**",
           "",
-          "`p!update 1.2`",
+          `\`${prefix}update 1.2\``,
           "**not availabable yet**",
           "",
-          "`p!update 1.3`",
+          `\`${prefix}update 1.3\``,
           "'All That Glitters'",
           "",
         ]),

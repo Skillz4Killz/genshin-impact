@@ -1,4 +1,5 @@
 import { Embed } from "../../utils/Embed.ts";
+import { parsePrefix } from "../../monitors/commandHandler.ts";
 import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("help", {
@@ -6,15 +7,16 @@ createSubcommand("help", {
   aliases: ["tt"],
   guildOnly: true,
   execute: async function (message) {
+    const prefix = parsePrefix(message.guildID);
     const embed = new Embed()
       .setTitle("Help Teyvat Times")
       .setDescription([
-        "🔹 p!teyvattimes` or `p!tt`",
+        `🔹 \`${prefix}teyvattimes\` or \`${prefix}tt\``,
         "",
-        "🔹 p!teyvattimes [no1 | 1 | one]`",
-        "🔹 p!teyvattimes [no2 | 2 | two]`",
-        "🔹 p!teyvattimes [no3 | 3 | three]`",
-        "🔹 p!teyvattimes [no4 | 4 | four]`",
+        `🔹 \`${prefix}teyvattimes [no1 | 1 | one]\``,
+        `🔹 \`${prefix}teyvattimes [no2 | 2 | two]\``,
+        `🔹 \`${prefix}teyvattimes [no3 | 3 | three]\``,
+        `🔹 \`${prefix}teyvattimes [no4 | 4 | four]\``,
       ])
       .setTimestamp()
       .setColor("RANDOM")

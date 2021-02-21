@@ -1,4 +1,5 @@
 import { Embed } from "../../utils/Embed.ts";
+import { parsePrefix } from "../../monitors/commandHandler.ts";
 import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
 createSubcommand("help", {
@@ -6,19 +7,20 @@ createSubcommand("help", {
   aliases: ["update", "update", "version"],
   guildOnly: true,
   execute: async function (message) {
+    const prefix = parsePrefix(message.guildID);
     const embed = new Embed()
-      .setTitle("Help Edit/Add")
+      .setTitle("Help Patchnotes/Updates")
       .setDescription([
-        "🔹 `p!patchnote`",
-        "🔹 `p!patchnotes`",
-        "🔹 `p!update`",
-        "🔹 `p!sversion`",
+        `🔹 \`${prefix}patchnote\``,
+        `🔹 \`${prefix}patchnotes\``,
+        `🔹 \`${prefix}update\``,
+        `🔹 \`${prefix}sversion\``,
         "Lists all available updates/versions.",
         "",
-        "🔹 `p!patchnote (version)`",
-        "🔹 `p!patchnotes (version)`",
-        "🔹 `p!update (version)`",
-        "🔹 `p!version (version)`",
+        `🔹 \`${prefix}patchnote (version)\``,
+        `🔹 \`${prefix}patchnotes (version)\``,
+        `🔹 \`${prefix}update (version)\``,
+        `🔹 \`${prefix}version (version)\``,
         "Shows all informations about a version."
       ])
       .setTimestamp()
