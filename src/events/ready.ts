@@ -9,11 +9,7 @@ import { registerTasks } from "./../utils/taskHelper.ts";
 
 console.log("one")
 botCache.eventHandlers.ready = function () {
-  editBotsStatus(
-    StatusTypes.DoNotDisturb,
-    "Discordeno Best Lib",
-    ActivityType.Game,
-  );
+  
   console.log("botcache")
   console.log(`Loaded ${botCache.arguments.size} Argument(s)`);
   console.log(`Loaded ${botCache.commands.size} Command(s)`);
