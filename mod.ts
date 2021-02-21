@@ -8,7 +8,7 @@ console.info(
 );
 
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
-console.log(await Promise.all(
+await Promise.all(
   [
     "./src/commands",
     "./src/inhibitors",
@@ -20,14 +20,34 @@ console.log(await Promise.all(
     "./src/permissionLevels",
     "./src/events",
   ].map((path) => importDirectory(Deno.realPathSync(path))),
-));
+);
 // Loads languages
 await loadLanguages();
-console.log(await import("./src/database/database.ts"));
-console.log(await importDirectory(Deno.realPathSync("./src/constants")));
-console.log(await importDirectory(Deno.realPathSync("./src/helpers")));
-console.log(await importDirectory(Deno.realPathSync("./src/events")));
+await import("./src/database/database.ts");
+await importDirectory(Deno.realPathSync("./src/constants"));
+await importDirectory(Deno.realPathSync("./src/helpers"));
+await importDirectory(Deno.realPathSync("./src/events"));
 
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+console.log(7)
+console.log(8)
+console.log(9)
+console.log(10)
+console.log(11)
+console.log(12)
+console.log(13)
+console.log(14)
+console.log(15)
+console.log(16)
+console.log(17)
+console.log(18)
+console.log(19)
+console.log(20)
 
 startBot({
   token: configs.token,
