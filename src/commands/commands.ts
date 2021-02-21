@@ -1,7 +1,6 @@
 import { botCache, Message } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
-import { parsePrefix } from "../monitors/commandHandler.ts";
 import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
@@ -11,52 +10,51 @@ createCommand({
   ],
   guildOnly: true,
   execute: async function (message, args) {
-    const prefix = parsePrefix(message.guildID);
     const first = new Embed()
       .setTitle("Information")
       .setDescription([
-        `🔹 \`${prefix}char (character name)\`\nShows info about a specific character.`,
+        "🔹 `p!char (character name)`\nShows info about a specific character.",
         "",
-        `🔹 \`${prefix}list (weapons | artifacts | food | gadgets | materials | domains)\`\nShows you a list of the specific type.`,
+        "🔹 `p!list (weapons | artifacts | food | gadgets | materials | domains)\nShows you a list of the specific type.",
         "",
-        `🔹 \`${prefix}weapon (weapon name)\`\nShows info about a specific weapon.`,
+        "🔹 `p!weapon (weapon name)\nShows info about a specific weapon.",
         "",
-        `🔹 \`${prefix}artifact (artifact set name)\`\nShows info about a specific artifact set.`,
+        "🔹 `p!artifact (artifact set name)\nShows info about a specific artifact set.",
         "",
-        `🔹 \`${prefix}food (food name)\`\nShows info about a specific food/dish.`,
+        "🔹 `p!food (food name)\nShows info about a specific food/dish.",
         "",
-        `🔹 \`${prefix}gadget (name)\`\nShows info about a specific gadget.`,
+        "🔹 `p!gadget (name)\nShows info about a specific gadget.",
         "",
-        `🔹 \`${prefix}material (name)\`\nShows info about a specific material.`,
+        "🔹 `p!material (name)\nShows info about a specific material.",
         "",
-        `🔹 \`${prefix}update (version)\`\nShows info about a specific game update.`,
+        "🔹 `p!update (version)\nShows info about a specific game update.",
         "",
-        `1️⃣ Information`,
-        `2️⃣ Profile`,
-        `3️⃣ Other`,
+        "1️⃣ Information",
+        "2️⃣ Profile",
+        "3️⃣ Other",
       ])
       .setTimestamp()
 
     const second = new Embed()
       .setTitle("Profile")
       .setDescription([
-        `🔹 \`${prefix}setup\`\nThis allows you to setup your profile.`,
+        "🔹 `p!setup\nThis allows you to setup your profile.",
         "",
-        `🔹 \`${prefix}profile\`\nThis allows you to check your profile.`,
+        "🔹 `p!profile\nThis allows you to check your profile.",
         "",
-        `🔹 \`${prefix}edit char (character) const (new constellation)\`\n\`${prefix}add char (character) const (constellation)\`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.`,
+        "🔹 `p!edit char (character) const (new constellation)\np!add char (character) const (constellation)\nThis allows you to edit a constellation of a character or add a new one with the given constellation.",
         "",
-        `🔹 \`${prefix}edit char (character) level (new level)\`\n\`${prefix}add char (character) level (level)\`\nThis allows you to edit the level of a character or add a new one with the given level.`,
+        "🔹 `p!edit char (character) level (new level)\np!add char (character) level (level)\nThis allows you to edit the level of a character or add a new one with the given level.",
         "",
-        `🔹 \`${prefix}edit (uid/ar/wl) (number)\`\n\`${prefix}add (uid/ar/wl) (number)\`\nThis allows you to edit your UID, AR or WL.`,
+        "🔹 `p!edit (uid/ar/wl) (number)\np!add (uid/ar/wl) (number)\nThis allows you to edit your UID, AR or WL.",
         "",
-        `🔹 \`${prefix}remove (character name)\`\nRemoves a character from your profile.`,
+        "🔹 `p!remove (character name)\nRemoves a character from your profile.",
         "",
-        `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,
+        "🔹 `p!reset\nReset your whole profile to 0 (delete it).",
         "",
-        `1️⃣ Information`,
-        `2️⃣ Profile`,
-        `3️⃣ Other`,
+        "1️⃣ Information",
+        "2️⃣ Profile",
+        "3️⃣ Other",
         
       ])
       .setTimestamp()
@@ -64,21 +62,21 @@ createCommand({
     const third = new Embed()
       .setTitle("Other")
       .setDescription([
-        `🔹 \`${prefix}help\`\nGet some help and the invite for our support server.`,
+        "🔹 `p!help\nGet some help and the invite for our support server.",
         "",
-        `🔹 \`${prefix}help [edit | food | gadgets | help | list | patchnotes | profile | remove | reset | setup]\`\nGet some help and the invite for our support server.`,
+        "🔹 `p!help [edit | food | gadgets | help | list | patchnotes | profile | remove | reset | setup]\nGet some help and the invite for our support server.",
         "",
-        `🔹 \`${prefix}invite\`\nGet the invitelink for the Bot.`,
+        "🔹 `p!invite\nGet the invitelink for the Bot.",
         "",
-        `🔹 \`${prefix}credits\`\nSpecial thanks to these people!`,
+        "🔹 `p!credits\nSpecial thanks to these people!",
         "",
-        `🔹 \`${prefix}prefix set (prefix)\`\nChanges the prefix.`,
+        "🔹 `p!prefix set (prefix)\nChanges the prefix.",
         "",
-        `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
+        "🔹 `p!emergencyfood\nPaimon is not emergency food!",
         "",
-        `1️⃣ Information`,
-        `2️⃣ Profile`,
-        `3️⃣ Other`,
+        "1️⃣ Information",
+        "2️⃣ Profile",
+        "3️⃣ Other",
       ])
       .setTimestamp()
 

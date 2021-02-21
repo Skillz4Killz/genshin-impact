@@ -1,4 +1,3 @@
-import { parsePrefix } from "../../monitors/commandHandler.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
@@ -9,7 +8,6 @@ createSubcommand("list", {
   ],
   guildOnly: true,
   execute: async function (message, args) {
-    const prefix = parsePrefix(message.guildID);
     const embed = new Embed()
       .setTitle("Gadgetlist")
       .setDescription([
@@ -19,7 +17,7 @@ createSubcommand("list", {
         `⭐⭐⭐`,
         "Geoculus Resonance Stone 🔹 Anemoculus Resonance Stone 🔹 Adepti Seeker's Stove 🔹 Warming Bottle",
         "",
-        `If you want to search for gadget infos, type \`${prefix}gadget (name)\`\nThe gadget name has to be lower case and without spacing. For example \`${prefix}gadget windcatcher\``,
+        "If you want to search for gadget infos, type `p!gadget (name)`\nThe gadget name has to be lower case and without spacing. For example `p!gadget windcatcher`",
       ]);
 
     await sendEmbed(message.channelID, embed).catch(console.log);

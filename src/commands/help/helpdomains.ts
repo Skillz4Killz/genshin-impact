@@ -1,4 +1,3 @@
-import { parsePrefix } from "../../monitors/commandHandler.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
 
@@ -7,20 +6,19 @@ createSubcommand("help", {
   aliases: ["domains"],
   guildOnly: true,
   execute: async function (message) {
-    const prefix = parsePrefix(message.guildID);
     const embed = new Embed()
       .setTitle("Help Domains")
       .setDescription([
-        `🔹 \`${prefix}domain ceciliagarden\``,
-        `🔹 \`${prefix}domain [clearpoolandmountaincavern | clearpool | mountaincavern]\``,
-        `🔹 \`${prefix}domain [domainofguyun | guyun]\``,
-        `🔹 \`${prefix}domain forsakenrift\``,
-        `🔹 \`${prefix}domain [hiddenpalaceoflianshanformula | lianshanformula]\``,
-        `🔹 \`${prefix}domain [hiddenpalaceofzhouformula | zhouformula]\``,
-        `🔹 \`${prefix}domain midsummercourtyard\``,
-        `🔹 \`${prefix}domain [peakofvindagnyr | vindagnyr]\``,
-        `🔹 \`${prefix}domain taishanmansion\``,
-        `🔹 \`${prefix}domain [valleyofremembrance | remembrance]\``,
+        "🔹 `p!domain ceciliagarden`",
+        "🔹 `p!domain [clearpoolandmountaincavern | clearpool | mountaincavern]`",
+        "🔹 `p!domain [domainofguyun | guyun]`",
+        "🔹 `p!domain forsakenrift`",
+        "🔹 `p!domain [hiddenpalaceoflianshanformula | lianshanformula]`",
+        "🔹 `p!domain [hiddenpalaceofzhouformula | zhouformula]`",
+        "🔹 `p!domain midsummercourtyard`",
+        "🔹 `p!domain [peakofvindagnyr | vindagnyr]`",
+        "🔹 `p!domain taishanmansion`",
+        "🔹 `p!domain [valleyofremembrance | remembrance]`",
       ])
       .setTimestamp()
       .setColor("RANDOM")
