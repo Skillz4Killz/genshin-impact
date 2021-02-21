@@ -45,3 +45,4 @@ export const botCache = {
   // dispatchedChannelIDs: new Set<string>(),
   fullyReady: false,
 };
+console.log("cache.ts")
