@@ -1,22 +1,16 @@
-import { ActivityType, botCache, cache, editBotsStatus, StatusTypes } from "../../deps.ts";
+import { ActivityType, botCache, cache } from "../../deps.ts";
 import { wolfsStatusFunction } from "../utils/status.ts";
 import { registerTasks } from "./../utils/taskHelper.ts";
 
 botCache.eventHandlers.ready = function () {
-  editBotsStatus(
-    StatusTypes.Online,
-    "p!setup to setup profile",
-    ActivityType.Streaming,
-  );
-  
-  //wolfsStatusFunction({
-  //  status: "online",
-  //  activity: {
-  //    type: ActivityType.Streaming,
-  //    name: "p!setup to setup profile",
-  //    url: "https://www.twitch.tv/superboss4theultimatehero",
-  //  },
-  //});
+  wolfsStatusFunction({
+    status: "online",
+    activity: {
+      type: ActivityType.Streaming,
+      name: "p!setup to setup profile",
+      url: "https://www.twitch.tv/superboss4theultimatehero",
+    },
+  });
 
   console.log(`Loaded ${botCache.arguments.size} Argument(s)`);
   console.log(`Loaded ${botCache.commands.size} Command(s)`);
