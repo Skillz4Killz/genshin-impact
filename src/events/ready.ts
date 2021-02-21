@@ -7,6 +7,7 @@ import {
 } from "../../deps.ts";
 import { registerTasks } from "./../utils/taskHelper.ts";
 
+console.log(
 botCache.eventHandlers.ready = function () {
   editBotsStatus(
     StatusTypes.DoNotDisturb,
@@ -26,4 +27,4 @@ botCache.eventHandlers.ready = function () {
   console.log(
     `[READY] Bot is online and ready in ${cache.guilds.size} guild(s)!`,
   );
-};
+});
