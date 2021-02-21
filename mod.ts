@@ -34,6 +34,7 @@ await importDirectory(Deno.realPathSync("./src/helpers"));
 console.log(34)
 await importDirectory(Deno.realPathSync("./src/events"));
 
+console.log(37)
 startBot({
   token: configs.token,
   // Pick the intents you wish to have for your bot.
