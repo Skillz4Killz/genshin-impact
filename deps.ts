@@ -6,3 +6,4 @@ export { Image } from "https://raw.githubusercontent.com/matmen/ImageScript/deno
 export * from "https://raw.githubusercontent.com/Skillz4Killz/Sabr/master/mod.ts";
 export * from "./cache.ts";
 export * from "./fonts.ts";
+console.log("deps.ts exported everything")
