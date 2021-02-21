@@ -6,9 +6,9 @@ import { loadLanguages } from "./src/utils/i18next.ts";
 console.info(
   "Beginning Bot Startup Process. This can take a little bit depending on your system. Loading now...",
 );
-console.log()
+
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
-await Promise.all(
+console.log(await Promise.all(
   [
     "./src/commands",
     "./src/inhibitors",
@@ -20,15 +20,14 @@ await Promise.all(
     "./src/permissionLevels",
     "./src/events",
   ].map((path) => importDirectory(Deno.realPathSync(path))),
-);
-console.log()
+));
 // Loads languages
 await loadLanguages();
-await import("./src/database/database.ts");
-await importDirectory(Deno.realPathSync("./src/constants"));
-await importDirectory(Deno.realPathSync("./src/helpers"));
-await importDirectory(Deno.realPathSync("./src/events"));
-console.log()
+console.log(await import("./src/database/database.ts"));
+console.log(await importDirectory(Deno.realPathSync("./src/constants")));
+console.log(await importDirectory(Deno.realPathSync("./src/helpers")));
+console.log(await importDirectory(Deno.realPathSync("./src/events")));
+
 
 startBot({
   token: configs.token,
