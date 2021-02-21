@@ -811,8 +811,8 @@ export const characters = new Map([
       category: "Geo",
       description:
         "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
-      thumbnail: "https://i.imgur.com/usy9I7B.png",
-      image: "https://i.imgur.com/usy9I7B.png",
+      thumbnail: "https://cdn.discordapp.com/attachments/798854249806037033/813056148856111164/usy9I7B.png",
+      image: "https://cdn.discordapp.com/attachments/798854249806037033/813056148856111164/usy9I7B.png",
       color: "ffc100",
       rarity: "⭐⭐⭐⭐",
       element: "<:Geo:798483630740865044> Geo",

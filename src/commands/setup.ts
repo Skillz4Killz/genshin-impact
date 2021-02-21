@@ -159,7 +159,7 @@ createCommand({
         } else {
           await sendDirectMessage(
             message.author.id,
-            "The UID provided was invalid, skipping... To set your UID afterwards, use **p!edit uid #**",
+            "The UID provided was invalid, skipping... please edit your UID afterwards.",
           ).catch(console.log);
         }
       }

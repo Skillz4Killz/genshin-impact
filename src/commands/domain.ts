@@ -1,12 +1,9 @@
 import { parsePrefix } from "../monitors/commandHandler.ts";
 import { Embed } from "../utils/Embed.ts";
-import {
-  createCommand,
-} from "../utils/helpers.ts";
+import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
-  name: "patchnotes",
-  aliases: ["patchnote", "update", "version"],
+  name: "domain",
   arguments: [{ name: "subcommand", type: "subcommand", required: false }],
   guildOnly: true,
   execute: async function (message) {
@@ -15,16 +12,11 @@ createCommand({
       embed: new Embed()
         .setTitle("Need help, Traveler?")
         .setDescription([
-          `\`${prefix}update 1.1\``,
-          "**not availabable yet**",
+          "You forgot to provide the name of a domain.",
           "",
-          `\`${prefix}update 1.2\``,
-          "**not availabable yet**",
-          "",
-          `\`${prefix}update 1.3\``,
-          "'All That Glitters'",
-          "",
-        ]),
+          `If you need help, try \`${prefix}help domains\``,
+        ])
+        .setTimestamp()
     }).catch(console.log);
   },
 });

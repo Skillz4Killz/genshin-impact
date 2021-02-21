@@ -1,4 +1,5 @@
 import { botCache, Message } from "../../../deps.ts";
+import { parsePrefix } from "../../monitors/commandHandler.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -10,6 +11,7 @@ createSubcommand("list", {
   ],
   guildOnly: true,
   execute: async function (message, args) {
+    const prefix = parsePrefix(message.guildID);
     const first = new Embed()
       .setTitle("Overview")
       .setDescription([
@@ -35,7 +37,7 @@ createSubcommand("list", {
         "⭐⭐⭐⭐⭐",
         "Amos' Bow 🔹 Skyward Harp",
         "",
-        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon ravenbow`",
+        `If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing. For example \`${prefix}weapon ravenbow\``,
         "",
         `1️⃣ Overview`,
       ])
@@ -55,7 +57,7 @@ createSubcommand("list", {
         "⭐⭐⭐⭐⭐",
         "Vortex Vanquisher 🔹 Skyward Spine 🔹 Primordial Jade Winged-Spear 🔹 Staff of Homa",
         "",
-        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon blacktassel`",
+        `If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing. For example \`${prefix}weapon blacktassel\``,
         "",
         `1️⃣ Overview`,
       ])
@@ -75,7 +77,7 @@ createSubcommand("list", {
         "⭐⭐⭐⭐⭐",
         "The Unforged 🔹 Wolf's Gravestone 🔹 Skyward Pride",
         "",
-        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridergreatsword`",
+        `If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing. For example \`${prefix}weapon skyridergreatsword\``,
         "",
         `1️⃣ Overview`,
       ])
@@ -95,7 +97,7 @@ createSubcommand("list", {
         "⭐⭐⭐⭐⭐",
         "Summit Shaper 🔹 Aquila Favonia 🔹 Skyward Blade 🔹 Primordial Jade Cutter",
         "",
-        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon skyridersword`",
+        `If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing. For example \`${prefix}weapon skyridersword\``,
         "",
         `1️⃣ Overview`,
       ])
@@ -115,7 +117,7 @@ createSubcommand("list", {
         "⭐⭐⭐⭐⭐",
         "Lost Prayer to the Sacred Winds 🔹 Memory of Dust 🔹 Skyward Atlas",
         "",
-        "If you want to search for weapon infos, type `p!weapon (name)`\nThe weaponname has to be lower case and without spacing. For example `p!weapon memoryofdust`",
+        `If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing. For example \`${prefix}weapon memoryofdust\``,
         "",
         `1️⃣ Overview`,
       ])

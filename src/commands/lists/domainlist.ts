@@ -11,31 +11,10 @@ createSubcommand("list", {
   execute: async function (message) {
     const firstEmbed = new Embed()
       .setTitle("Domain List")
-      .setDescription([
-        "",
-        "__**Trounce Domains**__",
-        "",
-        "**Confront Stormterror**",
-        "**Enter the Golden House**",
-        "",
-        "",
-        "__**Domains of Forgery**__",
-        "",
-        "**Cecilia Garden**",
-        "Rec. Elements: <:Cryo:798483525052530719> <:Pyro:798483485832249354> <:Electro:798483560205385799>",
-        "",
-        "**Hidden Palace of Lianshan Formula**",
-        "Rec. Elements: <:Cryo:798483525052530719> <:Pyro:798483485832249354>",
-        "",
-        "",
-        "__**Domains of Mastery**__",
-        "",
-        "**Taishan Mansion**",
-        "Rec. Elements: <:Hydro:798483587157983282> <:Cryo:798483525052530719> <:Electro:798483560205385799>",
-        "",
-        "**Forsaken Rift**",
-        "Rec. Elements: <:Pyro:798483485832249354> <:Electro:798483560205385799>"
-      ])
+      .addField("Trounce Domains", "Confront Stormterror\nEnter the Golden House")
+      .addBlankField()
+      .addField("Domains of Forgery", "Cecilia Garden\nRec. Elements: <:Cryo:798483525052530719> <:Pyro:798483485832249354> <:Electro:798483560205385799>\n\nHidden Palace of Lianshan Formula\nRec. Elements: <:Cryo:798483525052530719> <:Pyro:798483485832249354>", true)
+      .addField("Domains of Mastery", "Taishan Mansion\nRec. Elements: <:Hydro:798483587157983282> <:Cryo:798483525052530719> <:Electro:798483560205385799>\n\nForsaken Rift\nRec. Elements: <:Pyro:798483485832249354> <:Electro:798483560205385799>", true)
       .setFooter("Page 1/4")
       .setColor("RANDOM");
 

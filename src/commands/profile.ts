@@ -18,7 +18,10 @@ const categories = [
 createCommand({
   name: "profile",
   guildOnly: true,
-  arguments: [{ name: "member", type: "member", required: false }],
+  arguments: [
+    { name: "member", type: "member", required: false },
+    { name: "memberID", type: "snowflake", required: false },
+],
   execute: async function (message, args: CommandArgs) {
     const member = args.member || message.member;
     if (!member) return;
@@ -46,8 +49,9 @@ createCommand({
         `**AR:** ${settings.adventurerRank}`,
         `**WL:** ${settings.worldLevel}`,
       ])
-      .setFooter(`If your char levels are 'undefined', run the setup again or edit the char level with\np!edit char (char name) level (level 1-90)`)
-      .setThumbnail(member.avatarURL);
+      .setThumbnail(member.avatarURL)
+      .setFooter("")
+      .setTimestamp()
       
 
     for (
