@@ -8,7 +8,6 @@ console.info(
 ));
 
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
-console.log(11)
 await Promise.all(
   [
     "./src/commands",
@@ -23,18 +22,12 @@ await Promise.all(
   ].map((path) => importDirectory(Deno.realPathSync(path))),
 );
 // Loads languages
-console.log(26)
 await loadLanguages();
-console.log(28)
 await import("./src/database/database.ts");
-console.log(30)
 await importDirectory(Deno.realPathSync("./src/constants"));
-console.log(32)
 await importDirectory(Deno.realPathSync("./src/helpers"));
-console.log(34)
 await importDirectory(Deno.realPathSync("./src/events"));
 
-console.log(37)
 startBot({
   token: configs.token,
   // Pick the intents you wish to have for your bot.
