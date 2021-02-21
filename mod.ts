@@ -28,6 +28,21 @@ await importDirectory(Deno.realPathSync("./src/constants"));
 await importDirectory(Deno.realPathSync("./src/helpers"));
 await importDirectory(Deno.realPathSync("./src/events"));
 
+startBot({
+  token: configs.token,
+  // Pick the intents you wish to have for your bot.
+  // For instance, to work with guild message reactions, you will have to pass the Intents.GUILD_MESSAGE_REACTIONS intent to the array.
+  intents: [
+    Intents.GUILDS,
+    Intents.GUILD_MESSAGES,
+    Intents.DIRECT_MESSAGES,
+    Intents.DIRECT_MESSAGE_REACTIONS,
+    Intents.GUILD_MESSAGE_REACTIONS,
+  ],
+  // These are all your event handler functions. Imported from the events folder
+  eventHandlers: botCache.eventHandlers,
+});
+
 console.log(1)
 console.log(2)
 console.log(3)
@@ -48,18 +63,27 @@ console.log(17)
 console.log(18)
 console.log(19)
 console.log(20)
-
-startBot({
-  token: configs.token,
-  // Pick the intents you wish to have for your bot.
-  // For instance, to work with guild message reactions, you will have to pass the Intents.GUILD_MESSAGE_REACTIONS intent to the array.
-  intents: [
-    Intents.GUILDS,
-    Intents.GUILD_MESSAGES,
-    Intents.DIRECT_MESSAGES,
-    Intents.DIRECT_MESSAGE_REACTIONS,
-    Intents.GUILD_MESSAGE_REACTIONS,
-  ],
-  // These are all your event handler functions. Imported from the events folder
-  eventHandlers: botCache.eventHandlers,
-});
+console.log(21)
+console.log(22)
+console.log(23)
+console.log(24)
+console.log(25)
+console.log(26)
+console.log(27)
+console.log(28)
+console.log(29)
+console.log(30)
+console.log(31)
+console.log(32)
+console.log(33)
+console.log(34)
+console.log(35)
+console.log(36)
+console.log(37)
+console.log(38)
+console.log(39)
+console.log(40)
+console.log(41)
+console.log(42)
+console.log(43)
+console.log(44)
