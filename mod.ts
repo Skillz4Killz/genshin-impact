@@ -8,7 +8,6 @@ console.info(
 );
 
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
-console.log("mod.ts await promise.all")
 await Promise.all(
   [
     "./src/commands",
@@ -23,18 +22,13 @@ await Promise.all(
   ].map((path) => importDirectory(Deno.realPathSync(path))),
 );
 // Loads languages
-console.log("mod.ts loadlanguages")
 await loadLanguages();
-console.log("mod.ts import db.ts")
-await import("./src/database/database.ts");
-console.log("mod.ts import constants")
-await importDirectory(Deno.realPathSync("./src/constants"));
-console.log("mod.ts import helpers")
-await importDirectory(Deno.realPathSync("./src/helpers"));
-console.log("mod.ts import events")
 await importDirectory(Deno.realPathSync("./src/events"));
+await import("./src/database/database.ts");
+await importDirectory(Deno.realPathSync("./src/constants"));
+await importDirectory(Deno.realPathSync("./src/helpers"));
 
-console.log("mod.ts start bots")
+
 startBot({
   token: configs.token,
   // Pick the intents you wish to have for your bot.
@@ -49,4 +43,3 @@ startBot({
   // These are all your event handler functions. Imported from the events folder
   eventHandlers: botCache.eventHandlers,
 });
-console.log("mod.ts finish")
