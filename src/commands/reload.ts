@@ -1,5 +1,5 @@
 import { botCache, updateEventHandlers } from "../../deps.ts";
-import { createCommand, importDirectory } from "../utils/helpers.ts";
+import { createCommand, fileLoader, importDirectory } from "../utils/helpers.ts";
 import { PermissionLevels } from "../types/commands.ts";
 import { clearTasks, registerTasks } from "../utils/taskHelper.ts";
 
@@ -45,6 +45,7 @@ createCommand({
       if (args.folder === "tasks") {
         clearTasks();
         await importDirectory(Deno.realPathSync(path));
+        await fileLoader()
         registerTasks();
         return message.reply(
           `The **${args.folder}** has been reloaded.`,
@@ -52,6 +53,7 @@ createCommand({
       }
 
       await importDirectory(Deno.realPathSync(path));
+      await fileLoader()
       return message.reply(`The **${args.folder}** has been reloaded.`);
     }
 
@@ -62,6 +64,7 @@ createCommand({
         importDirectory(Deno.realPathSync(path))
       ),
     );
+    await fileLoader()
     registerTasks();
     // Updates the events in the library
     updateEventHandlers(botCache.eventHandlers);
