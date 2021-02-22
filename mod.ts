@@ -1,11 +1,15 @@
 import { botCache, Intents, startBot } from "./deps.ts";
 import { configs } from "./configs.ts";
-import { importDirectory } from "./src/utils/helpers.ts";
+import { fileLoader, importDirectory } from "./src/utils/helpers.ts";
 import { loadLanguages } from "./src/utils/i18next.ts";
 
 console.info(
   "Beginning Bot Startup Process. This can take a little bit depending on your system. Loading now...",
 );
+
+await importDirectory(Deno.realPathSync("./src/constants"));
+await importDirectory(Deno.realPathSync("./src/helpers"));
+await fileLoader()
 
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
 await Promise.all(
@@ -21,12 +25,11 @@ await Promise.all(
     "./src/events",
   ].map((path) => importDirectory(Deno.realPathSync(path))),
 );
+await fileLoader()
 // Loads languages
 await loadLanguages();
 await importDirectory(Deno.realPathSync("./src/events"));
 await import("./src/database/database.ts");
-await importDirectory(Deno.realPathSync("./src/constants"));
-await importDirectory(Deno.realPathSync("./src/helpers"));
 
 
 startBot({
