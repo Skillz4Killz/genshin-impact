@@ -43,6 +43,6 @@ export const botCache = {
   },
   // dispatchedGuildIDs: new Set<string>(),
   // dispatchedChannelIDs: new Set<string>(),
-  fullyReady: true,
+  fullyReady: false,
 };
 console.log("cache.ts")

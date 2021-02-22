@@ -10,7 +10,8 @@ import { registerTasks } from "./../utils/taskHelper.ts";
 console.log("ready.ts start")
 
 botCache.eventHandlers.ready = function () {
-  console.log("ready.ts editBotsStats")
+  console.error();
+  ("ready.ts editBotsStats")
   editBotsStatus(
     StatusTypes.DoNotDisturb,
     "Discordeno Best Lib",
