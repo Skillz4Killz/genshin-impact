@@ -1,5 +1,4 @@
-import { removeReaction, removeUserReaction } from "https://deno.land/x/discordeno@10.3.0/src/api/handlers/message.ts";
-import { botCache, Message } from "../../../deps.ts";
+import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -89,9 +88,7 @@ createSubcommand("domain", {
     );
     if (!selectedPage) return;
 
-    removeUserReaction(message.channelID, message.id, reaction, message.author.id)
-
-    return botCache.commands
+   return botCache.commands
     .get("domain")?.subcommands?.get("valleyofremembrance")
       ?.execute?.(message, {
         character: args.character,
