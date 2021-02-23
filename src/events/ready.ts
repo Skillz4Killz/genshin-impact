@@ -2,7 +2,7 @@ import { ActivityType, botCache, cache, editBotsStatus, StatusTypes } from "../.
 import { registerTasks } from "./../utils/taskHelper.ts";
 
 botCache.eventHandlers.ready = function () {
-  editBotsStatus(StatusTypes.DoNotDisturb, "Discordeno Best Lib", ActivityType.Game);
+  editBotsStatus(StatusTypes.Online, "p!setup to setup profile", ActivityType.Streaming);
 
   console.log(`Loaded ${botCache.arguments.size} Argument(s)`);
   console.log(`Loaded ${botCache.commands.size} Command(s)`);
