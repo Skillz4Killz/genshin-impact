@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -31,13 +31,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Domain_Taishan_Mansion.png/revision/latest/scale-to-width-down/310?cb=20201221031419")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Taishan Mansion Rewards")
       .setImage("https://cdn.discordapp.com/attachments/798854249806037033/813054920177483826/XIyzU1h.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Taishan Mansion Enemies")
@@ -46,7 +46,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Taishan Mansion III", "*Defeat 8 opponents within 360 seconds.*\n\n**Wave 1:**\n<:LargePyroSlime:812702015410274395> 6x Large Pyro Slime\n\n**Wave 2:**\n<:PyroAbyssMage:812702015024136254> 2x Pyro Abyss Mage", true)
       .addField("Taishan Mansion IV", "*Defeat 4 opponents within 480 seconds.*\n\n**Wave 1:**\n<:BlazingAxeMitachurl:812972562875154482> 2x Blazing Axe Mitachurl\n\n**Wave 2:**\n<:FatuiPyroAgent:812728058141736980> 2x Fatui Pyro Agent", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

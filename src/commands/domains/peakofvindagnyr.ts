@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -32,13 +32,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/af/Peak_of_Vindagnyr.png/revision/latest/scale-to-width-down/310?cb=20210129032543")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Peak of Vindagnyr Rewards")
       .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812977660333523024/unknown.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Peak of Vindagnyr Enemies")
@@ -47,7 +47,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Peak of Vindagnyr III", "*Defeat all enemies in less than 10:00 minutes*\n\n<:LargeCryoSlime:812702014966333441> 2x Large Cryo Slime\n<:CryoHilichurlGrenadier:812979713848246318> 2x Cryo Hilichurl Grenadier\n<:IceShieldwallMitachurl:812977848741658634> 3x Ice Shieldwall Mitachurl\n<:CryoAbyssMage:812702015196758036> 1x Cryo Abyss Mage", true)
       .addField("Peak of Vindagnyr IV", "*Defeat all enemies in less than 10:00 minutes*\n\n<:CryoAbyssMage:812702015196758036> 1x Cryo Abyss Mage\n<:FrostarmLawachurl:812977848624611358> 1x Frostarm Lawachurl", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

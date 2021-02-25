@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -34,13 +34,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Domain_Cecilia_Garden.png/revision/latest/scale-to-width-down/310?cb=20201221031347")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Cecilia Garden Rewards")
       .setImage("https://cdn.discordapp.com/attachments/798566392965103616/812975752982953984/wAbOd3T.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Cecilia Garden Enemies")
@@ -49,7 +49,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Cecilia Garden III", "*Defeat 22 enemies. Time between kills cannot exceed 50 seconds.*\n\n<:HydroSlime:812678780711731201> 14x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 5x Large Hydro Slime\n<:HydroSamachurl:812678780732571660> 3x Hydro Samachurl\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage", true)
       .addField("Cecilia Garden IV Wave 1", "*Defeat 8 enemies. Time between kills cannot exceed 40 seconds.*\n\n**Wave 1**\n<:LargeHydroSlime:812678780903882782> 8x Large Hydro Slime\n\n**Wave 2**\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage\n", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

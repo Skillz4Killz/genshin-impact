@@ -25,7 +25,8 @@ createSubcommand("list", {
         `3️⃣ Rarity ⭐⭐⭐`,
         `4️⃣ Rarity ⭐⭐⭐⭐`,
         `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
-      ]);
+      ])
+      .setTimestamp()
 
     const second = new Embed()
       .setTitle("Rarity ⭐⭐")
@@ -40,7 +41,8 @@ createSubcommand("list", {
         `3️⃣ Rarity ⭐⭐⭐`,
         `4️⃣ Rarity ⭐⭐⭐⭐`,
         `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
-      ]);
+      ])
+      .setTimestamp()
 
     const third = new Embed()
       .setTitle("Rarity ⭐⭐⭐")
@@ -55,7 +57,8 @@ createSubcommand("list", {
         `3️⃣ Rarity ⭐⭐⭐`,
         `4️⃣ Rarity ⭐⭐⭐⭐`,
         `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
-      ]);
+      ])
+      .setTimestamp()
 
     const fourth = new Embed()
       .setTitle("Rarity ⭐⭐⭐⭐")
@@ -70,7 +73,8 @@ createSubcommand("list", {
         `3️⃣ Rarity ⭐⭐⭐`,
         `4️⃣ Rarity ⭐⭐⭐⭐`,
         `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
-      ]);
+      ])
+      .setTimestamp()
 
     const fifth = new Embed()
       .setTitle("Rarity ⭐⭐⭐⭐⭐")
@@ -85,7 +89,8 @@ createSubcommand("list", {
         `3️⃣ Rarity ⭐⭐⭐`,
         `4️⃣ Rarity ⭐⭐⭐⭐`,
         `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
-      ]);
+      ])
+      .setTimestamp()
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },

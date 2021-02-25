@@ -28,7 +28,8 @@ createSubcommand("material", {
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png/revision/latest/scale-to-width-down/256?cb=20210106070646",
       )
-      .setColor("RANDOM");
+      .setColor("RANDOM")
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

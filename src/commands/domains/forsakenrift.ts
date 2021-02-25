@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -34,13 +34,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Domain_Forsaken_Rift.png/revision/latest/scale-to-width-down/310?cb=20201221031430")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Forsaken Rift Rewards")
       .setImage("https://cdn.discordapp.com/attachments/798854249806037033/813055058555568138/PvNr1zo.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Forsaken Rift Enemies")
@@ -49,7 +49,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Forsaken Rift III", "*Defeat 8 opponents within 360 seconds.*\n\n**Wave 1:**\n<:CryoSlime:812702015213142068> 3x Cryo Slime\n<:LargeCryoSlime:812702014966333441> 2x Large Cryo Slime\n\n**Wave 2:**\n<:LargeCryoSlime:812702014966333441> 2x Large Cryo Slime\n<:CryoAbyssMage:812702015196758036> 1x Cryo Abyss Mage", true)
       .addField("Forsaken Rift IV", "*Defeat 8 opponents within 480 seconds.*\n\n**Wave 1:**\n<:LargeCryoSlime:812702014966333441> 3x Large Cryo Slime\n\n**Wave 2:**\n<:LargeCryoSlime:812702014966333441> 2x Large Cryo Slime\n<:CryoAbyssMage:812702015196758036> 1x Cryo Abyss Mage\n\n**Wave 3:**\n<:CryoAbyssMage:812702015196758036> 2x Cryo Abyss Mage", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

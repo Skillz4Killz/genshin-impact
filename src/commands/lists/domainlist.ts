@@ -16,6 +16,7 @@ createSubcommand("list", {
       .addField("Domains of Forgery", "Cecilia Garden\nRec. Elements: <:Cryo:798483525052530719> <:Pyro:798483485832249354> <:Electro:798483560205385799>\n\nHidden Palace of Lianshan Formula\nRec. Elements: <:Cryo:798483525052530719> <:Pyro:798483485832249354>", true)
       .addField("Domains of Mastery", "Taishan Mansion\nRec. Elements: <:Hydro:798483587157983282> <:Cryo:798483525052530719> <:Electro:798483560205385799>\n\nForsaken Rift\nRec. Elements: <:Pyro:798483485832249354> <:Electro:798483560205385799>", true)
       .setFooter("Page 1/4")
+      .setTimestamp()
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
@@ -43,6 +44,7 @@ createSubcommand("list", {
         "Rec. Elements: <:Geo:798483630740865044>",
       ])
       .setFooter("Page 2/4")
+      .setTimestamp()
       .setColor("RANDOM");
 
     const thirdEmbed = new Embed()
@@ -82,6 +84,7 @@ createSubcommand("list", {
         "Rec. Elements: <:Geo:798483630740865044> <:Anemo:798483595781341194>",
       ])
       .setFooter("Page 3/4")
+      .setTimestamp()
       .setColor("RANDOM");
 
       const fourthEmbed = new Embed()
@@ -127,6 +130,7 @@ createSubcommand("list", {
         "Rec. Elements: <:Pyro:798483485832249354> <:Electro:798483560205385799> <:Anemo:798483595781341194> <:Hydro:798483587157983282>",
       ])
       .setFooter("Page 4/4")
+      .setTimestamp()
       .setColor("RANDOM");
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed, fourthEmbed]);

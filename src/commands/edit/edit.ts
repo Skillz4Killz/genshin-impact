@@ -132,7 +132,7 @@ createSubcommand("edit", {
   execute: async function (message, args) {
     const character = characters.get(args.character);
     if (!character) {
-      return sendDMOrResponse(message, "Invalid character name.").catch(console.log);
+      return sendDMOrResponse(message, "Invalid character name. Also make sure to use only lower case.").catch(console.log);
     }
 
     if (args.type === "const") {

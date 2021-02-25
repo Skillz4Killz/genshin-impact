@@ -27,7 +27,8 @@ createSubcommand("material", {
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png/revision/latest/scale-to-width-down/256?cb=20210106070626",
       )
-      .setColor("RANDOM");
+      .setColor("RANDOM")
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

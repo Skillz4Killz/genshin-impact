@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -32,13 +32,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Domain_Clear_Pool_and_Mountain_Cavern.png/revision/latest/scale-to-width-down/310?cb=20201221031314")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Clear Pool and Mountain Cavern Rewards")
       .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812985169022943232/unknown.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Clear Pool and Mountain Cavern Enemies")
@@ -46,7 +46,7 @@ createSubcommand("domain", {
       .addField("Peak of Vindagnyr II", "*Defeat 3 opponents within 360 sec.*\n\n<:CryoAbyssMage:812702015196758036> 2x Cryo Abyss Mage\n<:PyroAbyssMage:812702015024136254> 1x Pyro Abyss Mage", true)
       .addBlankField()
       .addField("Peak of Vindagnyr III", "*Defeat 3 opponents within 360 sec.*\n\n<:CryoAbyssMage:812702015196758036> 1x Cryo Abyss Mage\n<:PyroAbyssMage:812702015024136254> 1x Pyro Abyss Mage\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

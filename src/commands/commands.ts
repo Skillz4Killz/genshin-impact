@@ -68,6 +68,8 @@ createCommand({
         `🔹 \`${prefix}prefix set (prefix)\`\nChanges the prefix.`,
         "",
         `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
+        "",
+        `🔹 \`${prefix}stats\`\nShow some bot stat.`,
       ])
       .setTimestamp()
       .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")

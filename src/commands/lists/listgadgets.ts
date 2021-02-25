@@ -20,7 +20,8 @@ createSubcommand("list", {
         "Geoculus Resonance Stone 🔹 Anemoculus Resonance Stone 🔹 Adepti Seeker's Stove 🔹 Warming Bottle",
         "",
         `If you want to search for gadget infos, type \`${prefix}gadget (name)\`\nThe gadget name has to be lower case and without spacing. For example \`${prefix}gadget windcatcher\``,
-      ]);
+      ])
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

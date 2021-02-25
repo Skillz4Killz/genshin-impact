@@ -9,7 +9,7 @@ createCommand({
   execute: async function (message, args) {
     const character = characters.get(args.name);
     if (!character) {
-      return await message.reply("Invalid character name.").catch(console.log);
+      return await message.reply("Invalid character name. Also make sure to use only lower case.").catch(console.log);
     }
 
     const settings = await db.users.get(message.author.id);

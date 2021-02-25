@@ -23,7 +23,8 @@ createSubcommand("list", {
         `5️⃣ Sword`,
         `6️⃣ Catalyst`,
       ])
-      .setThumbnail("https://i.imgur.com/2rWapam.jpg");
+      .setThumbnail("https://i.imgur.com/2rWapam.jpg")
+      .setTimestamp()
 
     const second = new Embed()
       .setTitle("Bows")
@@ -43,7 +44,8 @@ createSubcommand("list", {
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/128?cb=20201116034023",
-      );
+      )
+      .setTimestamp()
 
     const third = new Embed()
       .setTitle("Polearms")
@@ -63,7 +65,8 @@ createSubcommand("list", {
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/128?cb=20201116033115",
-      );
+      )
+      .setTimestamp()
 
     const fourth = new Embed()
       .setTitle("Claymores")
@@ -83,7 +86,8 @@ createSubcommand("list", {
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/128?cb=20201120001015",
-      );
+      )
+      .setTimestamp()
 
     const fifth = new Embed()
       .setTitle("Swords")
@@ -103,7 +107,8 @@ createSubcommand("list", {
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/128?cb=20201119235841",
-      );
+      )
+      .setTimestamp()
 
     const sixth = new Embed()
       .setTitle("Catalysts")
@@ -123,7 +128,8 @@ createSubcommand("list", {
       ])
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/128?cb=20201119233859",
-      );
+      )
+      .setTimestamp()
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },

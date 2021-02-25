@@ -27,7 +27,8 @@ createSubcommand("material", {
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png/revision/latest/scale-to-width-down/256?cb=20210106070339",
       )
-      .setColor("RANDOM");
+      .setColor("RANDOM")
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

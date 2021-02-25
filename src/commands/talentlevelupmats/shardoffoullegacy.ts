@@ -28,7 +28,8 @@ createSubcommand("material", {
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png/revision/latest/scale-to-width-down/256?cb=20210106065904",
       )
-      .setColor("RANDOM");
+      .setColor("RANDOM")
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

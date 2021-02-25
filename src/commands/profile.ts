@@ -65,12 +65,17 @@ createCommand({
             characters.get(c.name)?.category === a.name
           ).length,
       )
-    ) {
+    ) 
+    {
+      if (embed.fields.length === 2 || embed.fields[embed.fields.length - 3]?.name === "\u200B") embed.addBlankField()
       embed.addField(
         `${category.emoji} ${category.name}`,
         settings.characters
           // SORT HIGHEST TO LOWEST
-          .sort((a, b) => b.charLevel - a.charLevel)
+          // @ts-ignore
+          .sort(function(a, b) { 
+            return b.charLevel - a.charLevel || a.name.localeCompare(b.name);
+          })
           .map((character) => {
             const char = characters.get(character.name.toLowerCase());
             // NOT A CHAR IN CONSTANTS
@@ -78,16 +83,16 @@ createCommand({
             // NOT FOR THIS CATEGORY
             if (char.category !== category.name) return "";
             // CHAR DETAILS
-            return `${char ? `${char.emoji} ` : ""}${character.name}\n*C${character.constellationLevel} - Lv. ${character.charLevel}*`;
+            return `${char ? `${char.emoji} ` : ""}${character.name} *(Lv. ${character.charLevel} • C${character.constellationLevel})*`;
           })
           // REMOVES EMPTY STRINGS
           .filter((x) => x)
           // JOIN TO 1 STRING OR DEFAULT TO NA IF EMPTY
           .join("\n") || "NA",
         true,
-      );
+      )
     }
-
+    
     await message.reply({ embed }).catch(console.log);
   },
 });

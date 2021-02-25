@@ -27,7 +27,8 @@ createSubcommand("material", {
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png/revision/latest/scale-to-width-down/256?cb=20210106065852",
       )
-      .setColor("RANDOM");
+      .setColor("RANDOM")
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

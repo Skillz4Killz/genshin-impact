@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -47,13 +47,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Domain_of_Guyun.png/revision/latest/scale-to-width-down/310?cb=20201221031030")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Domain of Guyun Rewards")
       .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812706132366852146/gg9tVLe.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Domain of Guyun Enemies")
@@ -65,7 +65,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Domain of Guyun V", "*Defeat all enemies in less than 5:00 minutes*\n\n**Wave 1:**\n<:PyroAbyssMage:812702015024136254> 1x Pyro Abyss Mage\n\n**Wave 2:**\n<:RuinGuard:812702015125061684> 2x Ruin Guard", true)
       .addField("Domain of Guyun VI", "*Defeat all enemies in less than 7:00 minutes*\n\n**Wave 1:**\n<:RuinHunter:812702015024398337> 1x Ruin Hunter\n<:Hilichurl:812702015389564978> 2x Hilichurl\n\n**Wave 2:**\n<:CryoAbyssMage:812702015196758036> 2x Cryo Abyss Mage", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

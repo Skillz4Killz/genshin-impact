@@ -20,7 +20,8 @@ createSubcommand("help", {
       "Specialized refinement material for Festering Desire. This is the product of purifying Durin's vile venom, which has seeped into and spread throughout Dragonspine's ley lines. By using it on a bloodthirsty sword with a strong affinity for such materials, you can increase that sword's power."
     ])
     .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Festering_Dragon_Marrow.png/revision/latest/scale-to-width-down/256?cb=20201223021635")
-    .setColor("RANDOM");
+    .setColor("RANDOM")
+    .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

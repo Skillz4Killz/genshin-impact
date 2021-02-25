@@ -14,28 +14,28 @@ createSubcommand("teyvattimes", {
     .setTitle("Teyvat Times No. 2")
     .setDescription("*Full Image: https://i.imgur.com/SDjTu6x.png*")
     .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812992391832535080/unknown.png")
-    .setFooter("Page 1/4 - Release Date: December 10, 2020")
+    .setFooter("Page 1/4 • Release Date: December 10, 2020")
     .setColor("RANDOM");
 
     const secondEmbed = new Embed()
     .setTitle("Teyvat Times No. 2")
     .setDescription("*Full Image: https://i.imgur.com/SDjTu6x.png*")
     .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812992438557736960/unknown.png")
-    .setFooter("Page 24 - Release Date: December 10, 2020")
+    .setFooter("Page 24 • Release Date: December 10, 2020")
     .setColor("RANDOM");
 
     const thirdEmbed = new Embed()
     .setTitle("Teyvat Times No. 2")
     .setDescription("*Full Image: https://i.imgur.com/SDjTu6x.png*")
     .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812992471683301376/unknown.png")
-    .setFooter("Page 3/4 - Release Date: December 10, 2020")
+    .setFooter("Page 3/4 • Release Date: December 10, 2020")
     .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
     .setTitle("Teyvat Times No. 2")
     .setDescription("*Full Image: https://i.imgur.com/SDjTu6x.png*")
     .setImage("https://cdn.discordapp.com/attachments/798854249806037033/812992520744468480/unknown.png")
-    .setFooter("Page 4/4 - Release Date: December 10, 2020")
+    .setFooter("Page 4/4 • Release Date: December 10, 2020")
     .setColor("RANDOM");
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed, fourthEmbed]);

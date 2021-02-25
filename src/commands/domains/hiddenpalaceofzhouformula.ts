@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -41,13 +41,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Domain_Hidden_Palace_of_Zhou_Formula.png/revision/latest/scale-to-width-down/310?cb=20201221031231")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Hidden Palace of Zhou Formula Rewards")
       .setImage("https://cdn.discordapp.com/attachments/799226933450768405/812971168872398888/unknown.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Hidden Palace of Zhou Formula Enemies")
@@ -56,7 +56,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Hidden Palace of Zhou Formula III", "*Defeat 16 enemies within 360 seconds*\n\n**Wave 1**\n<:LargeElectroSlime:812678780451684443> 3x Large Electro Slime\n<:HilichurlFighter:812973228766003200> 2x Hilichurl Fighter\n\n**Wave 2**\n<:LargeElectroSlime:812678780451684443> 3x Large Electro Slime\n<:HilichurlFighter:812973228766003200> 2x Hilichurl Fighter\n\n**Wave 3**\n<:LargeElectroSlime:812678780451684443> 5x Large Electro Slime\n\n**Wave 4**\n<:FatuiElectroCicinMage:812678780703211522> 1x Fatui Electro Cicin Mage", true)
       .addField("Hidden Palace of Zhou Formula IV", "*Defeat 6 opponents within 60 seconds (time is added after each kill)*\n\n<:PyroSlime:812702015074467941> 2x Pyro Slime\n<:BlazingAxeMitachurl:812972562875154482> 2x Blazing Axe Mitachurl\n<:PyroAbyssMage:812702015024136254> 2x Pyro Abyss Mage", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

@@ -25,7 +25,8 @@ createSubcommand("material", {
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png/revision/latest/scale-to-width-down/256?cb=20201115225803",
       )
-      .setColor("RANDOM");
+      .setColor("RANDOM")
+      .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

@@ -20,7 +20,7 @@ createCommand({
           ``,
           `To check your profile, run the command \`${prefix}profile\`!`,
           ``,
-          `o access the command list, please use the command \`${prefix}commands\`!`,
+          `To access the command list, please use the command \`${prefix}commands\`!`,
           ``,
           `Need further help? Visit our Support Server!`,
         ]),

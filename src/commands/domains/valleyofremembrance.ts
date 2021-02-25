@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -32,13 +32,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Domain_of_Guyun.png/revision/latest/scale-to-width-down/310?cb=20201221031030")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Valley of Remembrance Rewards")
       .setImage("https://static.wikia.nocookie.net/gensin-impact/images/5/53/Domain_Valley_of_Remembrance.png/revision/latest/scale-to-width-down/310?cb=20201221031212")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Valley of Remembrance Enemies")
@@ -49,7 +49,7 @@ createSubcommand("domain", {
       .addField("Midsummer Courtyard IV", "*Defeat 7 opponents within 360 seconds*\n\n<:TreasureHoarder:812728057965051915> 5x Treasure Hoarder\n<:FatuiPyroAgent:812728058141736980> 1x Fatui Pyro Agent\n<:FatuiElectroCicinMage:812678780703211522> 1x Fatui Electro Cicin Mage", true)
       .addBlankField()
       .addField("Midsummer Courtyard V", "*Defeat 5 opponents within 360 seconds*\n\n<:TreasureHoarderCryoPotioneer:812728057894142004> 3x Treasure Hoarder Cryo Potioneer\n<:FatuiPyroAgent:812728058141736980> 1x Fatui Pyro Agent\n<:FatuiElectroCicinMage:812678780703211522> 1x Fatui Electro Cicin Mage", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {

@@ -1,4 +1,4 @@
-import { botCache, Message, removeUserReaction  } from "../../../deps.ts";
+import { botCache, Message } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -46,13 +46,13 @@ createSubcommand("domain", {
       ])
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/2/28/Domain_Midsummer_Courtyard.png/revision/latest/scale-to-width-down/310?cb=20201221031727")
       .setTimestamp()
-      .setFooter("Page 1/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const second = new Embed()
       .setTitle("Midsummer Courtyard Rewards")
       .setImage("https://cdn.discordapp.com/attachments/799226933450768405/812723465442164796/unknown.png")
       .setTimestamp()
-      .setFooter("Page 2/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
 
     const third = new Embed()
       .setTitle("Midsummer Courtyard Enemies")
@@ -64,7 +64,7 @@ createSubcommand("domain", {
       .addBlankField()
       .addField("Midsummer Courtyard V", "*Defeat 5 opponents within 360 seconds*\n\n<:LargeCryoSlime:812702014966333441> 3x Large cryo Slime\n<:CryoAbyssMage:812702015196758036> 2x Cryo Abyss Mage", true)
       .addField("Midsummer Courtyard VI", "*Defeat 7 opponents within 360 seconds*\n\n**Wave 1:**\n<:LargeElectroSlime:812678780451684443> 3x large Electro Slime\n<:MutantElectroSlime:812678780975579146> 2x Mutant Electro Slime\n\n**Wave 2:**\n<:FatuiElectroCicinMage:812678780703211522> 2x Fatui Electro Cicin Mage", true)
-      .setFooter("Page 3/3 - 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
       .setTimestamp()
 
     const pages = {
