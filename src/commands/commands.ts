@@ -30,12 +30,9 @@ createCommand({
         `🔹 \`${prefix}material (name)\`\nShows info about a specific material.`,
         "",
         `🔹 \`${prefix}update (version)\`\nShows info about a specific game update.`,
-        "",
-        `1️⃣ Information`,
-        `2️⃣ Profile`,
-        `3️⃣ Other`,
       ])
       .setTimestamp()
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")
 
     const second = new Embed()
       .setTitle("Profile")
@@ -52,14 +49,10 @@ createCommand({
         "",
         `🔹 \`${prefix}remove (character name)\`\nRemoves a character from your profile.`,
         "",
-        `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,
-        "",
-        `1️⃣ Information`,
-        `2️⃣ Profile`,
-        `3️⃣ Other`,
-        
+        `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,    
       ])
       .setTimestamp()
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")
 
     const third = new Embed()
       .setTitle("Other")
@@ -75,12 +68,9 @@ createCommand({
         `🔹 \`${prefix}prefix set (prefix)\`\nChanges the prefix.`,
         "",
         `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
-        "",
-        `1️⃣ Information`,
-        `2️⃣ Profile`,
-        `3️⃣ Other`,
       ])
       .setTimestamp()
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },

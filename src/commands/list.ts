@@ -17,6 +17,7 @@ createCommand({
           `If you need help, try \`${prefix}help list\``,
         ])
         .setTimestamp()
+        .setColor("RANDOM")
     }).catch(console.log);
   },
 });

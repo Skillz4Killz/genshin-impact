@@ -65,67 +65,44 @@ createCommand({
         `**Birthday:** ${character.birthday}`,
         "",
         character.description,
-        "",
-        "ℹ️ - Main info",
-        "⚔️ - Skill Talents",
-        "🪄 - Passive Talents",
-        "🌟 - Constellations",
-        "🔼 - Ascension Costs",
       ])
       .setThumbnail(character.thumbnail)
-      .setImage(character.image);
+      .setImage(character.image)
+      .setTimestamp()
+      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
 
     const second = new Embed()
       .setTitle(character.name)
-      .setDescription([
-        "**Skill Talents**",
-        "",
-        "ℹ️ - Main info",
-        "⚔️ - Skill Talents",
-        "🪄 - Passive Talents",
-        "🌟 - Constellations",
-        "🔼 - Ascension Costs",
-      ])
-      .setThumbnail(character.thumbnail);
+      .setThumbnail(character.thumbnail)
+      .setTimestamp()
+      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
     for (const talent of character.activeTalents) {
       second.addField(talent.name, talent.description);
     }
 
     const third = new Embed()
       .setTitle(character.name)
-      .setDescription([
-        "**Passive Talents**",
-        "",
-        "ℹ️ - Main info",
-        "⚔️ - Skill Talents",
-        "🪄 - Passive Talents",
-        "🌟 - Constellations",
-        "🔼 - Ascension Costs",
-      ])
-      .setThumbnail(character.thumbnail);
+      .setThumbnail(character.thumbnail)
+      .setTimestamp()
+      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
     for (const talent of character.passiveTalents) {
       third.addField(talent.name, talent.description);
     }
 
     const fourth = new Embed()
       .setTitle(character.name)
-      .setDescription([
-        "**Constellations**",
-        "",
-        "ℹ️ - Main info",
-        "⚔️ - Skill Talents",
-        "🪄 - Passive Talents",
-        "🌟 - Constellations",
-        "🔼 - Ascension Costs",
-      ])
-      .setThumbnail(character.thumbnail);
+      .setThumbnail(character.thumbnail)
+      .setTimestamp()
+      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
     for (const constellation of character.constellations) {
       fourth.addField(constellation.name, constellation.description);
     }
 
     const fifth = new Embed()
       .setTitle(` ${character.name} Ascension Cost`)
-      .setImage(character.ascensionCost);
+      .setImage(character.ascensionCost)
+      .setTimestamp()
+      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
 
     const pages = {
       1: { page: 1, embed: first, emoji: "ℹ️" },

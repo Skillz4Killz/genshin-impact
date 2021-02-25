@@ -52,6 +52,7 @@ createCommand({
       .setThumbnail(member.avatarURL)
       .setFooter("")
       .setTimestamp()
+      .setColor("RANDOM")
       
 
     for (
@@ -74,13 +75,10 @@ createCommand({
             const char = characters.get(character.name.toLowerCase());
             // NOT A CHAR IN CONSTANTS
             if (!char) return "";
-
             // NOT FOR THIS CATEGORY
             if (char.category !== category.name) return "";
             // CHAR DETAILS
-            return `${
-              char ? `${char.emoji} ` : ""
-            }${character.name}\n*C${character.constellationLevel} - Lv. ${character.charLevel}*`;
+            return `${char ? `${char.emoji} ` : ""}${character.name}\n*C${character.constellationLevel} - Lv. ${character.charLevel}*`;
           })
           // REMOVES EMPTY STRINGS
           .filter((x) => x)
