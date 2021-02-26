@@ -41,8 +41,7 @@ export const botCache = {
     feedbacksSent: 0,
     automod: 0,
   },
+  blacklistedIDs: new Set<string>(),
   // dispatchedGuildIDs: new Set<string>(),
   // dispatchedChannelIDs: new Set<string>(),
-  fullyReady: false,
 };
-console.log("cache.ts")

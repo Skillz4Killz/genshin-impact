@@ -224,6 +224,11 @@ botCache.monitors.set("commandHandler", {
 
     logCommand(message, message.guild?.name || "DM", "Trigger", commandName);
 
+    // Check if this user is blacklisted. Check if this guild is blacklisted
+    if (botCache.blacklistedIDs.has(message.author.id) || botCache.blacklistedIDs.has(message.guildID)) {
+      return;
+    }
+
     return executeCommand(message, command, parameters, message.guild);
   },
 });

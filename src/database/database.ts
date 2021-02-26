@@ -1,6 +1,6 @@
 import { configs } from "../../configs.ts";
 import { botCache, Sabr, SabrTable } from "../../deps.ts";
-import { ClientStatsSchema, GuildSchema, UserSchema } from "./schemas.ts";
+import { ClientStatsSchema, GuildSchema, UserSchema, BlacklistedSchema, CommandSchema } from "./schemas.ts";
 
 
 
@@ -13,10 +13,12 @@ export const db = {
   guilds: new SabrTable<GuildSchema>(sabr, "guilds"),
   users: new SabrTable<UserSchema>(sabr, "users"),
   clientstats: new SabrTable<ClientStatsSchema>(sabr, "clientstats"),
+  commands: new SabrTable<CommandSchema>(sabr, "commands"),
+  blacklisted: new SabrTable<BlacklistedSchema>(sabr, "blacklisted"),
 
 };
 
-const [guildSettings] = await Promise.all([db.guilds.getAll(true)])
+const [guildSettings, blacklisted] = await Promise.all([db.guilds.getAll(true), db.blacklisted.getAll(true)])
 
 for (const settings of guildSettings) {
   if (settings.prefix !== configs.prefix) {
@@ -26,3 +28,8 @@ for (const settings of guildSettings) {
 
 // This is important as it prepares all the tables.
 await sabr.init();
+
+// Add blacklisted users and guilds to cache so bot will ignore them.
+for (const blacklist of blacklisted) {
+  botCache.blacklistedIDs.add(blacklist.id);
+}

@@ -41,3 +41,23 @@ export interface ClientStatsSchema {
   reactionsRemovedProcessed: string;
   commandsRan: string;
 }
+
+export interface BlacklistedSchema {
+  /** The id of the user or guild that is blacklisted. */
+  id: string;
+  /** Whether this is for a user or a guild. */
+  type: "user" | "guild";
+}
+
+export interface CommandSchema {
+  /** The unique guildID-commandName */
+  id: string;
+  /** Whether or not the command is fully enabled */
+  enabled: boolean;
+  /** The exceptions to the enabled option */
+  exceptionChannelIDs: string[];
+  /** The exceptions to the enabled option */
+  exceptionRoleIDs: string[];
+  /** The guild id */
+  guildID: string;
+}
