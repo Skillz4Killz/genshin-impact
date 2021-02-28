@@ -30,6 +30,7 @@ createSubcommand("patchnotes", {
       .setColor("RANDOM");
 
     const secondEmbed = new Embed()
+      .setTitle("Update Notes Version 1.3")
       .setDescription([
         "**〓Update Schedule〓**",
         "Update maintenance begins 2021/02/03 06:00:00 (UTC+8) and is estimated to take 5 hours.\n*(Note: Precise timings are subject to change. Players may also experience disruption outside of this period.)*",

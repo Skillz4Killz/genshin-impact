@@ -30,7 +30,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\n🔹 Dropped by Cryo Regisvine\n🔹 Purchased from the Souvenir Shop\n🔹 Wolf of the North Challenge Reward\n🔹 **Crafting:** 1x Agnidus Agate Sliver, 1x Dust of Azoth",
+        "**Source:**\n🔹 Dropped by Cryo Regisvine\n🔹 Purchased from the Souvenir Shop\n🔹 Wolf of the North Challenge Reward\n🔹 **Crafting:** 1x Sliver, 1x Dust of Azoth",
         "",
         "Shivada Jade Sliver is used for the following character ascensions:\n\n<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi",
       ])
@@ -54,7 +54,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\n🔹 Dropped by Lv. 40+ Cryo Regisvine\n🔹 Lv. Lv. 40+ Wolf of the North Challenge Reward\n🔹 Talk to Ivanovich (one time)\n🔹 **Crafting:** 3x Shivada Jade Sliver, 300 Mora\n🔹 **Crafting:** 1x Agnidus Agate Fragment, 3x Dust of Azoth",
+        "**Source:**\n🔹 Dropped by Lv. 40+ Cryo Regisvine\n🔹 Lv. Lv. 40+ Wolf of the North Challenge Reward\n🔹 Talk to Ivanovich (one time)\n🔹 **Crafting:** 3x Shivada Jade Sliver, 300 Mora\n🔹 **Crafting:** 1x Fragment, 3x Dust of Azoth",
         "",
         "Shivada Jade Sliver is used for the following character ascensions:\n\n<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi",
       ])
@@ -78,7 +78,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\n🔹 Dropped by Lv. 60+ Cryo Regisvine\n🔹 Lv. 60+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Shivada Jade Fragment, 900 Mora\n🔹 **Crafting:** 1x Agnidus Agate Chunk, 9x Dust of Azoth",
+        "**Source:**\n🔹 Dropped by Lv. 60+ Cryo Regisvine\n🔹 Lv. 60+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Shivada Jade Fragment, 900 Mora\n🔹 **Crafting:** 1x Chunk, 9x Dust of Azoth",
         "",
         "Shivada Jade Sliver is used for the following character ascensions:\n\n<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi",
       ])
@@ -102,7 +102,7 @@ createSubcommand("material", {
         "",
         "**Item type:** Character Ascension Material",
         "",
-        "**Source:**\n🔹 Dropped by Lv. 75+ Cryo Regisvine\n🔹 Lv. 75+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Shivada Jade Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Agnidus Agate Gemstone, 27x Dust of Azoth",
+        "**Source:**\n🔹 Dropped by Lv. 75+ Cryo Regisvine\n🔹 Lv. 75+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Shivada Jade Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Gemstone, 27x Dust of Azoth",
         "",
         "Shivada Jade Sliver is used for the following character ascensions:\n\n<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi",
       ])

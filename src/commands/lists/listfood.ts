@@ -1,4 +1,4 @@
-import { botCache, Message } from "../../../deps.ts";
+import { botCache, Message, removeUserReaction } from "../../../deps.ts";
 import { parsePrefix } from "../../monitors/commandHandler.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
@@ -16,88 +16,60 @@ createSubcommand("list", {
       .setTitle("Rarity ⭐")
       .setDescription([
         "",
-        "Apple 🔹 Chicken-Mushroom Skewer 🔹 Grilled Tiger Fish 🔹 Definitely Not Bar Food! 🔹 Flash-Fried Filet 🔹 Fruity Skewers 🔹 Mondstadt Grilled Fish 🔹 Mora Meat 🔹 Outrider's Champion Steak! 🔹 Pop's Teas 🔹 Qiankun Mora Meat 🔹 Radish Veggie Soup 🔹 Steak 🔹 Stir-Fried Filet 🔹 Sunsettia 🔹 Survival Grilled Fish 🔹 Teyvat Charred Egg 🔹 Teyvat Fried Egg",
+        `*If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing.\nFor example \`${prefix}food grilledtigerfish\`*`,
         "",
-        `If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing. For example \`${prefix}food grilledtigerfish\``,
-        "",
-        `1️⃣ Rarity ⭐`,
-        `2️⃣ Rarity ⭐⭐`,
-        `3️⃣ Rarity ⭐⭐⭐`,
-        `4️⃣ Rarity ⭐⭐⭐⭐`,
-        `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
       ])
+      .addField("\u200B", "🔹 Apple\n🔹 Chicken-Mushroom Skewer\n🔹 Grilled Tiger Fish\n🔹 Definitely Not Bar Food!\n🔹 Flash-Fried Filet\n\n🔹 Fruity Skewers\n🔹 Mondstadt Grilled Fish\n🔹 Mora Meat\n🔹 Outrider's Champion Steak!", true)
+      .addField("\u200B", "🔹 Pop's Teas\n🔹 Qiankun Mora Meat\n🔹 Radish Veggie Soup\n🔹 Steak\n🔹 Stir-Fried Filet\n\n🔹 Sunsettia\n🔹 Survival Grilled Fish\n🔹 Teyvat Charred Egg\n🔹 Teyvat Fried Egg", true)
+      .addBlankField()
+      .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
       .setTimestamp()
 
     const second = new Embed()
       .setTitle("Rarity ⭐⭐")
       .setDescription([
         "",
-        "Almond Tofu 🔹 All-Delicacy Parcels 🔹 Apple Cider 🔹 Berry & Mint Burst 🔹 Cold Noodles with Mountain Delicacies 🔹 Cream Stew 🔹 Crystal Shrimp 🔹 Der Weisheit Letzter Schluss (Life) 🔹 Fish-Flavored Toast 🔹 Fisherman's Toast 🔹 Flaming Red Bolognese 🔹 Fried Radish Balls 🔹 Goulash 🔹 Jewelry Soup 🔹 Jueyun Chili Chicken 🔹 Lighter-Than-Air Pancake 🔹 Lotus Seed and Bird Egg Soup 🔹 Matsutake Meat Rolls 🔹 Mysterious Bolognese 🔹 Noodles with Mountain Delicacies 🔹 Rockin' Riffin' Chicken! 🔹 Northern Smoked Chicken 🔹 Satisfying Salad 🔹 Spicy Stew 🔹 Sweet Madame 🔹 Tea Break Pancake 🔹 Wolfhook Juice",
+        `*If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing.\nFor example \`${prefix}food grilledtigerfish\`*`,
         "",
-        "If you want to search for food/dish infos, type \`${prefix}food (name)`\nThe foodname has to be lower case and without spacing. For example \`${prefix}food grilledtigerfish`",
-        "",
-        `1️⃣ Rarity ⭐`,
-        `2️⃣ Rarity ⭐⭐`,
-        `3️⃣ Rarity ⭐⭐⭐`,
-        `4️⃣ Rarity ⭐⭐⭐⭐`,
-        `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
       ])
+      .addField("\u200B", "🔹 Almond Tofu\n🔹 All-Delicacy Parcels\n🔹 Apple Cider\n🔹 Berry & Mint Burst\n🔹 Cold Noodles with Mountain Delicacies\n🔹 Cream Stew\n🔹 Crystal Shrimp\n\n🔹 Der Weisheit Letzter Schluss (Life)\n🔹 Fish-Flavored Toast\n🔹 Fisherman's Toast\n🔹 Flaming Red Bolognese\n🔹 Fried Radish Balls\n🔹 Goulash\n🔹 Ghostly March\n🔹 Jewelry Soup", true)
+      .addField("\u200B", "🔹 Jueyun Chili Chicken\n🔹 Lighter-Than-Air Pancake\n🔹 Lotus Seed and Bird Egg Soup\n🔹 Matsutake Meat Rolls\n🔹 Mysterious Bolognese\n🔹 Noodles with Mountain Delicacies\n🔹 Rockin' Riffin' Chicken!\n\n🔹 Northern Smoked Chicken\n🔹 Satisfying Salad\n🔹 Spicy Stew\n🔹 Sweet Dream\n🔹 Sweet Madame\n🔹 Tea Break Pancake\n🔹 Wolfhook Juice", true)
+      .addBlankField()
+      .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
       .setTimestamp()
 
     const third = new Embed()
       .setTitle("Rarity ⭐⭐⭐")
       .setDescription([
         "",
-        "A Buoyant Breeze 🔹 A Prize Catch 🔹 Adventurer's Breakfast Sandwich 🔹 Bamboo Shoot Soup 🔹 Barbatos Ratatouille 🔹 Black-Back Perch Stew 🔹 Calla Lily Seafood Soup 🔹 Cold Cut Platter 🔹 Come and Get It 🔹 Crab, Ham & Veggie Bake 🔹 Die Heilige Sinfonie 🔹 Golden Shrimp Balls 🔹 Holy Water 🔹 Invigorating Pizza 🔹 Jueyun Guoba 🔹 Lotus Flower Crisp 🔹 Mondstadt Hash Brown 🔹 Mushroom Pizza 🔹 No Tomorrow 🔹 Northern Apple Stew 🔹 Nutritious Meal (V. 593) 🔹 Once Upon a Time in Mondstadt 🔹 Pile 'Em Up 🔹 Prosperous Peace 🔹 Puppy-Paw Hash Brown 🔹 Qingce Stir Fry 🔹 Sautéed Matsutake 🔹 Slow-Cooked Bamboo Shoot Soup 🔹 Squirrel Fish 🔹 Sticky Honey Roast 🔹 Sunshine Sprat 🔹 Triple-Layered Consommé 🔹 Universal Peace 🔹 Wanmin Restaurant's Boiled Fish 🔹 Woodland Dream 🔹 Zhongyuan Chop Suey",
+        `*If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing.\nFor example \`${prefix}food grilledtigerfish\`*`,
         "",
-        `If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing. For example \`${prefix}food grilledtigerfish\``,
-        "",
-        `1️⃣ Rarity ⭐`,
-        `2️⃣ Rarity ⭐⭐`,
-        `3️⃣ Rarity ⭐⭐⭐`,
-        `4️⃣ Rarity ⭐⭐⭐⭐`,
-        `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
       ])
+      .addField("\u200B", "🔹 A Buoyant Breeze\n🔹 A Prize Catch\n🔹 Adventurer's Breakfast Sandwich\n🔹 Bamboo Shoot Soup\n🔹 Barbatos Ratatouille\n🔹 Black-Back Perch Stew\n🔹 Calla Lily Seafood Soup\n🔹 Cold Cut Platter\n\n🔹 Come and Get It\n🔹 Crab, Ham & Veggie Bake\n🔹 Die Heilige Sinfonie\n🔹 Golden Shrimp Balls\n🔹 Holy Water\n🔹 Invigorating Pizza\n🔹 Jueyun Guoba\n🔹 Lotus Flower Crisp\n🔹 Mondstadt Hash Brown\n🔹 Mushroom Pizza", true)
+      .addField("\u200B", "🔹 No Tomorrow\n🔹 Northern Apple Stew\n🔹 Nutritious Meal (V. 593)\n🔹 Once Upon a Time in Mondstadt\n🔹 Pile 'Em Up\n🔹 Prosperous Peace\n🔹 Puppy-Paw Hash Brown\n🔹 Qingce Stir Fry\n\n🔹 Sautéed Matsutake\n🔹 Slow-Cooked Bamboo Shoot Soup\n🔹 Squirrel Fish\n🔹 Sticky Honey Roast\n🔹 Sunshine Sprat\n🔹 Triple-Layered Consommé\n🔹 niversal Peace\n🔹 Wanmin Restaurant's Boiled Fish\n🔹 Woodland Dream\n🔹 Zhongyuan Chop Suey", true)
+      .addBlankField()
+      .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
       .setTimestamp()
 
     const fourth = new Embed()
-      .setTitle("Rarity ⭐⭐⭐⭐")
+      .setTitle("Rarity ⭐⭐⭐⭐ & ⭐⭐⭐⭐⭐")
       .setDescription([
         "",
-        "Golden Crab 🔹 Jade Parcels 🔹 Moon Pie 🔹 Tianshu Meat",
+        `*If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing.\nFor example \`${prefix}food grilledtigerfish\`*`,
         "",
-        `If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing. For example \`${prefix}food grilledtigerfish\``,
-        "",
-        `1️⃣ Rarity ⭐`,
-        `2️⃣ Rarity ⭐⭐`,
-        `3️⃣ Rarity ⭐⭐⭐`,
-        `4️⃣ Rarity ⭐⭐⭐⭐`,
-        `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
       ])
+      .addField("[⭐⭐⭐⭐]", "🔹 Golden Crab\n🔹 Jade Parcels\n🔹 Moon Pie\n🔹 Tianshu Meat", true)
+      .addField("[⭐⭐⭐⭐⭐]", "🔹 Adeptus' Temptation", true)
+      .addBlankField()
+      .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
       .setTimestamp()
 
-    const fifth = new Embed()
-      .setTitle("Rarity ⭐⭐⭐⭐⭐")
-      .setDescription([
-        "",
-        "Adeptus' Temptation",
-        "",
-        `If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing. For example \`${prefix}food grilledtigerfish\``,
-        "",
-        `1️⃣ Rarity ⭐`,
-        `2️⃣ Rarity ⭐⭐`,
-        `3️⃣ Rarity ⭐⭐⭐`,
-        `4️⃣ Rarity ⭐⭐⭐⭐`,
-        `5️⃣ Rarity ⭐⭐⭐⭐⭐`,
-      ])
-      .setTimestamp()
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
       2: { page: 2, embed: second, emoji: "2️⃣" },
       3: { page: 3, embed: third, emoji: "3️⃣" },
       4: { page: 4, embed: fourth, emoji: "4️⃣" },
-      5: { page: 5, embed: fifth, emoji: "5️⃣" },
     } as Record<
       number,
       { page: number; embed: Embed; emoji: string } | undefined
@@ -114,7 +86,7 @@ createSubcommand("list", {
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"];
+    const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
@@ -125,6 +97,17 @@ createSubcommand("list", {
     }).catch(console.log);
     if (!reaction) return;
 
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        response.id,
+        reaction,
+        message.author.id
+      ).catch(console.info))
+    ) {
+      return;
+    }
+    
     const selectedPage = Object.values(pages).find((page) =>
       page?.emoji === reaction
     );
@@ -133,7 +116,6 @@ createSubcommand("list", {
     return botCache.commands
       .get("list")?.subcommands?.get("food")
       ?.execute?.(message, {
-        character: args.character,
         page: selectedPage.page,
         msg: response,
       });

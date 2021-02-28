@@ -19,7 +19,7 @@ createCommand({
           "**not availabable yet**",
           "",
           `\`${prefix}update 1.2\``,
-          "**not availabable yet**",
+          "'The Chalk Prince and the Dragon",
           "",
           `\`${prefix}update 1.3\``,
           "'All That Glitters'",

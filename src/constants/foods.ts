@@ -1608,22 +1608,38 @@ export const foods = new Map([
       effect: "Revives a character and restores **900/1.200/1.500** HP.",
     },
   ],
-// ** TODO **  
-//  [
-//    "ghostlymarch",
-//    {
-//      name: "Ghostly March",
-//      image:
-//        "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Ghostly_March.png/revision/latest/scale-to-width-down/113?cb=20210204083827",
-//      description:
-//        "None",
-//      color: "RANDOM",
-//      stars: "⭐⭐",
-//      recipe: "2x matsutake, 2x Snapdragon",
-//      dishType: "Special Guradian's Dish",
-//      proficiency: "None",
-//      obtainable: "Cook Vegetarian Abalone with Hu Tao",
-//      effect: "Revives a character and restores **900/1.200/1.500** HP.",
-//    },
-//  ],
+ [
+   "ghostlymarch",
+   {
+     name: "Ghostly March",
+     image:
+       "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Ghostly_March.png/revision/latest/scale-to-width-down/113?cb=20210204083827",
+     description:
+       "None",
+     color: "RANDOM",
+     stars: "⭐⭐",
+     recipe: "2x matsutake, 2x Snapdragon",
+     dishType: "Special Guradian's Dish",
+     proficiency: "None",
+     obtainable: "Cook Vegetarian Abalone with Hu Tao",
+     effect: "NA",
+   },
+ ],
+ [
+  "sweetdream",
+  {
+    name: "Sweet Dream",
+    image:
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Item_%22Sweet_Dream%22.png/revision/latest/scale-to-width-down/310?cb=20210205202607",
+    description:
+      "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
+    color: "RANDOM",
+    stars: "⭐⭐",
+    recipe: "3x Milk, 1x Sugar, 1x Almond",
+    dishType: "Special Guradian's Dish",
+    proficiency: "None",
+    obtainable: "Cook Almond Tofu with Xiao",
+    effect: "Increases all party members' ATK by **114** for 300s.",
+  },
+],
 ]);

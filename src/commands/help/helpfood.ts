@@ -68,7 +68,9 @@ createSubcommand("help", {
           `🔹 \`${prefix}food jewelrysoup\``,
           `🔹 \`${prefix}food friedradishballs\``,
           `🔹 \`${prefix}food vegetarianabalone\``,
-          `🔹 \`${prefix}food morameat\``
+          `🔹 \`${prefix}food morameat\``,
+          `🔹 \`${prefix}food sweetdream\``,
+          `🔹 \`${prefix}food ghostlymarch\``
           ])
           .setFooter("Page 2/4")
           .setTimestamp()

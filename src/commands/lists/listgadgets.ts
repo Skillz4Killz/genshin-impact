@@ -13,14 +13,12 @@ createSubcommand("list", {
     const embed = new Embed()
       .setTitle("Gadgetlist")
       .setDescription([
-        `⭐⭐⭐⭐`,
-        "Condensed Resin 🔹 Wind Catcher 🔹 NRE (Menu 30) 🔹 Geo Treasure Compass 🔹 Anemo Treasure Compass 🔹 Portable Waypoint 🔹 Kamera 🔹 Mini Seelie: Curcuma 🔹 Mini Seelie: Dayflower 🔹 Mini Seelie: Rosé 🔹 Treasure-Seeking Seelie 🔹 Parametric Transformer",
         "",
-        `⭐⭐⭐`,
-        "Geoculus Resonance Stone 🔹 Anemoculus Resonance Stone 🔹 Adepti Seeker's Stove 🔹 Warming Bottle",
+        `*If you want to search for gadget infos, type \`${prefix}gadget (name)\`\nThe gadget name has to be lower case and without spacing.\nFor example \`${prefix}gadget windcatcher\`*`,
         "",
-        `If you want to search for gadget infos, type \`${prefix}gadget (name)\`\nThe gadget name has to be lower case and without spacing. For example \`${prefix}gadget windcatcher\``,
       ])
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Condensed Resin\n🔹 Wind Catcher\n🔹 NRE (Menu 30)\n🔹 Geo Treasure Compass\n🔹 Anemo Treasure Compass\n🔹 Portable Waypoint\n🔹 Kamera\n🔹 Mini Seelie: Curcuma\n🔹 Mini Seelie: Dayflower\n🔹 Mini Seelie: Rosé\n🔹 Treasure-Seeking Seelie\n🔹 Parametric Transformer", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Geoculus Resonance Stone\n🔹 Anemoculus Resonance Stone\n🔹 Adepti Seeker's Stove\n🔹 Warming Bottle", true)
       .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);

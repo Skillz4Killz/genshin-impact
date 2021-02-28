@@ -1,5 +1,3 @@
-// TODO 
-
 import { botCache } from "../../cache.ts";
 botCache.eventHandlers.messageUpdate = async function (message) {
     botCache.stats.messagesUpdated += 1;

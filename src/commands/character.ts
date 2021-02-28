@@ -1,5 +1,5 @@
 import { botCache } from "../../cache.ts";
-import { Message } from "../../deps.ts";
+import { Message, removeUserReaction } from "../../deps.ts";
 import { characters } from "../constants/character.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
@@ -141,6 +141,17 @@ createCommand({
       page?.emoji === reaction
     );
     if (!selectedPage) return;
+
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        response.id,
+        reaction,
+        message.author.id
+      ).catch(console.info))
+    ) {
+      return;
+    }
 
     return botCache.commands
       .get("character")

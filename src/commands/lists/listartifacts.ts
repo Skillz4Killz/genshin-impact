@@ -10,17 +10,14 @@ createSubcommand("list", {
     const embed = new Embed()
       .setTitle("Artifactlist")
       .setDescription([
-        `**Max. Rarity:** ⭐⭐⭐`,
-        "Adventurer 🔹 Lucky Dog 🔹 Traveling Doctor",
         "",
-        `**Max. Rarity:** ⭐⭐⭐⭐`,
-        "Instructor 🔹 Berserker 🔹 The Exile 🔹 Brave Heart 🔹 Resolution of Sojourner 🔹 Martial Artist 🔹 Gambler 🔹 Defender's Will 🔹 Scholar 🔹 Tiny Miracle 🔹 Prayers for Illumination 🔹 Prayers for Destiny 🔹 Prayers for Wisdom 🔹 Prayers to Springtime",
+        `*If you want to search for artifact infos, type \`${prefix}artifact (name)\`\nThe artifact name has to be lower case and without spacing.\nFor example \`${prefix}artifact defenderswill\`*`,
         "",
-        `**Max. Rarity:** ⭐⭐⭐⭐⭐`,
-        "Gladiator's Finale 🔹 Wanderer's Troupe 🔹 Noblesse Oblige 🔹 Maiden Beloved 🔹 Retracing Bolide 🔹 Crimson Witch of Flames 🔹 Lavawalker 🔹 Heart of Depth 🔹 Thundering Fury 🔹 Thundersoother 🔹 Viridescent Venerer 🔹 Blizard Strayer 🔹 Archaic Petra 🔹 Bloodstained Chivalry",
-        "",
-        `If you want to search for artifact infos, type \`${prefix}artifact (name)\`\nThe artifact name has to be lower case and without spacing. For example \`${prefix}artifact defenderswill\``,
       ])
+      .addField("Max. Rarity: ⭐⭐⭐⭐⭐", "🔹 Gladiator's Finale\n🔹 Wanderer's Troupe\n🔹 Noblesse Oblige\n🔹 Maiden Beloved\n🔹 Retracing Bolide\n🔹 Crimson Witch of Flames\n🔹 Lavawalker\n🔹 Heart of Depth\n\n🔹 Thundering Fury\n🔹 Thundersoother\n🔹 Viridescent Venerer\n🔹 Blizard Strayer\n🔹 Archaic Petra\n🔹 Bloodstained Chivalry", true)
+      .addField("Max. Rarity: ⭐⭐⭐⭐", "🔹 Instructor\n🔹 Berserker\n🔹 The Exile\n🔹 Brave Heart\n🔹 Resolution of Sojourner\n🔹 Martial Artist\n🔹 Gambler\n🔹 Defender's Will\n\n🔹 Scholar\n🔹 Tiny Miracle\n🔹 Prayers for Illumination\n🔹 Prayers for Destiny\n🔹 Prayers for Wisdom\n🔹 Prayers to Springtime", true)
+      .addBlankField()
+      .addField("Max. Rarity: ⭐⭐⭐", "🔹 Adventurer\n🔹 Lucky Dog\n🔹 Traveling Doctor", true)
       .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);

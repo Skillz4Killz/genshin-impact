@@ -1,4 +1,4 @@
-import { botCache, Message } from "../../../deps.ts";
+import { botCache, Message, removeUserReaction } from "../../../deps.ts";
 import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
@@ -89,6 +89,17 @@ createSubcommand("domain", {
         message.author.id === userID && page.emoji !== reaction,
     }).catch(console.log);
     if (!reaction) return;
+
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        response.id,
+        reaction,
+        message.author.id
+      ).catch(console.info))
+    ) {
+      return;
+    }
 
     const selectedPage = Object.values(pages).find((page) =>
       page?.emoji === reaction
