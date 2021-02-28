@@ -148,7 +148,7 @@ createCommand({
         response.id,
         reaction,
         message.author.id
-      ).catch(console.info))
+      ).catch(console.log))
     ) {
       return;
     }

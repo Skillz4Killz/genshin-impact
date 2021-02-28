@@ -19,7 +19,7 @@ createSubcommand("list", {
         `*If you want to search for food/dish infos, type \`${prefix}food (name)\`\nThe foodname has to be lower case and without spacing.\nFor example \`${prefix}food grilledtigerfish\`*`,
         "",
       ])
-      .addField("\u200B", "🔹 Apple\n🔹 Chicken-Mushroom Skewer\n🔹 Grilled Tiger Fish\n🔹 Definitely Not Bar Food!\n🔹 Flash-Fried Filet\n\n🔹 Fruity Skewers\n🔹 Mondstadt Grilled Fish\n🔹 Mora Meat\n🔹 Outrider's Champion Steak!", true)
+      .addField("\u200B", "🔹 Apple\n🔹 Chicken-Mushroom Skewer\n🔹 Definitely Not Bar Food!\n🔹 Flash-Fried Filet\n\n🔹 Fruity Skewers\n🔹 Grilled Tiger Fish\n🔹 Mondstadt Grilled Fish\n🔹 Mora Meat\n🔹 Outrider's Champion Steak!", true)
       .addField("\u200B", "🔹 Pop's Teas\n🔹 Qiankun Mora Meat\n🔹 Radish Veggie Soup\n🔹 Steak\n🔹 Stir-Fried Filet\n\n🔹 Sunsettia\n🔹 Survival Grilled Fish\n🔹 Teyvat Charred Egg\n🔹 Teyvat Fried Egg", true)
       .addBlankField()
       .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
@@ -33,7 +33,7 @@ createSubcommand("list", {
         "",
       ])
       .addField("\u200B", "🔹 Almond Tofu\n🔹 All-Delicacy Parcels\n🔹 Apple Cider\n🔹 Berry & Mint Burst\n🔹 Cold Noodles with Mountain Delicacies\n🔹 Cream Stew\n🔹 Crystal Shrimp\n\n🔹 Der Weisheit Letzter Schluss (Life)\n🔹 Fish-Flavored Toast\n🔹 Fisherman's Toast\n🔹 Flaming Red Bolognese\n🔹 Fried Radish Balls\n🔹 Goulash\n🔹 Ghostly March\n🔹 Jewelry Soup", true)
-      .addField("\u200B", "🔹 Jueyun Chili Chicken\n🔹 Lighter-Than-Air Pancake\n🔹 Lotus Seed and Bird Egg Soup\n🔹 Matsutake Meat Rolls\n🔹 Mysterious Bolognese\n🔹 Noodles with Mountain Delicacies\n🔹 Rockin' Riffin' Chicken!\n\n🔹 Northern Smoked Chicken\n🔹 Satisfying Salad\n🔹 Spicy Stew\n🔹 Sweet Dream\n🔹 Sweet Madame\n🔹 Tea Break Pancake\n🔹 Wolfhook Juice", true)
+      .addField("\u200B", "🔹 Jueyun Chili Chicken\n🔹 Lighter-Than-Air Pancake\n🔹 Lotus Seed and Bird Egg Soup\n🔹 Matsutake Meat Rolls\n🔹 Mysterious Bolognese\n🔹 Noodles with Mountain Delicacies\n🔹 Northern Smoked Chicken\n\n\n🔹 Rockin' Riffin' Chicken!\n🔹 Satisfying Salad\n🔹 Spicy Stew\n🔹 Sweet Dream\n🔹 Sweet Madame\n🔹 Tea Break Pancake\n🔹 Wolfhook Juice", true)
       .addBlankField()
       .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
       .setTimestamp()
@@ -46,7 +46,7 @@ createSubcommand("list", {
         "",
       ])
       .addField("\u200B", "🔹 A Buoyant Breeze\n🔹 A Prize Catch\n🔹 Adventurer's Breakfast Sandwich\n🔹 Bamboo Shoot Soup\n🔹 Barbatos Ratatouille\n🔹 Black-Back Perch Stew\n🔹 Calla Lily Seafood Soup\n🔹 Cold Cut Platter\n\n🔹 Come and Get It\n🔹 Crab, Ham & Veggie Bake\n🔹 Die Heilige Sinfonie\n🔹 Golden Shrimp Balls\n🔹 Holy Water\n🔹 Invigorating Pizza\n🔹 Jueyun Guoba\n🔹 Lotus Flower Crisp\n🔹 Mondstadt Hash Brown\n🔹 Mushroom Pizza", true)
-      .addField("\u200B", "🔹 No Tomorrow\n🔹 Northern Apple Stew\n🔹 Nutritious Meal (V. 593)\n🔹 Once Upon a Time in Mondstadt\n🔹 Pile 'Em Up\n🔹 Prosperous Peace\n🔹 Puppy-Paw Hash Brown\n🔹 Qingce Stir Fry\n\n🔹 Sautéed Matsutake\n🔹 Slow-Cooked Bamboo Shoot Soup\n🔹 Squirrel Fish\n🔹 Sticky Honey Roast\n🔹 Sunshine Sprat\n🔹 Triple-Layered Consommé\n🔹 niversal Peace\n🔹 Wanmin Restaurant's Boiled Fish\n🔹 Woodland Dream\n🔹 Zhongyuan Chop Suey", true)
+      .addField("\u200B", "🔹 No Tomorrow\n🔹 Northern Apple Stew\n🔹 Nutritious Meal (V. 593)\n🔹 Once Upon a Time in Mondstadt\n🔹 Pile 'Em Up\n🔹 Prosperous Peace\n🔹 Puppy-Paw Hash Brown\n🔹 Qingce Stir Fry\n\n🔹 Sautéed Matsutake\n🔹 Slow-Cooked Bamboo Shoot Soup\n🔹 Squirrel Fish\n🔹 Sticky Honey Roast\n🔹 Sunshine Sprat\n🔹 Triple-Layered Consommé\n🔹 Universal Peace\n🔹 Wanmin Restaurant's Boiled Fish\n🔹 Woodland Dream\n🔹 Zhongyuan Chop Suey", true)
       .addBlankField()
       .setFooter("1️⃣ Rarity 1⭐, 2️⃣ Rarity 2⭐, 3️⃣ Rarity 3⭐, 4️⃣ Rarity 4⭐ &  5⭐")
       .setTimestamp()
@@ -103,7 +103,7 @@ createSubcommand("list", {
         response.id,
         reaction,
         message.author.id
-      ).catch(console.info))
+      ).catch(console.log))
     ) {
       return;
     }

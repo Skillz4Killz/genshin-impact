@@ -20,9 +20,9 @@ createSubcommand("list", {
         "",
       ])
       .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Amos' Bow\n🔹 Skyward Harp", true)
-      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Compound Bow\n🔹 Blackcliff Warbow\n🔹 The Viridescent Hunt\n🔹 Prototype Crescent\n🔹 Sacrificial Bow\n🔹 Rust\n🔹 The Stringless\n🔹 Favonius Warbow", true)
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Warbow\n🔹 Compound Bow\n🔹 Favonius Warbow\n🔹 Prototype Crescent\n🔹 Rust\n🔹 Sacrificial Bow\n🔹 The Stringless\n🔹 The Viridescent Hunt", true)
       .addBlankField()
-      .addField("Rarity: ⭐⭐⭐", "🔹 Sharpshooter's Oath\n🔹 Slingshot\n🔹 Raven Bow\n🔹 Messenger\n🔹 Recurve Bow", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Messenger\n🔹 Raven Bow\n🔹 Recurve Bow\n🔹 Sharpshooter's Oath\n🔹 Slingshot", true)
       .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/128?cb=20201116034023")
       .setFooter("1️⃣ Bow, 2️⃣ Polearm, 3️⃣ Claymore, 4️⃣ Sword, 5️⃣ Catalyst")
       .setTimestamp()
@@ -34,10 +34,10 @@ createSubcommand("list", {
         `*If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing.\nFor example \`${prefix}weapon skyridergreatsword\`*`,
         "",
       ])
-      .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Vortex Vanquisher\n🔹 Skyward Spine\n🔹 Primordial Jade Winged-Spear\n🔹 Staff of Homa", true)
-      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Crescent Pike\n🔹 Deathmatch\n🔹 Royal Spear\n🔹 Favonius Lance\n🔹 Dragonspine Spear\n🔹 Prototype Starglitter\n🔹 Dragon's Bane\n🔹 Blackcliff Pole\n🔹 Lithic Spear", true)
+      .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Primordial Jade Winged-Spear\n🔹 Skyward Spine\n🔹 Staff of Homa\n🔹 Vortex Vanquisher", true)
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Pole\n🔹 Crescent Pike\n🔹 Deathmatch\n🔹 Dragon's Bane\n🔹 Dragonspine Spear\n🔹 Favonius Lance\n🔹 Lithic Spear\n🔹 Prototype Starglitter\n🔹 Royal Spear", true)
       .addBlankField()
-      .addField("Rarity: ⭐⭐⭐", "🔹 Halberd\n🔹 Black Tassel\n🔹 White Tassel", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Black Tassel\n🔹 Halberd\n🔹 White Tassel", true)
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/128?cb=20201116033115",
       )
@@ -51,10 +51,10 @@ createSubcommand("list", {
         `*If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing.\nFor example \`${prefix}weapon skyridergreatsword\`*`,
         "",
       ])
-      .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 The Unforged\n🔹 Wolf's Gravestone\n🔹 Skyward Pride", true)
-      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Slasher\n🔹 Whiteblind\n🔹 Snow-Tombed Starsilver\n🔹 Sacrificial Greatsword\n🔹 Serpent Spine\n🔹 The Bell\n🔹 Royal Greatsword\n🔹 Rainslasher\n🔹 Prototype Archaic\n🔹 Favonius Greatsword\n🔹 Lithic Blade", true)
+      .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Skyward Pride\n🔹 The Unforged\n🔹 Wolf's Gravestone", true)
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Slasher\n🔹 Favonius Greatsword\n🔹 Lithic Blade\n🔹 Prototype Archaic\n🔹 Rainslasher\n🔹 Royal Greatsword\n🔹 Sacrificial Greatsword\n🔹 Serpent Spine\n🔹 Snow-Tombed Starsilver\n🔹 The Bell\n🔹 Whiteblind", true)
       .addBlankField()
-      .addField("Rarity: ⭐⭐⭐", "🔹 White Iron Greatsword\n🔹 Skyrider Greatsword\n🔹 Quartz\n🔹 Ferrous Shadow\n🔹 Debate Club\n🔹 Bloodtainted Greatsword", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Bloodtainted Greatsword\n🔹 Debate Club\n🔹 Ferrous Shadow\n🔹 Quartz\n🔹 Skyrider Greatsword\n🔹 White Iron Greatsword", true)
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/128?cb=20201120001015",
       )
@@ -68,10 +68,10 @@ createSubcommand("list", {
         `*If you want to search for weapon infos, type \`${prefix}weapon (name)\`\nThe weaponname has to be lower case and without spacing.\nFor example \`${prefix}weapon skyridergreatsword\`*`,
         "",
       ])
-      .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Summit Shaper\n🔹 Aquila Favonia\n🔹 Skyward Blade\n🔹 Primordial Jade Cutter", true)
-      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Longsword\n🔹 Sacrificial Sword\n🔹 Sword of Descension\n🔹 Favonius Sword\n🔹 The Black Sword\n🔹 The Flute\n🔹 Royal Longsword\n🔹 Prototype Rancour\n🔹 Lion's Roar\n🔹 Iron Sting\n🔹 Festering Desire", true)
+      .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Aquila Favonia\n🔹 Primordial Jade Cutter\n🔹 Skyward Blade\n🔹 Summit Shaper", true)
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Longsword\n🔹 Favonius Sword\n🔹 Festering Desire\n🔹 Iron Sting\n🔹 Lion's Roar\n🔹 Prototype Rancour\n🔹 Royal Longsword\n🔹 Sacrificial Sword\n🔹 Sword of Descension\n🔹 The Black Sword\n🔹 The Flute", true)
       .addBlankField()
-      .addField("Rarity: ⭐⭐⭐", "🔹 Skyrider Sword\n🔹 Fillet Blade\n🔹 Traveler's Handy Sword\n🔹 Harbinger of Dawn\n🔹 Dark Iron Sword\n🔹 Cool Steel", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Cool Steel\n🔹 Dark Iron Sword\n🔹 Fillet Blade\n🔹 Harbinger of Dawn\n🔹 Skyrider Sword\n🔹 Traveler's Handy Sword", true)
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/128?cb=20201119235841",
       )
@@ -86,9 +86,9 @@ createSubcommand("list", {
         "",
       ])
       .addField("Rarity: ⭐⭐⭐⭐⭐", "🔹 Lost Prayer to the Sacred Winds\n🔹 Memory of Dust\n🔹 Skyward Atlas", true)
-      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Solar Pearl\n🔹 Eye of Perception\n🔹 The Widsith\n🔹 Frostbearer\n🔹 Sacrificial Fragments\n🔹 Royal Grimoire\n🔹 Prototype Amber\n🔹 Mappa Mare\n🔹 Favonius Codex\n🔹 Blackcliff Agate", true)
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Blackcliff Agate\n🔹 Eye of Perception\n🔹 Favonius Codex\n🔹 Frostbearer\n🔹 Mappa Mare\n🔹 Prototype Amber\n🔹 Royal Grimoire\n🔹 Sacrificial Fragments\n🔹 Solar Pearl\n🔹 The Widsith", true)
       .addBlankField()
-      .addField("Rarity: ⭐⭐⭐", "🔹 Magic Guide\n🔹 Thrilling Tales of Dragon Slayers\n🔹 Twin Nephrite\n🔹 Otherworldly Story\n🔹 Emerald Orb", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Emerald Orb\n🔹 Magic Guide\n🔹 Otherworldly Story\n🔹 Thrilling Tales of Dragon Slayers\n🔹 Twin Nephrite", true)
       .setThumbnail(
         "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/128?cb=20201119233859",
       )

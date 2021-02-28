@@ -42,7 +42,7 @@ gifData.forEach(async (data) => {
         const embed = botCache.helpers.authorEmbed(message).setImage(randomGif);
   
         // Send the embed to the channel
-        return message.send({ embed });
+        return message.send({ embed }).catch(console.log);
       },
     });
   });

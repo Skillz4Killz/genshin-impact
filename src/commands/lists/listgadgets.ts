@@ -17,8 +17,8 @@ createSubcommand("list", {
         `*If you want to search for gadget infos, type \`${prefix}gadget (name)\`\nThe gadget name has to be lower case and without spacing.\nFor example \`${prefix}gadget windcatcher\`*`,
         "",
       ])
-      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Condensed Resin\n🔹 Wind Catcher\n🔹 NRE (Menu 30)\n🔹 Geo Treasure Compass\n🔹 Anemo Treasure Compass\n🔹 Portable Waypoint\n🔹 Kamera\n🔹 Mini Seelie: Curcuma\n🔹 Mini Seelie: Dayflower\n🔹 Mini Seelie: Rosé\n🔹 Treasure-Seeking Seelie\n🔹 Parametric Transformer", true)
-      .addField("Rarity: ⭐⭐⭐", "🔹 Geoculus Resonance Stone\n🔹 Anemoculus Resonance Stone\n🔹 Adepti Seeker's Stove\n🔹 Warming Bottle", true)
+      .addField("Rarity: ⭐⭐⭐⭐", "🔹 Anemo Treasure Compass\n🔹 Condensed Resin\n🔹 Geo Treasure Compass\n🔹 Kamera\n🔹 Mini Seelie: Curcuma\n🔹 Mini Seelie: Dayflower\n🔹 Mini Seelie: Rosé\n🔹 NRE (Menu 30)\n🔹 Parametric Transformer\n🔹 Portable Waypoint\n🔹 Treasure-Seeking Seelie\n🔹 Wind Catcher", true)
+      .addField("Rarity: ⭐⭐⭐", "🔹 Adepti Seeker's Stove\n🔹 Anemoculus Resonance Stone\n🔹 Geoculus Resonance Stone\n🔹 Warming Bottle", true)
       .setTimestamp()
 
     await sendEmbed(message.channelID, embed).catch(console.log);
