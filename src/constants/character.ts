@@ -2678,9 +2678,9 @@ export const characters = new Map([
       description:
         "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
       thumbnail:
-        "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg/revision/latest/scale-to-width-down/281?cb=20210227051236",
+        "https://cdn.discordapp.com/attachments/798998306901983302/815700638209409074/310.png",
       image:
-        "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg/revision/latest/scale-to-width-down/281?cb=20210227051236",
+        "https://cdn.discordapp.com/attachments/798998306901983302/815700638209409074/310.png",
       color: "ff4000",
       emoji: "<:HuTao:815190067441696818>",
       category: "Pyro",
