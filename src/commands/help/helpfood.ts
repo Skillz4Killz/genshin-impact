@@ -135,7 +135,7 @@ createSubcommand("help", {
           ])
           .setFooter("Page 4/4")
           .setTimestamp()
-          .setColor("RANDOM");
+          .setColor("RANDOM")
 
 
       createPagination(message, [
