@@ -82,7 +82,7 @@ createCommand({
             if (!char) return "";
             // NOT FOR THIS CATEGORY
             if (char.category !== category.name) return "";
-            console.log(character)
+            if (char.name.toLowerCase() === "hutao") console.log(`char: ${char.category}, category: ${category.name}`)
             // CHAR DETAILS
             return `${char ? `${char.emoji} ` : ""}${character.name} *(Lv. ${character.charLevel} • C${character.constellationLevel})*`;
           })
