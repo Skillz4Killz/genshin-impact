@@ -77,10 +77,10 @@ createCommand({
             return b.charLevel - a.charLevel || a.name.localeCompare(b.name);
           })
           .map((character) => {
-            console.log(character)
             const char = characters.get(character.name.toLowerCase());
             // NOT A CHAR IN CONSTANTS
             if (!char) return "";
+            console.log(character)
             // NOT FOR THIS CATEGORY
             if (char.category !== category.name) return "";
             // CHAR DETAILS
