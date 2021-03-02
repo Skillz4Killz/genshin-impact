@@ -2678,9 +2678,9 @@ export const characters = new Map([
       description:
         "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
       thumbnail:
-        "https://cdn.discordapp.com/attachments/798998306901983302/815700638209409074/310.png",
+        "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210227222357",
       image:
-        "https://cdn.discordapp.com/attachments/798998306901983302/815700638209409074/310.png",
+        "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210227222357",
       color: "ff4000",
       emoji: "<:HuTao:815190067441696818>",
       category: "Pyro",
@@ -2692,7 +2692,7 @@ export const characters = new Map([
       specialDish: "Ghostly March",
       constellation: "Papilio Charontis",
       birthday: "July 15th",
-      ascensionCost: "https://cdn.discordapp.com/attachments/798854249806037033/815190749402366032/unknown.png",
+      ascensionCost: "https://i.imgur.com/Y5IH5oo.png",
       activeTalents: [
         {
           name: "Secret Spear of Wangsheng",
