@@ -2674,7 +2674,7 @@ export const characters = new Map([
   [
     "hutao",
     {
-      name: "Hu Tao",
+      name: "HuTao",
       description:
         "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
       thumbnail:
