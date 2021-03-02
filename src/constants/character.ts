@@ -2672,9 +2672,9 @@ export const characters = new Map([
     },
   ],
   [
-    "hu⠀tao",
+    "hu tao",
     {
-      name: "Hu⠀Tao",
+      name: "Hu Tao",
       description:
         "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
       thumbnail:
