@@ -78,7 +78,7 @@ createCommand({
           })
           .map((character) => {
             const char = characters.get(character.name.toLowerCase());
-            if (char?.name.toLowerCase() === "hutao") console.log(`char: ${char?.category}, category: ${category.name}`)
+            console.log(`${char?.name} char: ${char?.category}, category: ${category?.name}`)
             // NOT A CHAR IN CONSTANTS
             if (!char) return "";
             // NOT FOR THIS CATEGORY
