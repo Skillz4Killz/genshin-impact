@@ -2685,7 +2685,7 @@ export const characters = new Map([
       emoji: "<:HuTao:815190067441696818>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐⭐",
-      element: "<:Pyro:798483485832249354>",
+      element: "<:Pyro:798483485832249354> Pyro",
       weapon: "Polearm",
       nation: "Liyue",
       affiliation: "Wangsheng Funeral Parlor",
