@@ -80,9 +80,9 @@ createCommand({
             const char = characters.get(character.name.toLowerCase());
             // NOT A CHAR IN CONSTANTS
             if (!char) return "";
+            console.log(`${char?.name} char: ${char?.category}, category: ${category?.name}`)  
             // NOT FOR THIS CATEGORY
-            if (char.category !== category.name) return "";
-            console.log(`${char?.name} char: ${char?.category}, category: ${category?.name}`)            
+            if (char.category !== category.name) return "";     
             // CHAR DETAILS
             return `${char ? `${char.emoji} ` : ""}${character.name} *(Lv. ${character.charLevel} • C${character.constellationLevel})*`;
           })
