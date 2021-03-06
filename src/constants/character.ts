@@ -18,7 +18,7 @@ export const characters = new Map([
       specialDish: "Slow-Cooked Bamboo Shoot Soup",
       constellation: "Lapis Dei",
       birthday: "December 31st",
-      ascensionCost: "https://i.imgur.com/gPDl5vi.png",
+      ascensionCost: "https://i.imgur.com/qym2uue.png",
       activeTalents: [
         {
           name: "Rain of Stone",
@@ -108,7 +108,7 @@ export const characters = new Map([
       specialDish: "Rockin' Riffin' Chicken!",
       constellation: "Fila Ignium",
       birthday: "October 16th",
-      ascensionCost: "https://i.imgur.com/oS6dSH5.png",
+      ascensionCost: "https://i.imgur.com/A3ifYMk.png",
       activeTalents: [
         {
           name: "Dance of Fire",
@@ -198,7 +198,7 @@ export const characters = new Map([
       specialDish: "All-Delicacy Parcels",
       constellation: "Fabulae Textile",
       birthday: "October 9th",
-      ascensionCost: "https://i.imgur.com/kEXUzQH.png",
+      ascensionCost: "https://i.imgur.com/zYlNAqt.png",
       activeTalents: [
         {
           name: "Guhua Style",
@@ -286,7 +286,7 @@ export const characters = new Map([
       specialDish: "Wanmin Restaurant's Boiled Fish",
       constellation: "Trulla",
       birthday: "November 2nd",
-      ascensionCost: "https://i.imgur.com/aunDCW7.png",
+      ascensionCost: "https://i.imgur.com/2XN3xC3.png",
       activeTalents: [
         {
           name: "Dough-Fu",
@@ -374,7 +374,7 @@ export const characters = new Map([
       specialDish: "A Buoyant Breeze",
       constellation: "Carmen Dei",
       birthday: "June 16th",
-      ascensionCost: "https://i.imgur.com/iJJTVKY.png",
+      ascensionCost: "https://i.imgur.com/FzYGj1E.png",
       activeTalents: [
         {
           name: "Divine Marksmanship",
@@ -464,7 +464,7 @@ export const characters = new Map([
       specialDish: "Nutritious Meal (V. 593)",
       constellation: "Ampulla",
       birthday: "November 26th",
-      ascensionCost: "https://i.imgur.com/N32KTEh.png",
+      ascensionCost: "https://i.imgur.com/NS0pvZv.png",
       activeTalents: [
         {
           name: "Wind Spirit Creation",
@@ -554,7 +554,7 @@ export const characters = new Map([
       specialDish: "Puppy-Paw Hash Brown",
       constellation: "Lupus Minor",
       birthday: "September 9th",
-      ascensionCost: "https://i.imgur.com/Cyxorfr.png",
+      ascensionCost: "https://i.imgur.com/5CumB52.png",
       activeTalents: [
         {
           name: "Steel Fang",
@@ -644,7 +644,7 @@ export const characters = new Map([
       specialDish: "No Tomorrow",
       constellation: "Pristina Nola",
       birthday: "March 3rd",
-      ascensionCost: "https://i.imgur.com/Mp97kfp.png",
+      ascensionCost: "https://i.imgur.com/ffp4A4g.png",
       activeTalents: [
         {
           name: "Ancient Sword Art",
@@ -734,7 +734,7 @@ export const characters = new Map([
       specialDish: "Lighter-Than-Air Pancake",
       constellation: "Parma Cordis",
       birthday: "March 21st",
-      ascensionCost: "https://i.imgur.com/oacner2.png",
+      ascensionCost: "https://i.imgur.com/0EBSKsd.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Maid",
@@ -811,8 +811,10 @@ export const characters = new Map([
       category: "Geo",
       description:
         "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
-      thumbnail: "https://cdn.discordapp.com/attachments/798854249806037033/813056148856111164/usy9I7B.png",
-      image: "https://cdn.discordapp.com/attachments/798854249806037033/813056148856111164/usy9I7B.png",
+      thumbnail:
+        "https://cdn.discordapp.com/attachments/798854249806037033/813056148856111164/usy9I7B.png",
+      image:
+        "https://cdn.discordapp.com/attachments/798854249806037033/813056148856111164/usy9I7B.png",
       color: "ffc100",
       rarity: "⭐⭐⭐⭐",
       element: "<:Geo:798483630740865044> Geo",
@@ -822,7 +824,7 @@ export const characters = new Map([
       specialDish: "Qiankun Mora Meat",
       constellation: "Opus Aqe",
       birthday: "August 26th",
-      ascensionCost: "https://i.imgur.com/I219abV.png",
+      ascensionCost: "https://i.imgur.com/LoDdW11.png",
       activeTalents: [
         {
           name: "Sparkling Scatter",
@@ -911,7 +913,7 @@ export const characters = new Map([
       specialDish: "Mysterious Bolognese",
       constellation: "Tempus Fugit",
       birthday: "June 9th",
-      ascensionCost: "https://i.imgur.com/6APpHWD.png",
+      ascensionCost: "https://i.imgur.com/aiTDo9J.png",
       activeTalents: [
         {
           name: "Lightning Touch",
@@ -1001,7 +1003,7 @@ export const characters = new Map([
       specialDish: "Fish-Flavored Toast",
       constellation: "Trifolium",
       birthday: "July 27th",
-      ascensionCost: "https://i.imgur.com/lOIoolh.png",
+      ascensionCost: "https://i.imgur.com/zSCSnmt.png",
       activeTalents: [
         {
           name: "Kaboom!",
@@ -1091,7 +1093,7 @@ export const characters = new Map([
       specialDish: "Survival Grilled Fish",
       constellation: "Trulla Cementarii",
       birthday: "November 20th",
-      ascensionCost: "https://i.imgur.com/y74uJOU.png",
+      ascensionCost: "https://i.imgur.com/ggl1BSu.png",
       activeTalents: [
         {
           name: "Yunlai Swordsmanship",
@@ -1181,7 +1183,7 @@ export const characters = new Map([
       specialDish: "Fruity Skewers",
       constellation: "Pavo Ocellus",
       birthday: "November 30th",
-      ascensionCost: "https://i.imgur.com/yzRUth0.png",
+      ascensionCost: "https://i.imgur.com/BskahNj.png",
       activeTalents: [
         {
           name: "Ceremonial Bladework",
@@ -1271,7 +1273,7 @@ export const characters = new Map([
       specialDish: "Invigorating Pizza",
       constellation: "Leo Minor",
       birthday: "March 14th",
-      ascensionCost: "https://i.imgur.com/UAaZHxJ.png",
+      ascensionCost: "https://i.imgur.com/9eBfaLL.png",
       activeTalents: [
         {
           name: "Favonius Bladework",
@@ -1361,7 +1363,7 @@ export const characters = new Map([
       specialDish: "Prosperous Peace",
       constellation: "Sinae Unicornis",
       birthday: "December 2nd",
-      ascensionCost: "https://i.imgur.com/Kr4Qtxl.png",
+      ascensionCost: "https://i.imgur.com/X2lI3iv.png",
       activeTalents: [
         {
           name: "Liutian Archery",
@@ -1450,7 +1452,7 @@ export const characters = new Map([
       specialDish: "Die Heilige Sinfonie",
       constellation: "Corvus",
       birthday: "May 27th",
-      ascensionCost: "https://i.imgur.com/GJpU7Va.png",
+      ascensionCost: "https://i.imgur.com/XbgjAzL.png",
       activeTalents: [
         {
           name: "Bolts of Downfall",
@@ -1540,7 +1542,7 @@ export const characters = new Map([
       specialDish: "Once Upon a Time in Mondstadt",
       constellation: "Noctua",
       birthday: "April 30th",
-      ascensionCost: "https://i.imgur.com/NtpJStj.png",
+      ascensionCost: "https://i.imgur.com/Z8pKtAE.png",
       activeTalents: [
         {
           name: "Tempered Sword",
@@ -1630,7 +1632,7 @@ export const characters = new Map([
       specialDish: "Cold Noodles with Mountain Delicacies",
       constellation: "Nubis Caesor",
       birthday: "September 7th",
-      ascensionCost: "https://i.imgur.com/Mitihlt.png",
+      ascensionCost: "https://i.imgur.com/fhs7dHa.png",
       activeTalents: [
         {
           name: "Demonbane",
@@ -1720,7 +1722,7 @@ export const characters = new Map([
       specialDish: "A Prize Catch",
       constellation: "Monoceros Caeli",
       birthday: "July 20th",
-      ascensionCost: "https://i.imgur.com/kEXUzQH.png",
+      ascensionCost: "https://i.imgur.com/SrgcjDw.png",
       activeTalents: [
         {
           name: "Cutting Torrent",
@@ -1808,7 +1810,7 @@ export const characters = new Map([
       specialDish: "Teyvat Charred Egg",
       constellation: "Rota Calamitas",
       birthday: "February 29th",
-      ascensionCost: "https://i.imgur.com/N4TySHC.png",
+      ascensionCost: "https://i.imgur.com/hJnUNgE.png",
       activeTalents: [
         {
           name: "Strike of Fortune",
@@ -1897,7 +1899,7 @@ export const characters = new Map([
       specialDish: "Flash-Fried Filet",
       constellation: "Victor Mare",
       birthday: "February 14th",
-      ascensionCost: "https://i.imgur.com/pu1eQr2.png",
+      ascensionCost: "https://i.imgur.com/pFwixMX.png",
       activeTalents: [
         {
           name: "Oceanborne",
@@ -1987,7 +1989,7 @@ export const characters = new Map([
       specialDish: "Spicy Stew",
       constellation: "Crater",
       birthday: "July 5th",
-      ascensionCost: "https://i.imgur.com/NlHGc0P.png",
+      ascensionCost: "https://i.imgur.com/tpHA1MI.png",
       activeTalents: [
         {
           name: "Whisper of Water",
@@ -2076,7 +2078,7 @@ export const characters = new Map([
       specialDish: "Outrider's Champion Steak!",
       constellation: "Lepus",
       birthday: "August 10th",
-      ascensionCost: "https://i.imgur.com/QbFwe03.png",
+      ascensionCost: "https://i.imgur.com/2PAEEDU.png",
       activeTalents: [
         {
           name: "Sharpshooter",
@@ -2166,7 +2168,7 @@ export const characters = new Map([
       specialDish: "Woodland Dream",
       constellation: "Princeps Cretaceus",
       birthday: "September 13th",
-      ascensionCost: "https://i.imgur.com/YPC45mo.png",
+      ascensionCost: "https://i.imgur.com/xOUlDj3.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Weiss",
@@ -2256,7 +2258,7 @@ export const characters = new Map([
       specialDish: "Der Weisheit Letzter Schluss (Life)",
       constellation: "Astrolabos",
       birthday: "August 31st",
-      ascensionCost: "https://i.imgur.com/lwLnu7B.png",
+      ascensionCost: "https://i.imgur.com/AArkEgo.png",
       activeTalents: [
         {
           name: "Ripple of Fate",
@@ -2346,7 +2348,7 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      ascensionCost: "https://i.imgur.com/5rYBKgh.png",
+      ascensionCost: "https://i.imgur.com/AQDj6vc.png",
       activeTalents: [
         {
           name: "Foreign Rockblade",
@@ -2430,7 +2432,7 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      ascensionCost: "https://i.imgur.com/4mDYLVA.png",
+      ascensionCost: "https://i.imgur.com/AQDj6vc.png",
       activeTalents: [
         {
           name: "Foreign Ironwind",
@@ -2512,7 +2514,7 @@ export const characters = new Map([
       specialDish: "Definitely Not Bar Food!",
       constellation: "Feles",
       birthday: "January 18th",
-      ascensionCost: "https://i.imgur.com/iH3HmCm.png",
+      ascensionCost: "https://i.imgur.com/bGbAdzw.png",
       activeTalents: [
         {
           name: "Kätzlein Style",
@@ -2602,7 +2604,7 @@ export const characters = new Map([
       specialDish: "Sweet Dream",
       constellation: "Alatus Nemeseos",
       birthday: "April 17th",
-      ascensionCost: "https://i.imgur.com/9mfEloX.png",
+      ascensionCost: "https://i.imgur.com/r9wyclt.png",
       activeTalents: [
         {
           name: "Whirlwind Thrust",
@@ -2633,15 +2635,13 @@ export const characters = new Map([
         },
         {
           name: "Transcension - Gravity Defier",
-          description:
-            "Decreases all party member's falling DMG by 20%.",
+          description: "Decreases all party member's falling DMG by 20%.",
         },
       ],
       constellations: [
         {
           name: "C1: Dissolution Eon - Destroyer of Worlds",
-          description:
-            "Increases Lemniscatic Wind Cycling's charges by 1.",
+          description: "Increases Lemniscatic Wind Cycling's charges by 1.",
         },
         {
           name: "C2: Annihilation Eon - Blossom of Kaleidos",
@@ -2674,7 +2674,7 @@ export const characters = new Map([
   [
     "hutao",
     {
-      name: "HuTao",
+      name: "Hu Tao",
       description:
         "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
       thumbnail:
@@ -2692,12 +2692,12 @@ export const characters = new Map([
       specialDish: "Ghostly March",
       constellation: "Papilio Charontis",
       birthday: "July 15th",
-      ascensionCost: "https://i.imgur.com/Y5IH5oo.png",
+      ascensionCost: "https://i.imgur.com/MhN1fB0.png",
       activeTalents: [
         {
           name: "Secret Spear of Wangsheng",
           description:
-            "**Normal Attack**\nPerforms up to 6 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\n",
+            "**Normal Attack**\nPerforms up to 6 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Guide to Afterlife",
@@ -2757,6 +2757,97 @@ export const characters = new Map([
           name: "C6: Butterfly's Embrace",
           description:
             "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\n Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\n This effect triggers automatically when Hu Tao has 1 HP left.\n Can only occur once every 60s.",
+        },
+      ],
+    },
+  ],
+  [
+    "rosaria",
+    {
+      name: "Rosaria",
+      description:
+        "A nun who, outside of her garb, seems nothing at all like a person of the cloth. Known for her sharp, cold words and manner, she often works alone.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
+      image:
+        "hhttps://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
+      color: "00f9ff",
+      emoji: "<:Rosaria:817836681138274315>",
+      category: "Cryo",
+      rarity: "⭐⭐⭐⭐",
+      element: "<:Cryo:798483525052530719> Cryo",
+      weapon: "Polearm",
+      nation: "Mondstadt",
+      affiliation: "Church of Favonius",
+      specialDish: "NA",
+      constellation: "NA",
+      birthday: "Januarry 24th",
+      // TODO | Add ascensionCost
+      ascensionCost: "https://i.imgur.com/sq3GbBw.png",
+      activeTalents: [
+        {
+          name: "Spear of the Church",
+          description:
+            "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\n\n**Plunging Attack**\n Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+        },
+        {
+          name: "Skill: Ravaging Confession",
+          description:
+            "Rosaria swiftly shifts her position to appear behind the enemy, and then pierces and slashes them with her polearm, dealing **Cryo DMG**.\n",
+        },
+        {
+          name:
+            "Burst: Rites of Termination\nRosaria swings her weapon to slash nearby enemies and summons a frigid Ice Lance that strikes the ground, dealing **Cryo DMG**.\nThe Ice Lance will periodically release blasts of cold air, dealing more **Cryo DMG**.",
+          description: "Rosaria's signature act of prayer.\n",
+        },
+      ],
+      passiveTalents: [
+        {
+          name: "Regina Probationum",
+          description:
+            "Rosaria's CRIT rate increases while attacking enemies from behind using Ravaging Confession.",
+        },
+        {
+          name: "Shadow Samaritan",
+          description:
+            "osaria increases nearby party members' CRIT Rate after unleashing her Elemental Burst Rites of Termination.",
+        },
+        {
+          name: "Night Walk",
+          description:
+            "Rosaria increases the movement speed of her party members at night between 6:00PM and 6:00AM.",
+        },
+      ],
+      constellations: [
+        {
+          name: "C1: Unholy Revelation",
+          description:
+            "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
+        },
+        {
+          name: "C2: Land Without Promise",
+          description:
+            "The duration of the Ice Lance created by Rites of Termination is increased by 4s.",
+        },
+        {
+          name: "C3: The Wages of Sin",
+          description:
+            "Increases the Level of Ravaging Confessionby 3.\n Maximum upgrade level is 15.",
+        },
+        {
+          name: "C4: Painful Grace",
+          description:
+            "Ravaging Confession's Crit Hits regenerate 5 Energy for Rosaria.\n Can only be triggered once each time Ravaging Confession is cast.",
+        },
+        {
+          name: "C5: FLast Rites",
+          description:
+            "Increases the Level of Rites of Termination by 3.\n Maximum upgrade level is 15.",
+        },
+        {
+          name: "C6: Divine Retribution",
+          description:
+            "Rites of Termination' attack decreases opponents' Physical RES by 20% for 10s.",
         },
       ],
     },

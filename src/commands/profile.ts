@@ -21,7 +21,7 @@ createCommand({
   arguments: [
     { name: "member", type: "member", required: false },
     { name: "memberID", type: "snowflake", required: false },
-],
+  ],
   execute: async function (message, args: CommandArgs) {
     const member = args.member || message.member;
     if (!member) return;
@@ -31,7 +31,7 @@ createCommand({
       if (message.author.id !== member.id) {
         return message
           .reply(
-            "No profile found for this user yet. They must run the setup command first.",
+            "No profile found for this user yet. They must run the se130136895395987456tup command first.",
           )
           .catch(console.log);
       }
@@ -52,8 +52,7 @@ createCommand({
       .setThumbnail(member.avatarURL)
       .setFooter("")
       .setTimestamp()
-      .setColor("RANDOM")
-      
+      .setColor("RANDOM");
 
     for (
       const category of categories.sort(
@@ -65,35 +64,43 @@ createCommand({
             characters.get(c.name)?.category === a.name
           ).length,
       )
-    ) 
-    {
-      if (embed.fields.length === 2 || embed.fields[embed.fields.length - 3]?.name === "\u200B") embed.addBlankField()
+    ) {
+      if (
+        embed.fields.length === 2 ||
+        embed.fields[embed.fields.length - 3]?.name === "\u200B"
+      ) {
+        embed.addBlankField();
+      }
       embed.addField(
         `${category.emoji} ${category.name}`,
         settings.characters
           // SORT HIGHEST TO LOWEST
           // @ts-ignore
-          .sort(function(a, b) { 
+          .sort(function (a, b) {
             return b.charLevel - a.charLevel || a.name.localeCompare(b.name);
           })
           .map((character) => {
-            const char = characters.get(character.name.toLowerCase());
+            const char = characters.get(
+              character.name.split(" ").join("").toLowerCase(),
+            );
             // NOT A CHAR IN CONSTANTS
             if (!char) return "";
-            // console.log(`${char?.name} char: ${char?.category}, category: ${category?.name}`)  
+            // console.log(`${char?.name} char: ${char?.category}, category: ${category?.name}`)
             // NOT FOR THIS CATEGORY
             if (char.category !== category.name) return "";
             // CHAR DETAILS
-            return `${char ? `${char.emoji} ` : ""}${character.name} *(Lv. ${character.charLevel} • C${character.constellationLevel})*`;
+            return `${
+              char ? `${char.emoji} ` : ""
+            }${character.name} *(Lv. ${character.charLevel} • C${character.constellationLevel})*`;
           })
           // REMOVES EMPTY STRINGS
           .filter((x) => x)
           // JOIN TO 1 STRING OR DEFAULT TO NA IF EMPTY
           .join("\n") || "NA",
         true,
-      )
+      );
     }
-    
+
     await message.reply({ embed }).catch(console.log);
   },
 });

@@ -38,30 +38,44 @@ createCommand({
     }
 
     const messageStats = [
-      `**Processed:** ${botCache.helpers.shortNumber(
-        BigInt(stats.messagesProcessed || "0")
-      )}`,
-      `**Sent:** ${botCache.helpers.shortNumber(
-        BigInt(stats.messagesSent || "0")
-      )}`,
-      `**Deleted:** ${botCache.helpers.shortNumber(
-        BigInt(stats.messagesDeleted || "0")
-      )}`,
-      `**Edited:** ${botCache.helpers.shortNumber(
-        BigInt(stats.messagesUpdated || "0")
-      )}`,
-      `**Commands:** ${botCache.helpers.shortNumber(
-        BigInt(stats.commandsRan || "0")
-      )}`,
+      `**Processed:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.messagesProcessed || "0"),
+        )
+      }`,
+      `**Sent:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.messagesSent || "0"),
+        )
+      }`,
+      `**Deleted:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.messagesDeleted || "0"),
+        )
+      }`,
+      `**Edited:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.messagesUpdated || "0"),
+        )
+      }`,
+      `**Commands:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.commandsRan || "0"),
+        )
+      }`,
     ];
 
     const reactionStats = [
-      `**Added:** ${botCache.helpers.shortNumber(
-        BigInt(stats.reactionsAddedProcessed || "0")
-      )}`,
-      `**Removed:** ${botCache.helpers.shortNumber(
-        BigInt(stats.reactionsRemovedProcessed || "0")
-      )}`,
+      `**Added:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.reactionsAddedProcessed || "0"),
+        )
+      }`,
+      `**Removed:** ${
+        botCache.helpers.shortNumber(
+          BigInt(stats.reactionsRemovedProcessed || "0"),
+        )
+      }`,
     ];
     const embed = new Embed()
       .setAuthor(
@@ -72,9 +86,9 @@ createCommand({
       .addField("Servers:", cache.guilds.size.toLocaleString(), true)
       .addField("Members:", totalMemberCount.toLocaleString(), true)
       .addField("Channels:", cache.channels.size.toLocaleString(), true)
-      .addField("Messages:", cache.messages.size.toLocaleString(), true)
       .addBlankField(true)
       .addField("Uptime:", humanizeMilliseconds(Date.now() - UPTIME), true)
+      .addBlankField(true)
       .addField("Messages", messageStats.join("\n"), true)
       .addField("Reactions", reactionStats.join("\n"), true)
       .setTimestamp();

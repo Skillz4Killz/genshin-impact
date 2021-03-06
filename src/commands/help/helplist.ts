@@ -11,6 +11,7 @@ createSubcommand("help", {
       .setTitle("Help List")
       .setDescription([
         `🔹 \`${prefix}list artifacts\``,
+        `🔹 \`${prefix}list [chars | character]\``,
         `🔹 \`${prefix}list food\``,
         `🔹 \`${prefix}list gadgets\``,
         `🔹 \`${prefix}list materials\``,

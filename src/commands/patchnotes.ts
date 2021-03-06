@@ -1,8 +1,6 @@
 import { parsePrefix } from "../monitors/commandHandler.ts";
 import { Embed } from "../utils/Embed.ts";
-import {
-  createCommand,
-} from "../utils/helpers.ts";
+import { createCommand } from "../utils/helpers.ts";
 
 createCommand({
   name: "patchnotes",
@@ -16,13 +14,16 @@ createCommand({
         .setTitle("Need help, Traveler?")
         .setDescription([
           `\`${prefix}update 1.1\``,
-          "**not availabable yet**",
+          "'A New Star Approaches'",
           "",
           `\`${prefix}update 1.2\``,
           "'The Chalk Prince and the Dragon",
           "",
           `\`${prefix}update 1.3\``,
           "'All That Glitters'",
+          "",
+          `\`${prefix}update 1.5\``,
+          "**not availabable yet**",
           "",
         ]),
     }).catch(console.log);

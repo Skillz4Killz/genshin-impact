@@ -1,7 +1,6 @@
-import { addReactions, Message, removeUserReaction } from "../../../deps.ts";
-import { needReaction } from "../../utils/collectors.ts";
 import { Embed } from "../../utils/Embed.ts";
-import { createSubcommand, editEmbed, sendEmbed } from "../../utils/helpers.ts";
+import { createSubcommand } from "../../utils/helpers.ts";
+import { createPagination } from "../../utils/pagination.ts";
 
 createSubcommand("patchnotes", {
   name: "1.2",
@@ -24,7 +23,9 @@ createSubcommand("patchnotes", {
         "",
         "**Dear Travelers,**\n\nThe content update for Version 1.2 'The Chalk Prince and the Dragon' is as follows.",
       ])
-      .setThumbnail("https://progameguides.com/wp-content/uploads/2020/12/Albedo.jpg")
+      .setThumbnail(
+        "https://progameguides.com/wp-content/uploads/2020/12/Albedo.jpg",
+      )
       .setFooter("Page 1/22")
       .setTimestamp()
       .setColor("RANDOM");
@@ -44,105 +45,104 @@ createSubcommand("patchnotes", {
         "Compensation for issue fixes will be given out at 2020-12-23 06:00:00 to all Travelers who have reached Adventure Rank 5 or above. Please access this in-game mail before 2020-12-26 11:00:00.",
         "",
         "Our developers will distribute compensation to Travelers via in-game mail within 5 hours after the update maintenance is finished. Please go online to receive your mail before 2020/12/26 11:00. The mail will expire after 30 days, so don't forget to claim the attached compensation in time.",
-        "*All times above based on UTC+8*"
+        "*All times above based on UTC+8*",
       ])
       .setFooter("Page 2/22")
       .setTimestamp()
       .setColor("RANDOM");
-      
+
     const thirdEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
-      "**〓Update Details〓**",
-      "*(All times below based on server time)*",
-      "",
-      "**I. New Area**",
-      "**New Area - Dragonspine**",
-      "◇ New Area - Dragonspine: Travelers will be able to put their adventuring skills to the test in the Subzero Climate of the all-new Dragonspine area. Here, Travelers will discover a whole new exploration experience, filled with various puzzles as well as new quests and mechanisms awaiting at every turn.",
-      "",
-      "◇ New Mechanics - Subzero Climate: Characters in Subzero Climate will continuously accumulate Sheer Cold. When Sheer Cold reaches its limit, they will start losing HP. Bonfires, torches, and other sources of heat will diminish Sheer Cold. Certain conditions like Snowstorms and actions like swimming will accelerate Sheer Cold's accumulation.",
-      "",
-      "",
-      "**New Feature of Dragonspine: Frostbearing Tree**",
-      "",
-      "◇ The ancient tree that should have slumbered forever under the ice and snow has sprouted scarlet sprouts anew. Offer the Crimson Agates scattered all over Dragonspine to this tree, and you may obtain just rewards in return...",
-      "",
-      "◆ While exploring Dragonspine, Travelers will sometimes stumble upon crystalline Crimson Agate, which can be offered to the Frostbearing Tree. Doing so will level up the Frostbearing Tree, granting Travelers various rewards that include Acquaint Fate, Intertwined Fate, a wind glider, Mora, Weapon EXP Materials, Character EXP Materials, Talent Level-Up Materials, and Gadget diagrams. As the Frostbearing Tree grows, so too will its desire for power. With its system of roots that spread out throughout Dragonspine, it will periodically discover new sources of Crimson Agate.",
-      "Heed its desire and collect Crimson Agate throughout the mountain!",
-      "",
-      "",
-      "**New Domain of Dragonspine - Peak in Vindagnyr**",
-      "",
-      "◇ This city entombed in snow once had a proud, romantic name to call its own, just as the mountain itself was once lush and verdant in the ancient past. But after the nail that froze the skies over descended upon this mountain, the priests who ascended the altar to face the heavens can no longer hear its voice, nor will they ever return again.",
-      "",
-      "◆ Challenge the Domain to receive artifacts from the Blizzard Strayer, Heart of Depth, and other sets.",
-    ])
-    .setFooter("Page 3/22")
-    .setTimestamp()
-    .setColor("RANDOM");
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
+        "**〓Update Details〓**",
+        "*(All times below based on server time)*",
+        "",
+        "**I. New Area**",
+        "**New Area - Dragonspine**",
+        "◇ New Area - Dragonspine: Travelers will be able to put their adventuring skills to the test in the Subzero Climate of the all-new Dragonspine area. Here, Travelers will discover a whole new exploration experience, filled with various puzzles as well as new quests and mechanisms awaiting at every turn.",
+        "",
+        "◇ New Mechanics - Subzero Climate: Characters in Subzero Climate will continuously accumulate Sheer Cold. When Sheer Cold reaches its limit, they will start losing HP. Bonfires, torches, and other sources of heat will diminish Sheer Cold. Certain conditions like Snowstorms and actions like swimming will accelerate Sheer Cold's accumulation.",
+        "",
+        "",
+        "**New Feature of Dragonspine: Frostbearing Tree**",
+        "",
+        "◇ The ancient tree that should have slumbered forever under the ice and snow has sprouted scarlet sprouts anew. Offer the Crimson Agates scattered all over Dragonspine to this tree, and you may obtain just rewards in return...",
+        "",
+        "◆ While exploring Dragonspine, Travelers will sometimes stumble upon crystalline Crimson Agate, which can be offered to the Frostbearing Tree. Doing so will level up the Frostbearing Tree, granting Travelers various rewards that include Acquaint Fate, Intertwined Fate, a wind glider, Mora, Weapon EXP Materials, Character EXP Materials, Talent Level-Up Materials, and Gadget diagrams. As the Frostbearing Tree grows, so too will its desire for power. With its system of roots that spread out throughout Dragonspine, it will periodically discover new sources of Crimson Agate.",
+        "Heed its desire and collect Crimson Agate throughout the mountain!",
+        "",
+        "",
+        "**New Domain of Dragonspine - Peak in Vindagnyr**",
+        "",
+        "◇ This city entombed in snow once had a proud, romantic name to call its own, just as the mountain itself was once lush and verdant in the ancient past. But after the nail that froze the skies over descended upon this mountain, the priests who ascended the altar to face the heavens can no longer hear its voice, nor will they ever return again.",
+        "",
+        "◆ Challenge the Domain to receive artifacts from the Blizzard Strayer, Heart of Depth, and other sets.",
+      ])
+      .setFooter("Page 3/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const fourthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
-      "**II. New Characters**",
-      "**5-Star Character 'Kreideprinz' Albedo (Geo)**",
-      "◇ Vision: Geo",
-      "◇ Weapon: Sword",
-      "◇ A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
-      "",
-      "◆ Elemental Skill 'Abiogenesis: Solar Isotoma' - Albedo creates a Solar Isotoma using the power of alchemy. When an enemy takes DMG within its range, a Transient Blossom is generated, dealing additional Geo DMG. The center of the Solar Isotoma can also provide a crystallized platform to elevate characters.",
-      "Elemental Burst 'Rite of Progeniture: Tectonic Tide' - Deals AoE Geo DMG in a wide area, and also generates Fatal Blossoms in the Solar Isotoma zone, causing additional Geo DMG.",
-      "The event wish 'Secretum Secretorum' will be available from after the Version 1.2 update until 2021-01-12 15:59:59. During this time, the event-exclusive 5-Star character 'Kreideprinz' Albedo (Geo) will get a huge drop-rate boost!",
-      "",
-      "",
-      "**5-Star Character 'Plenilune Gaze' Ganyu (Cryo)**",
-      "◇ Vision: Cryo",
-      "◇ Weapon: Bow",
-      "◇ The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
-      "",
-      "◆ Elemental Skill 'Trail of the Qilin' - Ganyu conjures an Ice Lotus that taunts enemies, drawing their attacks and dealing AoE Cryo DMG when it disappears.",
-      "Elemental Burst 'Celestial Shower' - Rains down shards of ice over a large area, dealing Cryo DMG.",
-      "",
-      "*The character 'Plenilune Gaze' Ganyu (Cryo) will appear in a subsequent event wish.*",
-    ])
-    .setFooter("Page 4/22")
-    .setTimestamp()
-    .setColor("RANDOM");
-
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
+        "**II. New Characters**",
+        "**5-Star Character 'Kreideprinz' Albedo (Geo)**",
+        "◇ Vision: Geo",
+        "◇ Weapon: Sword",
+        "◇ A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+        "",
+        "◆ Elemental Skill 'Abiogenesis: Solar Isotoma' - Albedo creates a Solar Isotoma using the power of alchemy. When an enemy takes DMG within its range, a Transient Blossom is generated, dealing additional Geo DMG. The center of the Solar Isotoma can also provide a crystallized platform to elevate characters.",
+        "Elemental Burst 'Rite of Progeniture: Tectonic Tide' - Deals AoE Geo DMG in a wide area, and also generates Fatal Blossoms in the Solar Isotoma zone, causing additional Geo DMG.",
+        "The event wish 'Secretum Secretorum' will be available from after the Version 1.2 update until 2021-01-12 15:59:59. During this time, the event-exclusive 5-Star character 'Kreideprinz' Albedo (Geo) will get a huge drop-rate boost!",
+        "",
+        "",
+        "**5-Star Character 'Plenilune Gaze' Ganyu (Cryo)**",
+        "◇ Vision: Cryo",
+        "◇ Weapon: Bow",
+        "◇ The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+        "",
+        "◆ Elemental Skill 'Trail of the Qilin' - Ganyu conjures an Ice Lotus that taunts enemies, drawing their attacks and dealing AoE Cryo DMG when it disappears.",
+        "Elemental Burst 'Celestial Shower' - Rains down shards of ice over a large area, dealing Cryo DMG.",
+        "",
+        "*The character 'Plenilune Gaze' Ganyu (Cryo) will appear in a subsequent event wish.*",
+      ])
+      .setFooter("Page 4/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const fifthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
-      "**III. New Equipment**",
-      "▌New Weapons",
-      "**Summit Shaper (5-Star Sword)**",
-      "◇ A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.",
-      "",
-      "◆ Increases wielder's shield strength (when the wielder is on the field, any currently active shield absorbs an additional amount of DMG). On hit, gives an ATK boost (max 5 stacks). When under the protection of a shield, the ATK boost effect increases by 220%.",
-      "",
-      "◆ The event wish 'Epitome Invocation' will be available from after the Version 1.2 update to 2021-01-12 15:59:59. During this time, the event-exclusive 5-star weapon Summit Shaper (Sword) will get a huge drop-rate boost!",
-      "",
-      "",
-      "**Festering Desire (4-Star Sword)**",
-      "◇ A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
-      "",
-      "◆ Complete the Story Quest 'Princeps Cretaceus Chapter: Act I' and the event quest 'Festering Desire' to receive the exclusive sword, Festering Desire. During the event, the character that equips this sword will receive some special buffs while exploring the Dragonspine area.",
-      "",
-      "",
-      "**Snow-Tombed Starsilver (4-Star Claymore)**",
-      "◇ An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
-      "",
-      "◆ Hitting an opponent with Normal and Charged Attacks has a chance of forming and dropping an Everfrost Icicle above them, dealing AoE ATK DMG. Opponents affected by Cryo are dealt further ATK DMG. Can only occur once in a specified period.",
-      "",
-      "◆ When exploring in Dragonspine, fulfill certain criteria to obtain the weapon Snow-Tombed Starsilver and unlock its forging method.",
-    ])
-    .setFooter("Page 5/22")
-    .setTimestamp()
-    .setColor("RANDOM");
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
+        "**III. New Equipment**",
+        "▌New Weapons",
+        "**Summit Shaper (5-Star Sword)**",
+        "◇ A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.",
+        "",
+        "◆ Increases wielder's shield strength (when the wielder is on the field, any currently active shield absorbs an additional amount of DMG). On hit, gives an ATK boost (max 5 stacks). When under the protection of a shield, the ATK boost effect increases by 220%.",
+        "",
+        "◆ The event wish 'Epitome Invocation' will be available from after the Version 1.2 update to 2021-01-12 15:59:59. During this time, the event-exclusive 5-star weapon Summit Shaper (Sword) will get a huge drop-rate boost!",
+        "",
+        "",
+        "**Festering Desire (4-Star Sword)**",
+        "◇ A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+        "",
+        "◆ Complete the Story Quest 'Princeps Cretaceus Chapter: Act I' and the event quest 'Festering Desire' to receive the exclusive sword, Festering Desire. During the event, the character that equips this sword will receive some special buffs while exploring the Dragonspine area.",
+        "",
+        "",
+        "**Snow-Tombed Starsilver (4-Star Claymore)**",
+        "◇ An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
+        "",
+        "◆ Hitting an opponent with Normal and Charged Attacks has a chance of forming and dropping an Everfrost Icicle above them, dealing AoE ATK DMG. Opponents affected by Cryo are dealt further ATK DMG. Can only occur once in a specified period.",
+        "",
+        "◆ When exploring in Dragonspine, fulfill certain criteria to obtain the weapon Snow-Tombed Starsilver and unlock its forging method.",
+      ])
+      .setFooter("Page 5/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const sixthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "**Dragonspine Spear (4-Star Polearm)**",
         "◇ A spear created from the fang of a dragon. It is oddly warm to the touch.",
         "",
@@ -170,14 +170,14 @@ createSubcommand("patchnotes", {
         "◇ 4-Piece Set: After using Elemental Skill, increases Normal Attack and Charged Attack DMG for a period of time.",
         "",
         "◆ Challenge the brand new Domain of Blessing 'Peak of Vindagnyr' in Dragonspine and obtain artifacts in the aforementioned sets.",
-    ])
-    .setFooter("Page 6/22")
-    .setTimestamp()
-    .setColor("RANDOM");
+      ])
+      .setFooter("Page 6/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const seventhEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "IV. New Events (Version 1.2 Events No Longer Require Original Resin)",
         "**Version Main Event — 'The Chalk Prince and the Dragon'**",
         "◇ If not for Sucrose, no one would have known that Albedo is hiding a great secret — one that involves a mysterious unknown sword and a mountain entombed in ice for millennia... Onwards and upwards, Traveler! In spite of the bitter cold...",
@@ -189,14 +189,14 @@ createSubcommand("patchnotes", {
         "",
         "",
         "◆ More events are coming soon. Stay tuned!",
-    ])
-    .setFooter("Page 7/22")
-    .setTimestamp()
-    .setColor("RANDOM");
+      ])
+      .setFooter("Page 7/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const eighthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "V. New Systems",
         "**'Stellar Reunion' Returnee Event: Return to Teyvat and obtain the sword Prototype Rancour!**",
         "After the Version 1.2 update, Travelers who meet the Returnee Eligibility conditions can activate the 'Stellar Reunion' returnee event for the opportunity to get the 4-star weapon Prototype Rancour (Sword), Primogems, Fragile Resin, and other rewards.",
@@ -222,15 +222,15 @@ createSubcommand("patchnotes", {
         "",
         "● After the event ends, event progress will be cleared and any unclaimed rewards will be lost. Remember to claim your rewards in time!",
         "",
-        "※ The refresh times above are based on the time of the server you play on."
-    ])
-    .setFooter("Page 8/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+        "※ The refresh times above are based on the time of the server you play on.",
+      ])
+      .setFooter("Page 8/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const ninethEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "VI. New Quests",
         "**1. New Story Quests**",
         "Princeps Cretaceus Chapter: Act I",
@@ -259,14 +259,14 @@ createSubcommand("patchnotes", {
         "◆ New Commission Quests in Dragonspine: 'Floral Fresh,' 'Fresh Flora,' 'Emergency Supplies,' 'Only Half-Frozen,' and 'Eat It While It's Hot.'",
         "",
         "◆ Complete these quests to obtain Primogems, Weapon Enhancement Materials, and other rewards!",
-    ])
-    .setFooter("Page 9/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 9/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const tenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "VII. Other New Content",
         "• Gameplay",
         "**1. New Monsters:**",
@@ -296,15 +296,15 @@ createSubcommand("patchnotes", {
         "◆ Albedo: Sun Blossom - Reward for reaching Friendship Lv. 22 with Albedo",
         "◆ Travel Notes: Chalk - Reward obtained via the BP system",
         "◆ Frostbearing: Ancient Tree - Reward for reaching Frostbearing Tree Offering Lv 9",
-        "◆ Celebration: Hypostasis - Reward obtained via the Hypostatic Symphony event"
-    ])
-    .setFooter("Page 10/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+        "◆ Celebration: Hypostasis - Reward obtained via the Hypostatic Symphony event",
+      ])
+      .setFooter("Page 10/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const eleventhEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "**7. Spiral Abyss:**",
         "◆ Floor 9: Characters on the field will continuously accumulate Sheer Cold and will continually lose HP after Sheer Cold reaches its limit. There will also be a Ruin Brazier on the field. While the Ruin Brazier is activated, getting close to it will reduce Sheer Cold. Enemies will attack the Ruin Brazier on the field to stop it. After having stopped for a period of time, the Ruin Brazier will restart automatically.",
         "",
@@ -325,14 +325,14 @@ createSubcommand("patchnotes", {
         "◆ Phase II: When a character obtains a Cryo Elemental Shard created from a Crystallize Reaction between Geo and Cryo, ATK increases by 5%, ATK SPD increases by 5%, and Movement SPD increases by 4%. This effect lasts for 20s and has a maximum of 5 stacks.",
         "",
         "◆ Phase III: When a character obtains a Cryo Elemental Shard created from a Crystallize Reaction between Geo and Cryo, CRIT Rate increases by 8%. This effect lasts for 20s and has a maximum of 5 stacks.",
-    ])
-    .setFooter("Page 11/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 11/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const twelfthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "• System",
         "1. Adds private chats with friends.",
         "2. Adds function to edit friends' names.",
@@ -357,14 +357,14 @@ createSubcommand("patchnotes", {
         "3. Optimizes Co-Op Mode:",
         "◆ The host can disband the Co-Op team.",
         "◆ In Co-Op Domains, guests and the host can both quit the Co-Op anytime without affecting other Travelers in the game.",
-    ])
-    .setFooter("Page 12/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 12/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const thirteenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "• Other",
         "1. Adjusted the order of voice-over entries in character profiles. (Only the displayed order was affected, not the unlock status.)",
         "2. Standardizes the description of infusion effects for some characters or mechanics. (Actual effects remain unchanged.)",
@@ -383,13 +383,13 @@ createSubcommand("patchnotes", {
         "New Description:",
         "Releases intense flames to knock nearby opponents back, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause it to be infused with Pyro.",
       ])
-    .setFooter("Page 13/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      .setFooter("Page 13/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const fourteenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "◆ Chongyun's Elemental Skill 'Spirit Blade: Chonghua's Layered Frost.'",
         "Original Description:",
         "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG.",
@@ -412,14 +412,14 @@ createSubcommand("patchnotes", {
         "",
         "New Description:",
         "...Tartaglia's Normal and Charged Attacks are converted to Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:...",
-    ])
-    .setFooter("Page 14/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 14/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const fifteenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "3. Updates the description of Ningguang's Passive Talent 'Trove of Marvelous Treasures' by adding Starsilver to the list of displayed ore veins. The new description reads: 'Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, Magical Crystal Ore, and Starsilver) on the mini-map.'",
         "",
         "4. Adjusts the Exploration Progress for 'Galesong Hill,' 'Windwail Highland,' 'Bishui Plains,' and 'Lisha.' Travelers that already had a certain amount of Exploration Progress at these locations will obtain a slight increase in their Exploration Progress. Those who have already reached 220% in Exploration Progress will not be affected.",
@@ -440,14 +440,14 @@ createSubcommand("patchnotes", {
         "",
         "New Description:",
         "Charged Attack hits on weak points deal an additional 220% ATK DMG as CRIT DMG. Can only occur once every 22s.",
-    ])
-    .setFooter("Page 15/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 15/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const sixteenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "◆ Rust Weapon Effect - Rapid Firing",
         "Old Description:",
         "Increases Normal Attack DMG by 40%, but decreases Aimed Shot DMG by 22%.",
@@ -475,14 +475,14 @@ createSubcommand("patchnotes", {
         "",
         "New Description:",
         "Increases Normal and Charged Attack DMG by 12%. Normal and Charged Attack DMG increases by 8% every 0.1s for up to 5 times.",
-    ])
-    .setFooter("Page 16/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 16/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const seventeenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "◆ Prototype Amber Weapon Effect - Gilding",
         "Old Description:",
         "Using an Elemental Burst regenerates 4 Energy every 2s for 6s. Additionally, all party members will regenerate 4% HP every 2s for this duration.",
@@ -505,14 +505,14 @@ createSubcommand("patchnotes", {
         "2. Fixes an issue with the Domain 'Confront Stormterror' whereby Dvalin's neck may not display properly when his weak spot is exposed.",
         "3. Fixes errors in the Spiral Abyss description regarding the Blessing of the Abyssal Moon refresh time. The revised description reads: 'With the start of a new Lunar Phase on the first and sixteenth day of each month, the Abyssal Moon Spire's rewards will reset, which may also cause a new period of Blessing of the Abyssal Moon to begin.' No change has been made to the function itself.",
         "4. Fixes an issue whereby the Childe boss may be unable to move due to Geo constructs.",
-    ])
-    .setFooter("Page 17/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 17/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const eigthteenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "• Quests",
         "1. Fixes an issue with the World Quest 'Necessary Procedures' whereby if the time changes at the point of submitting quest items, quest progress may not advance as expected.",
         "2. Fixes an issue with the World Quest 'Words Worth Their Weight in Mora' whereby the required quest item may be missing from the Inventory.",
@@ -533,14 +533,14 @@ createSubcommand("patchnotes", {
         "6. Fixes an issue with Kaeya's Elemental Burst 'Glacial Waltz' whereby the icicles summoned are unable to trigger Elemental Reactions with bodies of water and grass terrain.",
         "7. Fixes an issue with Diona whereby if she is attacked by an enemy after her Passive Talent 'Drunkards' Farce' has been triggered, reconnecting to the server will cause errors with the duration of this Passive Talent's effect.",
         "8. Fixes an issue with the shield generated by Diona's Elemental Skill 'Icy Paws' whereby when terminating the game client process while the shield is active, the effect duration of the Passive Talent 'Cat's Tail Secret Menu' may not be as expected.",
-    ])
-    .setFooter("Page 18/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 18/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const nineteenthEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "9. Fixes an issue with Diona whereby when using “Icy Paws” to create a shield for herself, if the connection cuts out, the shield will disappear after the game reconnects to the server.",
         "22. Fixes an issue with Lisa whereby Low Plunge Attack DMG is not as expected.",
         "11. Fixes an issue with Klee whereby if a Charged Attack is used at the same time as the Passive Talent 'Pounding Surprise'is triggered, Explosive Sparks will unexpectedly disappear and the Talent's effect will not function properly.",
@@ -556,14 +556,14 @@ createSubcommand("patchnotes", {
         "21. Fixes an issue whereby when characters pick up Shards dropped by Geovishap Hatchlings, the resulting shield does not produce the expected interruption resistance effect.",
         "22. Fixes an issue affecting Fischl whereby if Fischl completes a chamber in the Spiral Abyss while in the form of Oz, Fischl's character model will appear incorrectly in the next chamber.",
         "23. Fixes an issue with Noelle whereby if the Internet connection is weak, switching character after casting her Elemental Skill incorrectly triggers Noelle's Level 4 Constellation 'To Be Cleaned.'",
-    ])
-    .setFooter("Page 19/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 19/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const twentythEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "• Weapons",
         "1. Fixes an issue whereby when a character is equipped with the Eye of Perception, the weapon effect 'Echo' will target animals when it is triggered.",
         "",
@@ -580,14 +580,14 @@ createSubcommand("patchnotes", {
         "22. Fixes an issue whereby Geo constructs may move NPCs from their positions.",
         "11. Fixes an issue on mobile devices whereby when Graphics > Graphics Quality is set to Lowest, the Golden House environment displays incorrectly.",
         "12. Fixes the issue of Smoldering Flames' Pyro DoT interrupting character actions.",
-    ])
-    .setFooter("Page 20/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 20/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const twentyonethEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "13. Fixes the description of the Elemental Resonance effect 'Protective Canopy.' The revised description adds the wording: 'Physical RES +15%.' No change has been made to the function itself.",
         "14. Fixes an issue whereby some characters' attacks will target Elemental Nodes.",
         "15. Fixes textual errors and display issues in some languages and optimizes the localization of text. 'Note:'",
@@ -598,14 +598,14 @@ createSubcommand("patchnotes", {
         "◆ Unifies descriptions relating to Lisa's Elemental Skill 'Violet Arc.' The effect referred to in places as 'Shocked status' is now consistently referred to as 'Conductive status.'",
         "◆ Corrects the description for one of the 'Elemental Reaction' loading screen tips. The original description read: 'Even the seemingly-inert Geo has its elemental reaction. When it comes into contact with Hydro, Pyro, Cryo, or Electro, Crystallize occurs, producing DMG-dealing elemental shards.' The revised description reads: 'Even the seemingly inert Geo has its elemental reaction. When it comes into contact with Hydro, Pyro, Cryo, or Electro, Crystallize occurs, producing DMG-absorbing elemental shards.'",
         "◆ Corrects the Source description for the in-game item Anemo Sigil. The original description read 'Mondstadt Expedition Reward.' The revised description reads 'Mondstadt Exploration Reward.'",
-    ])
-    .setFooter("Page 21/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 21/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     const twentytwoEmbed = new Embed()
-    .setTitle("Update Notes Version 1.2")
-    .setDescription([
+      .setTitle("Update Notes Version 1.2")
+      .setDescription([
         "◆ Corrects the Source description for the in-game item Geo Sigil. The original description read 'Liyue Expedition Reward.' The revised description reads 'Liyue Exploration Reward.'",
         "◆ Corrects the Source description for the Character EXP Materials 'Wanderer's Advice' and 'Adventurer's Experience.' The original descriptions read 'Adventure and Expedition Reward.' The revised descriptions read 'Adventure and Exploration Reward.'",
         "◆ The name of Kaeya's Passive Talent 'Heart of the Abyss' is revised to 'Glacial Heart.'",
@@ -622,10 +622,10 @@ createSubcommand("patchnotes", {
         "16. (Continuation from a related fix in 1.1) Adjusted the strength of the Overload DMG done by burning grass to targets affected by Electro. The DMG from this Elemental Reaction will be adjusted to 2 World Levels below the Traveler's current World Level. The lowest possible strength is World Level 0, and the highest possible strength is World Level 4.",
         "",
         "With this, the adjustment to environmental Elemental Reaction DMG as laid out in the 'World Level of Environmental Elemental Reaction Damage' notice on November 12 will be complete.",
-    ])
-    .setFooter("Page 22/22")
-    .setTimestamp()
-    .setColor("RANDOM")
+      ])
+      .setFooter("Page 22/22")
+      .setTimestamp()
+      .setColor("RANDOM");
 
     createPagination(message, [
       firstEmbed,
@@ -653,91 +653,3 @@ createSubcommand("patchnotes", {
     ]);
   },
 });
-
-export async function createPagination(
-  message: Message,
-  embeds: Embed[],
-  page = 1,
-): Promise<void> {
-  if (embeds.length === 0) {
-    return;
-  }
-
-  const { channelID, author } = message;
-
-  let currentPage: number = page - 1;
-
-  let embedMessage = await sendEmbed(channelID, embeds[currentPage]);
-
-  if (!embedMessage) {
-    return;
-  }
-
-  if (embeds.length <= 1) {
-    return;
-  }
-
-  try {
-    addReactions(
-      embedMessage.channelID,
-      embedMessage.id,
-      ["⏮️", "◀️", "▶️", "⏭️"],
-      true,
-    );
-  } catch (e) {
-    console.error(e);
-    return;
-  }
-
-  while (true) {
-    if (!embedMessage) {
-      return;
-    }
-    const reaction = await needReaction(author.id, embedMessage.id);
-
-    if (!reaction) {
-      return;
-    }
-
-    if (
-      !(removeUserReaction(
-        message.channelID,
-        embedMessage.id,
-        reaction,
-        message.author.id,
-      ).catch(console.error))
-    ) {
-      return;
-    }
-
-    if (reaction === "◀️") {
-      currentPage--;
-    } else if (reaction === "▶️") {
-      currentPage++;
-    } else if (reaction === "⏮️") {
-      currentPage = 0;
-    } else if (reaction === "⏭️") {
-      currentPage = embeds.length - 1;
-    } else {
-      continue;
-    }
-
-    if (currentPage < 0) {
-      currentPage = 0;
-    }
-
-    if (currentPage > embeds.length - 1) {
-      currentPage = embeds.length - 1;
-    }
-
-    if (!embedMessage) {
-      return;
-    }
-
-    if (
-      !(await editEmbed(embedMessage, embeds[currentPage]).catch(console.error))
-    ) {
-      return;
-    }
-  }
-}

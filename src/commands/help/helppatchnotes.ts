@@ -21,7 +21,8 @@ createSubcommand("help", {
         `🔹 \`${prefix}patchnotes (version)\``,
         `🔹 \`${prefix}update (version)\``,
         `🔹 \`${prefix}version (version)\``,
-        "Shows all informations about a version."
+        "Shows all informations about a version.",
+        "Versions are provided as `1.3` or `1-1`.",
       ])
       .setTimestamp()
       .setColor("RANDOM");
