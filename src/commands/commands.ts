@@ -17,7 +17,7 @@ createCommand({
       .setDescription([
         `🔹 \`${prefix}char (character name)\`\nShows info about a specific character.`,
         "",
-        `🔹 \`${prefix}list (weapons | artifacts | food | gadgets | materials | domains)\`\nShows you a list of the specific type.`,
+        `🔹 \`${prefix}list [artifacts | chars | domains | food | gadgets | materials | weapons]\`\nShows you a list of the specific type.`,
         "",
         `🔹 \`${prefix}weapon (weapon name)\`\nShows info about a specific weapon.`,
         "",
@@ -30,9 +30,11 @@ createCommand({
         `🔹 \`${prefix}material (name)\`\nShows info about a specific material.`,
         "",
         `🔹 \`${prefix}update (version)\`\nShows info about a specific game update.`,
+        "",
+        `🔹 \`${prefix}bday\`🔹 \`${prefix}birthday\n🔹 \`${prefix}birthdays\`\nShows the birthday of all characters.`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other");
 
     const second = new Embed()
       .setTitle("Profile")
@@ -41,18 +43,18 @@ createCommand({
         "",
         `🔹 \`${prefix}profile\`\nThis allows you to check your profile.`,
         "",
-        `🔹 \`${prefix}edit char (character) const (new constellation)\`\n\`${prefix}add char (character) const (constellation)\`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.`,
+        `🔹 \`${prefix}edit char (character) const (new constellation)\`\n🔹 \`${prefix}add char (character) const (constellation)\`\nThis allows you to edit a constellation of a character or add a new one with the given constellation.`,
         "",
-        `🔹 \`${prefix}edit char (character) level (new level)\`\n\`${prefix}add char (character) level (level)\`\nThis allows you to edit the level of a character or add a new one with the given level.`,
+        `🔹 \`${prefix}edit char (character) level (new level)\`\n🔹 \`${prefix}add char (character) level (level)\`\nThis allows you to edit the level of a character or add a new one with the given level.`,
         "",
-        `🔹 \`${prefix}edit (uid/ar/wl) (number)\`\n\`${prefix}add (uid/ar/wl) (number)\`\nThis allows you to edit your UID, AR or WL.`,
+        `🔹 \`${prefix}edit (uid/ar/wl) (number)\`\n🔹 \`${prefix}add (uid/ar/wl) (number)\`\nThis allows you to edit your UID, AR or WL.`,
         "",
         `🔹 \`${prefix}remove (character name)\`\nRemoves a character from your profile.`,
         "",
-        `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,    
+        `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other");
 
     const third = new Embed()
       .setTitle("Other")
@@ -69,10 +71,10 @@ createCommand({
         "",
         `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
         "",
-        `🔹 \`${prefix}stats\`\nShow some bot stat.`,
+        `🔹 \`${prefix}stats\`\nShow some bot stats.`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other")
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other");
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
