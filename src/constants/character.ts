@@ -2770,7 +2770,7 @@ export const characters = new Map([
       thumbnail:
         "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
       image:
-        "hhttps://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
       color: "00f9ff",
       emoji: "<:Rosaria:817836681138274315>",
       category: "Cryo",
