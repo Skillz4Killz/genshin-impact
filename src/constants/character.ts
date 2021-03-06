@@ -2783,7 +2783,7 @@ export const characters = new Map([
       constellation: "NA",
       birthday: "Januarry 24th",
       // TODO | Add ascensionCost
-      ascensionCost: "https://i.imgur.com/sq3GbBw.png",
+      ascensionCost: "https://i.imgur.com/IZQSHKl.png",
       activeTalents: [
         {
           name: "Spear of the Church",
