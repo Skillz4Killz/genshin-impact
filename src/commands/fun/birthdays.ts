@@ -14,7 +14,7 @@ createCommand({
         .addField("January", "18. <:Diona:798582510480785409> Diona", true)
         .addField(
           "February",
-          "14. <:Beidou:798579120479928360> Beidou\n29. <:Bennett:798579139430973500> Bennett",
+          "14. <:Beidou:798579120479928360> Beidou\n24. <:Rosaria:817836681138274315> Rosaria\n29. <:Bennett:798579139430973500> Bennett",
           true,
         )
         .addField(
