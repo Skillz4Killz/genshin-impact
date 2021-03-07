@@ -5,11 +5,7 @@ const gifData = [
     name: "emergencyfood",
     aliases: [],
     gifs: [
-      "https://media.tenor.com/images/896afb9f07ce2d0731ac007bafcc4b01/tenor.gif",
-      "https://cdn.discordapp.com/attachments/799962935971545118/812803732282277919/wtfistdas.gif",
       "https://i.kym-cdn.com/photos/images/newsfeed/001/915/094/da9.png",
-      "https://media1.tenor.com/images/6e3c3043fda5b0085da74405819aca49/tenor.gif",
-      "https://cdn.discordapp.com/attachments/812829387560189992/813051506117967892/324685081993cf2e05d3cddfdc284c58.png",
       "https://cdn.discordapp.com/attachments/812829387560189992/813051546677149696/3c24af6e02e64e4a8e22ba289da746df.png",
       "https://cdn.discordapp.com/attachments/812829387560189992/813051583935938590/maxresdefault.png",
       "https://cdn.discordapp.com/attachments/812829387560189992/813051634275844127/3e4.png",
@@ -21,28 +17,35 @@ const gifData = [
       "https://cdn.discordapp.com/attachments/812829387560189992/813052209532764160/Z.png",
       "https://media1.tenor.com/images/e5c0782eabec199b0d929a64813b98da/tenor.gif",
       "https://cdn.discordapp.com/attachments/812829387560189992/813052311361552394/kz5jqthsu4r51.png",
-      "https://cdn.discordapp.com/attachments/812829387560189992/813052402064031794/915060e05dc1a6c7f179a8e3e44f0010.png",
       "https://media1.tenor.com/images/7374fc0ef8a5192ce5f0083e51b98717/tenor.gif",
       "https://media1.tenor.com/images/4369322fe48647949dd720facb6845e0/tenor.gif",
+      "https://i.kym-cdn.com/photos/images/facebook/001/915/205/954.jpg",
+      "https://cdnb.artstation.com/p/assets/images/images/032/789/481/large/gabriel-seibel-paimon8.jpg?1607470952",
+      "https://i.redd.it/n9xtsp7c2os51.jpg",
+      "https://i.kym-cdn.com/photos/images/original/001/915/095/5c7.png",
+      "https://cdna.artstation.com/p/assets/images/images/031/187/674/large/keith-zarraga-paimon.jpg?1602854808",
+      "https://i.redd.it/fuodacj89rq51.png",
+      "https://ih1.redbubble.net/image.1748298092.6828/pp,840x830-pad,1000x1000,f8f8f8.jpg",
+      "https://danbooru.donmai.us/data/sample/sample-062c7b3e2833eaa391b5d8a7fec475bd.jpg",
+      "https://i.imgur.com/4Vb0XA6.jpg",
     ],
-  }
-]
+  },
+];
 
 gifData.forEach(async (data) => {
-    botCache.commands.set(data.name, {
-      name: data.name,
-      aliases: data.aliases,
-      botChannelPermissions: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
-      guildOnly: true,
-      execute: async (message) => {
-     
-        const randomGif = botCache.helpers.chooseRandom(data.gifs);
-  
-        // Create the embed
-        const embed = botCache.helpers.authorEmbed(message).setImage(randomGif);
-  
-        // Send the embed to the channel
-        return message.send({ embed }).catch(console.log);
-      },
-    });
+  botCache.commands.set(data.name, {
+    name: data.name,
+    aliases: data.aliases,
+    botChannelPermissions: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
+    guildOnly: true,
+    execute: async (message) => {
+      const randomGif = botCache.helpers.chooseRandom(data.gifs);
+
+      // Create the embed
+      const embed = botCache.helpers.authorEmbed(message).setImage(randomGif);
+
+      // Send the embed to the channel
+      return message.send({ embed }).catch(console.log);
+    },
   });
+});
