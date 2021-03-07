@@ -31,7 +31,7 @@ createCommand({
       if (message.author.id !== member.id) {
         return message
           .reply(
-            "No profile found for this user yet. They must run the se130136895395987456tup command first.",
+            "No profile found for this user yet. They must run the setup command first.",
           )
           .catch(console.log);
       }

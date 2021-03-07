@@ -2781,7 +2781,7 @@ export const characters = new Map([
       affiliation: "Church of Favonius",
       specialDish: "NA",
       constellation: "NA",
-      birthday: "Januarry 24th",
+      birthday: "January 24th",
       // TODO | Add ascensionCost
       ascensionCost: "https://i.imgur.com/IZQSHKl.png",
       activeTalents: [
