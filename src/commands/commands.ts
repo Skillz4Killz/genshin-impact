@@ -1,4 +1,4 @@
-import { botCache, Message } from "../../deps.ts";
+import { botCache, Message, removeUserReaction } from "../../deps.ts";
 import { needReaction } from "../utils/collectors.ts";
 import { Embed } from "../utils/Embed.ts";
 import { parsePrefix } from "../monitors/commandHandler.ts";
@@ -31,7 +31,7 @@ createCommand({
         "",
         `🔹 \`${prefix}update (version)\`\nShows info about a specific game update.`,
         "",
-        `🔹 \`${prefix}bday\`🔹 \`${prefix}birthday\n🔹 \`${prefix}birthdays\`\nShows the birthday of all characters.`,
+        `🔹 \`${prefix}bday\`\n🔹 \`${prefix}birthday\`\n🔹 \`${prefix}birthdays\`\nShows the birthday of all characters.`,
       ])
       .setTimestamp()
       .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other");
@@ -106,6 +106,17 @@ createCommand({
         message.author.id === userID && page.emoji !== reaction,
     }).catch(console.log);
     if (!reaction) return;
+
+    if (
+      !(removeUserReaction(
+        message.channelID,
+        response.id,
+        reaction,
+        message.author.id,
+      ).catch(console.log))
+    ) {
+      return;
+    }
 
     const selectedPage = Object.values(pages).find((page) =>
       page?.emoji === reaction
