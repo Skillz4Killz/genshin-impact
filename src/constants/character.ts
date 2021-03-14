@@ -2798,10 +2798,8 @@ export const characters = new Map([
       name: "Rosaria",
       description:
         "A nun who, outside of her garb, seems nothing at all like a person of the cloth. Known for her sharp, cold words and manner, she often works alone.",
-      thumbnail:
-        "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
-      image:
-        "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
+      thumbnail: "https://i.imgur.com/XUkuVIg.png",
+      image: "https://i.imgur.com/XUkuVIg.png",
       color: "00f9ff",
       emoji: "<:Rosaria:820653132500828160>",
       category: "Cryo",
