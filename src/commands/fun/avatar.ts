@@ -27,7 +27,7 @@ createCommand({
     return sendEmbed(
       message.channelID,
       botCache.helpers.authorEmbed(message)
-        .setDescription(`${description} avatar of <@${args.member.id}>`)
+        .setDescription(`${description}`)
         .setImage(url!),
     );
   },
