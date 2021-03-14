@@ -19,7 +19,7 @@ export const characters = new Map([
       constellation: "Lapis Dei",
       birthday: "December 31st",
       ascensionCost: "https://i.imgur.com/LPvxOnj.png",
-      talentCost: "https://i.imgur.com/R3wtPIz.png",
+      talentCost: "https://i.imgur.com/BIN4nWN.png",
       activeTalents: [
         {
           name: "Rain of Stone",
@@ -110,7 +110,7 @@ export const characters = new Map([
       constellation: "Fila Ignium",
       birthday: "October 16th",
       ascensionCost: "https://i.imgur.com/2GtaTup.png",
-      talentCost: "https://i.imgur.com/atKpGxr.png",
+      talentCost: "https://i.imgur.com/fH5WwHO.png",
       activeTalents: [
         {
           name: "Dance of Fire",
@@ -201,7 +201,7 @@ export const characters = new Map([
       constellation: "Fabulae Textile",
       birthday: "October 9th",
       ascensionCost: "https://i.imgur.com/BgTSS8x.png",
-      talentCost: "https://i.imgur.com/oyrY3FE.png",
+      talentCost: "https://i.imgur.com/xcGFi8D.png",
       activeTalents: [
         {
           name: "Guhua Style",
@@ -290,7 +290,7 @@ export const characters = new Map([
       constellation: "Trulla",
       birthday: "November 2nd",
       ascensionCost: "https://i.imgur.com/84nW7Uo.png",
-      talentCost: "https://i.imgur.com/3iHCzoE.png",
+      talentCost: "https://i.imgur.com/aCYggGD.png",
       activeTalents: [
         {
           name: "Dough-Fu",
@@ -379,7 +379,7 @@ export const characters = new Map([
       constellation: "Carmen Dei",
       birthday: "June 16th",
       ascensionCost: "https://i.imgur.com/EXu8waa.png",
-      talentCost: "https://i.imgur.com/lA8BP9k.png",
+      talentCost: "https://i.imgur.com/6r829rg.png",
       activeTalents: [
         {
           name: "Divine Marksmanship",
@@ -470,7 +470,7 @@ export const characters = new Map([
       constellation: "Ampulla",
       birthday: "November 26th",
       ascensionCost: "https://i.imgur.com/6rnsoNC.png",
-      talentCost: "https://i.imgur.com/osx7MBs.png",
+      talentCost: "https://i.imgur.com/8jdr3vl.png",
       activeTalents: [
         {
           name: "Wind Spirit Creation",
@@ -561,7 +561,7 @@ export const characters = new Map([
       constellation: "Lupus Minor",
       birthday: "September 9th",
       ascensionCost: "https://i.imgur.com/oW57fzV.png",
-      talentCost: "https://i.imgur.com/ujhsUFc.png",
+      talentCost: "https://i.imgur.com/fGu99SV.png",
       activeTalents: [
         {
           name: "Steel Fang",
@@ -652,7 +652,7 @@ export const characters = new Map([
       constellation: "Pristina Nola",
       birthday: "March 3rd",
       ascensionCost: "https://i.imgur.com/D0uZiME.png",
-      talentCost: "https://i.imgur.com/luB5xLI.png",
+      talentCost: "https://i.imgur.com/tpKFAHc.png",
       activeTalents: [
         {
           name: "Ancient Sword Art",
@@ -743,7 +743,7 @@ export const characters = new Map([
       constellation: "Parma Cordis",
       birthday: "March 21st",
       ascensionCost: "https://i.imgur.com/zY2LUHW.png",
-      talentCost: "https://i.imgur.com/LM8lr5S.png",
+      talentCost: "https://i.imgur.com/VvGV1sp.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Maid",
@@ -834,7 +834,7 @@ export const characters = new Map([
       constellation: "Opus Aqe",
       birthday: "August 26th",
       ascensionCost: "https://i.imgur.com/Zp590eo.png",
-      talentCost: "https://i.imgur.com/JcB2LUq.png",
+      talentCost: "https://i.imgur.com/UqwY67o.png",
       activeTalents: [
         {
           name: "Sparkling Scatter",
@@ -924,7 +924,7 @@ export const characters = new Map([
       constellation: "Tempus Fugit",
       birthday: "June 9th",
       ascensionCost: "https://i.imgur.com/cJ1TMla.png",
-      talentCost: "https://i.imgur.com/buugRg2.png",
+      talentCost: "https://i.imgur.com/uAF0JnO.png",
       activeTalents: [
         {
           name: "Lightning Touch",
@@ -1015,7 +1015,7 @@ export const characters = new Map([
       constellation: "Trifolium",
       birthday: "July 27th",
       ascensionCost: "https://i.imgur.com/0FQi1vY.png",
-      talentCost: "https://i.imgur.com/Oy4akWI.png",
+      talentCost: "https://i.imgur.com/g0MunBH.png",
       activeTalents: [
         {
           name: "Kaboom!",
@@ -1106,7 +1106,7 @@ export const characters = new Map([
       constellation: "Trulla Cementarii",
       birthday: "November 20th",
       ascensionCost: "https://i.imgur.com/jQ2kJyI.png",
-      talentCost: "https://i.imgur.com/o8TCk6o.png",
+      talentCost: "https://i.imgur.com/x7RbcOY.png",
       activeTalents: [
         {
           name: "Yunlai Swordsmanship",
@@ -1197,7 +1197,7 @@ export const characters = new Map([
       constellation: "Pavo Ocellus",
       birthday: "November 30th",
       ascensionCost: "https://i.imgur.com/QwMEn4P.png",
-      talentCost: "https://i.imgur.com/ce4hRI8.png",
+      talentCost: "https://i.imgur.com/BahvWdc.png",
       activeTalents: [
         {
           name: "Ceremonial Bladework",
@@ -1288,7 +1288,7 @@ export const characters = new Map([
       constellation: "Leo Minor",
       birthday: "March 14th",
       ascensionCost: "https://i.imgur.com/mrjkdAi.png",
-      talentCost: "https://i.imgur.com/nOcqtqZ.png",
+      talentCost: "https://i.imgur.com/ZHRSCSf.png",
       activeTalents: [
         {
           name: "Favonius Bladework",
@@ -1379,7 +1379,7 @@ export const characters = new Map([
       constellation: "Sinae Unicornis",
       birthday: "December 2nd",
       ascensionCost: "https://i.imgur.com/nL1vU54.png",
-      talentCost: "https://i.imgur.com/dCpk8yH.png",
+      talentCost: "https://i.imgur.com/CVRQXFa.png",
       activeTalents: [
         {
           name: "Liutian Archery",
@@ -1469,7 +1469,7 @@ export const characters = new Map([
       constellation: "Corvus",
       birthday: "May 27th",
       ascensionCost: "https://i.imgur.com/YgOEn3a.png",
-      talentCost: "https://i.imgur.com/cU7vrKt.png",
+      talentCost: "https://i.imgur.com/E3SMdrn.png",
       activeTalents: [
         {
           name: "Bolts of Downfall",
@@ -1560,7 +1560,7 @@ export const characters = new Map([
       constellation: "Noctua",
       birthday: "April 30th",
       ascensionCost: "https://i.imgur.com/C0cFjTj.png",
-      talentCost: "https://i.imgur.com/gQF98Qy.png",
+      talentCost: "https://i.imgur.com/0onrtYW.png",
       activeTalents: [
         {
           name: "Tempered Sword",
@@ -1651,7 +1651,7 @@ export const characters = new Map([
       constellation: "Nubis Caesor",
       birthday: "September 7th",
       ascensionCost: "https://i.imgur.com/2zE4uzT.png",
-      talentCost: "https://i.imgur.com/wEVq3YI.png",
+      talentCost: "https://i.imgur.com/9aVkSPt.png",
       activeTalents: [
         {
           name: "Demonbane",
@@ -1742,7 +1742,7 @@ export const characters = new Map([
       constellation: "Monoceros Caeli",
       birthday: "July 20th",
       ascensionCost: "https://i.imgur.com/JIglNMa.png",
-      talentCost: "https://i.imgur.com/1R2AuxW.png",
+      talentCost: "https://i.imgur.com/i2YtoAQ.png",
       activeTalents: [
         {
           name: "Cutting Torrent",
@@ -1831,7 +1831,7 @@ export const characters = new Map([
       constellation: "Rota Calamitas",
       birthday: "February 29th",
       ascensionCost: "https://i.imgur.com/tsU3tK3.png",
-      talentCost: "https://i.imgur.com/QlITKba.png",
+      talentCost: "https://i.imgur.com/T3BZzQu.png",
       activeTalents: [
         {
           name: "Strike of Fortune",
@@ -1921,7 +1921,7 @@ export const characters = new Map([
       constellation: "Victor Mare",
       birthday: "February 14th",
       ascensionCost: "https://i.imgur.com/fq6kK7P.png",
-      talentCost: "https://i.imgur.com/eJcops7.png",
+      talentCost: "https://i.imgur.com/0nNXa88.png",
       activeTalents: [
         {
           name: "Oceanborne",
@@ -2012,7 +2012,7 @@ export const characters = new Map([
       constellation: "Crater",
       birthday: "July 5th",
       ascensionCost: "https://i.imgur.com/D8NzZEd.png",
-      talentCost: "https://i.imgur.com/ApwU8Ds.png",
+      talentCost: "https://i.imgur.com/pYilGrb.png",
       activeTalents: [
         {
           name: "Whisper of Water",
@@ -2102,7 +2102,7 @@ export const characters = new Map([
       constellation: "Lepus",
       birthday: "August 10th",
       ascensionCost: "https://i.imgur.com/1tzvBKY.png",
-      talentCost: "https://i.imgur.com/h5SfnbT.png",
+      talentCost: "https://i.imgur.com/h5nlN5P.png",
       activeTalents: [
         {
           name: "Sharpshooter",
@@ -2193,7 +2193,7 @@ export const characters = new Map([
       constellation: "Princeps Cretaceus",
       birthday: "September 13th",
       ascensionCost: "https://i.imgur.com/OEMRiEZ.png",
-      talentCost: "https://i.imgur.com/vMIEUzC.png",
+      talentCost: "https://i.imgur.com/CL5jQrb.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Weiss",
@@ -2284,7 +2284,7 @@ export const characters = new Map([
       constellation: "Astrolabos",
       birthday: "August 31st",
       ascensionCost: "https://i.imgur.com/scKdDTR.png",
-      talentCost: "https://i.imgur.com/0HmjzZB.png",
+      talentCost: "https://i.imgur.com/1IG1MVI.png",
       activeTalents: [
         {
           name: "Ripple of Fate",
@@ -2374,9 +2374,8 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      // TODO | Add talentCost
       ascensionCost: "https://i.imgur.com/qSPL4Q6.png",
-      talentCost: "https://i.imgur.com/f9Q2ZLF.png",
+      talentCost: "https://i.imgur.com/EjJV9vt.png",
       activeTalents: [
         {
           name: "Foreign Rockblade",
@@ -2460,9 +2459,8 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      // TODO | Add talentCost
       ascensionCost: "https://i.imgur.com/qSPL4Q6.png",
-      talentCost: "https://i.imgur.com/f9Q2ZLF.png",
+      talentCost: "https://i.imgur.com/EjJV9vt.png",
       activeTalents: [
         {
           name: "Foreign Ironwind",
@@ -2545,7 +2543,7 @@ export const characters = new Map([
       constellation: "Feles",
       birthday: "January 18th",
       ascensionCost: "https://i.imgur.com/YzhdzN8.png",
-      talentCost: "https://i.imgur.com/1wJSmR8.png",
+      talentCost: "https://i.imgur.com/IuFHaLq.png",
       activeTalents: [
         {
           name: "Kätzlein Style",
@@ -2636,7 +2634,7 @@ export const characters = new Map([
       constellation: "Alatus Nemeseos",
       birthday: "April 17th",
       ascensionCost: "https://i.imgur.com/jx8POJl.png",
-      talentCost: "https://i.imgur.com/8LrlPJ4.png",
+      talentCost: "https://i.imgur.com/T9etlaL.png",
       activeTalents: [
         {
           name: "Whirlwind Thrust",
@@ -2725,7 +2723,7 @@ export const characters = new Map([
       constellation: "Papilio Charontis",
       birthday: "July 15th",
       ascensionCost: "https://i.imgur.com/COxelim.png",
-      talentCost: "https://i.imgur.com/JNjfSnD.png",
+      talentCost: "https://i.imgur.com/7x2XBYZ.png",
       activeTalents: [
         {
           name: "Secret Spear of Wangsheng",
@@ -2815,14 +2813,13 @@ export const characters = new Map([
       specialDish: "NA",
       constellation: "NA",
       birthday: "January 24th",
-      // TODO | Add ascensionCost & talentCost
-      ascensionCost: "https://i.imgur.com/IZQSHKl.png",
-      talentCost: "https://i.imgur.com/f9Q2ZLF.png",
+      ascensionCost: "https://i.imgur.com/8vm4RC8.png",
+      talentCost: "https://i.imgur.com/m7YpB5N.png",
       activeTalents: [
         {
           name: "Spear of the Church",
           description:
-            "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\n\n**Plunging Attack**\n Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+            "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n",
         },
         {
           name: "Skill: Ravaging Confession",
@@ -2830,9 +2827,9 @@ export const characters = new Map([
             "Rosaria swiftly shifts her position to appear behind the enemy, and then pierces and slashes them with her polearm, dealing **Cryo DMG**.\n",
         },
         {
-          name:
-            "Burst: Rites of Termination\nRosaria swings her weapon to slash nearby enemies and summons a frigid Ice Lance that strikes the ground, dealing **Cryo DMG**.\nThe Ice Lance will periodically release blasts of cold air, dealing more **Cryo DMG**.",
-          description: "Rosaria's signature act of prayer.\n",
+          name: "Burst: Rites of Termination",
+          description:
+            "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal **Cryo DMG**.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing **Cryo DMG** to surrounding opponents.\n",
         },
       ],
       passiveTalents: [
@@ -2844,7 +2841,7 @@ export const characters = new Map([
         {
           name: "Shadow Samaritan",
           description:
-            "osaria increases nearby party members' CRIT Rate after unleashing her Elemental Burst Rites of Termination.",
+            "Rosaria increases nearby party members' CRIT Rate after unleashing her Elemental Burst Rites of Termination.",
         },
         {
           name: "Night Walk",
@@ -2874,7 +2871,7 @@ export const characters = new Map([
             "Ravaging Confession's Crit Hits regenerate 5 Energy for Rosaria.\n Can only be triggered once each time Ravaging Confession is cast.",
         },
         {
-          name: "C5: FLast Rites",
+          name: "C5: Last Rites",
           description:
             "Increases the Level of Rites of Termination by 3.\n Maximum upgrade level is 15.",
         },
@@ -2886,4 +2883,93 @@ export const characters = new Map([
       ],
     },
   ],
+  //[
+  //  "ayaka",
+  //  {
+  //    name: "Ayaka",
+  //    description:
+  //      "",
+  //    thumbnail:
+  //      "",
+  //    image:
+  //      "",
+  //    color: "00f9ff",
+  //    emoji: "<:Ayaka:797753205483372594>",
+  //    category: "Cryo",
+  //    rarity: "⭐⭐⭐⭐⭐",
+  //    element: "<:Cryo:798483525052530719> Cryo",
+  //    weapon: "",
+  //    nation: "",
+  //    affiliation: "",
+  //    specialDish: "",
+  //    constellation: "",
+  //    birthday: "",
+  //    ascensionCost: "",
+  //    talentCost: "",
+  //    activeTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+  //      },
+  //      {
+  //        name: "Skill: ",
+  //        description: "\n",
+  //      },
+  //      {
+  //        name: "Burst: ",
+  //        description: "\n",
+  //      },
+  //    ],
+  //    passiveTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //    constellations: [
+  //      {
+  //        name: "C1: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C2: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C3: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C4: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C5: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C6: ",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //  },
+  //],
 ]);
