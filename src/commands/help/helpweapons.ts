@@ -15,144 +15,144 @@ createSubcommand("help", {
     const first = new Embed()
       .setTitle("Bows")
       .setDescription([
+        `🔹 \`${prefix}help messenger\``,
+        `🔹 \`${prefix}help ravenbow\``,
+        `🔹 \`${prefix}help recurvebow\``,
         `🔹 \`${prefix}help sharpshootersoath\``,
         `🔹 \`${prefix}help slingshot\``,
-        `🔹 \`${prefix}help ravenbow\``,
-        `🔹 \`${prefix}help messenger\``,
-        `🔹 \`${prefix}help recurvebow\``,
         "",
-        `🔹 \`${prefix}help compoundbow\``,
         `🔹 \`${prefix}help blackcliffwarbow\``,
-        `🔹 \`${prefix}help theviridescenthunt\``,
-        `🔹 \`${prefix}help prototypecrescent\``,
-        `🔹 \`${prefix}help sacrificialbow\``,
-        `🔹 \`${prefix}help rust\``,
-        `🔹 \`${prefix}help thestringless\``,
+        `🔹 \`${prefix}help compoundbow\``,
         `🔹 \`${prefix}help favoniuswarbow\``,
+        `🔹 \`${prefix}help prototypecrescent\``,
+        `🔹 \`${prefix}help rust\``,
+        `🔹 \`${prefix}help sacrificialbow\``,
+        `🔹 \`${prefix}help thestringless\``,
+        `🔹 \`${prefix}help theviridescenthunt\``,
         "",
         `🔹 \`${prefix}help amosbow\``,
         `🔹 \`${prefix}help skywardharp\``,
       ])
       .setTimestamp()
-      .setFooter("Page 1/5")
+      .setFooter("Page 1/5");
 
     const second = new Embed()
       .setTitle("Polearms")
       .setDescription([
-        `🔹 \`${prefix}help halberd\``,
         `🔹 \`${prefix}help blacktassel\``,
+        `🔹 \`${prefix}help halberd\``,
         `🔹 \`${prefix}help whitetassel\``,
         "",
+        `🔹 \`${prefix}help blackcliffpole\``,
         `🔹 \`${prefix}help crescentpike\``,
         `🔹 \`${prefix}help deathmatch\``,
-        `🔹 \`${prefix}help royalspear\``,
-        `🔹 \`${prefix}help favoniuslance\``,
-        `🔹 \`${prefix}help dragonspinespear\``,
-        `🔹 \`${prefix}help prototypestarglitter\``,
         `🔹 \`${prefix}help dragonsbane\``,
-        `🔹 \`${prefix}help blackcliffpole\``,
+        `🔹 \`${prefix}help dragonspinespear\``,
+        `🔹 \`${prefix}help favoniuslance\``,
         `🔹 \`${prefix}help lithicspear\``,
+        `🔹 \`${prefix}help prototypestarglitter\``,
+        `🔹 \`${prefix}help royalspear\``,
         "",
-        `🔹 \`${prefix}help vortexvanquisher\``,
-        `🔹 \`${prefix}help skywardspine\``,
         `🔹 \`${prefix}help primordialjadewinged-spear\``,
+        `🔹 \`${prefix}help skywardspine\``,
         `🔹 \`${prefix}help staffofhoma\``,
+        `🔹 \`${prefix}help vortexvanquisher\``,
       ])
       .setTimestamp()
-      .setFooter("Page 2/5")
+      .setFooter("Page 2/5");
 
     const third = new Embed()
       .setTitle("Claymores")
       .setDescription([
-        `🔹 \`${prefix}help whiteirongreatsword\``,
-        `🔹 \`${prefix}help skyridergreatsword\``,
-        `🔹 \`${prefix}help quartz\``,
-        `🔹 \`${prefix}help ferrousshadow\``,
-        `🔹 \`${prefix}help debateclub\``,
         `🔹 \`${prefix}help bloodtaintedgreatsword\``,
+        `🔹 \`${prefix}help debateclub\``,
+        `🔹 \`${prefix}help ferrousshadow\``,
+        `🔹 \`${prefix}help quartz\``,
+        `🔹 \`${prefix}help skyridergreatsword\``,
+        `🔹 \`${prefix}help whiteirongreatsword\``,
         "",
         `🔹 \`${prefix}help blackcliffslasher\``,
-        `🔹 \`${prefix}help whiteblind\``,
-        `🔹 \`${prefix}help snow-Tombedstarsilver\``,
-        `🔹 \`${prefix}help sacrificialgreatsword\``,
-        `🔹 \`${prefix}help serpentspine\``,
-        `🔹 \`${prefix}help thebell\``,
-        `🔹 \`${prefix}help royalgreatsword\``,
-        `🔹 \`${prefix}help rainslasher\``,
-        `🔹 \`${prefix}help prototypearchaic\``,
         `🔹 \`${prefix}help favoniusgreatsword\``,
         `🔹 \`${prefix}help lithicblade\``,
+        `🔹 \`${prefix}help prototypearchaic\``,
+        `🔹 \`${prefix}help rainslasher\``,
+        `🔹 \`${prefix}help royalgreatsword\``,
+        `🔹 \`${prefix}help sacrificialgreatsword\``,
+        `🔹 \`${prefix}help serpentspine\``,
+        `🔹 \`${prefix}help snow-Tombedstarsilver\``,
+        `🔹 \`${prefix}help thebell\``,
+        `🔹 \`${prefix}help whiteblind\``,
         "",
-        `🔹 \`${prefix}help The Unforged\``,
-        `🔹 \`${prefix}help Wolf's Gravestone\``,
-        `🔹 \`${prefix}help Skyward Pride\``,
+        `🔹 \`${prefix}help skywardpride\``,
+        `🔹 \`${prefix}help theunforged\``,
+        `🔹 \`${prefix}help wolfsgravestone\``,
       ])
       .setTimestamp()
-      .setFooter("Page 3/5")
+      .setFooter("Page 3/5");
 
     const fourth = new Embed()
       .setTitle("Swords")
       .setDescription([
-        `🔹 \`${prefix}help skyridersword\``,
-        `🔹 \`${prefix}help filletblade\``,
-        `🔹 \`${prefix}help travelershandysword\``,
-        `🔹 \`${prefix}help harbingerofdawn\``,
-        `🔹 \`${prefix}help darkironsword\``,
         `🔹 \`${prefix}help coolsteel\``,
+        `🔹 \`${prefix}help darkironsword\``,
+        `🔹 \`${prefix}help filletblade\``,
+        `🔹 \`${prefix}help harbingerofdawn\``,
+        `🔹 \`${prefix}help skyridersword\``,
+        `🔹 \`${prefix}help travelershandysword\``,
         "",
         `🔹 \`${prefix}help blackclifflongsword\``,
+        `🔹 \`${prefix}help favoniussword\``,
+        `🔹 \`${prefix}help festeringdesire\``,
+        `🔹 \`${prefix}help ironsting\``,
+        `🔹 \`${prefix}help lionsrRoar\``,
+        `🔹 \`${prefix}help prototyperancour\``,
+        `🔹 \`${prefix}help royallongsword\``,
         `🔹 \`${prefix}help sacrificialsword\``,
         `🔹 \`${prefix}help swordofdescension\``,
-        `🔹 \`${prefix}help favoniussword\``,
         `🔹 \`${prefix}help theblacksword\``,
         `🔹 \`${prefix}help theflute\``,
-        `🔹 \`${prefix}help royallongsword\``,
-        `🔹 \`${prefix}help prototyperancour\``,
-        `🔹 \`${prefix}help lionsrRoar\``,
-        `🔹 \`${prefix}help ironsting\``,
-        `🔹 \`${prefix}help festeringdesire\``,
         "",
-        `🔹 \`${prefix}help summitshaper\``,
         `🔹 \`${prefix}help aquilafavonia\``,
-        `🔹 \`${prefix}help skywardblade\``,
         `🔹 \`${prefix}help primordialjadecutter\``,
+        `🔹 \`${prefix}help skywardblade\``,
+        `🔹 \`${prefix}help summitshaper\``,
       ])
       .setTimestamp()
-      .setFooter("Page 4/5")
+      .setFooter("Page 4/5");
 
     const fifth = new Embed()
       .setTitle("Catalysts")
       .setDescription([
+        `🔹 \`${prefix}help emeraldorb\``,
         `🔹 \`${prefix}help magicguide\``,
+        `🔹 \`${prefix}help otherworldlystory\``,
         `🔹 \`${prefix}help thrillingtalesofdragonslayers\``,
         `🔹 \`${prefix}help twinnephrite\``,
-        `🔹 \`${prefix}help otherworldlystory\``,
-        `🔹 \`${prefix}help emeraldorb\``,
         "",
-        `🔹 \`${prefix}help solarpearl\``,
-        `🔹 \`${prefix}help eyeofperception\``,
-        `🔹 \`${prefix}help thewidsith\``,
-        `🔹 \`${prefix}help frostbearer\``,
-        `🔹 \`${prefix}help sacrificialfragments\``,
-        `🔹 \`${prefix}help royalgrimoire\``,
-        `🔹 \`${prefix}help prototypeamber\``,
-        `🔹 \`${prefix}help mappamare\``,
-        `🔹 \`${prefix}help favoniuscodex\``,
         `🔹 \`${prefix}help blackcliffagate\``,
+        `🔹 \`${prefix}help eyeofperception\``,
+        `🔹 \`${prefix}help favoniuscodex\``,
+        `🔹 \`${prefix}help frostbearer\``,
+        `🔹 \`${prefix}help mappamare\``,
+        `🔹 \`${prefix}help prototypeamber\``,
+        `🔹 \`${prefix}help royalgrimoire\``,
+        `🔹 \`${prefix}help sacrificialfragments\``,
+        `🔹 \`${prefix}help solarpearl\``,
+        `🔹 \`${prefix}help thewidsith\``,
         "",
         `🔹 \`${prefix}help lostprayertothesacredwinds\``,
         `🔹 \`${prefix}help memoryofdust\``,
         `🔹 \`${prefix}help skywardatlas\``,
       ])
       .setTimestamp()
-      .setFooter("Page 5/5")
+      .setFooter("Page 5/5");
 
-      createPagination(message, [
-        first,
-        second,
-        third,
-        fourth,
-        fifth
-      ]);
-    },
-  });
+    createPagination(message, [
+      first,
+      second,
+      third,
+      fourth,
+      fifth,
+    ]);
+  },
+});

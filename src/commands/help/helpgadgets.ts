@@ -11,22 +11,22 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help Gadgets")
       .setDescription([
-        `🔹 \`${prefix}gadget geoculusresonancestone\``,
-        `🔹 \`${prefix}gadget anemoculusresonancestone\``,
         `🔹 \`${prefix}gadget adeptiseekersstove\``,
-        `🔹 \`${prefix}gadget warmingbottle\``,
-        `🔹 \`${prefix}gadget condensedresin\``,
-        `🔹 \`${prefix}gadget windcatcher\``,
-        `🔹 \`${prefix}gadget nre\``,
-        `🔹 \`${prefix}gadget geotreasurecompass\``,
+        `🔹 \`${prefix}gadget anemoculusresonancestone\``,
         `🔹 \`${prefix}gadget anemotreasurecompass\``,
-        `🔹 \`${prefix}gadget portablewaypoint\``,
+        `🔹 \`${prefix}gadget condensedresin\``,
+        `🔹 \`${prefix}gadget geoculusresonancestone\``,
+        `🔹 \`${prefix}gadget geotreasurecompass\``,
         `🔹 \`${prefix}gadget kamera\``,
         `🔹 \`${prefix}gadget miniseeliecurcuma\``,
         `🔹 \`${prefix}gadget miniseeliedayflower\``,
         `🔹 \`${prefix}gadget miniseelierose\``,
+        `🔹 \`${prefix}gadget nre\``,
+        `🔹 \`${prefix}gadget parametrictransformer\``,
+        `🔹 \`${prefix}gadget portablewaypoint\``,
         `🔹 \`${prefix}gadget treasureseekingseelie\``,
-        `🔹 \`${prefix}gadget parametrictransformer\``
+        `🔹 \`${prefix}gadget warmingbottle\``,
+        `🔹 \`${prefix}gadget windcatcher\``,
       ])
       .setTimestamp()
       .setColor("RANDOM");

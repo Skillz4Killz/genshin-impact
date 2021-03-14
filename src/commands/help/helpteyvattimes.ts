@@ -13,14 +13,13 @@ createSubcommand("help", {
       .setDescription([
         `🔹 \`${prefix}teyvattimes\` or \`${prefix}tt\``,
         "",
-        `🔹 \`${prefix}teyvattimes [no1 | 1 | one]\``,
-        `🔹 \`${prefix}teyvattimes [no2 | 2 | two]\``,
-        `🔹 \`${prefix}teyvattimes [no3 | 3 | three]\``,
-        `🔹 \`${prefix}teyvattimes [no4 | 4 | four]\``,
+        `🔹 \`${prefix}teyvattimes [1 | 2 | 3]\``,
+        `🔹 \`${prefix}teyvattimes [no1 | no2 | no2]\``,
+        `🔹 \`${prefix}teyvattimes [one | two | three]\``,
       ])
       .setTimestamp()
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      await sendEmbed(message.channelID, embed).catch(console.log);
-    },
-  });
+    await sendEmbed(message.channelID, embed).catch(console.log);
+  },
+});

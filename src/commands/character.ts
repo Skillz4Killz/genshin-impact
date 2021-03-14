@@ -68,14 +68,16 @@ createCommand({
       ])
       .setThumbnail(character.thumbnail)
       .setImage(character.image)
-      .setTimestamp()
-      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
+      .setFooter(
+        "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
+      );
 
     const second = new Embed()
       .setTitle(character.name)
       .setThumbnail(character.thumbnail)
-      .setTimestamp()
-      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
+      .setFooter(
+        "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
+      );
     for (const talent of character.activeTalents) {
       second.addField(talent.name, talent.description);
     }
@@ -83,8 +85,9 @@ createCommand({
     const third = new Embed()
       .setTitle(character.name)
       .setThumbnail(character.thumbnail)
-      .setTimestamp()
-      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
+      .setFooter(
+        "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
+      );
     for (const talent of character.passiveTalents) {
       third.addField(talent.name, talent.description);
     }
@@ -92,8 +95,9 @@ createCommand({
     const fourth = new Embed()
       .setTitle(character.name)
       .setThumbnail(character.thumbnail)
-      .setTimestamp()
-      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
+      .setFooter(
+        "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
+      );
     for (const constellation of character.constellations) {
       fourth.addField(constellation.name, constellation.description);
     }
@@ -101,15 +105,24 @@ createCommand({
     const fifth = new Embed()
       .setTitle(` ${character.name} Ascension Cost`)
       .setImage(character.ascensionCost)
-      .setTimestamp()
-      .setFooter("ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 🔼 Ascension Costs")
+      .setFooter(
+        "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
+      );
+
+    const sixth = new Embed()
+      .setTitle(` ${character.name} Talent Cost`)
+      .setImage(character.talentCost)
+      .setFooter(
+        "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
+      );
 
     const pages = {
       1: { page: 1, embed: first, emoji: "ℹ️" },
       2: { page: 2, embed: second, emoji: "⚔️" },
       3: { page: 3, embed: third, emoji: "🛡️" },
       4: { page: 4, embed: fourth, emoji: "🌟" },
-      5: { page: 5, embed: fifth, emoji: "🔼" },
+      5: { page: 5, embed: fifth, emoji: "💸" },
+      6: { page: 6, embed: sixth, emoji: "💵" },
     } as Record<
       number,
       { page: number; embed: Embed; emoji: string } | undefined
@@ -126,7 +139,7 @@ createCommand({
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["ℹ️", "⚔️", "🛡️", "🌟", "🔼"];
+    const emojis = ["ℹ️", "⚔️", "🛡️", "🌟", "💸", "💵"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
@@ -147,7 +160,7 @@ createCommand({
         message.channelID,
         response.id,
         reaction,
-        message.author.id
+        message.author.id,
       ).catch(console.log))
     ) {
       return;

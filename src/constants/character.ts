@@ -18,7 +18,8 @@ export const characters = new Map([
       specialDish: "Slow-Cooked Bamboo Shoot Soup",
       constellation: "Lapis Dei",
       birthday: "December 31st",
-      ascensionCost: "https://i.imgur.com/qym2uue.png",
+      ascensionCost: "https://i.imgur.com/LPvxOnj.png",
+      talentCost: "https://i.imgur.com/R3wtPIz.png",
       activeTalents: [
         {
           name: "Rain of Stone",
@@ -108,7 +109,8 @@ export const characters = new Map([
       specialDish: "Rockin' Riffin' Chicken!",
       constellation: "Fila Ignium",
       birthday: "October 16th",
-      ascensionCost: "https://i.imgur.com/A3ifYMk.png",
+      ascensionCost: "https://i.imgur.com/2GtaTup.png",
+      talentCost: "https://i.imgur.com/atKpGxr.png",
       activeTalents: [
         {
           name: "Dance of Fire",
@@ -198,7 +200,8 @@ export const characters = new Map([
       specialDish: "All-Delicacy Parcels",
       constellation: "Fabulae Textile",
       birthday: "October 9th",
-      ascensionCost: "https://i.imgur.com/zYlNAqt.png",
+      ascensionCost: "https://i.imgur.com/BgTSS8x.png",
+      talentCost: "https://i.imgur.com/oyrY3FE.png",
       activeTalents: [
         {
           name: "Guhua Style",
@@ -286,7 +289,8 @@ export const characters = new Map([
       specialDish: "Wanmin Restaurant's Boiled Fish",
       constellation: "Trulla",
       birthday: "November 2nd",
-      ascensionCost: "https://i.imgur.com/2XN3xC3.png",
+      ascensionCost: "https://i.imgur.com/84nW7Uo.png",
+      talentCost: "https://i.imgur.com/3iHCzoE.png",
       activeTalents: [
         {
           name: "Dough-Fu",
@@ -374,7 +378,8 @@ export const characters = new Map([
       specialDish: "A Buoyant Breeze",
       constellation: "Carmen Dei",
       birthday: "June 16th",
-      ascensionCost: "https://i.imgur.com/FzYGj1E.png",
+      ascensionCost: "https://i.imgur.com/EXu8waa.png",
+      talentCost: "https://i.imgur.com/lA8BP9k.png",
       activeTalents: [
         {
           name: "Divine Marksmanship",
@@ -464,7 +469,8 @@ export const characters = new Map([
       specialDish: "Nutritious Meal (V. 593)",
       constellation: "Ampulla",
       birthday: "November 26th",
-      ascensionCost: "https://i.imgur.com/NS0pvZv.png",
+      ascensionCost: "https://i.imgur.com/6rnsoNC.png",
+      talentCost: "https://i.imgur.com/osx7MBs.png",
       activeTalents: [
         {
           name: "Wind Spirit Creation",
@@ -554,7 +560,8 @@ export const characters = new Map([
       specialDish: "Puppy-Paw Hash Brown",
       constellation: "Lupus Minor",
       birthday: "September 9th",
-      ascensionCost: "https://i.imgur.com/5CumB52.png",
+      ascensionCost: "https://i.imgur.com/oW57fzV.png",
+      talentCost: "https://i.imgur.com/ujhsUFc.png",
       activeTalents: [
         {
           name: "Steel Fang",
@@ -644,7 +651,8 @@ export const characters = new Map([
       specialDish: "No Tomorrow",
       constellation: "Pristina Nola",
       birthday: "March 3rd",
-      ascensionCost: "https://i.imgur.com/ffp4A4g.png",
+      ascensionCost: "https://i.imgur.com/D0uZiME.png",
+      talentCost: "https://i.imgur.com/luB5xLI.png",
       activeTalents: [
         {
           name: "Ancient Sword Art",
@@ -734,7 +742,8 @@ export const characters = new Map([
       specialDish: "Lighter-Than-Air Pancake",
       constellation: "Parma Cordis",
       birthday: "March 21st",
-      ascensionCost: "https://i.imgur.com/0EBSKsd.png",
+      ascensionCost: "https://i.imgur.com/zY2LUHW.png",
+      talentCost: "https://i.imgur.com/LM8lr5S.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Maid",
@@ -824,7 +833,8 @@ export const characters = new Map([
       specialDish: "Qiankun Mora Meat",
       constellation: "Opus Aqe",
       birthday: "August 26th",
-      ascensionCost: "https://i.imgur.com/LoDdW11.png",
+      ascensionCost: "https://i.imgur.com/Zp590eo.png",
+      talentCost: "https://i.imgur.com/JcB2LUq.png",
       activeTalents: [
         {
           name: "Sparkling Scatter",
@@ -913,7 +923,8 @@ export const characters = new Map([
       specialDish: "Mysterious Bolognese",
       constellation: "Tempus Fugit",
       birthday: "June 9th",
-      ascensionCost: "https://i.imgur.com/aiTDo9J.png",
+      ascensionCost: "https://i.imgur.com/cJ1TMla.png",
+      talentCost: "https://i.imgur.com/buugRg2.png",
       activeTalents: [
         {
           name: "Lightning Touch",
@@ -1003,7 +1014,8 @@ export const characters = new Map([
       specialDish: "Fish-Flavored Toast",
       constellation: "Trifolium",
       birthday: "July 27th",
-      ascensionCost: "https://i.imgur.com/zSCSnmt.png",
+      ascensionCost: "https://i.imgur.com/0FQi1vY.png",
+      talentCost: "https://i.imgur.com/Oy4akWI.png",
       activeTalents: [
         {
           name: "Kaboom!",
@@ -1093,7 +1105,8 @@ export const characters = new Map([
       specialDish: "Survival Grilled Fish",
       constellation: "Trulla Cementarii",
       birthday: "November 20th",
-      ascensionCost: "https://i.imgur.com/ggl1BSu.png",
+      ascensionCost: "https://i.imgur.com/jQ2kJyI.png",
+      talentCost: "https://i.imgur.com/o8TCk6o.png",
       activeTalents: [
         {
           name: "Yunlai Swordsmanship",
@@ -1183,7 +1196,8 @@ export const characters = new Map([
       specialDish: "Fruity Skewers",
       constellation: "Pavo Ocellus",
       birthday: "November 30th",
-      ascensionCost: "https://i.imgur.com/BskahNj.png",
+      ascensionCost: "https://i.imgur.com/QwMEn4P.png",
+      talentCost: "https://i.imgur.com/ce4hRI8.png",
       activeTalents: [
         {
           name: "Ceremonial Bladework",
@@ -1273,7 +1287,8 @@ export const characters = new Map([
       specialDish: "Invigorating Pizza",
       constellation: "Leo Minor",
       birthday: "March 14th",
-      ascensionCost: "https://i.imgur.com/9eBfaLL.png",
+      ascensionCost: "https://i.imgur.com/mrjkdAi.png",
+      talentCost: "https://i.imgur.com/nOcqtqZ.png",
       activeTalents: [
         {
           name: "Favonius Bladework",
@@ -1363,7 +1378,8 @@ export const characters = new Map([
       specialDish: "Prosperous Peace",
       constellation: "Sinae Unicornis",
       birthday: "December 2nd",
-      ascensionCost: "https://i.imgur.com/X2lI3iv.png",
+      ascensionCost: "https://i.imgur.com/nL1vU54.png",
+      talentCost: "https://i.imgur.com/dCpk8yH.png",
       activeTalents: [
         {
           name: "Liutian Archery",
@@ -1452,7 +1468,8 @@ export const characters = new Map([
       specialDish: "Die Heilige Sinfonie",
       constellation: "Corvus",
       birthday: "May 27th",
-      ascensionCost: "https://i.imgur.com/XbgjAzL.png",
+      ascensionCost: "https://i.imgur.com/YgOEn3a.png",
+      talentCost: "https://i.imgur.com/cU7vrKt.png",
       activeTalents: [
         {
           name: "Bolts of Downfall",
@@ -1542,7 +1559,8 @@ export const characters = new Map([
       specialDish: "Once Upon a Time in Mondstadt",
       constellation: "Noctua",
       birthday: "April 30th",
-      ascensionCost: "https://i.imgur.com/Z8pKtAE.png",
+      ascensionCost: "https://i.imgur.com/C0cFjTj.png",
+      talentCost: "https://i.imgur.com/gQF98Qy.png",
       activeTalents: [
         {
           name: "Tempered Sword",
@@ -1632,7 +1650,8 @@ export const characters = new Map([
       specialDish: "Cold Noodles with Mountain Delicacies",
       constellation: "Nubis Caesor",
       birthday: "September 7th",
-      ascensionCost: "https://i.imgur.com/fhs7dHa.png",
+      ascensionCost: "https://i.imgur.com/2zE4uzT.png",
+      talentCost: "https://i.imgur.com/wEVq3YI.png",
       activeTalents: [
         {
           name: "Demonbane",
@@ -1722,7 +1741,8 @@ export const characters = new Map([
       specialDish: "A Prize Catch",
       constellation: "Monoceros Caeli",
       birthday: "July 20th",
-      ascensionCost: "https://i.imgur.com/SrgcjDw.png",
+      ascensionCost: "https://i.imgur.com/JIglNMa.png",
+      talentCost: "https://i.imgur.com/1R2AuxW.png",
       activeTalents: [
         {
           name: "Cutting Torrent",
@@ -1810,7 +1830,8 @@ export const characters = new Map([
       specialDish: "Teyvat Charred Egg",
       constellation: "Rota Calamitas",
       birthday: "February 29th",
-      ascensionCost: "https://i.imgur.com/hJnUNgE.png",
+      ascensionCost: "https://i.imgur.com/tsU3tK3.png",
+      talentCost: "https://i.imgur.com/QlITKba.png",
       activeTalents: [
         {
           name: "Strike of Fortune",
@@ -1899,7 +1920,8 @@ export const characters = new Map([
       specialDish: "Flash-Fried Filet",
       constellation: "Victor Mare",
       birthday: "February 14th",
-      ascensionCost: "https://i.imgur.com/pFwixMX.png",
+      ascensionCost: "https://i.imgur.com/fq6kK7P.png",
+      talentCost: "https://i.imgur.com/eJcops7.png",
       activeTalents: [
         {
           name: "Oceanborne",
@@ -1989,7 +2011,8 @@ export const characters = new Map([
       specialDish: "Spicy Stew",
       constellation: "Crater",
       birthday: "July 5th",
-      ascensionCost: "https://i.imgur.com/tpHA1MI.png",
+      ascensionCost: "https://i.imgur.com/D8NzZEd.png",
+      talentCost: "https://i.imgur.com/ApwU8Ds.png",
       activeTalents: [
         {
           name: "Whisper of Water",
@@ -2078,7 +2101,8 @@ export const characters = new Map([
       specialDish: "Outrider's Champion Steak!",
       constellation: "Lepus",
       birthday: "August 10th",
-      ascensionCost: "https://i.imgur.com/2PAEEDU.png",
+      ascensionCost: "https://i.imgur.com/1tzvBKY.png",
+      talentCost: "https://i.imgur.com/h5SfnbT.png",
       activeTalents: [
         {
           name: "Sharpshooter",
@@ -2168,7 +2192,8 @@ export const characters = new Map([
       specialDish: "Woodland Dream",
       constellation: "Princeps Cretaceus",
       birthday: "September 13th",
-      ascensionCost: "https://i.imgur.com/xOUlDj3.png",
+      ascensionCost: "https://i.imgur.com/OEMRiEZ.png",
+      talentCost: "https://i.imgur.com/vMIEUzC.png",
       activeTalents: [
         {
           name: "Favonius Bladework - Weiss",
@@ -2258,7 +2283,8 @@ export const characters = new Map([
       specialDish: "Der Weisheit Letzter Schluss (Life)",
       constellation: "Astrolabos",
       birthday: "August 31st",
-      ascensionCost: "https://i.imgur.com/AArkEgo.png",
+      ascensionCost: "https://i.imgur.com/scKdDTR.png",
+      talentCost: "https://i.imgur.com/0HmjzZB.png",
       activeTalents: [
         {
           name: "Ripple of Fate",
@@ -2348,7 +2374,9 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      ascensionCost: "https://i.imgur.com/AQDj6vc.png",
+      // TODO | Add talentCost
+      ascensionCost: "https://i.imgur.com/qSPL4Q6.png",
+      talentCost: "https://i.imgur.com/f9Q2ZLF.png",
       activeTalents: [
         {
           name: "Foreign Rockblade",
@@ -2432,7 +2460,9 @@ export const characters = new Map([
       specialDish: "None",
       constellation: "Viator (Male)/Viatrix (Female)",
       birthday: "Player's Choice",
-      ascensionCost: "https://i.imgur.com/AQDj6vc.png",
+      // TODO | Add talentCost
+      ascensionCost: "https://i.imgur.com/qSPL4Q6.png",
+      talentCost: "https://i.imgur.com/f9Q2ZLF.png",
       activeTalents: [
         {
           name: "Foreign Ironwind",
@@ -2514,7 +2544,8 @@ export const characters = new Map([
       specialDish: "Definitely Not Bar Food!",
       constellation: "Feles",
       birthday: "January 18th",
-      ascensionCost: "https://i.imgur.com/bGbAdzw.png",
+      ascensionCost: "https://i.imgur.com/YzhdzN8.png",
+      talentCost: "https://i.imgur.com/1wJSmR8.png",
       activeTalents: [
         {
           name: "Kätzlein Style",
@@ -2604,7 +2635,8 @@ export const characters = new Map([
       specialDish: "Sweet Dream",
       constellation: "Alatus Nemeseos",
       birthday: "April 17th",
-      ascensionCost: "https://i.imgur.com/r9wyclt.png",
+      ascensionCost: "https://i.imgur.com/jx8POJl.png",
+      talentCost: "https://i.imgur.com/8LrlPJ4.png",
       activeTalents: [
         {
           name: "Whirlwind Thrust",
@@ -2692,7 +2724,8 @@ export const characters = new Map([
       specialDish: "Ghostly March",
       constellation: "Papilio Charontis",
       birthday: "July 15th",
-      ascensionCost: "https://i.imgur.com/MhN1fB0.png",
+      ascensionCost: "https://i.imgur.com/COxelim.png",
+      talentCost: "https://i.imgur.com/JNjfSnD.png",
       activeTalents: [
         {
           name: "Secret Spear of Wangsheng",
@@ -2772,7 +2805,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210306171341",
       color: "00f9ff",
-      emoji: "<:Rosaria:817836681138274315>",
+      emoji: "<:Rosaria:820653132500828160>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
@@ -2782,8 +2815,9 @@ export const characters = new Map([
       specialDish: "NA",
       constellation: "NA",
       birthday: "January 24th",
-      // TODO | Add ascensionCost
+      // TODO | Add ascensionCost & talentCost
       ascensionCost: "https://i.imgur.com/IZQSHKl.png",
+      talentCost: "https://i.imgur.com/f9Q2ZLF.png",
       activeTalents: [
         {
           name: "Spear of the Church",

@@ -10,16 +10,16 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help Help")
       .setDescription([
-        `🔹 \`${prefix}help edit\``,
         `🔹 \`${prefix}help [gadgets | gadget]\``,
-        `🔹 \`${prefix}help help\``,
         `🔹 \`${prefix}help [materials | material]\``,
         `🔹 \`${prefix}help [patchnote | patchnotes | update | version]\``,
+        `🔹 \`${prefix}help [weapon | weapons]\``,
+        `🔹 \`${prefix}help edit\``,
+        `🔹 \`${prefix}help help\``,
         `🔹 \`${prefix}help profile\``,
         `🔹 \`${prefix}help remove\``,
         `🔹 \`${prefix}help reset\``,
         `🔹 \`${prefix}help setup\``,
-        `🔹 \`${prefix}help [weapon | weapons]\``,
       ])
       .setTimestamp()
       .setColor("RANDOM");

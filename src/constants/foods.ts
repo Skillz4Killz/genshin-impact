@@ -1587,8 +1587,10 @@ export const foods = new Map([
       recipe: "1x Potato, 1x Violetgrass, 1x Matsutake",
       dishType: "Guardian's Dish",
       proficiency: "10",
-      obtainable: "Obtainable from Licai for 2,500 Mora after reaching Adventure Rank ??",
-      effect: "Increases all party members' CRIT Rate by **6/9/12%** for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      obtainable:
+        "Obtainable from Licai for 2,500 Mora after reaching Adventure Rank ??",
+      effect:
+        "Increases all party members' CRIT Rate by **6/9/12%** for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
     },
   ],
   [
@@ -1604,42 +1606,78 @@ export const foods = new Map([
       recipe: "4x Fish, 2x Shrimp Meat, 2x Bird Egg, 1x Flour",
       dishType: "Guardian's Dish",
       proficiency: "15",
-      obtainable: "Obtainable from Yueshu for 5,000 Mora after reaching Adventure Rank ??.",
+      obtainable:
+        "Obtainable from Yueshu for 5,000 Mora after reaching Adventure Rank ??.",
       effect: "Revives a character and restores **900/1.200/1.500** HP.",
     },
   ],
- [
-   "ghostlymarch",
-   {
-     name: "Ghostly March",
-     image:
-       "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Ghostly_March.png/revision/latest/scale-to-width-down/113?cb=20210204083827",
-     description:
-       "None",
-     color: "RANDOM",
-     stars: "⭐⭐",
-     recipe: "2x matsutake, 2x Snapdragon",
-     dishType: "Special Guradian's Dish",
-     proficiency: "None",
-     obtainable: "Cook Vegetarian Abalone with Hu Tao",
-     effect: "NA",
-   },
- ],
- [
-  "sweetdream",
-  {
-    name: "Sweet Dream",
-    image:
-      "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Item_%22Sweet_Dream%22.png/revision/latest/scale-to-width-down/310?cb=20210205202607",
-    description:
-      "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
-    color: "RANDOM",
-    stars: "⭐⭐",
-    recipe: "3x Milk, 1x Sugar, 1x Almond",
-    dishType: "Special Guradian's Dish",
-    proficiency: "None",
-    obtainable: "Cook Almond Tofu with Xiao",
-    effect: "Increases all party members' ATK by **114** for 300s.",
-  },
-],
+  [
+    "ghostlymarch",
+    {
+      name: "Ghostly March",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Ghostly_March.png/revision/latest/scale-to-width-down/113?cb=20210204083827",
+      description: "None",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "2x matsutake, 2x Snapdragon",
+      dishType: "Special Guradian's Dish",
+      proficiency: "None",
+      obtainable: "Cook Vegetarian Abalone with Hu Tao",
+      effect: "NA",
+    },
+  ],
+  [
+    "sweetdream",
+    {
+      name: "Sweet Dream",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Item_%22Sweet_Dream%22.png/revision/latest/scale-to-width-down/310?cb=20210205202607",
+      description:
+        "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "3x Milk, 1x Sugar, 1x Almond",
+      dishType: "Special Guradian's Dish",
+      proficiency: "None",
+      obtainable: "Cook Almond Tofu with Xiao",
+      effect: "Increases all party members' ATK by **114** for 300s.",
+    },
+  ],
+  [
+    "crispychickenburger",
+    {
+      name: "Crispy Chicken Burger",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Cripsy_Chicken_Burger.png/revision/latest/scale-to-width-down/128?cb=20210312215657",
+      description:
+        "Crispy Chicken Burger is an event-exclusive food item exclusive to China that can be obtained during the KFC x Genshin Impact collaboration event. Being exclusive to China, it is not obtainable in the Global version.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "4x Fowl, 2x Flour, 2x Cabbage, 2x Butter",
+      dishType: "Guradian's Dish",
+      proficiency: "None",
+      obtainable: "Obtained from recipe",
+      effect:
+        "Restores **30/32/34**% of Max HP and grants an additional **600/1.250/1.900** HP to the selected character.",
+    },
+  ],
+  [
+    "fingerlickingoodgGoldenchicken",
+    {
+      name: "Finger Lickin' Good Golden Chicken",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Finger_Lickin%27_Good_Golden_Chicken.png/revision/latest/scale-to-width-down/128?cb=20210312215657",
+      description:
+        "Finger Lickin' Good Golden Chicken is an event-exclusive food item exclusive to China that can be obtained during the KFC x Genshin Impact collaboration event. Being exclusive to China, it is not obtainable in the Global version.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐⭐",
+      recipe: "4x Fowl, 3x Flour, 3x Pepper, 4x Butter",
+      dishType: "Warrior's Dish",
+      proficiency: "None",
+      obtainable: "Obtained from recipe",
+      effect:
+        "Increases all party members' ATK by **272** and CRIT Rate by **8**% for 300s.",
+    },
+  ],
 ]);

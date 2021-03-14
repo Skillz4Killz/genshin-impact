@@ -11,20 +11,20 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help Domains")
       .setDescription([
-        `🔹 \`${prefix}domain ceciliagarden\``,
         `🔹 \`${prefix}domain [clearpoolandmountaincavern | clearpool | mountaincavern]\``,
         `🔹 \`${prefix}domain [domainofguyun | guyun]\``,
-        `🔹 \`${prefix}domain forsakenrift\``,
         `🔹 \`${prefix}domain [hiddenpalaceoflianshanformula | lianshanformula]\``,
         `🔹 \`${prefix}domain [hiddenpalaceofzhouformula | zhouformula]\``,
-        `🔹 \`${prefix}domain midsummercourtyard\``,
         `🔹 \`${prefix}domain [peakofvindagnyr | vindagnyr]\``,
-        `🔹 \`${prefix}domain taishanmansion\``,
         `🔹 \`${prefix}domain [valleyofremembrance | remembrance]\``,
+        `🔹 \`${prefix}domain ceciliagarden\``,
+        `🔹 \`${prefix}domain forsakenrift\``,
+        `🔹 \`${prefix}domain midsummercourtyard\``,
+        `🔹 \`${prefix}domain taishanmansion\``,
       ])
       .setTimestamp()
-      .setColor("RANDOM")
+      .setColor("RANDOM");
 
-      await sendEmbed(message.channelID, embed).catch(console.log);
-    },
-  });
+    await sendEmbed(message.channelID, embed).catch(console.log);
+  },
+});

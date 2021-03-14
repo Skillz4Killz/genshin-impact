@@ -557,23 +557,26 @@ export const weapons = new Map([
         "CRIT Hits have a **60/70/80/90/100%** chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every **12/10,5/9/7,5/6s**",
     },
   ],
-    [
-      "lithicspear",
-      {
-        name: "Lithic Spear",
-        description: "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
-        thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest/scale-to-width-down/151?cb=20201116042459",
-        color: "RANDOM",
-        category: "Polearm",
-        stars: "⭐⭐⭐⭐",
-        baseAttack: "42",
-        secondaryStat: "DMG Bonus",
-        secondaryStatValue: "9%",
-        specialAbility: "Lithic Axiom - Subjugating Evil",
-        moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Spear",
-        refinement: "Normal Attack hits have a 20% chance of causing the next Charged Attack performed in the following 10s to deal 40% increased DMG.",
-      },
-    ],
+  [
+    "lithicspear",
+    {
+      name: "Lithic Spear",
+      description:
+        "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest/scale-to-width-down/151?cb=20201116042459",
+      color: "RANDOM",
+      category: "Polearm",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "42",
+      secondaryStat: "DMG Bonus",
+      secondaryStatValue: "9%",
+      specialAbility: "Lithic Axiom - Subjugating Evil",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Spear",
+      refinement:
+        "Normal Attack hits have a 20% chance of causing the next Charged Attack performed in the following 10s to deal 40% increased DMG.",
+    },
+  ],
   [
     "dragonspienspear",
     {
@@ -919,8 +922,10 @@ export const weapons = new Map([
     "lithicblade",
     {
       name: "Lithic Blade",
-      description: "A greatsword carved and chiseled from the very bedrock of Liyue.",
-      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Lithic_Blade.png/revision/latest/scale-to-width-down/176?cb=20200716172440",
+      description:
+        "A greatsword carved and chiseled from the very bedrock of Liyue.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Lithic_Blade.png/revision/latest/scale-to-width-down/176?cb=20200716172440",
       color: "RANDOM",
       category: "Claymore",
       stars: "⭐⭐⭐⭐",
@@ -929,7 +934,8 @@ export const weapons = new Map([
       secondaryStatValue: "16%",
       specialAbility: "Lithic Axiom - Unity",
       moreInfo: "https://genshin-impact.fandom.com/wiki/Lithic_Blade",
-      refinement: "For every character in the party who hails from Liyue, the character who equips this weapon gains **6/7/8/9/10%** ATK increase and **2/3/4/5/6%** CRIT Rate increase.",
+      refinement:
+        "For every character in the party who hails from Liyue, the character who equips this weapon gains **6/7/8/9/10%** ATK increase and **2/3/4/5/6%** CRIT Rate increase.",
     },
   ],
   [
@@ -1889,7 +1895,7 @@ export const weapons = new Map([
       description:
         "A 'firewood staff' that was once used in ancient and long-lost rituals.",
       thumbnail:
-        "https://genshin.honeyhunterworld.com/img/weapon/staff_of_homa.png",
+        "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Staff_of_Homa.png/revision/latest/scale-to-width-down/256?cb=20210225200935",
       color: "RANDOM",
       category: "Polearm",
       stars: "⭐⭐⭐⭐⭐",

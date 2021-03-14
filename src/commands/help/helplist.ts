@@ -10,8 +10,8 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help List")
       .setDescription([
-        `🔹 \`${prefix}list artifacts\``,
         `🔹 \`${prefix}list [chars | character]\``,
+        `🔹 \`${prefix}list artifacts\``,
         `🔹 \`${prefix}list food\``,
         `🔹 \`${prefix}list gadgets\``,
         `🔹 \`${prefix}list materials\``,
