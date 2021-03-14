@@ -2799,7 +2799,8 @@ export const characters = new Map([
       description:
         "A nun who, outside of her garb, seems nothing at all like a person of the cloth. Known for her sharp, cold words and manner, she often works alone.",
       thumbnail: "https://i.imgur.com/XUkuVIg.png",
-      image: "https://i.imgur.com/XUkuVIg.png",
+      image:
+        "https://cdn.discordapp.com/attachments/798566392965103616/820729594503626752/Character_Rosaria_Portrait.png",
       color: "00f9ff",
       emoji: "<:Rosaria:820653132500828160>",
       category: "Cryo",
