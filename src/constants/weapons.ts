@@ -180,25 +180,26 @@ export const weapons = new Map([
         "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
     },
   ],
-
-  // CBT CONTENT **TODO**
-  // [
-  //   "thealleyflash",
-  //   {
-  //     name: "The Alley Flash",
-  //     description: "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
-  //     thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest/scale-to-width-down/194?cb=20201016011557",
-  //     color: "RANDOM",
-  //     category: "Sword",
-  //     stars: "⭐⭐⭐⭐",
-  //     baseAttack: "44",
-  //     secondaryStat: "CRIT Rate",
-  //     secondaryStatValue: "4%",
-  //     specialAbility: "Itinerant Hero",
-  //     moreInfo: "https://genshin-impact.fandom.com/wiki/The_Alley_Flash",
-  //     refinement: "Continuously sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack."
-  //   },
-  // ],
+  [
+    "thealleyflash",
+    {
+      name: "The Alley Flash",
+      description:
+        "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest/scale-to-width-down/306?cb=20210312043426",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "45",
+      secondaryStat: "Elemental Mastery",
+      secondaryStatValue: "12",
+      specialAbility: "Itinerant Hero",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/The_Alley_Flash",
+      refinement:
+        "Increases DMG dealt by the character equipping this weapon by **12/15/18/21/24**%. Taking DMG disables this effect for 5s.",
+    },
+  ],
   [
     "favoniussword",
     {
@@ -1256,24 +1257,26 @@ export const weapons = new Map([
         "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by **20/25/30/35/40%** for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by **20/25/30/35/40%** for 6s.",
     },
   ],
-  //  CBT 3 **TODO**
-  //  [
-  //    "wineandsong",
-  //    {
-  //      name: "Wine and Song",
-  //      description: "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
-  //      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png/revision/latest/scale-to-width-down/92?cb=20200715012327",
-  //      color: "RANDOM",
-  //      category: "Catalyst",
-  //      stars: "⭐⭐⭐⭐",
-  //      baseAttack: "42",
-  //      secondaryStat: "Energy Recharge",
-  //      secondaryStatValue: "10%",
-  //      specialAbility: "Wind in the Square",
-  //      moreInfo: "https://genshin-impact.fandom.com/wiki/Wine_and_Song",
-  //      refinement: "For every character in the party who hails from Mondstadt, the character who equips this weapon gains **8/10/12/14/16%** ATK increase and **3/3,5/4/4,5/5%** Movement SPD increase.",
-  //    },
-  //  ],
+  [
+    "wineandsong",
+    {
+      name: "Wine and Song",
+      description:
+        "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png/revision/latest/scale-to-width-down/200?cb=20210312043734",
+      color: "RANDOM",
+      category: "Catalyst",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "44",
+      secondaryStat: "Energy Recharge",
+      secondaryStatValue: "6,7%",
+      specialAbility: "Wind in the Square",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Wine_and_Song",
+      refinement:
+        "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate sprint by **14/16/18/20/22**% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by **20/25/30/35/40**% for 5s.",
+    },
+  ],
   [
     "eyeofperception",
     {
@@ -1750,24 +1753,27 @@ export const weapons = new Map([
         "Increases Normal Attack DMG by **40/50/60/70/80%** but decreases Charged Attack DMG by 10%.",
     },
   ],
-  //  CBT3 **TODO**
-  //  [
-  //    "alleyhunter",
-  //    {
-  //      name: "Alley Hunter",
-  //      description: "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
-  //      thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Weapon_Alley_Hunter.png/revision/latest/scale-to-width-down/136?cb=20210111041718",
-  //      color: "RANDOM",
-  //      category: "Bow",
-  //      stars: "⭐⭐⭐⭐",
-  //      baseAttack: "41",
-  //      secondaryStat: "CRIT Rate",
-  //      secondaryStatValue: "8%",
-  //      specialAbility: "Urban Guerrilla",
-  //      moreInfo: "https://genshin-impact.fandom.com/wiki/Alley_Hunter",
-  //      refinement: "Every 4s a character is on the field, their ATK increases by **4/5/6/7/8%** and their CRIT DMG increases by **4/5/6/7/8%**. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.",
-  //    },
-  //  ],
+  // TODO maybe fix idk lol
+  [
+    "alleyhunter",
+    {
+      name: "Alley Hunter",
+      description:
+        "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Weapon_Alley_Hunter.png/revision/latest/scale-to-width-down/136?cb=20210111041718",
+      color: "RANDOM",
+      category: "Bow",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "41",
+      secondaryStat: "CRIT Rate",
+      secondaryStatValue: "8%",
+      specialAbility: "Urban Guerrilla",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Alley_Hunter",
+      refinement:
+        "Every 4s a character is on the field, their ATK increases by **4/5/6/7/8%** and their CRIT DMG increases by **4/5/6/7/8%**. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.",
+    },
+  ],
   [
     "thestringless",
     {
@@ -1903,9 +1909,49 @@ export const weapons = new Map([
       secondaryStat: "CRIT DMG",
       secondaryStatValue: "14,4",
       specialAbility: "Reckless Cinnabar",
-      moreInfo: "https://genshin-impact.fandom.com/wiki/Primordial_Jade_Cutter",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Staff_of_Homa",
       refinement:
         "HP increased by **20/25/30/35/40%**. Additionally, provides an ATK Bonus based on **0,8/1,0/1,2/1,4/1,6%** of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional **1,0/1,2/1,4/1,6/1,8%** of Max HP.",
+    },
+  ],
+  [
+    "elegyfortheend",
+    {
+      name: "Elegy for the End",
+      description:
+        "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Weapon_Elegy_for_the_End.png/revision/latest/scale-to-width-down/310?cb=20210312044656",
+      color: "RANDOM",
+      category: "Bow",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "46",
+      secondaryStat: "Energy Recharge",
+      secondaryStatValue: "12%",
+      specialAbility: "NA",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Elegy_for_the_End",
+      refinement:
+        "A part of the 'Millennial Movement' that wanders amidst the winds. Increases Elemental Mastery by **60/75/90/105/120**. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the 'Millennial Movement: Farewell Song' effect for 12s. 'Millennial Movement: Farewell Song' increases Elemental Mastery by **100/125/150/175/200** and increases ATK by **20%/25/30/35/40**. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the 'Millennial Movement,' buffs of the same type will not stack.",
+    },
+  ],
+  // TODO Recheck stuff again
+  [
+    "windblumeode",
+    {
+      name: "Windblume Ode",
+      description: "NA",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Windblume_Ode.png/revision/latest/scale-to-width-down/256?cb=20210317075422",
+      color: "RANDOM",
+      category: "Bow",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "44",
+      secondaryStat: "Elemental Mastery",
+      secondaryStatValue: "36",
+      specialAbility: "NA",
+      moreInfo: "https://genshin-impact.fandom.com/wiki/Windblume_Ode",
+      refinement:
+        "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by **16/??/??/??/??**% for 6s.",
     },
   ],
 ]);

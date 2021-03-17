@@ -1645,24 +1645,6 @@ export const foods = new Map([
     },
   ],
   [
-    "crispychickenburger",
-    {
-      name: "Crispy Chicken Burger",
-      image:
-        "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Cripsy_Chicken_Burger.png/revision/latest/scale-to-width-down/128?cb=20210312215657",
-      description:
-        "Crispy Chicken Burger is an event-exclusive food item exclusive to China that can be obtained during the KFC x Genshin Impact collaboration event. Being exclusive to China, it is not obtainable in the Global version.",
-      color: "RANDOM",
-      stars: "⭐⭐⭐",
-      recipe: "4x Fowl, 2x Flour, 2x Cabbage, 2x Butter",
-      dishType: "Guradian's Dish",
-      proficiency: "None",
-      obtainable: "Obtained from recipe",
-      effect:
-        "Restores **30/32/34**% of Max HP and grants an additional **600/1.250/1.900** HP to the selected character.",
-    },
-  ],
-  [
     "fingerlickingoodgGoldenchicken",
     {
       name: "Finger Lickin' Good Golden Chicken",
@@ -1674,10 +1656,141 @@ export const foods = new Map([
       stars: "⭐⭐⭐⭐",
       recipe: "4x Fowl, 3x Flour, 3x Pepper, 4x Butter",
       dishType: "Warrior's Dish",
-      proficiency: "None",
+      proficiency: "20",
       obtainable: "Obtained from recipe",
       effect:
         "Increases all party members' ATK by **272** and CRIT Rate by **8**% for 300s.",
+    },
+  ],
+  [
+    "crispypotatoshrimpplatter",
+    {
+      name: "Crispy Potato Shrimp Platter",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Item_Crispy_Potato_Shrimp_Platter.png/revision/latest/scale-to-width-down/256?cb=20210317031656",
+      description:
+        "An attractive-looking pre-meal snack. A spread made from potatoes and berries is placed onto crispy potato slices, and a whole shrimp is then added on top. The fragrant and full-bodied flavors serve to whet the appetite, while the addition of Mint adds a whole other dimension to the mix.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "4x Mint, 4x Shrimp Meat, 3x Potato, 2x Berry",
+      dishType: "Guardian's Dish",
+      proficiency: "15",
+      obtainable:
+        "Obtainable by buying from Good Hunter for 5.000 Mora after reaching Adventure Rank 30.",
+      effect:
+        "Restores **26/28/30**% of Max HP to the selected character and regenerates **450/620/790** HP.",
+    },
+  ],
+  [
+    "mintjelly",
+    {
+      name: "Mint Jelly",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Item_Mint_Jelly.png/revision/latest/scale-to-width-down/256?cb=20210317031658",
+      description:
+        "A refreshing dessert. The steps to making this are quite simple indeed, and when it slides down your throat, the faint, fresh flavor of mint will leave you feeling reinvigorated for the rest of the day.",
+      color: "RANDOM",
+      stars: "⭐",
+      recipe: "1x Mint, 1x Sugar",
+      dishType: "Guardian's Dish",
+      proficiency: "5",
+      obtainable:
+        "Obtainable by buying from Good Hunter for 1,250 Mora after reaching Adventure Rank 15.",
+      effect:
+        "Restores **8/9/10**% of Max HP and an additional **800/1.000/1.200** HP to the selected character.",
+    },
+  ],
+  [
+    "mintsalad",
+    {
+      name: "Mint Salad",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Mint_Salad.png/revision/latest/scale-to-width-down/256?cb=20210317031657",
+      description:
+        "A fragrant salad dish. Finely chopped Jueyun Chilis blended with a sauce and mixed with Mint leaves. It looks like nothing special, but it has surprisingly potent powers of refreshment and reinvigoration. It is also the perfect palate-cleanser after a greasy, indulgent meal.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "4x Mint, 1x Jueyun Chili",
+      dishType: "Warrior's Dish",
+      proficiency: "10",
+      obtainable: "Obtainable by buying from Wanmin Restaurant for 2.500 Mora.",
+      effect:
+        "Increases all party members' ATK by **66/81/95** for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    },
+  ],
+  [
+    "mintymeatrolls",
+    {
+      name: "Minty Meat Rolls",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Minty_Meat_Rolls.png/revision/latest/scale-to-width-down/256?cb=20210317031656",
+      description:
+        "A sour-and-spicy dish. The marinated meat has been thinly sliced and rolled into the mint leaves, before being brushed with a sauce blend containing Jueyun Chilis. The unique mint flavor adds the finishing touch to this dish, turning it into an excellent addition to any cold platter.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "4x Mint, 2x Raw Meat, 1x Jueyun Chili",
+      dishType: "Adventurer's Dish",
+      proficiency: "15",
+      obtainable: "Obtainable by buying from Wanmin Restaurant for 5.000 Mora.",
+      effect:
+        "Decreases all party members' gliding and sprinting Stamina consumption by **15/20/25**% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    },
+  ],
+  [
+    "goldenchickenburger",
+    {
+      name: "Golden Chicken Burger",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Golden_Chicken_Burger.png/revision/latest/scale-to-width-down/256?cb=20210317173935",
+      description:
+        "A hamburger in which the fowl meat is the main star. The fluffy bread sandwiches slices of fresh vegetables and a flavorful, crispy fowl fillet. No utensils required here: Just grab it in your hands and bite down on that bundle of rich, satisfying succulence with a hearty 'ker-runch'!",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "4x Fowl, 2x Flour, 2x Cabbage, 2x Butter",
+      dishType: "Guardian's Dish",
+      proficiency: "15",
+      obtainable:
+        "Its recipe can be obtained from the login event Outland Gastronomy.",
+      effect:
+        "Restores **30/32/34**% of Max HP and grants an additional **600/1.250/1.900** HP to the selected character.",
+    },
+  ],
+  [
+    "goldenfriedchicken",
+    {
+      name: "Golden Fried Chicken",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Golden_Fried_Chicken.png/revision/latest/scale-to-width-down/256?cb=20210317174040",
+      description:
+        "Fowl that has been seasoned and then fried. The golden outer skin has all but sealed the abundant juices into the meat, leading to absolute enjoyment with each bite. The taste at your fingertips will linger in memory far longer than the instant it takes to reduce the meal to nothing but slim bones.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐⭐",
+      recipe: "NA",
+      dishType: "Warrior's Dish",
+      proficiency: "20",
+      obtainable:
+        "Its recipe can be obtained from the login event Outland Gastronomy.",
+      effect:
+        "Increases all party members' ATK by **272** and CRIT Rate by **8**% for 300s.",
+    },
+  ],
+  [
+    "fragrantmashedpotatoes",
+    {
+      name: "Fragrant Mashed Potatoes",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Fragrant_Mashed_Potatoes.png/revision/latest/scale-to-width-down/256?cb=20210317174119",
+      description:
+        "Seasoned mashed potatoes. The potatoes were thoroughly mashed before a sauce was drizzled over them. The mouthfeel is soft and smooth and it has a rich, multi-layered flavor profile. A satisfying choice for a hungry stomach, whether as a side or as a main dish.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "6x Potato, 4x Cream, 3x Pepper",
+      dishType: "Warrior's Dish",
+      proficiency: "15",
+      obtainable:
+        "Its recipe can be obtained from the login event Outland Gastronomy.",
+      effect:
+        "Increases the party's attack by **160/194/228** for 300 seconds.",
     },
   ],
 ]);

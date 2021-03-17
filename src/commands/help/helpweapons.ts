@@ -29,8 +29,10 @@ createSubcommand("help", {
         `🔹 \`${prefix}help sacrificialbow\``,
         `🔹 \`${prefix}help thestringless\``,
         `🔹 \`${prefix}help theviridescenthunt\``,
+        `🔹 \`${prefix}help windblumeode\``,
         "",
         `🔹 \`${prefix}help amosbow\``,
+        `🔹 \`${prefix}help elegyfortheend\``,
         `🔹 \`${prefix}help skywardharp\``,
       ])
       .setTimestamp()
