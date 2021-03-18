@@ -2903,6 +2903,273 @@ export const characters = new Map([
   //    specialDish: "",
   //    constellation: "",
   //    birthday: "",
+  //    ascensionCost: "https://i.imgur.com/3TtXcCv.png",
+  //    talentCost: "https://i.imgur.com/kEs3C81.png",
+  //    activeTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+  //      },
+  //      {
+  //        name: "Skill: ",
+  //        description: "\n",
+  //      },
+  //      {
+  //        name: "Burst: ",
+  //        description: "\n",
+  //      },
+  //    ],
+  //    passiveTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //    constellations: [
+  //      {
+  //        name: "C1: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C2: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C3: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C4: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C5: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C6: ",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //  },
+  //],
+  //[
+  //  "eula",
+  //  {
+  //    name: "Eula",
+  //    description:
+  //      "",
+  //    thumbnail:
+  //      "",
+  //    image:
+  //      "",
+  //    color: "",
+  //    emoji: "",
+  //    category: "Cryo",
+  //    rarity: "⭐⭐⭐⭐⭐",
+  //    element: "<:Cryo:798483525052530719> Cryo",
+  //    weapon: "",
+  //    nation: "",
+  //    affiliation: "",
+  //    specialDish: "",
+  //    constellation: "",
+  //    birthday: "",
+  //    ascensionCost: "",
+  //    talentCost: "",
+  //    activeTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+  //      },
+  //      {
+  //        name: "Skill: ",
+  //        description: "\n",
+  //      },
+  //      {
+  //        name: "Burst: ",
+  //        description: "\n",
+  //      },
+  //    ],
+  //    passiveTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //    constellations: [
+  //      {
+  //        name: "C1: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C2: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C3: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C4: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C5: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C6: ",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //  },
+  //],
+  //[
+  //  "yanfei",
+  //  {
+  //    name: "Yanfei",
+  //    description:
+  //      "",
+  //    thumbnail:
+  //      "",
+  //    image:
+  //      "",
+  //    color: "",
+  //    emoji: "",
+  //    category: "Pyro",
+  //    rarity: "⭐⭐⭐⭐",
+  //    element: "<:Cryo:798483525052530719> Cryo",
+  //    weapon: "",
+  //    nation: "",
+  //    affiliation: "",
+  //    specialDish: "",
+  //    constellation: "",
+  //    birthday: "",
+  //    ascensionCost: "",
+  //    talentCost: "",
+  //    activeTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+  //      },
+  //      {
+  //        name: "Skill: ",
+  //        description: "\n",
+  //      },
+  //      {
+  //        name: "Burst: ",
+  //        description: "\n",
+  //      },
+  //    ],
+  //    passiveTalents: [
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //    constellations: [
+  //      {
+  //        name: "C1: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C2: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C3: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C4: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C5: ",
+  //        description:
+  //          "",
+  //      },
+  //      {
+  //        name: "C6: ",
+  //        description:
+  //          "",
+  //      },
+  //    ],
+  //  },
+  //],
+  //[
+  //  "yaoyao",
+  //  {
+  //    name: "Yao Yao",
+  //    description:
+  //      "",
+  //    thumbnail:
+  //      "",
+  //    image:
+  //      "",
+  //    color: "",
+  //    emoji: "",
+  //    category: "",
+  //    rarity: "⭐⭐⭐⭐⭐",
+  //    element: "",
+  //    weapon: "",
+  //    nation: "",
+  //    affiliation: "",
+  //    specialDish: "",
+  //    constellation: "",
+  //    birthday: "",
   //    ascensionCost: "",
   //    talentCost: "",
   //    activeTalents: [
