@@ -1,8 +1,15 @@
 import { configs } from "../../configs.ts";
 import { botCache, Sabr, SabrTable } from "../../deps.ts";
-import { ClientStatsSchema, GuildSchema, UserSchema, BlacklistedSchema, CommandSchema } from "./schemas.ts";
-
-
+import {
+  BlacklistedSchema,
+  ClientStatsSchema,
+  CommandSchema,
+  GuildSchema,
+  ModlogSchema,
+  ReminderSchema,
+  ServerlogsSchema,
+  UserSchema,
+} from "./schemas.ts";
 
 // Create the database class
 const sabr = new Sabr();
@@ -15,14 +22,19 @@ export const db = {
   clientstats: new SabrTable<ClientStatsSchema>(sabr, "clientstats"),
   commands: new SabrTable<CommandSchema>(sabr, "commands"),
   blacklisted: new SabrTable<BlacklistedSchema>(sabr, "blacklisted"),
-
+  modlogs: new SabrTable<ModlogSchema>(sabr, "modlogs"),
+  serverlogs: new SabrTable<ServerlogsSchema>(sabr, "serverlogs"),
+  reminders: new SabrTable<ReminderSchema>(sabr, "reminders"),
 };
 
-const [guildSettings, blacklisted] = await Promise.all([db.guilds.getAll(true), db.blacklisted.getAll(true)])
+const [guildSettings, blacklisted] = await Promise.all([
+  db.guilds.getAll(true),
+  db.blacklisted.getAll(true),
+]);
 
 for (const settings of guildSettings) {
   if (settings.prefix !== configs.prefix) {
-    botCache.guildPrefixes.set(settings.id, settings.prefix)
+    botCache.guildPrefixes.set(settings.id, settings.prefix);
   }
 }
 

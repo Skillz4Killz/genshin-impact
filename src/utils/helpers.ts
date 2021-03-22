@@ -3,13 +3,10 @@ import { Embed } from "./Embed.ts";
 import {
   botCache,
   Collection,
-  deleteMessageByID,
   editMessage,
   Message,
-  MessageContent,
   sendMessage,
 } from "../../deps.ts";
-import { Milliseconds } from "./constants/time.ts";
 
 /** This function should be used when you want to convert milliseconds to a human readable format like 1d5h. */
 export function humanizeMilliseconds(milliseconds: number) {
@@ -182,9 +179,13 @@ export async function importDirectory(path: string) {
     if (file.isFile) {
       if (!currentPath.endsWith(".ts")) continue;
       paths.push(
-        `import "${Deno.mainModule.substring(0, Deno.mainModule.lastIndexOf("/"))}/${currentPath.substring(
-          currentPath.indexOf("src/")
-        )}#${uniqueFilePathCounter}";`
+        `import "${
+          Deno.mainModule.substring(0, Deno.mainModule.lastIndexOf("/"))
+        }/${
+          currentPath.substring(
+            currentPath.indexOf("src/"),
+          )
+        }#${uniqueFilePathCounter}";`,
       );
       continue;
     }
@@ -197,9 +198,14 @@ export async function importDirectory(path: string) {
 
 /** Imports everything using fileloader.ts */
 export async function fileLoader() {
-  await Deno.writeTextFile("fileloader.ts", paths.join("\n").replaceAll("\\", "/"));
+  await Deno.writeTextFile(
+    "fileloader.ts",
+    paths.join("\n").replaceAll("\\", "/"),
+  );
   await import(
-    `${Deno.mainModule.substring(0, Deno.mainModule.lastIndexOf("/"))}/fileloader.ts#${uniqueFilePathCounter}`
+    `${
+      Deno.mainModule.substring(0, Deno.mainModule.lastIndexOf("/"))
+    }/fileloader.ts#${uniqueFilePathCounter}`
   );
   paths = [];
 }

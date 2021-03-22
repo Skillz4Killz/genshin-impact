@@ -34,7 +34,7 @@ createCommand({
         `🔹 \`${prefix}weapon (weapon name)\`\nShows info about a specific weapon.`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other");
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
 
     const second = new Embed()
       .setTitle("Profile")
@@ -54,14 +54,45 @@ createCommand({
         `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other/Fun");
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
 
     const third = new Embed()
+      .setTitle("Moderation")
+      .setDescription([
+        `🔹 \`${prefix}ban [@user | userID] (reason)\`\nBan a user.`,
+        "",
+        `🔹 \`${prefix}kick [@user | userID] (reason)\`\nKick a user.`,
+        "",
+        `🔹 \`${prefix}nick [@user | userID] (new nickname)\`\nChange your own nickname or the nickname of another user.`,
+        "",
+        `🔹 \`${prefix}note [@user | userID] (reason)\`\nTake a note about a user.`,
+        "",
+        `🔹 \`${prefix}purge [links | bots | invites | upload | images | messages] [@user | userID] (amount)\`\nPurge the last x messages (with the given kind like links, ...) from all or a specific user.`,
+        "",
+        `🔹 \`${prefix}unban [userID] (reason)\`\nUnban a user with their ID.`,
+        "",
+        `🔹 \`${prefix}warn [@user | userID] (reason)\`\nWarn a user.`,
+        "",
+        "",
+        `🔹 \`${prefix}modlog [@user | userID]\`\nShows the modlog of the user.`,
+        "",
+        `🔹 \`${prefix}modlog edit (caseID) (new reason)\`\nEdit a modlog ID with a new reason.`,
+        "",
+        `🔹 \`${prefix}modlog clear [@user | userID]\`\nClear the modlog of a user.`,
+        "",
+        "If you put the text `Paimon Mod Logs` into a channeltopic, it will log all moderator actions into that channel.",
+      ])
+      .setTimestamp()
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
+
+    const fourth = new Embed()
       .setTitle("Other")
       .setDescription([
+        `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
+        "",
         `🔹 \`${prefix}help\`\nGet some help and the invite for our support server.`,
         "",
-        `🔹 \`${prefix}help [edit | food | gadgets | help | list | patchnotes | profile | remove | reset | setup]\`\nGet some help and the invite for our support server.`,
+        `🔹 \`${prefix}help [domain | edit | food | gadgets | help | list | material | moderation | patchnotes | profile | remind | remove | reset | setup | teyvattimes | weapon]\`\nGet some help and the invite for our support server.`,
         "",
         `🔹 \`${prefix}invite\`\nGet the invitelink for the Bot.`,
         "",
@@ -69,19 +100,20 @@ createCommand({
         "",
         `🔹 \`${prefix}prefix set (prefix)\`\nChanges the prefix.`,
         "",
-        `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
+        `🔹 \`${prefix}remind [create | delete | list]\`\nManage your reminders.`,
         "",
         `🔹 \`${prefix}teyvattimes (version)\`\nShows you some newspaper about Teyvat.`,
         "",
         `🔹 \`${prefix}stats\`\nShow some bot stats.`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Other");
+      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
       2: { page: 2, embed: second, emoji: "2️⃣" },
       3: { page: 3, embed: third, emoji: "3️⃣" },
+      4: { page: 4, embed: fourth, emoji: "4️⃣" },
     } as Record<
       number,
       { page: number; embed: Embed; emoji: string } | undefined
@@ -98,7 +130,7 @@ createCommand({
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["1️⃣", "2️⃣", "3️⃣"];
+    const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 

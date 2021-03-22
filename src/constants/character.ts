@@ -2992,8 +2992,8 @@ export const characters = new Map([
   //    specialDish: "",
   //    constellation: "",
   //    birthday: "",
-  //    ascensionCost: "",
-  //    talentCost: "",
+  //    ascensionCost: "https://i.imgur.com/0Iu9hwX.png",
+  //    talentCost: "https://i.imgur.com/iwyrc1i.png",
   //    activeTalents: [
   //      {
   //        name: "",
@@ -3081,8 +3081,8 @@ export const characters = new Map([
   //    specialDish: "",
   //    constellation: "",
   //    birthday: "",
-  //    ascensionCost: "",
-  //    talentCost: "",
+  //    ascensionCost: "https://i.imgur.com/79ZLN07.png",
+  //    talentCost: "https://i.imgur.com/wGsPrN7.png",
   //    activeTalents: [
   //      {
   //        name: "",

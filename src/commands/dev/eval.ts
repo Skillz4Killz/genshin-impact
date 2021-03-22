@@ -1,7 +1,11 @@
+import * as deps from "../../../deps.ts";
 import { botCache, cache } from "../../../deps.ts";
 import { db } from "../../database/database.ts";
 import { PermissionLevels } from "../../types/commands.ts";
+import { Embed } from "../../utils/Embed.ts";
+import * as helpers from "../../utils/helpers.ts";
 import { createCommand } from "../../utils/helpers.ts";
+import * as i18next from "../../utils/i18next.ts";
 
 createCommand({
   name: "eval",
@@ -29,9 +33,13 @@ createCommand({
     let success, result;
     let type;
 
-    const wolf = {
-      db,
+    const skillz = {
       cache,
+      db,
+      deps,
+      Embed,
+      helpers,
+      i18next,
     };
 
     try {
@@ -58,7 +66,7 @@ createCommand({
       });
     }
 
-    if (!result) return botCache.helpers.reactError(message);
+    if (!result) return message.reply("❌ no result");
 
     const responses = botCache.helpers.chunkStrings(
       result.split(" "),
@@ -68,19 +76,14 @@ createCommand({
 
     if (responses.length === 1 && responses[0].length < 1900) {
       return message.send(
-        [
-          "```ts",
-          responses[0],
-          "```",
-          `**Type of:** ${type}`,
-        ].join("\n"),
+        ["```ts", responses[0], "```", `**Type of:** ${type}`].join("\n"),
       );
     }
 
     for (const response of responses) {
-      await message.send(
-        ["```ts", response, "```"].join("\n"),
-      ).catch(console.log);
+      await message.send(["```ts", response, "```"].join("\n")).catch(
+        console.log,
+      );
     }
 
     return message.send(`**Type of:** ${type}`);

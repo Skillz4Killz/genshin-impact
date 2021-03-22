@@ -61,3 +61,66 @@ export interface CommandSchema {
   /** The guild id */
   guildID: string;
 }
+
+export interface ModlogSchema {
+  /** The action that was taken for this modlog */
+  action: string;
+  /** The amount of time a user is punished for. Used for temporary timed mutes. */
+  duration?: number;
+  /** The guild id where the modlog was created */
+  guildID: string;
+  /** The main guild ID for this modlog. */
+  mainGuildID: string;
+  /** The message id that created this modlog */
+  messageID: string;
+  /** The user id for the moderator who took this action */
+  modID: string;
+  /** The unique modlog id for the server */
+  modlogID: number;
+  /** If this log was a temporary mute, this tells us that this log still needs to unmute this user */
+  needsUnmute: boolean;
+  /** The reason that the mod gave for this action */
+  reason: string;
+  /** The timestamp that this modlog was created */
+  timestamp: number;
+  /** The user id  of the user who was the target of this action */
+  userID: string;
+}
+
+export interface ServerlogsSchema {
+  /** The guild id */
+  id: string;
+  publicChannelID: string;
+  modChannelID: string;
+  automodChannelID: string;
+  banAddChannelID: string;
+  banAddPublic: boolean;
+  banRemoveChannelID: string;
+  banRemovePublic: boolean;
+  memberAddChannelID: string;
+  memberAddPublic: boolean;
+  memberRemoveChannelID: string;
+  memberRemovePublic: boolean;
+  memberNickChannelID: string;
+  memberNickPublic: boolean;
+}
+
+export interface ReminderSchema {
+  id: string;
+  /** The channel the reminder was created in and will be sent */
+  channelID: string;
+  /** The text the reminder will send. */
+  content: string;
+  /** The guild id where this was created. useful for getting the guild language */
+  guildID: string;
+  /** The unique id(message id) of the reminder. Useful for users deleting reminders. */
+  reminderID: string;
+  /** If the reminder is recurring the time interval between reminders */
+  interval?: number;
+  /** Whether or not this reminder is recurring */
+  recurring: boolean;
+  /** The timestampt when this reminder will occur next. */
+  timestamp: number;
+  /** The user id of the person who created this reminder. */
+  memberID: string;
+}
