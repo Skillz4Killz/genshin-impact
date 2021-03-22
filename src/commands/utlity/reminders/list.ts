@@ -13,7 +13,9 @@ createSubcommand("remind", {
     const reminders = await db.reminders.findMany({
       memberID: message.author.id,
     }, true);
-    if (!reminders.length) return message.reply("❌ remind list error line 16");
+    if (!reminders.length) {
+      return message.reply("❌ You don't have any reminder.");
+    }
 
     const member = cache.members.get(message.author.id);
     if (!member) return message.reply("❌ remind list error line 19");

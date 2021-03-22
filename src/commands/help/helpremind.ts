@@ -8,7 +8,7 @@ createSubcommand("help", {
   execute: async function (message) {
     const prefix = parsePrefix(message.guildID);
     const embed = new Embed()
-      .setTitle("Help Edit/Add")
+      .setTitle("Help Reminder")
       .setDescription([
         `🔹 \`${prefix}remind create (time) (reminder)\``,
         `🔹 \`${prefix}remind delete (id)\``,
