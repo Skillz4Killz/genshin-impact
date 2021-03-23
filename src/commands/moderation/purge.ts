@@ -5,7 +5,7 @@ createCommand({
   name: "purge",
   aliases: [`nuke`, `prune`, `clear`],
   botServerPermissions: ["MANAGE_MESSAGES"],
-  userChannelPermissions: ["MANAGE_MESSAGES"],
+  userServerPermissions: ["MANAGE_MESSAGES"],
   arguments: [
     { name: "amount", type: "number", defaultValue: 20 },
     {
