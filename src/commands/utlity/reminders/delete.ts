@@ -8,7 +8,7 @@ createSubcommand("remind", {
   execute: async (message, args) => {
     const reminder = await db.reminders.get(args.id);
     if (reminder?.memberID !== message.author.id) {
-      return message.reply("❌ remind delete error line 16");
+      return message.reply("❌ Reminder does not exist or is not one of yours.");
     }
 
     await db.reminders.delete(args.id);
