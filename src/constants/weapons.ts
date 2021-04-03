@@ -1269,7 +1269,7 @@ export const weapons = new Map([
       color: "RANDOM",
       category: "Catalyst",
       stars: "⭐⭐⭐⭐",
-      baseAttack: "4/565",
+      baseAttack: "44/565",
       secondaryStat: "Energy Recharge",
       secondaryStatValue: "6,7/30,6%",
       specialAbility: "Wind in the Square",
