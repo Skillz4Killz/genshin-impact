@@ -31,7 +31,7 @@ createSubcommand("invites", {
       embed.addField(
         invite.code,
         `**uses:** ${invite.uses -
-          invite.fakeUses}\n**channel:** <#${invite.channelID}>`,
+            invite.fakeUses ?? 0}\n**channel:** <#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
