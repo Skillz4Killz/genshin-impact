@@ -25,7 +25,8 @@ createSubcommand("invites", {
         `**uses:** ${invite.uses -
             invite
               .fakeUses ||
-          0}\n**creator:**\n<@!${invite.memberID}> *(${member.tag})*\n**channel:**\n<#${invite.channelID}>`,
+          0}\n**creator:**\n<@!${invite.memberID}> *(${member?.tag ||
+          `unknown user`})*\n**channel:**\n<#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
