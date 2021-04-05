@@ -30,8 +30,8 @@ createSubcommand("invites", {
     for (const invite of invites) {
       embed.addField(
         invite.code,
-        `**uses:** ${invite.uses -
-            invite.fakeUses ?? 0}\n**channel:** <#${invite.channelID}>`,
+        `**uses:** ${(invite.uses -
+          (invite.fakeUses || 0)) || 0}\n**channel:** <#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
