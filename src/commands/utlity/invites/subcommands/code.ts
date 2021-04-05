@@ -35,7 +35,7 @@ createSubcommand("invites", {
 
     embed.addField(
       args.code,
-      `${invite.invitedMemberIDs?.map((id) => `<@!${id}> *(${member.tag})*`)
+      `${invite.invitedMemberIDs?.map((id) => `<@!${id}>`)
         .join("\n") ||
         "None"}`,
       true,

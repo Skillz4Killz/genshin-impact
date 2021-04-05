@@ -21,6 +21,12 @@ createSubcommand("invites", {
 
     const embed = new Embed().setAuthor(member.tag, member.avatarURL);
 
+    if (!invites.length) {
+      return message.send({
+        embed: embed.setDescription("User has no invites."),
+      });
+    }
+
     for (const invite of invites) {
       embed.addField(
         invite.code,
@@ -34,6 +40,6 @@ createSubcommand("invites", {
       }
     }
 
-    message.send({ embed });
+    if (embed.fields.length) return message.send({ embed });
   },
 });
