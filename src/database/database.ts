@@ -7,6 +7,7 @@ import {
   GuildSchema,
   ModlogSchema,
   ReminderSchema,
+  ServerInvitesSchema,
   ServerlogsSchema,
   UserSchema,
 } from "./schemas.ts";
@@ -25,6 +26,7 @@ export const db = {
   modlogs: new SabrTable<ModlogSchema>(sabr, "modlogs"),
   serverlogs: new SabrTable<ServerlogsSchema>(sabr, "serverlogs"),
   reminders: new SabrTable<ReminderSchema>(sabr, "reminders"),
+  serverinvites: new SabrTable<ServerInvitesSchema>(sabr, "serverinvites"),
 };
 
 const [guildSettings, blacklisted] = await Promise.all([

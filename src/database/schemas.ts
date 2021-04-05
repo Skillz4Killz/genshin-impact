@@ -5,6 +5,9 @@ export interface GuildSchema {
   prefix: string;
   /** The language for this guild */
   language: string;
+  // Activate Invite tracking
+  invitetracking: boolean;
+  invitedUserIDs?: string[];
 }
 
 export interface UserSchema {
@@ -119,8 +122,25 @@ export interface ReminderSchema {
   interval?: number;
   /** Whether or not this reminder is recurring */
   recurring: boolean;
-  /** The timestampt when this reminder will occur next. */
+  /** The timestamp when this reminder will occur next. */
   timestamp: number;
   /** The user id of the person who created this reminder. */
   memberID: string;
+}
+
+export interface ServerInvitesSchema {
+  // Invite Code
+  code: string;
+  // Total uses of the invite
+  uses: number;
+  // Fake invites (when this invite has already been used once idk)
+  fakeUses: number;
+  // ID of the server the invite code is in
+  guildID: string;
+  // ID of the user who created the invite
+  memberID: string;
+  // the destination channel of the invite
+  channelID: string;
+  // IDs of members who have used this code
+  invitedMemberIDs: string[];
 }

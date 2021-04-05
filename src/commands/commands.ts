@@ -34,7 +34,9 @@ createCommand({
         `🔹 \`${prefix}weapon (weapon name)\`\nShows info about a specific weapon.`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
+      .setFooter(
+        "1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Utility, 5️⃣ Other/Fun",
+      );
 
     const second = new Embed()
       .setTitle("Profile")
@@ -54,7 +56,9 @@ createCommand({
         `🔹 \`${prefix}reset\`\nReset your whole profile to 0 (delete it).`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
+      .setFooter(
+        "1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Utility, 5️⃣ Other/Fun",
+      );
 
     const third = new Embed()
       .setTitle("Moderation")
@@ -83,10 +87,30 @@ createCommand({
         "If you put the text `Paimon Mod Logs` into a channeltopic, it will log all moderator actions into that channel.",
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
+      .setFooter(
+        "1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Utility, 5️⃣ Other/Fun",
+      );
 
     const fourth = new Embed()
-      .setTitle("Other")
+      .setTitle("Utility")
+      .setDescription([
+        `🔹 \`${prefix}invites sync\`\nSaves all your server invites into a DB and starts tracking them.`,
+        "",
+        `🔹 \`${prefix}invites server\`\nList all your available server invites with uses, creator and destination channel.`,
+        "",
+        `🔹 \`${prefix}invites user @user\`\nLists all invites of that user with uses and destination channel.`,
+        "",
+        `🔹 \`${prefix}invites code (invitecode)\`\nList all users that joined through this invite`,
+        "",
+        `🔹 \`${prefix}invites reset\`\nRemoves all invites from the DB and stops tracking them.`,
+      ])
+      .setTimestamp()
+      .setFooter(
+        "1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Utility, 4️⃣ Utility, 5️⃣ Other/Fun",
+      );
+
+    const fifth = new Embed()
+      .setTitle("Other/Fun")
       .setDescription([
         `🔹 \`${prefix}emergencyfood\`\nPaimon is not emergency food!`,
         "",
@@ -107,13 +131,16 @@ createCommand({
         `🔹 \`${prefix}stats\`\nShow some bot stats.`,
       ])
       .setTimestamp()
-      .setFooter("1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Other/Fun");
+      .setFooter(
+        "1️⃣ Information, 2️⃣ Profile, 3️⃣ Moderation, 4️⃣ Utility, 4️⃣ Utility, 5️⃣ Other/Fun",
+      );
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
       2: { page: 2, embed: second, emoji: "2️⃣" },
       3: { page: 3, embed: third, emoji: "3️⃣" },
-      4: { page: 4, embed: fourth, emoji: "4️⃣" },
+      4: { page: 4, embed: third, emoji: "4️⃣" },
+      5: { page: 5, embed: fourth, emoji: "5️⃣" },
     } as Record<
       number,
       { page: number; embed: Embed; emoji: string } | undefined
@@ -130,7 +157,7 @@ createCommand({
       : await message.reply({ embed: page.embed }).catch(console.log);
     if (!response) return;
 
-    const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣"];
+    const emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"];
     // ADD THE REACTIONS
     if (!args.msg) await response.addReactions(emojis, true).catch(console.log);
 
