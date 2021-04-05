@@ -1,3 +1,4 @@
+import { botCache } from "../../../../../deps.ts";
 import { db } from "../../../../database/database.ts";
 import { Embed } from "../../../../utils/Embed.ts";
 import { createSubcommand } from "../../../../utils/helpers.ts";
@@ -14,14 +15,17 @@ createSubcommand("invites", {
     );
 
     const embed = new Embed();
-
     for (const invite of invites) {
+      const member = await botCache.helpers.fetchMember(
+        message.guildID,
+        invite.memberID,
+      );
       embed.addField(
         invite.code,
         `**uses:** ${invite.uses -
             invite
               .fakeUses ||
-          0}\n**creator:** <@!${invite.memberID}>\n**channel:** <#${invite.channelID}>`,
+          0}\n**creator:**\n<@!${invite.memberID}> *(${member.tag})*\n**channel:**\n<#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {

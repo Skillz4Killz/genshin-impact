@@ -1,7 +1,7 @@
 import { db } from "../../../../database/database.ts";
 import { Embed } from "../../../../utils/Embed.ts";
 import { createSubcommand } from "../../../../utils/helpers.ts";
-import { cache } from "../../../../../deps.ts";
+import { botCache, cache } from "../../../../../deps.ts";
 
 createSubcommand("invites", {
   name: "code",
@@ -28,9 +28,15 @@ createSubcommand("invites", {
       author.avatarURL,
     );
 
+    const member = await botCache.helpers.fetchMember(
+      message.guildID,
+      invite.memberID,
+    );
+
     embed.addField(
       args.code,
-      `${invite.invitedMemberIDs?.map((id) => `<@!${id}>`).join("\n") ||
+      `${invite.invitedMemberIDs?.map((id) => `<@!${id}> *(${member.tag})*`)
+        .join("\n") ||
         "None"}`,
       true,
     );
