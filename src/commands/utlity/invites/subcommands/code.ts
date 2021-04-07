@@ -1,7 +1,7 @@
 import { db } from "../../../../database/database.ts";
 import { Embed } from "../../../../utils/Embed.ts";
 import { createSubcommand } from "../../../../utils/helpers.ts";
-import { botCache, cache } from "../../../../../deps.ts";
+import { botCache } from "../../../../../deps.ts";
 
 createSubcommand("invites", {
   name: "code",

@@ -15,23 +15,41 @@ createSubcommand("invites", {
     // TODO: Error message would be nice
     if (!member) return;
 
-    const invites = await db.serverinvites.findMany({
-      memberID: member.id,
+    const serverInvites = await db.serverinvites.findMany({
+      guildID: message.guildID,
     }, true);
+
+    const createdInvites = serverInvites.filter((invite) =>
+      invite.memberID === member.id
+    );
 
     const embed = new Embed().setAuthor(member.tag, member.avatarURL);
 
-    if (!invites.length) {
-      return message.send({
-        embed: embed.setDescription("User has no invites."),
-      });
+    const joinedWithInvite = serverInvites.find((invite) =>
+      invite.invitedMemberIDs?.includes(member.id)
+    );
+
+    if (joinedWithInvite) {
+      embed.setDescription(
+        `**Invited by:** <@!${joinedWithInvite.memberID}> \n**with code:** ${joinedWithInvite.code}`,
+      );
     }
 
-    for (const invite of invites) {
+    if (!createdInvites.length) {
+      embed.description
+        ? embed.description += `\n\nUser has no invites.`
+        : embed.setDescription(
+          `User has no invites.`,
+        );
+      return message.send({ embed });
+    }
+
+    for (const invite of createdInvites) {
       embed.addField(
         invite.code,
-        `**uses:** ${(invite.uses -
-          (invite.fakeUses || 0)) || 0}\n**channel:** <#${invite.channelID}>`,
+        `** uses:** ${(invite.uses -
+          (invite.fakeUses || 0)) ||
+          0} \n ** channel:** <#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
