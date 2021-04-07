@@ -19,18 +19,16 @@ createSubcommand("invites", {
 
     if (!invite) return;
 
-    const author = cache.members.get(invite.memberID);
-
-    if (!author) return;
-
-    const embed = new Embed().setAuthor(
-      author.tag,
-      author.avatarURL,
-    );
-
     const member = await botCache.helpers.fetchMember(
       message.guildID,
       invite.memberID,
+    );
+
+    if (!member) return;
+
+    const embed = new Embed().setAuthor(
+      member.tag,
+      member.avatarURL,
     );
 
     embed.addField(
