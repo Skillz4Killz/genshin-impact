@@ -9,7 +9,7 @@ import * as i18next from "../../utils/i18next.ts";
 
 createCommand({
   name: "eval",
-  permissionLevels: [PermissionLevels.BOT_OWNER],
+  permissionLevels: [PermissionLevels.BOT_DEVS],
   botChannelPermissions: ["VIEW_CHANNEL", "SEND_MESSAGES"],
   arguments: [
     {
