@@ -16,10 +16,7 @@ createSubcommand("invites", {
 
     const embed = new Embed();
     for (const invite of invites) {
-      const member = await botCache.helpers.fetchMember(
-        message.guildID,
-        invite.memberID,
-      );
+      (message.guildID, invite.memberID);
       embed.addField(
         invite.code,
         `**uses:** ${invite.uses -
