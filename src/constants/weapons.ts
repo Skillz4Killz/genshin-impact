@@ -371,7 +371,7 @@ export const weapons = new Map([
       color: "RANDOM",
       category: "Sword",
       stars: "⭐⭐⭐⭐⭐",
-      baseAttack: "4/6748",
+      baseAttack: "48/674",
       secondaryStat: "Physical DMG Bonus",
       secondaryStatValue: "9/41,3%",
       specialAbility: "Falcon's Defiance",
