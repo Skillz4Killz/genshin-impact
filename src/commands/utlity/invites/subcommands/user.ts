@@ -34,7 +34,7 @@ createSubcommand("invites", {
       true,
     );
 
-    const invited = invites.reduce((a, i) => a += i.uses - i.fakeUses, 0);
+    const invited = invites.reduce((a, i) => a += i.uses - i.fakeUses || 0, 0);
 
     embed.setDescription(
       `**Total invites:** ${invited}${
