@@ -10,11 +10,12 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help List")
       .setDescription([
-        `🔹 \`${prefix}invites sync\``,
+        `🔹 \`${prefix}invites code (code)\``,
+        `🔹 \`${prefix}invites [delete | remove] (code)\``,
+        `🔹 \`${prefix}invites [reset | clear]\``,
         `🔹 \`${prefix}invites server\``,
+        `🔹 \`${prefix}invites sync\``,
         `🔹 \`${prefix}invites user [@user | userID]\``,
-        `🔹 \`${prefix}invites code (invite code)\``,
-        `🔹 \`${prefix}invites [reset | delete | clear]\``,
       ])
       .setTimestamp()
       .setColor("RANDOM");

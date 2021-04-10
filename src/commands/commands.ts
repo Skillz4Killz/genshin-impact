@@ -94,15 +94,17 @@ createCommand({
     const fourth = new Embed()
       .setTitle("Utility")
       .setDescription([
-        `🔹 \`${prefix}invites sync\`\nSaves all your server invites into a DB and starts tracking them.`,
+        `🔹 \`${prefix}invites code (code)\`\nList all users that joined through this invite`,
+        "",
+        `🔹 \`${prefix}invites [delete | remove] (code)\`\nDelete a specific code from the DB.`,
+        "",
+        `🔹 \`${prefix}invites [reset | clear]\`\nRemoves all invites from the DB and stops tracking them.`,
         "",
         `🔹 \`${prefix}invites server\`\nList all your available server invites with uses, creator and destination channel.`,
         "",
+        `🔹 \`${prefix}invites sync\`\nSaves all your server invites into a DB and starts tracking them.`,
+        "",
         `🔹 \`${prefix}invites user @user\`\nLists all invites of that user with uses and destination channel.`,
-        "",
-        `🔹 \`${prefix}invites code (invitecode)\`\nList all users that joined through this invite`,
-        "",
-        `🔹 \`${prefix}invites reset\`\nRemoves all invites from the DB and stops tracking them.`,
       ])
       .setTimestamp()
       .setFooter(

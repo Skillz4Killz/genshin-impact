@@ -29,11 +29,20 @@ createSubcommand("invites", {
       invite.invitedMemberIDs?.includes(member.id)
     );
 
-    if (joinedWithInvite) {
-      embed.setDescription(
-        `**Invited by:** <@!${joinedWithInvite.memberID}> \n**with code:** ${joinedWithInvite.code}`,
-      );
-    }
+    const invites = await db.serverinvites.findMany(
+      (invite) => invite.memberID === args.member.id,
+      true,
+    );
+
+    const invited = invites.reduce((a, i) => a += i.uses - i.fakeUses, 0);
+
+    embed.setDescription(
+      `**Total invites:** ${invited}${
+        joinedWithInvite
+          ? `\n**Invited by:** <@!${joinedWithInvite.memberID}> \n**with code:** ${joinedWithInvite.code}`
+          : ""
+      }`,
+    );
 
     if (!createdInvites.length) {
       embed.description

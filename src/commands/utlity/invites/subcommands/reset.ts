@@ -3,7 +3,7 @@ import { createSubcommand } from "../../../../utils/helpers.ts";
 
 createSubcommand("invites", {
   name: "reset",
-  aliases: ["delete", "clear"],
+  aliases: ["clear"],
   userServerPermissions: ["MANAGE_GUILD"],
   botServerPermissions: ["MANAGE_GUILD"],
   guildOnly: true,
