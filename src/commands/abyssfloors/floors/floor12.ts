@@ -1,8 +1,9 @@
-import { Embed } from "../../utils/Embed.ts";
-import { createSubcommand, sendEmbed } from "../../utils/helpers.ts";
+import { Embed } from "../../../utils/Embed.ts";
+import { createSubcommand, sendEmbed } from "../../../utils/helpers.ts";
 
-createSubcommand("abyss", {
-  name: "floor12",
+createSubcommand("abyss-floor", {
+  name: "12",
+  aliases: ["twelve"],
   guildOnly: true,
   execute: async function (message, args) {
     const embed = new Embed()

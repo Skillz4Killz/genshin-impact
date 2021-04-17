@@ -10,18 +10,18 @@ createSubcommand("help", {
     const embed = new Embed()
       .setTitle("Help Domains")
       .setDescription([
-        `🔹 \`${prefix}abyss floor1\``,
-        `🔹 \`${prefix}abyss floor2\``,
-        `🔹 \`${prefix}abyss floor3\``,
-        `🔹 \`${prefix}abyss floor4\``,
-        `🔹 \`${prefix}abyss floor5\``,
-        `🔹 \`${prefix}abyss floor6\``,
-        `🔹 \`${prefix}abyss floor7\``,
-        `🔹 \`${prefix}abyss floor8\``,
-        `🔹 \`${prefix}abyss floor9\``,
-        `🔹 \`${prefix}abyss floor10\``,
-        `🔹 \`${prefix}abyss floor11\``,
-        `🔹 \`${prefix}abyss floor12\``,
+        `🔹 \`${prefix}abyss floor [1 | one]\``,
+        `🔹 \`${prefix}abyss floor [2 | two]\``,
+        `🔹 \`${prefix}abyss floor [3 | three]\``,
+        `🔹 \`${prefix}abyss floor [4 | four]\``,
+        `🔹 \`${prefix}abyss floor [5 | five]\``,
+        `🔹 \`${prefix}abyss floor [6 | six]\``,
+        `🔹 \`${prefix}abyss floor [7 | seven]\``,
+        `🔹 \`${prefix}abyss floor [8 | eight]\``,
+        `🔹 \`${prefix}abyss floor [9 | nine]\``,
+        `🔹 \`${prefix}abyss floor [10 | ten]\``,
+        `🔹 \`${prefix}abyss floor [11 | eleven]\``,
+        `🔹 \`${prefix}abyss floor [12 | twelve]\``,
       ])
       .setTimestamp()
       .setColor("RANDOM");
