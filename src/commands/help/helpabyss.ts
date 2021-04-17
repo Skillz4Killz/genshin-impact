@@ -8,7 +8,7 @@ createSubcommand("help", {
   execute: async function (message) {
     const prefix = parsePrefix(message.guildID);
     const embed = new Embed()
-      .setTitle("Help Domains")
+      .setTitle("Help Abyss")
       .setDescription([
         `🔹 \`${prefix}abyss floor [1 | one]\``,
         `🔹 \`${prefix}abyss floor [2 | two]\``,
