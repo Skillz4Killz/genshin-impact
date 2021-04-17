@@ -1,5 +1,6 @@
 import { botCache, getInvites } from "../../deps.ts";
 import { db } from "../database/database.ts";
+import { Embed } from "../utils/Embed.ts";
 
 botCache.eventHandlers.guildMemberAdd = async function (guild, member) {
   const settings = await db.guilds.get(guild.id);
@@ -40,6 +41,16 @@ botCache.eventHandlers.guildMemberAdd = async function (guild, member) {
   await db.serverinvites.update(`${usedInvite.code}_${guild.id}`, {
     uses: usedInvite.uses + 1,
     invitedMemberIDs: [...(usedInvite?.invitedMemberIDs || []), member.id],
+  });
+
+  const welcomeEmbed = new Embed().setDescription(
+    `User <@${member.id}>\njoined by invite **${usedInvite.code}**\nfrom user <@${usedInvite.memberID}>`,
+  );
+
+  guild.channels.forEach((c) => {
+    if (c.topic !== "invite tracking") return;
+
+    c.send({ embed: welcomeEmbed }).catch(console.log);
   });
 };
 

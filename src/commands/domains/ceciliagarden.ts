@@ -4,11 +4,11 @@ import { Embed } from "../../utils/Embed.ts";
 import { createSubcommand } from "../../utils/helpers.ts";
 
 createSubcommand("domain", {
-    name: "ceciliagarden",
-    arguments: [
-        { name: "page", type: "number", defaultValue: 1 },
-      ],
-    guildOnly: true,
+  name: "ceciliagarden",
+  arguments: [
+    { name: "page", type: "number", defaultValue: 1 },
+  ],
+  guildOnly: true,
   execute: async function (message, args) {
     const first = new Embed()
       .setTitle("Cecilia Garden Overview")
@@ -32,25 +32,45 @@ createSubcommand("domain", {
         "Level 2-4:",
         "Your character will be periodically inflicted with Slowing Water, greatly increasing your skill's CD duration (-100% Reduce CD) until the inflicted Hydro element is removed.",
       ])
-      .setThumbnail("https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Domain_Cecilia_Garden.png/revision/latest/scale-to-width-down/310?cb=20201221031347")
+      .setThumbnail(
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Domain_Cecilia_Garden.png/revision/latest/scale-to-width-down/310?cb=20201221031347",
+      )
       .setTimestamp()
-      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 1/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies");
 
     const second = new Embed()
       .setTitle("Cecilia Garden Rewards")
-      .setImage("https://cdn.discordapp.com/attachments/798566392965103616/812975752982953984/wAbOd3T.png")
+      .setImage(
+        "https://cdn.discordapp.com/attachments/798566392965103616/812975752982953984/wAbOd3T.png",
+      )
       .setTimestamp()
-      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
+      .setFooter("Page 2/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies");
 
     const third = new Embed()
       .setTitle("Cecilia Garden Enemies")
-      .addField("Cecilia Garden I", `*Defeat 20 enemies. Time between kills cannot exceed 20 seconds.*\n\n<:HydroSlime:812678780711731201> 19x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 1x Large Hydro Slime`, true)
-      .addField("Cecilia Garden II", "*Defeat 23 enemies. Time between kills cannot exceed 25 seconds.*\n\n<:HydroSlime:812678780711731201> 12x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 3x Large Hydro Slime\n<:WoodenShieldHilichurlGuard:812678780971253820> 8x Wooden Shield Hilichurl Guard", true)
+      .addField(
+        "Cecilia Garden I",
+        `*Defeat 20 enemies. Time between kills cannot exceed 20 seconds.*\n\n<:HydroSlime:812678780711731201> 19x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 1x Large Hydro Slime`,
+        true,
+      )
+      .addField(
+        "Cecilia Garden II",
+        "*Defeat 23 enemies. Time between kills cannot exceed 25 seconds.*\n\n<:HydroSlime:812678780711731201> 12x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 3x Large Hydro Slime\n<:Hilichurl:812678780971253820> 8x Wooden Shield Hilichurl Guard",
+        true,
+      )
       .addBlankField()
-      .addField("Cecilia Garden III", "*Defeat 22 enemies. Time between kills cannot exceed 50 seconds.*\n\n<:HydroSlime:812678780711731201> 14x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 5x Large Hydro Slime\n<:HydroSamachurl:812678780732571660> 3x Hydro Samachurl\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage", true)
-      .addField("Cecilia Garden IV Wave 1", "*Defeat 8 enemies. Time between kills cannot exceed 40 seconds.*\n\n**Wave 1**\n<:LargeHydroSlime:812678780903882782> 8x Large Hydro Slime\n\n**Wave 2**\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage\n", true)
+      .addField(
+        "Cecilia Garden III",
+        "*Defeat 22 enemies. Time between kills cannot exceed 50 seconds.*\n\n<:HydroSlime:812678780711731201> 14x Hydro Slime\n<:LargeHydroSlime:812678780903882782> 5x Large Hydro Slime\n<:HydroSamachurl:812678780732571660> 3x Hydro Samachurl\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage",
+        true,
+      )
+      .addField(
+        "Cecilia Garden IV Wave 1",
+        "*Defeat 8 enemies. Time between kills cannot exceed 40 seconds.*\n\n**Wave 1**\n<:LargeHydroSlime:812678780903882782> 8x Large Hydro Slime\n\n**Wave 2**\n<:HydroAbyssMage:812678780900212737> 1x Hydro Abyss Mage\n",
+        true,
+      )
       .setFooter("Page 3/3 • 1️⃣ Overview, 2️⃣ Rewards, 3️⃣ Enemies")
-      .setTimestamp()
+      .setTimestamp();
 
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
@@ -93,14 +113,14 @@ createSubcommand("domain", {
         message.channelID,
         response.id,
         reaction,
-        message.author.id
+        message.author.id,
       ).catch(console.log))
     ) {
       return;
     }
 
     return botCache.commands
-    .get("domain")?.subcommands?.get("ceciliagarden")
+      .get("domain")?.subcommands?.get("ceciliagarden")
       ?.execute?.(message, {
         character: args.character,
         page: selectedPage.page,
