@@ -3095,7 +3095,7 @@ export const characters = new Map([
   //      },
   //      {
   //        name: "Burst: Done Deal",
-  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** Has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
+  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
   //      },
   //    ],
   //    passiveTalents: [
