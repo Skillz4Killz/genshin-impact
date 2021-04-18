@@ -46,7 +46,7 @@ export const characters = new Map([
         {
           name: "Dominance of Earth",
           description:
-            "Zhongli deals bonus DMG based on his Max HP.\n Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\n Dominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\n  Planet Befall's DMG is increased by 33% of Max HP. ",
+            "Zhongli deals bonus DMG based on his Max HP.\nNormal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\nDominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\nPlanet Befall's DMG is increased by 33% of Max HP.",
         },
         {
           name: "Arcanum of Crystal",
@@ -2892,7 +2892,7 @@ export const characters = new Map([
   //      "",
   //    image:
   //      "",
-  //    color: "ff4000",
+  //    color: "00f9ff",
   //    emoji: "<:Ayaka:797753205483372594>",
   //    category: "Cryo",
   //    rarity: "⭐⭐⭐⭐⭐",
@@ -2986,27 +2986,27 @@ export const characters = new Map([
   //    category: "Cryo",
   //    rarity: "⭐⭐⭐⭐⭐",
   //    element: "<:Cryo:798483525052530719> Cryo",
-  //    weapon: "claymore",
-  //    nation: "Mondstat",
+  //    weapon: "Claymore",
+  //    nation: "Mondstad",
   //    affiliation: "Knights of Favonius",
   //    specialDish: "Stormcrest Pie",
   //    constellation: "Aphros Delos",
-  //    birthday: "25 October",
+  //    birthday: "October 25",
   //    ascensionCost: "https://i.imgur.com/0Iu9hwX.png",
   //    talentCost: "https://i.imgur.com/iwyrc1i.png",
   //    activeTalents: [
   //      {
   //        name: "Favonius Bladework - Edel",
   //        description:
-  //          "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes./n At the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+  //          "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
   //      },
   //      {
   //        name: "Skill:Icetide Vortex ",
-  //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\n When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\n These stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\n These stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\n If Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\n Each consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
+  //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\n When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
   //      },
   //      {
   //        name: "Burst:Glacial Illumination ",
-  //        description: "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\n While present, the Lightfall Sword increases Eula's resistance to interruption.\n When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\n Once its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\n This DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\n If Eula leaves the field, the Lightfall Sword will explode immediately.\n",
+  //        description: "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption.\nWhen Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n",
   //      },
   //    ],
   //    passiveTalents: [
@@ -3018,7 +3018,7 @@ export const characters = new Map([
   //      {
   //        name: "Roiling Rime",
   //        description:
-  //          "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by a Lightfall Sword created by Glacial Illumination.",
+  //          "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by a Glacial Illumination.",
   //      },
   //      {
   //        name: "Wellspring of War-Lust",
@@ -3030,7 +3030,7 @@ export const characters = new Map([
   //      {
   //        name: "C1:Tidal Illusion",
   //        description:
-  //          "Every Time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\n Each stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+  //          "Every Time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
   //      },
   //      {
   //        name: "C2:Lady of seafoam",
@@ -3050,12 +3050,12 @@ export const characters = new Map([
   //      {
   //        name: "C5:Chivalaric  Quality",
   //        description:
-  //          "Increases the Level of Icetide Vortex by 3.\n  Maximum upgrade level is 15.",
+  //          "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
   //        name: "C6:Noble Obligation",
   //        description:
-  //          "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy.\n Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+  //          "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy.\nNormal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
   //      },
   //    ],
   //  },
@@ -3065,7 +3065,7 @@ export const characters = new Map([
   //  {
   //    name: "Yanfei",
   //    description:
-  //      "A well-known legal adviser active in Liyue Harbor.\n A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+  //      "A well-known legal adviser active in Liyue Harbor.\nA brilliant young lady in whose veins runs the blood of an illuminated beast.",
   //    thumbnail:
   //      "",
   //    image:
@@ -3080,22 +3080,22 @@ export const characters = new Map([
   //    affiliation: "Liyue Harbor",
   //    specialDish: "????",
   //    constellation: "Bestia Lustitia",
-  //    birthday: "28 July",
+  //    birthday: "July 28",
   //    ascensionCost: "https://i.imgur.com/79ZLN07.png",
   //    talentCost: "https://i.imgur.com/wGsPrN7.png",
   //    activeTalents: [
   //      {
   //        name: "Seal of Approval",
   //        description:
-  //          "**Normal Attack**\nShoots fireballs that deal up to three counts of When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal.\n Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\n Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to opponents after a short casting time.\n This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\n Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path.\n Deals AoE Pyro DMG upon impact with the ground.\n",
+  //          "**Normal Attack**\nShoots fireballs that deal up to three counts of When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal.\nYanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\n Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path.\nDeals AoE Pyro DMG upon impact with the ground.\n",
   //      },
   //      {
   //        name: "Skill:Signed Edict",
-  //        description: "Summons blistering flames that deal AoE Pyro DMG.\n Opponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
+  //        description: "Summons blistering flames that deal AoE Pyro DMG.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
   //      },
   //      {
   //        name: "Burst:Done Deal",
-  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance**\n Has the following effects: • Grants Yanfei a Scarlet Seal at fixed intervals.\n • Increases the DMG dealt by her Charged Attacks.\n The effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
+  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** Has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
   //      },
   //    ],
   //    passiveTalents: [
@@ -3107,12 +3107,12 @@ export const characters = new Map([
   //      {
   //        name: "Proviso",
   //        description:
-  //          "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%.\n This effects lasts for 6s.\n When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
+  //          "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%.\nThis effects lasts for 6s.\nWhen a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
   //      },
   //      {
   //        name: "Blayzing Eye",
   //        description:
-  //          "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
+  //          "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK.\nThis DMG counts as Charged Attack DMG.",
   //      },
   //    ],
   //    constellations: [
@@ -3129,17 +3129,17 @@ export const characters = new Map([
   //      {
   //        name: "C3:Samadhi Fire-Forged",
   //        description:
-  //          "Increases the Level of Signed Edict by 3.\n Maximum upgrade level is 15.",
+  //          "Increases the Level of Signed Edict by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
   //        name: "C4:Supreme Amnesty",
   //        description:
-  //          "When Done Deal is used: Creates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\n This shield absorbs Pyro DMG 250% more effectively.",
+  //          "When Done Deal is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs Pyro DMG 250% more effectively.",
   //      },
   //      {
   //        name: "C5:Abiding Affidavit",
   //        description:
-  //          "Increases the Level of Done Deal by 3.\n Maximum upgrade level is 15.",
+  //          "Increases the Level of Done Deal by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
   //        name: "C6:Extra Clause",
