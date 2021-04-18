@@ -46,7 +46,7 @@ export const characters = new Map([
         {
           name: "Dominance of Earth",
           description:
-            "Planet Befall deals additional DMG equal to 33% of Zhongli's Max HP.",
+            "Zhongli deals bonus DMG based on his Max HP.\nNormal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\nDominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\nPlanet Befall's DMG is increased by 33% of Max HP.",
         },
         {
           name: "Arcanum of Crystal",
@@ -2976,86 +2976,86 @@ export const characters = new Map([
   //  {
   //    name: "Eula",
   //    description:
-  //      "",
+  //      "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
   //    thumbnail:
   //      "",
   //    image:
   //      "",
-  //    color: "",
+  //    color: "00f9ff",
   //    emoji: "",
   //    category: "Cryo",
   //    rarity: "⭐⭐⭐⭐⭐",
   //    element: "<:Cryo:798483525052530719> Cryo",
-  //    weapon: "",
-  //    nation: "",
-  //    affiliation: "",
-  //    specialDish: "",
-  //    constellation: "",
-  //    birthday: "",
+  //    weapon: "Claymore",
+  //    nation: "Mondstad",
+  //    affiliation: "Knights of Favonius",
+  //    specialDish: "Stormcrest Pie",
+  //    constellation: "Aphros Delos",
+  //    birthday: "October 25",
   //    ascensionCost: "https://i.imgur.com/0Iu9hwX.png",
   //    talentCost: "https://i.imgur.com/iwyrc1i.png",
   //    activeTalents: [
   //      {
-  //        name: "",
+  //        name: "Favonius Bladework - Edel",
   //        description:
-  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+  //          "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
   //      },
   //      {
-  //        name: "Skill: ",
-  //        description: "\n",
+  //        name: "Skill:Icetide Vortex ",
+  //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\n When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
   //      },
   //      {
-  //        name: "Burst: ",
-  //        description: "\n",
+  //        name: "Burst: Glacial Illumination ",
+  //        description: "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption.\nWhen Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n",
   //      },
   //    ],
   //    passiveTalents: [
   //      {
-  //        name: "",
+  //        name: "Aristocratic Introspection",
   //        description:
-  //          "",
+  //          "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
   //      },
   //      {
-  //        name: "",
+  //        name: "Roiling Rime",
   //        description:
-  //          "",
+  //          "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by a Glacial Illumination.",
   //      },
   //      {
-  //        name: "",
+  //        name: "Wellspring of War-Lust",
   //        description:
-  //          "",
+  //          "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
   //      },
   //    ],
   //    constellations: [
   //      {
-  //        name: "C1: ",
+  //        name: "C1: Tidal Illusion",
   //        description:
-  //          "",
+  //          "Every Time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
   //      },
   //      {
-  //        name: "C2: ",
+  //        name: "C2: Lady of seafoam",
   //        description:
-  //          "",
+  //          "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD.",
   //      },
   //      {
-  //        name: "C3: ",
+  //        name: "C3: Lawrence Pedigree",
   //        description:
-  //          "",
+  //          "Increases the Level of Maximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C4: ",
+  //        name: "C4: The Obstinacy of One's Inferiors",
   //        description:
-  //          "",
+  //          "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
   //      },
   //      {
-  //        name: "C5: ",
+  //        name: "C5: Chivalaric  Quality",
   //        description:
-  //          "",
+  //          "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C6: ",
+  //        name: "C6: Noble Obligation",
   //        description:
-  //          "",
+  //          "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy.\nNormal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
   //      },
   //    ],
   //  },
@@ -3065,86 +3065,86 @@ export const characters = new Map([
   //  {
   //    name: "Yanfei",
   //    description:
-  //      "",
+  //      "A well-known legal adviser active in Liyue Harbor.\nA brilliant young lady in whose veins runs the blood of an illuminated beast.",
   //    thumbnail:
   //      "",
   //    image:
   //      "",
-  //    color: "",
+  //    color: "ff4000",
   //    emoji: "",
   //    category: "Pyro",
   //    rarity: "⭐⭐⭐⭐",
-  //    element: "<:Cryo:798483525052530719> Cryo",
-  //    weapon: "",
-  //    nation: "",
-  //    affiliation: "",
-  //    specialDish: "",
-  //    constellation: "",
-  //    birthday: "",
+  //    element: "<:Pyro:798483485832249354> Pyro",
+  //    weapon: "Catalyst",
+  //    nation: "Liyue",
+  //    affiliation: "Liyue Harbor",
+  //    specialDish: "????",
+  //    constellation: "Bestia Lustitia",
+  //    birthday: "July 28",
   //    ascensionCost: "https://i.imgur.com/79ZLN07.png",
   //    talentCost: "https://i.imgur.com/wGsPrN7.png",
   //    activeTalents: [
   //      {
-  //        name: "",
+  //        name: "Seal of Approval",
   //        description:
-  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+  //          "**Normal Attack**\nShoots fireballs that deal up to three counts of When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal.\nYanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\n Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path.\nDeals AoE Pyro DMG upon impact with the ground.\n",
   //      },
   //      {
-  //        name: "Skill: ",
-  //        description: "\n",
+  //        name: "Skill: Signed Edict",
+  //        description: "Summons blistering flames that deal **AoE Pyro DMG**.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
   //      },
   //      {
-  //        name: "Burst: ",
-  //        description: "\n",
+  //        name: "Burst: Done Deal",
+  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
   //      },
   //    ],
   //    passiveTalents: [
   //      {
-  //        name: "",
+  //        name: "Encyclopedic Expertise",
   //        description:
-  //          "",
+  //          "Displays the location of nearby resources unique to Liyue on the mini-map.",
   //      },
   //      {
-  //        name: "",
+  //        name: "Proviso",
   //        description:
-  //          "",
+  //          "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%.\nThis effects lasts for 6s.\nWhen a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
   //      },
   //      {
-  //        name: "",
+  //        name: "Blayzing Eye",
   //        description:
-  //          "",
+  //          "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK.\nThis DMG counts as Charged Attack DMG.",
   //      },
   //    ],
   //    constellations: [
   //      {
-  //        name: "C1: ",
+  //        name: "C1: The Law Knows No Kindness",
   //        description:
-  //          "",
+  //          "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
   //      },
   //      {
-  //        name: "C2: ",
+  //        name: "C2: Right of Final Interpretation",
   //        description:
-  //          "",
+  //          "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
   //      },
   //      {
-  //        name: "C3: ",
+  //        name: "C3: Samadhi Fire-Forged",
   //        description:
-  //          "",
+  //          "Increases the Level of Signed Edict by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C4: ",
+  //        name: "C4: Supreme Amnesty",
   //        description:
-  //          "",
+  //          "When Done Deal is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs **Pyro DMG** 250% more effectively.",
   //      },
   //      {
-  //        name: "C5: ",
+  //        name: "C5: Abiding Affidavit",
   //        description:
-  //          "",
+  //          "Increases the Level of Done Deal by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C6: ",
+  //        name: "C6: Extra Clause",
   //        description:
-  //          "",
+  //          "Increases the maximum number of Scarlet Seals by 1.",
   //      },
   //    ],
   //  },
