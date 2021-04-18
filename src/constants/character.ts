@@ -3074,7 +3074,7 @@ export const characters = new Map([
   //    emoji: "",
   //    category: "Pyro",
   //    rarity: "⭐⭐⭐⭐",
-  //    element: "<:Cryo:798483525052530719> Cryo",
+  //    element: "<:Pyro:798483485832249354> Pyro",
   //    weapon: "Catalyst",
   //    nation: "Liyue",
   //    affiliation: "Liyue Harbor",
@@ -3091,11 +3091,11 @@ export const characters = new Map([
   //      },
   //      {
   //        name: "Skill: Signed Edict",
-  //        description: "Summons blistering flames that deal AoE Pyro DMG.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
+  //        description: "Summons blistering flames that deal **AoE Pyro DMG**.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
   //      },
   //      {
   //        name: "Burst: Done Deal",
-  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** Has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
+  //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** Has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
   //      },
   //    ],
   //    passiveTalents: [
@@ -3134,7 +3134,7 @@ export const characters = new Map([
   //      {
   //        name: "C4: Supreme Amnesty",
   //        description:
-  //          "When Done Deal is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs Pyro DMG 250% more effectively.",
+  //          "When Done Deal is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs **Pyro DMG** 250% more effectively.",
   //      },
   //      {
   //        name: "C5: Abiding Affidavit",
