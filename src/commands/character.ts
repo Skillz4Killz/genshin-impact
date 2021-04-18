@@ -9,6 +9,7 @@ createCommand({
   name: "character",
   aliases: ["char"],
   arguments: [
+    { name: "subcommand", type: "subcommand", required: false },
     { name: "character", type: "string", required: false },
     { name: "page", type: "number", defaultValue: 1 },
   ],

@@ -2,7 +2,7 @@ import { Embed } from "../../../utils/Embed.ts";
 import { createSubcommand, sendEmbed } from "../../../utils/helpers.ts";
 
 createSubcommand("abyss-floor", {
-  name: "",
+  name: "2",
   aliases: ["two"],
   guildOnly: true,
   execute: async function (message, args) {

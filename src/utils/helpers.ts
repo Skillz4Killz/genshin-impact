@@ -131,8 +131,8 @@ export function createSubcommand(
   }
 
   if (!command) {
-    // If 10 minutes have passed something must have been wrong
-    if (retries === 20) {
+    // If 1 minute have passed something must have been wrong
+    if (retries === 2) {
       return console.error(
         `Subcommand ${subcommand} unable to be created for ${commandName}`,
       );
@@ -149,6 +149,8 @@ export function createSubcommand(
   if (!command.subcommands) {
     command.subcommands = new Collection();
   }
+
+  console.log("registering", subcommand.name);
 
   command.subcommands.set(subcommand.name, subcommand);
 }
