@@ -3005,7 +3005,7 @@ export const characters = new Map([
   //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\n When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
   //      },
   //      {
-  //        name: "Burst:Glacial Illumination ",
+  //        name: "Burst: Glacial Illumination ",
   //        description: "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption.\nWhen Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n",
   //      },
   //    ],
@@ -3028,32 +3028,32 @@ export const characters = new Map([
   //    ],
   //    constellations: [
   //      {
-  //        name: "C1:Tidal Illusion",
+  //        name: "C1: Tidal Illusion",
   //        description:
   //          "Every Time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
   //      },
   //      {
-  //        name: "C2:Lady of seafoam",
+  //        name: "C2: Lady of seafoam",
   //        description:
   //          "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD.",
   //      },
   //      {
-  //        name: "C3:Lawrence Pedigree",
+  //        name: "C3: Lawrence Pedigree",
   //        description:
   //          "Increases the Level of Maximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C4:The Obstinacy of One's Inferiors",
+  //        name: "C4: The Obstinacy of One's Inferiors",
   //        description:
   //          "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
   //      },
   //      {
-  //        name: "C5:Chivalaric  Quality",
+  //        name: "C5: Chivalaric  Quality",
   //        description:
   //          "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C6:Noble Obligation",
+  //        name: "C6: Noble Obligation",
   //        description:
   //          "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy.\nNormal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
   //      },
@@ -3090,11 +3090,11 @@ export const characters = new Map([
   //          "**Normal Attack**\nShoots fireballs that deal up to three counts of When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal.\nYanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\n Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path.\nDeals AoE Pyro DMG upon impact with the ground.\n",
   //      },
   //      {
-  //        name: "Skill:Signed Edict",
+  //        name: "Skill: Signed Edict",
   //        description: "Summons blistering flames that deal AoE Pyro DMG.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
   //      },
   //      {
-  //        name: "Burst:Done Deal",
+  //        name: "Burst: Done Deal",
   //        description: "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** Has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
   //      },
   //    ],
@@ -3117,32 +3117,32 @@ export const characters = new Map([
   //    ],
   //    constellations: [
   //      {
-  //        name: "C1:The Law Knows No Kindness",
+  //        name: "C1: The Law Knows No Kindness",
   //        description:
   //          "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
   //      },
   //      {
-  //        name: "C2:Right of Final Interpretation",
+  //        name: "C2: Right of Final Interpretation",
   //        description:
   //          "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
   //      },
   //      {
-  //        name: "C3:Samadhi Fire-Forged",
+  //        name: "C3: Samadhi Fire-Forged",
   //        description:
   //          "Increases the Level of Signed Edict by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C4:Supreme Amnesty",
+  //        name: "C4: Supreme Amnesty",
   //        description:
   //          "When Done Deal is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs Pyro DMG 250% more effectively.",
   //      },
   //      {
-  //        name: "C5:Abiding Affidavit",
+  //        name: "C5: Abiding Affidavit",
   //        description:
   //          "Increases the Level of Done Deal by 3.\nMaximum upgrade level is 15.",
   //      },
   //      {
-  //        name: "C6:Extra Clause",
+  //        name: "C6: Extra Clause",
   //        description:
   //          "Increases the maximum number of Scarlet Seals by 1.",
   //      },
