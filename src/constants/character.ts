@@ -2767,12 +2767,12 @@ export const characters = new Map([
         {
           name: "C2: Ominous Rainfall",
           description:
-            "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\n Additionally, Spirit Soother will also apply the Blood Blossom effect.",
+            "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\nAdditionally, Spirit Soother will also apply the Blood Blossom effect.",
         },
         {
           name: "C3: Lingering Carmine",
           description:
-            "Increases the Level of Guide to Afterlife by 3.\n Maximum upgrade level is 15.",
+            "Increases the Level of Guide to Afterlife by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Garden of Eternal Rest",
@@ -2782,12 +2782,12 @@ export const characters = new Map([
         {
           name: "C5: Floral Incense",
           description:
-            "Increases the Level of Spirit Soother by 3.\n Maximum upgrade level is 15.",
+            "Increases the Level of Spirit Soother by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Butterfly's Embrace",
           description:
-            "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\n Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\n This effect triggers automatically when Hu Tao has 1 HP left.\n Can only occur once every 60s.",
+            "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\nThis effect triggers automatically when Hu Tao has 1 HP left.\nCan only occur once every 60s."
         },
       ],
     },
@@ -2862,17 +2862,17 @@ export const characters = new Map([
         {
           name: "C3: The Wages of Sin",
           description:
-            "Increases the Level of Ravaging Confessionby 3.\n Maximum upgrade level is 15.",
+            "Increases the Level of Ravaging Confessionby 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C4: Painful Grace",
           description:
-            "Ravaging Confession's Crit Hits regenerate 5 Energy for Rosaria.\n Can only be triggered once each time Ravaging Confession is cast.",
+            "Ravaging Confession's Crit Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast.",
         },
         {
           name: "C5: Last Rites",
           description:
-            "Increases the Level of Rites of Termination by 3.\n Maximum upgrade level is 15.",
+            "Increases the Level of Rites of Termination by 3.\nMaximum upgrade level is 15.",
         },
         {
           name: "C6: Divine Retribution",
@@ -3002,7 +3002,7 @@ export const characters = new Map([
   //      },
   //      {
   //        name: "Skill:Icetide Vortex ",
-  //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\n When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
+  //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
   //      },
   //      {
   //        name: "Burst: Glacial Illumination ",
