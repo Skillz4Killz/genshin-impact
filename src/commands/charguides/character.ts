@@ -1,9 +1,9 @@
-import { botCache } from "../../cache.ts";
-import { Message, removeUserReaction } from "../../deps.ts";
-import { characters } from "../constants/character.ts";
-import { needReaction } from "../utils/collectors.ts";
-import { Embed } from "../utils/Embed.ts";
-import { createCommand } from "../utils/helpers.ts";
+import { botCache } from "../../../cache.ts";
+import { Message, removeUserReaction } from "../../../deps.ts";
+import { characters } from "../../constants/character.ts";
+import { needReaction } from "../../utils/collectors.ts";
+import { Embed } from "../../utils/Embed.ts";
+import { createCommand } from "../../utils/helpers.ts";
 
 createCommand({
   name: "character",

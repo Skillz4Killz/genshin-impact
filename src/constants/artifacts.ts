@@ -519,37 +519,34 @@ export const artifacts = new Map([
         "https://genshin.honeyhunterworld.com/db/art/family/maiden_beloved/",
     },
   ],
-  // [
-  //   "paleflame",
-  //   {
-  //     name: "Pale Flame",
-  //     thumbnail:
-  //       "",
-  //     image:
-  //       "",
-  //     color: "RANDOM",
-  //     stars: "⭐⭐⭐⭐⭐",
-  //     setBonus:
-  //       "**2-set**\nPhysical DMG is increased by 25%.\n\n**4-set**\nWhen an Elemental Skill hits an opponent, ATK is increased by 9% for 7s.\nThis effect stacks up to 2 times and can be triggered once every 0.3s.\nOnce 2 stacks are reached, the 2-set effect is increased by 100%.",
-  //     dropsFrom: "Domain: Ridge Watch",
-  //     moreInfo:
-  //       "https://genshin.honeyhunterworld.com/db/art/family/pale_flame/",
-  //   },
-  // ],[
-  //   "tenacityofthemillelith",
-  //   {
-  //     name: "Tenacity of the Millelith",
-  //     thumbnail:
-  //       "",
-  //     image:
-  //       "",
-  //     color: "RANDOM",
-  //     stars: "⭐⭐⭐⭐⭐",
-  //     setBonus:
-  //       "**2-set**\nHP increased by 20%.\n\n**4-set**\nWhen an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s.\nThis effect can be triggered once every 0.5s.\nThis effect can still be triggered even when the character who is using this artifact set is not on the field.",
-  //     dropsFrom: "Domain: Ridge Watch",
-  //     moreInfo:
-  //       "https://genshin.honeyhunterworld.com/db/art/family/tenacity_of_the_millelith/",
-  //   },
-  // ],
+  [
+    "paleflame",
+    {
+      name: "Pale Flame",
+      thumbnail: "",
+      image: "",
+      color: "RANDOM",
+      stars: "⭐⭐⭐⭐⭐",
+      setBonus:
+        "**2-set**\nPhysical DMG is increased by 25%.\n\n**4-set**\nWhen an Elemental Skill hits an opponent, ATK is increased by 9% for 7s.\nThis effect stacks up to 2 times and can be triggered once every 0.3s.\nOnce 2 stacks are reached, the 2-set effect is increased by 100%.",
+      dropsFrom: "Domain: Ridge Watch",
+      moreInfo:
+        "https://genshin.honeyhunterworld.com/db/art/family/pale_flame/",
+    },
+  ],
+  [
+    "tenacityofthemillelith",
+    {
+      name: "Tenacity of the Millelith",
+      thumbnail: "",
+      image: "",
+      color: "RANDOM",
+      stars: "⭐⭐⭐⭐⭐",
+      setBonus:
+        "**2-set**\nHP increased by 20%.\n\n**4-set**\nWhen an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s.\nThis effect can be triggered once every 0.5s.\nThis effect can still be triggered even when the character who is using this artifact set is not on the field.",
+      dropsFrom: "Domain: Ridge Watch",
+      moreInfo:
+        "https://genshin.honeyhunterworld.com/db/art/family/tenacity_of_the_millelith/",
+    },
+  ],
 ]);

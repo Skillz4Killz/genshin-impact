@@ -1,15 +1,17 @@
-import { botCache, Message, removeUserReaction } from "../../../../deps.ts";
-import { needReaction } from "../../../utils/collectors.ts";
-import { Embed } from "../../../utils/Embed.ts";
-import { createSubcommand } from "../../../utils/helpers.ts";
+import { botCache, Message, removeUserReaction } from "../../../../../deps.ts";
+import { needReaction } from "../../../../utils/collectors.ts";
+import { Embed } from "../../../../utils/Embed.ts";
+import { createSubcommand } from "../../../../utils/helpers.ts";
 
-console.log(createSubcommand("guide", {
+console.log(createSubcommand("character-guide", {
   name: "amber",
   arguments: [
+    { name: "subcommand", type: "subcommand", required: false },
     { name: "page", type: "number", defaultValue: 1 },
   ],
   guildOnly: true,
   execute: async function (message, args) {
+    console.log("start guide amber");
     const first = new Embed()
       .setTitle("Amber Weapons")
       .setDescription("https://tinyurl.com/genshinbuilds")
@@ -77,6 +79,8 @@ console.log(createSubcommand("guide", {
       )
       .setTimestamp();
 
+    console.log("end guide amber");
+
     const pages = {
       1: { page: 1, embed: first, emoji: "1️⃣" },
       2: { page: 2, embed: second, emoji: "2️⃣" },
@@ -125,14 +129,10 @@ console.log(createSubcommand("guide", {
     }
 
     return botCache.commands
-      .get("guide")?.subcommands?.get("amber")
+      .get("character")?.subcommands?.get("guide")?.subcommands?.get("amber")
       ?.execute?.(message, {
         page: selectedPage.page,
         msg: response,
       });
   },
 }));
-
-interface HelpArgs {
-  command?: string;
-}
