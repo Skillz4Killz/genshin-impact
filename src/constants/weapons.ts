@@ -1955,4 +1955,235 @@ export const weapons = new Map([
         "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by **16/20/24/28/32**% for 6s.",
     },
   ],
+  // **TODO**
+  //[
+  //  "amberbead",
+  //  {
+  //    name: "Amber Bead",
+  //    description:
+  //      "A catalyst carved out of amber that gains a warm halo under the sun.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Catalyst",
+  //    stars: "⭐⭐⭐",
+  //    baseAttack: "",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "lostballade",
+  //  {
+  //    name: "Lost Ballade",
+  //    description:
+  //      "Legend has it that the bard who walked with the God of Winds has seen a thousand worlds.The Ballade keeps a record of many wonders, and grand powers. Some segments were lost, others, forgotten. We are only able to piece together his grand adventure from the remaining segments.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "Kreuzlied's Ballad",
+  //    moreInfo: "Increases DMG dealt by 5%. Additionally, picking up an Elemental Orb/Particle gives you one Charge stack: a stack increases ATK by 5% for 6s. This effect has a maximum of 4 stacks. Once 4 stacks have been gained, and this effect is triggered again, gain Kreuzlied's Ballad: ATK is increased by an additional 30% and CRIT Rate is increased by 20% for 12s. Kreuzlied's Ballad can only be activated once every 30s.",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "diamondvisage",
+  //  {
+  //    name: "Diamond Visage",
+  //    description:
+  //      "A jade ring that is as pretty as if it was made in heaven. It radiates an indescribable light and power. Legend says you can see an infinite amount of worlds through it.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Catalyst",
+  //    stars: "⭐⭐⭐",
+  //    baseAttack: "",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "mirrorbreaker",
+  //  {
+  //    name: "Mirror Breaker",
+  //    description:
+  //      "A weapon fragment from the epic battle waged by ancient extraterrestrial conquerors. It once had the power to extinguish moonlight.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Bow",
+  //    stars: "⭐⭐⭐",
+  //    baseAttack: "",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "deicide",
+  //  {
+  //    name: "Deicide",
+  //    description:
+  //      "A weapon that was once used to kill an archon. It's a weapon of sheer will, with power that rivals that of the gods.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Polearm",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "theflagstaff",
+  //  {
+  //    name: "The Flagstaff",
+  //    description:
+  //      "??",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Polearm",
+  //    stars: "⭐⭐⭐",
+  //    baseAttack: "",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+   // **TODO**
+  //[
+  //  "boreasprecocity",
+  //  {
+  //    name: "Boreas Precocity",
+  //    description:
+  //      "A longsword used by the Knights of Borealis. It was just a plain steel sword, but it obtained mythical powers throughout Borealis' life of legends and mysteries.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Sword",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "23/171",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "Lay of the Tower Revolt",
+  //    moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/boreas_precocity/",
+  //    refinement:
+  //      "Increases DMG dealt by 5%. Additionally, picking up an Elemental Orb/Particle gives you one Charge stack: a stack increases ATK by 5% for 6s. This effect has a maximum of 4 stacks. Once 4 stacks have been gained, and this effect is triggered again, gain Ode to the Tower Storming: ATK is increased by an additional 30% and CRIT Rate is increased by 20% for 12s. Ode to the Tower Storming can only be activated once every 30s.",
+  //  },
+  //],
+   // **TODO**
+  //[
+  //  "songofbrokenpines",
+  //  {
+  //    name: "Song of Broken Pines",
+  //    description:
+  //      "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Claymore",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "49/741",
+  //    secondaryStat: "Phys DMG%",
+  //    secondaryStatValue: "4.5/20.7",
+  //    specialAbility: "Rebel's Banner-Hymn",
+  //    moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/uprising_satire/",
+  //    refinement:
+  //      "A part of the "Millennial Movement" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the "Millennial Movement: Banner-Hymn" effect for 12s. "Millennial Movement: Banner-Hymn" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the "Millennial Movement," buffs of the same type will not stack.",
+  //  },
+  //],
+   // **TODO**
+  //[
+  //  "theotherside",
+  //  {
+  //    name: "The Other Side",
+  //    description:
+  //      "The alternative ending to the story between the first adeptus and the last illuminated beast. It was the bridge on which a mutual compromise was reached. It's blunt but powerful.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Claymore",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "49/536",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/the_other_side/",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "theotherside",
+  //  {
+  //    name: "The Other Side",
+  //    description:
+  //      "The alternative ending to the story between the first adeptus and the last illuminated beast. It was the bridge on which a mutual compromise was reached. It's blunt but powerful.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "Claymore",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "49/536",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/the_other_side/",
+  //    refinement:
+  //      "",
+  //  },
+  //],
+  // **TODO**
+  //[
+  //  "oneside",
+  //  {
+  //    name: "One Side",
+  //    description:
+  //      "The sword first used by an adeptus to make up for the powers he had lost. It has slain countless demons, as well as his own.",
+  //    thumbnail:
+  //      "",
+  //    color: "RANDOM",
+  //    category: "",
+  //    stars: "⭐⭐⭐⭐⭐",
+  //    baseAttack: "23/357",
+  //    secondaryStat: "",
+  //    secondaryStatValue: "",
+  //    specialAbility: "",
+  //    moreInfo: "",
+  //    refinement:
+  //      "",
+  //  },
+  //],
 ]);
