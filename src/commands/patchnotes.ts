@@ -5,25 +5,31 @@ import { createCommand } from "../utils/helpers.ts";
 createCommand({
   name: "patchnotes",
   aliases: ["patchnote", "update", "version"],
-  arguments: [{ name: "subcommand", type: "subcommand", required: false }],
   guildOnly: true,
   execute: async function (message) {
     const prefix = parsePrefix(message.guildID);
     await message.reply({
       embed: new Embed()
-        .setTitle("Need help, Traveler?")
         .setDescription([
           `\`${prefix}update 1.1\``,
-          "'A New Star Approaches'",
+          "A New Star Approaches",
+          "<https://genshin.mihoyo.com/en/news/detail/6526>",
           "",
           `\`${prefix}update 1.2\``,
           "'The Chalk Prince and the Dragon",
+          "<https://genshin.mihoyo.com/en/news/detail/7567>",
           "",
           `\`${prefix}update 1.3\``,
           "'All That Glitters'",
+          "<https://genshin.mihoyo.com/en/news/detail/8498>",
+          "",
+          `\`${prefix}update 1.4\``,
+          "Invitation of Windblume",
+          "<https://genshin.mihoyo.com/en/news/detail/9368>",
           "",
           `\`${prefix}update 1.5\``,
-          "**not availabable yet**",
+          "Beneath the Light of Jadeite",
+          "<https://genshin.mihoyo.com/en/news/detail/12241>",
           "",
         ]),
     }).catch(console.log);

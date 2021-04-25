@@ -15,16 +15,6 @@ createSubcommand("help", {
         `🔹 \`${prefix}patchnotes\``,
         `🔹 \`${prefix}update\``,
         `🔹 \`${prefix}version\``,
-        "Lists all available updates/versions.",
-        "",
-        `🔹 \`${prefix}patchnote [1-1 | 1-2 | 1-3]\``,
-        `🔹 \`${prefix}patchnote [1.1 | 1.2 | 1.3]\``,
-        `🔹 \`${prefix}patchnote2 [1-1 | 1-2 | 1-3]\``,
-        `🔹 \`${prefix}patchnote2 [1.1 | 1.2 | 1.3]\``,
-        `🔹 \`${prefix}update [1-1 | 1-2 | 1-3]\``,
-        `🔹 \`${prefix}update [1.1 | 1.2 | 1.3]\``,
-        `🔹 \`${prefix}version [1-1 | 1-2 | 1-3]\``,
-        `🔹 \`${prefix}version [1.1 | 1.2 | 1.3]\``,
       ])
       .setTimestamp()
       .setColor("RANDOM");
