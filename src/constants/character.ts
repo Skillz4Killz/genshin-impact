@@ -3064,7 +3064,7 @@ export const characters = new Map([
     "yanfei",
     {
       name: "Yanfei",
- //     description:
+      description:
         "A well-known legal adviser active in Liyue Harbor.\nA brilliant young lady in whose veins runs the blood of an illuminated beast.",
       thumbnail:
         "",
@@ -3078,7 +3078,7 @@ export const characters = new Map([
       weapon: "Catalyst",
       nation: "Liyue",
       affiliation: "Liyue Harbor",
-      specialDish: "????",
+      specialDish: "My Way",
       constellation: "Bestia Lustitia",
       birthday: "July 28",
       ascensionCost: "https://i.imgur.com/79ZLN07.png",
