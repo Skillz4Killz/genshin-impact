@@ -3064,7 +3064,7 @@ export const characters = new Map([
     "yanfei",
     {
       name: "Yanfei",
-      description:
+ //     description:
         "A well-known legal adviser active in Liyue Harbor.\nA brilliant young lady in whose veins runs the blood of an illuminated beast.",
       thumbnail:
         "",
