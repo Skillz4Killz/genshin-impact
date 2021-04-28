@@ -3066,12 +3066,10 @@ export const characters = new Map([
       name: "Yanfei",
       description:
         "A well-known legal adviser active in Liyue Harbor.\nA brilliant young lady in whose veins runs the blood of an illuminated beast.",
-      thumbnail:
-        "",
-      image:
-        "",
+      thumbnail: "",
+      image: "",
       color: "ff4000",
-      emoji: "",
+      emoji: "<:Yanfei:836969987428057098>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -3091,11 +3089,13 @@ export const characters = new Map([
         },
         {
           name: "Skill: Signed Edict",
-          description: "Summons blistering flames that deal **AoE Pyro DMG**.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
+          description:
+            "Summons blistering flames that deal **AoE Pyro DMG**.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n",
         },
         {
           name: "Burst: Done Deal",
-         description: "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
+          description:
+            "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance** has the following effects:\n• Grants Yanfei a Scarlet Seal at fixed intervals.\n• Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n",
         },
       ],
       passiveTalents: [
@@ -3113,11 +3113,11 @@ export const characters = new Map([
           name: "Blayzing Eye",
           description:
             "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK.\nThis DMG counts as Charged Attack DMG.",
-       },
+        },
       ],
       constellations: [
         {
-        name: "C1: The Law Knows No Kindness",
+          name: "C1: The Law Knows No Kindness",
           description:
             "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
         },
@@ -3138,13 +3138,12 @@ export const characters = new Map([
         },
         {
           name: "C5: Abiding Affidavit",
-        description:
+          description:
             "Increases the Level of Done Deal by 3.\nMaximum upgrade level is 15.",
-       },
+        },
         {
           name: "C6: Extra Clause",
-          description:
-            "Increases the maximum number of Scarlet Seals by 1.",
+          description: "Increases the maximum number of Scarlet Seals by 1.",
         },
       ],
     },

@@ -1754,7 +1754,7 @@ export const weapons = new Map([
         "Increases Normal Attack DMG by **40/50/60/70/80%** but decreases Charged Attack DMG by 10%.",
     },
   ],
-  // **TODO** fix refinement
+  // **TODO** maybe fix refinement
   [
     "alleyhunter",
     {
@@ -2081,7 +2081,7 @@ export const weapons = new Map([
   //      "",
   //  },
   //],
-   // **TODO**
+  // **TODO**
   //[
   //  "boreasprecocity",
   //  {
@@ -2102,7 +2102,7 @@ export const weapons = new Map([
   //      "Increases DMG dealt by 5%. Additionally, picking up an Elemental Orb/Particle gives you one Charge stack: a stack increases ATK by 5% for 6s. This effect has a maximum of 4 stacks. Once 4 stacks have been gained, and this effect is triggered again, gain Ode to the Tower Storming: ATK is increased by an additional 30% and CRIT Rate is increased by 20% for 12s. Ode to the Tower Storming can only be activated once every 30s.",
   //  },
   //],
-   // **TODO**
+  // **TODO**
   //[
   //  "songofbrokenpines",
   //  {
@@ -2123,7 +2123,7 @@ export const weapons = new Map([
   //      "A part of the "Millennial Movement" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the "Millennial Movement: Banner-Hymn" effect for 12s. "Millennial Movement: Banner-Hymn" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the "Millennial Movement," buffs of the same type will not stack.",
   //  },
   //],
-   // **TODO**
+  // **TODO**
   //[
   //  "theotherside",
   //  {
