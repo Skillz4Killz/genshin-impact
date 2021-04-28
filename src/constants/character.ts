@@ -3076,7 +3076,7 @@ export const characters = new Map([
       weapon: "Catalyst",
       nation: "Liyue",
       affiliation: "Liyue Harbor",
-      specialDish: "????",
+      specialDish: "My Way",
       constellation: "Bestia Lustitia",
       birthday: "July 28",
       ascensionCost: "https://i.imgur.com/79ZLN07.png",
