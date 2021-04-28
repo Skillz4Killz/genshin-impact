@@ -3065,8 +3065,10 @@ export const characters = new Map([
       name: "Yanfei",
       description:
         "A well-known legal adviser active in Liyue Harbor.\nA brilliant young lady in whose veins runs the blood of an illuminated beast.",
-      thumbnail: "",
-      image: "",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Character_Yanfei_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210428164441",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Character_Yanfei_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210428164441",
       color: "ff4000",
       emoji: "<:Yanfei:836969987428057098>",
       category: "Pyro",
