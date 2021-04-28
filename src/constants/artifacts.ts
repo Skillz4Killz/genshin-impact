@@ -523,8 +523,9 @@ export const artifacts = new Map([
     "paleflame",
     {
       name: "Pale Flame",
-      thumbnail: "",
-      image: "",
+      thumbnail:
+        "https://genshin.honeyhunterworld.com/img/art/pale_flame_4.png",
+      image: "https://genshin.honeyhunterworld.com/img/art/pale_flame_4.png",
       color: "RANDOM",
       stars: "⭐⭐⭐⭐⭐",
       setBonus:
@@ -538,8 +539,10 @@ export const artifacts = new Map([
     "tenacityofthemillelith",
     {
       name: "Tenacity of the Millelith",
-      thumbnail: "",
-      image: "",
+      thumbnail:
+        "https://genshin.honeyhunterworld.com/img/art/tenacity_of_the_millelith_4.png",
+      image:
+        "https://genshin.honeyhunterworld.com/img/art/tenacity_of_the_millelith_4.png",
       color: "RANDOM",
       stars: "⭐⭐⭐⭐⭐",
       setBonus:

@@ -41,7 +41,7 @@ createCommand({
         .addBlankField()
         .addField(
           "July",
-          "05. <:Barbara:798579079221215272> Barbara\n15. <:HuTao:815190067441696818> Hu Tao\n20. <:Childe:798579167843057665> Tartaglia\n27. <:Klee:798578917464080404> Klee",
+          "05. <:Barbara:798579079221215272> Barbara\n15. <:HuTao:815190067441696818> Hu Tao\n20. <:Childe:798579167843057665> Tartaglia\n27. <:Klee:798578917464080404> Klee\n28. <:Yanfei:836969987428057098> Yanfei",
           true,
         )
         .addField(
@@ -57,7 +57,7 @@ createCommand({
         .addBlankField()
         .addField(
           "October",
-          "09. <:Xingqiu:798577525265399838> Xingqiu\n16. <:Xinyan:798577406427529246> Xinyan",
+          "09. <:Xingqiu:798577525265399838> Xingqiu\n16. <:Xinyan:798577406427529246> Xinyan\n25. <:Eula:837064959207669760> Eula",
           true,
         )
         .addField(

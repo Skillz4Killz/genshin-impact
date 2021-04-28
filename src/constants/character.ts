@@ -2971,95 +2971,94 @@ export const characters = new Map([
   //    ],
   //  },
   //],
-  //[
-  //  "eula",
-  //  {
-  //    name: "Eula",
-  //    description:
-  //      "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
-  //    thumbnail:
-  //      "",
-  //    image:
-  //      "",
-  //    color: "00f9ff",
-  //    emoji: "",
-  //    category: "Cryo",
-  //    rarity: "⭐⭐⭐⭐⭐",
-  //    element: "<:Cryo:798483525052530719> Cryo",
-  //    weapon: "Claymore",
-  //    nation: "Mondstad",
-  //    affiliation: "Knights of Favonius",
-  //    specialDish: "Stormcrest Pie",
-  //    constellation: "Aphros Delos",
-  //    birthday: "October 25",
-  //    ascensionCost: "https://i.imgur.com/0Iu9hwX.png",
-  //    talentCost: "https://i.imgur.com/iwyrc1i.png",
-  //    activeTalents: [
-  //      {
-  //        name: "Favonius Bladework - Edel",
-  //        description:
-  //          "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
-  //      },
-  //      {
-  //        name: "Skill:Icetide Vortex ",
-  //        description: "**Press**\nSlashes swiftly, dealing Cryo DMG.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
-  //      },
-  //      {
-  //        name: "Burst: Glacial Illumination ",
-  //        description: "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption.\nWhen Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n",
-  //      },
-  //    ],
-  //    passiveTalents: [
-  //      {
-  //        name: "Aristocratic Introspection",
-  //        description:
-  //          "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
-  //      },
-  //      {
-  //        name: "Roiling Rime",
-  //        description:
-  //          "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by a Glacial Illumination.",
-  //      },
-  //      {
-  //        name: "Wellspring of War-Lust",
-  //        description:
-  //          "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
-  //      },
-  //    ],
-  //    constellations: [
-  //      {
-  //        name: "C1: Tidal Illusion",
-  //        description:
-  //          "Every Time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
-  //      },
-  //      {
-  //        name: "C2: Lady of seafoam",
-  //        description:
-  //          "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD.",
-  //      },
-  //      {
-  //        name: "C3: Lawrence Pedigree",
-  //        description:
-  //          "Increases the Level of Maximum upgrade level is 15.",
-  //      },
-  //      {
-  //        name: "C4: The Obstinacy of One's Inferiors",
-  //        description:
-  //          "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
-  //      },
-  //      {
-  //        name: "C5: Chivalaric  Quality",
-  //        description:
-  //          "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
-  //      },
-  //      {
-  //        name: "C6: Noble Obligation",
-  //        description:
-  //          "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy.\nNormal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
-  //      },
-  //    ],
-  //  },
-  //],
+  [
+    "eula",
+    {
+      name: "Eula",
+      description:
+        "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+      thumbnail: "",
+      image: "",
+      color: "00f9ff",
+      emoji: "<:Eula:837064959207669760>",
+      category: "Cryo",
+      rarity: "⭐⭐⭐⭐⭐",
+      element: "<:Cryo:798483525052530719> Cryo",
+      weapon: "Claymore",
+      nation: "Mondstad",
+      affiliation: "Knights of Favonius",
+      specialDish: "Stormcrest Pie",
+      constellation: "Aphros Delos",
+      birthday: "October 25",
+      ascensionCost: "https://i.imgur.com/0Iu9hwX.png",
+      talentCost: "https://i.imgur.com/iwyrc1i.png",
+      activeTalents: [
+        {
+          name: "Favonius Bladework - Edel",
+          description:
+            "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.\n",
+        },
+        {
+          name: "Skill:Icetide Vortex ",
+          description:
+            "**Press**\nSlashes swiftly, dealing Cryo DMG.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s\n\n**Hold**\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times.\nThese stacks can only be gained once every 0.3s AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n",
+        },
+        {
+          name: "Burst: Glacial Illumination ",
+          description:
+            "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption.\nWhen Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n",
+        },
+      ],
+      passiveTalents: [
+        {
+          name: "Aristocratic Introspection",
+          description:
+            "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+        },
+        {
+          name: "Roiling Rime",
+          description:
+            "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by a Glacial Illumination.",
+        },
+        {
+          name: "Wellspring of War-Lust",
+          description:
+            "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
+        },
+      ],
+      constellations: [
+        {
+          name: "C1: Tidal Illusion",
+          description:
+            "Every Time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+        },
+        {
+          name: "C2: Lady of seafoam",
+          description:
+            "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD.",
+        },
+        {
+          name: "C3: Lawrence Pedigree",
+          description: "Increases the Level of Maximum upgrade level is 15.",
+        },
+        {
+          name: "C4: The Obstinacy of One's Inferiors",
+          description:
+            "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+        },
+        {
+          name: "C5: Chivalaric  Quality",
+          description:
+            "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
+        },
+        {
+          name: "C6: Noble Obligation",
+          description:
+            "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy.\nNormal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+        },
+      ],
+    },
+  ],
   [
     "yanfei",
     {

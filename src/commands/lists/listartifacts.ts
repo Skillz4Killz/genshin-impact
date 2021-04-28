@@ -16,7 +16,7 @@ createSubcommand("list", {
       ])
       .addField(
         "Max. Rarity: ⭐⭐⭐⭐⭐",
-        "🔹 Archaic Petra\n🔹 Blizard Strayer\n🔹 Bloodstained Chivalry\n🔹 Crimson Witch of Flames\n🔹 Gladiator's Finale\n🔹 Heart of Depth\n🔹 Lavawalker\n🔹 Maiden Beloved\n\n🔹 Noblesse Oblige\n🔹 Pale Flamen\n🔹 Retracing Bolide\n🔹 Tenacity of the Millelith\n🔹 Thundering Fury\n🔹 Thundersoother\n🔹 Viridescent Venerer\n🔹 Wanderer's Troupe",
+        "🔹 Archaic Petra\n🔹 Blizard Strayer\n🔹 Bloodstained Chivalry\n🔹 Crimson Witch of Flames\n🔹 Gladiator's Finale\n🔹 Heart of Depth\n🔹 Lavawalker\n🔹 Maiden Beloved\n\n🔹 Noblesse Oblige\n🔹 Pale Flame\n🔹 Retracing Bolide\n🔹 Tenacity of the Millelith\n🔹 Thundering Fury\n🔹 Thundersoother\n🔹 Viridescent Venerer\n🔹 Wanderer's Troupe",
         true,
       )
       .addField(

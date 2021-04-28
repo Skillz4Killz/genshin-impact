@@ -13,7 +13,7 @@ createSubcommand("list", {
         .setTitle("List Character")
         .addField(
           "<:Pyro:798483485832249354> Pyro",
-          "<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:HuTao:815190067441696818> Hu Tao\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xiangling\n<:Xinyan:798577406427529246> Xinyan",
+          "<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:HuTao:815190067441696818> Hu Tao\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xiangling\n<:Xinyan:798577406427529246> Xinyan\n<:Yanfei:836969987428057098> Yanfei",
           true,
         )
         .addField(
@@ -34,7 +34,7 @@ createSubcommand("list", {
         )
         .addField(
           "<:Cryo:798483525052530719> Cryo",
-          "<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi\n<:Rosaria:820653132500828160> Rosaria",
+          "<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Eula:837064959207669760> Eula\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi\n<:Rosaria:820653132500828160> Rosaria",
           true,
         )
         .addField(

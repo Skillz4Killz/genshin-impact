@@ -250,7 +250,22 @@ export const gadgets = new Map([
         "This mysterious device, discovered within the ruins, has the power to accelerate cycles and 'transmute' material objects. generally speaking, everything is undergoing a cycle. Memories and elements surge within the ley lines, rotten fallen fruits return to the soil, and the trees born from the soil will one day bear their crystalline fruit...",
       craftingType: "None",
       craftingCost: "None",
-      effect: "A device that can transmute up to 150 materials placed within to convert it into some other material. Use Elemental Attacks to generate energy for the transmutation. It has a cooldown of 7 days.",
+      effect:
+        "A device that can transmute up to 150 materials placed within to convert it into some other material. Use Elemental Attacks to generate energy for the transmutation. It has a cooldown of 7 days.",
+    },
+  ],
+  [
+    "sereniteapot",
+    {
+      name: "Serenitea Pot",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Item_Serenitea_Pot.png/revision/latest/scale-to-width-down/256?cb=20210416180724",
+      rarity: "⭐⭐⭐⭐⭐",
+      source: "Reward from Tianqiu Treasure Trail World Quest",
+      description: "Reward from A Teapot to Call Home: Part I Quest",
+      craftingType: "None",
+      craftingCost: "None",
+      effect: "Enter the Serenitea Pot to access player housing.",
     },
   ],
 ]);
