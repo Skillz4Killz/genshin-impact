@@ -2987,7 +2987,7 @@ export const characters = new Map([
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
       weapon: "Claymore",
-      nation: "Mondstad",
+      nation: "Mondstadt",
       affiliation: "Knights of Favonius",
       specialDish: "Stormcrest Pie",
       constellation: "Aphros Delos",
