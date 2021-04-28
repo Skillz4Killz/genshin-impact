@@ -2977,8 +2977,10 @@ export const characters = new Map([
       name: "Eula",
       description:
         "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
-      thumbnail: "",
-      image: "",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Character_Eula_Card.png/revision/latest/scale-to-width-down/310?cb=20210416133528",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Character_Eula_Card.png/revision/latest/scale-to-width-down/310?cb=20210416133528",
       color: "00f9ff",
       emoji: "<:Eula:837064959207669760>",
       category: "Cryo",
