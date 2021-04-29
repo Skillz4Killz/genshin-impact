@@ -101,7 +101,7 @@ createSubcommand("list", {
 
     const nineth = new Embed()
     .setTitle("Other")
-      .addField("\u200B", "🔹 Dust of Azoth", true)
+      .addField("\u200B", "🔹 Dream Solvent\n🔹 Dust of Azoth\n🔹  Transient Resin\n🔹 Vial of Adeptal Speed", true)
       .addBlankField()
       .setTimestamp()
       .setFooter("1️⃣ Overview")

@@ -83,7 +83,10 @@ createSubcommand("help", {
         `🔹 \`${prefix}material [ore | ironchunk | whiteironchunk | crystalchunk | magicalcrystalchunk]\``,
         "",
         "**Other**",
+        `🔹 \`${prefix}material dreamsolvent\``,
         `🔹 \`${prefix}material dustofazoth\``,
+        `🔹 \`${prefix}material transientresin\``,
+        `🔹 \`${prefix}material vialofadeptalspeed\``,
       ])
       .setFooter("Page 3/3")
       .setTimestamp()
