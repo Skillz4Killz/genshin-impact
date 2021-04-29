@@ -44,12 +44,12 @@ createSubcommand("list", {
       ])
       .addField(
         "\u200B",
-        "🔹 Almond Tofu\n🔹 All-Delicacy Parcels\n🔹 Apple Cider\n🔹 Berry & Mint Burst\n🔹 Cold Noodles with Mountain Delicacies\n🔹 Cream Stew\n🔹 Crystal Shrimp\n\n🔹 Der Weisheit Letzter Schluss (Life)\n🔹 Fish-Flavored Toast\n🔹 Fisherman's Toast\n🔹 Flaming Red Bolognese\n🔹 Fried Radish Balls\n🔹 Goulash\n🔹 Ghostly March\n🔹 Jewelry Soup",
+        "🔹 Almond Tofu\n🔹 All-Delicacy Parcels\n🔹 Apple Cider\n🔹 Berry & Mint Burst\n🔹 Cold Noodles with Mountain Delicacies\n🔹 Cream Stew\n🔹 Cured Pork Dry Hotpot\n🔹 Crystal Shrimp\n🔹 Der Weisheit Letzter Schluss (Life)\n🔹 Fish-Flavored Toast\n\n🔹 Fisherman's Toast\n🔹 Flaming Red Bolognese\n🔹 Fried Radish Balls\n🔹 Goulash\n🔹 Ghostly March\n🔹 Jewelry Soup",
         true,
       )
       .addField(
         "\u200B",
-        "🔹 Jueyun Chili Chicken\n🔹 Lighter-Than-Air Pancake\n🔹 Lotus Seed and Bird Egg Soup\n🔹 Matsutake Meat Rolls\n🔹 Mint Salad\n🔹 Mysterious Bolognese\n🔹 Noodles with Mountain Delicacies\n🔹 Northern Smoked Chicken\n\n\n🔹 Rockin' Riffin' Chicken!\n🔹 Satisfying Salad\n🔹 Spicy Stew\n🔹 Sweet Dream\n🔹 Sweet Madame\n🔹 Tea Break Pancake\n🔹 Wolfhook Juice",
+        "🔹 Jueyun Chili Chicken\n🔹 Lighter-Than-Air Pancake\n🔹 Lotus Seed and Bird Egg Soup\n🔹 Matsutake Meat Rolls\n🔹 Mint Salad\n🔹 My Way\n🔹 Mysterious Bolognese\n🔹 Noodles with Mountain Delicacies\n🔹 Northern Smoked Chicken\n\n\n🔹 Rockin' Riffin' Chicken!\n🔹 Satisfying Salad\n🔹 Spicy Stew\n🔹 Stir-Fried Fish Noodles\n🔹 Sweet Dream\n🔹 Sweet Madame\n🔹 Tea Break Pancake\n🔹 Wolfhook Juice",
         true,
       )
       .addBlankField()
@@ -67,7 +67,7 @@ createSubcommand("list", {
       ])
       .addField(
         "\u200B",
-        "🔹 A Buoyant Breeze\n🔹 A Prize Catch\n🔹 Adventurer's Breakfast Sandwich\n🔹 Bamboo Shoot Soup\n🔹 Barbatos Ratatouille\n🔹 Black-Back Perch Stew\n🔹 Calla Lily Seafood Soup\n🔹 Cold Cut Platter\n\n🔹 Come and Get It\n🔹 Crab, Ham & Veggie Bake\n🔹 Crispy Potato Shrimp Platter\n🔹 Die Heilige Sinfonie\n🔹 Golden Chicken Burger\n🔹 Golden Shrimp Balls\n🔹 Holy Water\n🔹 Invigorating Pizza\n🔹 Jueyun Guoba\n🔹 Lotus Flower Crisp\n🔹 Minty Meat Rolls\n🔹 Mondstadt Hash Brown\n🔹 Mushroom Pizza",
+        "🔹 A Buoyant Breeze\n🔹 A Prize Catch\n🔹 Adventurer's Breakfast Sandwich\n🔹 Bamboo Shoot Soup\n🔹 Barbatos Ratatouille\n🔹 Black-Back Perch Stew\n🔹 Calla Lily Seafood Soup\n🔹 Cold Cut Platter\n\n🔹 Come and Get It\n🔹 Crab, Ham & Veggie Bake\n🔹 Crab Roe Tofu\n🔹 Crispy Potato Shrimp Platter\n🔹 Die Heilige Sinfonie\n🔹 Golden Chicken Burger\n🔹 Golden Shrimp Balls\n🔹 Holy Water\n🔹 Invigorating Pizza\n🔹 Jueyun Guoba\n🔹 Lotus Flower Crisp\n🔹 Minty Meat Rolls\n🔹 Mondstadt Hash Brown\n🔹 Mushroom Pizza",
         true,
       )
       .addField(
@@ -90,7 +90,7 @@ createSubcommand("list", {
       ])
       .addField(
         "[⭐⭐⭐⭐]",
-        "🔹 Finger Lickin' Good Golden Chicken\n🔹 Golden Crab\n🔹 Golden Fried Chicken\n🔹 Jade Parcels\n🔹 Moon Pie\n🔹 Tianshu Meat",
+        "🔹 Finger Lickin' Good Golden Chicken\n🔹 Golden Crab\n🔹 Golden Fried Chicken\n🔹 Jade Parcels\n🔹 Moon Pie\n🔹 Stormcrest Pie\n🔹 Tianshu Meat",
         true,
       )
       .addField("[⭐⭐⭐⭐⭐]", "🔹 Adeptus' Temptation", true)

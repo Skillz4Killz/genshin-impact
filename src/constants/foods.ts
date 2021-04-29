@@ -1793,4 +1793,94 @@ export const foods = new Map([
         "Increases the party's attack by **160/194/228** for 300 seconds.",
     },
   ],
+
+  [
+    "stormcrestpie",
+    {
+      name: "Stormcrest Pie",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Stormcrest_Pie.png/revision/latest/scale-to-width-down/256?cb=20210428163016",
+      description:
+        "Eula's specialty. It's hard to say if the fang-like crescent shape is meant to flout tradition or express her 'tooth for tooth' ethos. A salty, fresh, smoked flavor emanates from under the golden outer crust, its body and intensity likely unmatched by anyone else in Mondstadt. Best not to tell her that, though, lest she 'remember' it.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐⭐",
+      recipe: "4x Meat, 4 Bird Egg, 3x Butter, 2x Flour",
+      dishType: "DEF Boosing Dish",
+      proficiency: "None",
+      obtainable: "Obtainable by cooking Moon Pie with Eula.",
+      effect:
+        "Increases all party members' Shield Strength by **40%** and DEF by **282** for 300s.",
+    },
+  ],
+  [
+    "myway",
+    {
+      name: "My Way",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_My_Way.png/revision/latest/scale-to-width-down/256?cb=20210428163026",
+      description:
+        "Yanfei's specialty Crab Roe Tofu done to an incredible degree of regularity. Its dimensions and flavor are all faithfully rendered according the 'Crab Roe Tofu Laws' in the recipe, with not a single letter omitted.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "1x Tofu, 1x Crab Roe",
+      dishType: "Recovery Dish",
+      proficiency: "None",
+      obtainable: "Obtainable by cooking Crab Roe Tofu with Yanfei.",
+      effect:
+        "Revives a character and restores **15%** of Max HP, then restores an additional **550** HP.",
+    },
+  ],
+  [
+    "crabroetofu",
+    {
+      name: "Crab Roe Tofu",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Item_Crab_Roe_Tofu.png/revision/latest/scale-to-width-down/256?cb=20210428163019",
+      description:
+        "A dish with a tender mouthfeel. Crab roe is stir-fried till the oil within oozes out before being added to boiled tofu and accented with broth. Simple, yes, but gloriously fresh.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "1x Crab Roe, 1x Tofu",
+      dishType: "Recovery Dish",
+      proficiency: "10",
+      obtainable: "Obtainable from Wanmin Restaurant for 2.250 Mora",
+      effect: "Revives a character and restores **250/400/550** HP.",
+    },
+  ],
+  [
+    "stir-friedfishnoodles",
+    {
+      name: "Stir-Fried Fish Noodles",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Stir-Fried_Fish_Noodles.png/revision/latest/scale-to-width-down/256?cb=20210428163030",
+      description:
+        "A main dish with an intense flavor. Created by stir-frying rice noodles, par-cooked fish, and various side dishes in a wok on high flame. The noodles, having absorbed the flavors of various ingredients, are springy and smooth to the taste, making this dish a big hit with diners.",
+      color: "RANDOM",
+      stars: "⭐⭐",
+      recipe: "6x Potato, 4x Cream, 3x Pepper",
+      dishType: "Recovery Dish",
+      proficiency: "10",
+      obtainable: "Obtainable from Xinyue Kiosk for 2.500 Mora.",
+      effect:
+        "Restores **18/20/22%** of Max HP and regenerates **300/390/470** HP every 5 seconds for 30s.",
+    },
+  ],
+  [
+    "curedporkdryhotpot",
+    {
+      name: "Cured Pork Dry Hotpot",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Cured_Pork_Dry_Hotpot.png/revision/latest/scale-to-width-down/256?cb=20210428163022",
+      description:
+        "A dish fried over a great flame. Matsutake and Ham have been sliced up, stir-fried, and garnished with some spicy condiments. The flavor of the Ham is a match for the Matsutake's crispness, and the combination grows even lovelier and more addictive as you chew. The heat-conducting wok also serves to keep it piping hot for long periods.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "2x Ham, 2x Matsutake, 1x Snapdragon, 1x Pepper",
+      dishType: "ATK-Boosting Dish",
+      proficiency: "15",
+      obtainable: "Obtainable from Liuli Pavilion for 5.000 Mora.",
+      effect:
+        "Increases all party members' CRIT Rate by **10/15/20%** for 300s.",
+    },
+  ],
 ]);

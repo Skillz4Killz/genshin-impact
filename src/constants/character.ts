@@ -3037,7 +3037,7 @@ export const characters = new Map([
         {
           name: "C2: Lady of seafoam",
           description:
-            "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD.",
+            "Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD.",
         },
         {
           name: "C3: Lawrence Pedigree",
