@@ -24,7 +24,7 @@ createSubcommand("abyss-floor", {
       .addBlankField()
       .addField(
         "Chamber 2 (First Half)",
-        "Remaining challenge time longer than 60/180/300 sec.\n\n<:Mitachurl:812972562875154482> 1x Ice Shieldwall Mitachurl\n<:Hilichurl:812702015389564978> 4x Ice Shield Hilichurl Guard\n<:CryoHilichurl:812979713848246318> 4x Cryo Hilichurl Grenadier\n<:LargeHydroSlime:812678780903882782> 6x Large Cryo Slime",
+        "Remaining challenge time longer than 60/180/300 sec.\n\n<:Mitachurl:812972562875154482> 1x Ice Shieldwall Mitachurl\n<:Hilichurl:812702015389564978> 4x Ice Shield Hilichurl Guard\n<:CryoHilichurl:812979713848246318> 4x Cryo Hilichurl Grenadier\n<:LargeCryoSlime:812702014966333441> 6x Large Cryo Slime",
         true,
       )
       .addField(

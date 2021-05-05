@@ -22,12 +22,18 @@ createSubcommand("invites", {
         `**uses:** ${invite.uses -
             invite
               .fakeUses ||
-          0}\n**creator:**\n<@!${invite.memberID}>\n**channel:**\n<#${invite.channelID}>\n\u200B`,
+          0}\n**creator:** <@!${invite.memberID}>\n**channel:** <#${invite.channelID}>\n\u200B`,
         true,
       );
       if (embed.fields.length === 25) {
         await message.send({ embed }).catch(console.log);
         embed.fields = [];
+      }
+      if (
+        embed.fields.length === 2 ||
+        embed.fields[embed.fields.length - 3]?.name === "\u200B"
+      ) {
+        embed.addBlankField();
       }
     }
     return embed.fields.length ? message.send({ embed }) : undefined;
