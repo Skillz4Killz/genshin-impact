@@ -30,9 +30,9 @@ createSubcommand("invites", {
         `**uses:** ${invite.uses -
             invite
               .fakeUses ||
-          0}\n**creator:** <@!${invite.memberID}>\n**exists:** ${
+          0}\n**exists:** ${
           existingInvites.has(invite.code) ? "yes" : "no"
-        }\n**channel:** <#${invite.channelID}>`,
+        }\n**creator:** <@!${invite.memberID}>\n**channel:** <#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
