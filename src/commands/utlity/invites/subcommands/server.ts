@@ -1,20 +1,28 @@
-import { botCache } from "../../../../../deps.ts";
+import { botCache, getInvites } from "../../../../../deps.ts";
 import { db } from "../../../../database/database.ts";
 import { Embed } from "../../../../utils/Embed.ts";
 import { createSubcommand } from "../../../../utils/helpers.ts";
+import { createPagination } from "../../../../utils/pagination.ts";
 
 createSubcommand("invites", {
   name: "server",
   guildOnly: true,
 
   execute: async function (message) {
+    const guildInvites = await getInvites(message.guildID);
+    const existingInvites = new Set<string>(
+      guildInvites.map((invite: any) => invite.code),
+    );
+
     const invites = (await db.serverinvites.findMany({
       guildID: message.guildID,
     }, true)).sort((a, b) =>
       (b.uses - b.fakeUses || 0) - (a.uses - a.fakeUses || 0)
     );
 
-    const embed = new Embed();
+    let embed = new Embed();
+    const embeds: Embed[] = [];
+
     for (const invite of invites) {
       (message.guildID, invite.memberID);
       embed.addField(
@@ -22,12 +30,14 @@ createSubcommand("invites", {
         `**uses:** ${invite.uses -
             invite
               .fakeUses ||
-          0}\n**creator:** <@!${invite.memberID}>\n**channel:** <#${invite.channelID}>\n\u200B`,
+          0}\n**creator:** <@!${invite.memberID}>\n**exists:** ${
+          existingInvites.has(invite.code) ? "yes" : "no"
+        }\n**channel:** <#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
-        await message.send({ embed }).catch(console.log);
-        embed.fields = [];
+        embeds.push(embed);
+        embed = new Embed();
       }
       if (
         embed.fields.length === 2 ||
@@ -36,6 +46,7 @@ createSubcommand("invites", {
         embed.addBlankField();
       }
     }
-    return embed.fields.length ? message.send({ embed }) : undefined;
+
+    createPagination(message, embeds);
   },
 });

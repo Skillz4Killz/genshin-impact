@@ -206,12 +206,17 @@ botCache.monitors.set("commandHandler", {
 
     let prefix = parsePrefix(message.guildID);
     const botMention = `<@!${botID}>`;
+    const botChannelMention = `<@${botID}>`;
 
     // If the message is not using the valid prefix or bot mention cancel the command
-    if (message.content === botMention) {
+    if (
+      message.content === botMention || message.content === botChannelMention
+    ) {
       return message.reply(parsePrefix(message.guildID));
     } else if (message.content.startsWith(botMention)) prefix = botMention;
-    else if (!message.content.startsWith(prefix)) return;
+    else if (message.content.startsWith(botChannelMention)) {
+      prefix = botChannelMention;
+    } else if (!message.content.startsWith(prefix)) return;
 
     // Get the first word of the message without the prefix so it is just command name. `!ping testing` becomes `ping`
     const [commandName, ...parameters] = message.content.substring(
@@ -225,7 +230,10 @@ botCache.monitors.set("commandHandler", {
     logCommand(message, message.guild?.name || "DM", "Trigger", commandName);
 
     // Check if this user is blacklisted. Check if this guild is blacklisted
-    if (botCache.blacklistedIDs.has(message.author.id) || botCache.blacklistedIDs.has(message.guildID)) {
+    if (
+      botCache.blacklistedIDs.has(message.author.id) ||
+      botCache.blacklistedIDs.has(message.guildID)
+    ) {
       return;
     }
 

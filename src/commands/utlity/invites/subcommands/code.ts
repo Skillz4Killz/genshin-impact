@@ -1,7 +1,8 @@
 import { db } from "../../../../database/database.ts";
 import { Embed } from "../../../../utils/Embed.ts";
 import { createSubcommand } from "../../../../utils/helpers.ts";
-import { botCache } from "../../../../../deps.ts";
+import { botCache, getInvite } from "../../../../../deps.ts";
+import { createPagination } from "../../../../utils/pagination.ts";
 
 createSubcommand("invites", {
   name: "code",
@@ -26,19 +27,24 @@ createSubcommand("invites", {
 
     if (!member) return;
 
-    const embed = new Embed().setAuthor(
-      member.tag,
-      member.avatarURL,
+    // inefficiency rocks
+
+    const invitedMembers = botCache.helpers.chunkStrings(
+      invite.invitedMemberIDs?.map((id) => `<@!${id}>`) || [],
+      1850,
     );
 
-    embed.addField(
-      args.code,
-      `${invite.invitedMemberIDs?.map((id) => `<@!${id}>`)
-        .join("\n") ||
-        "None"}`,
-      true,
+    const inviteData = await getInvite(args.code).catch(() => undefined);
+
+    const embeds = invitedMembers.map((chunk) =>
+      new Embed().setAuthor(
+        member.tag,
+        member.avatarURL,
+      )
+        .setTitle(args.code)
+        .setDescription(`**exists:** ${inviteData ? "yes" : "no"}\n\n${chunk}`)
     );
 
-    message.send({ embed });
+    createPagination(message, embeds);
   },
 });

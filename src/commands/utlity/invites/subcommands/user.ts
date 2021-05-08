@@ -1,6 +1,7 @@
 import { db } from "../../../../database/database.ts";
 import { Embed } from "../../../../utils/Embed.ts";
 import { createSubcommand } from "../../../../utils/helpers.ts";
+import { getInvites } from "../../../../../deps.ts";
 
 createSubcommand("invites", {
   name: "user",
@@ -34,6 +35,11 @@ createSubcommand("invites", {
       true,
     );
 
+    const guildInvites = await getInvites(message.guildID);
+    const existingInvites = new Set<string>(
+      guildInvites.map((invite: any) => invite.code),
+    );
+
     const invited = invites.reduce((a, i) => a += i.uses - i.fakeUses || 0, 0);
 
     embed.setDescription(
@@ -58,7 +64,9 @@ createSubcommand("invites", {
         invite.code,
         `** uses:** ${(invite.uses -
           (invite.fakeUses || 0)) ||
-          0} \n ** channel:** <#${invite.channelID}>`,
+          0}\n**exists:** ${
+          existingInvites.has(invite.code) ? "yes" : "no"
+        }\n**channel:** <#${invite.channelID}>`,
         true,
       );
       if (embed.fields.length === 25) {
