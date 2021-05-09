@@ -13,12 +13,12 @@ createSubcommand("abyss-floor", {
       )
       .addField(
         "Chamber 1 (First Half)",
-        "Target defense progress greater than 20/40/60%\n\n<:TreasureHoarderCrusher:833031393796816916> 4x Treasure Hoarder Crusher\n<:TreasureHoarderPugilist:833031393964851290> 4x treasure Hoarder Pugilist\n<:TreasureHoarderMarksman:833040625569366057> 8x Treasure Hoarder Marksman",
+        "Target defense progress greater than 20/40/60%\n\n<:TreasureHoarderCrusher:833031393796816916> 4x Treasure Hoarder Crusher\n<:TreasureHoarderPugilist:833031393964851290> 4x Treasure Hoarder Pugilist\n<:TreasureHoarderMarksman:833040625569366057> 8x Treasure Hoarder Marksman",
         true,
       )
       .addField(
         "Chamber 1 (Second Half)",
-        "Target defense progress greater than 20/40/60%\n\n<:TreasureHoarderGravedigger:833031393839022081> 1x Treasure Hoarder Gravedigger\n<:TreasureHoarderSeaman:833040010508369970> 1x Treasure Hoarder Seaman\n<:TreasureHoarderHandyman:833040275299237950> 2x Treasure Hoarder Handyman\n<:TreasureHoarderPyroPotioneer:833031394006794250> 1x Treasure Hoarder Pyro Potnioneer\n<:TreasureHoarderHydroPotioneer:833031393973633044> 1x Treasure Hoarder Hydro Potnioneer\n<:TreasureHoarderElectroPotioneer:833031393864056842> 1x Treasure Hoarder Electro Potnioneer\n<:TreasureHoarderCryoPotioneer:812728057894142004> 1x Treasure Hoarder Cryo Potnioneer",
+        "Target defense progress greater than 20/40/60%\n\n<:TreasureHoarderGravedigger:833031393839022081> 1x Treasure Hoarder Gravedigger\n<:TreasureHoarderSeaman:833040010508369970> 1x Treasure Hoarder Seaman\n<:TreasureHoarderHandyman:833040275299237950> 2x Treasure Hoarder Handyman\n<:TreasureHoarderPyroPotioneer:833031394006794250> 1x Treasure Hoarder Pyro Potnioneer\n<:TreasureHoarderHydroPotioneer:833031393973633044> 1x Treasure Hoarder Hydro Potioneer\n<:TreasureHoarderElectroPotioneer:833031393864056842> 1x Treasure Hoarder Electro Potioneer\n<:TreasureHoarderCryoPotioneer:812728057894142004> 1x Treasure Hoarder Cryo Potioneer",
         true,
       )
       .addBlankField()
