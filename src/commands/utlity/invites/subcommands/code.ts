@@ -42,7 +42,7 @@ createSubcommand("invites", {
         member.avatarURL,
       )
         .setTitle(args.code)
-        .setDescription(`**exists:** ${inviteData ? "yes" : "no"}\n\n${chunk}`)
+        .setDescription(`**exists:** ${inviteData ? "✅" : "❌"}\n\n${chunk}`)
     );
 
     createPagination(message, embeds);

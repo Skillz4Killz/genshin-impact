@@ -65,7 +65,7 @@ createSubcommand("invites", {
         `** uses:** ${(invite.uses -
           (invite.fakeUses || 0)) ||
           0}\n**exists:** ${
-          existingInvites.has(invite.code) ? "yes" : "no"
+          existingInvites.has(invite.code) ? "✅" : "❌"
         }\n**channel:** <#${invite.channelID}>`,
         true,
       );
