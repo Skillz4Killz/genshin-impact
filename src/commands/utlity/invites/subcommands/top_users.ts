@@ -34,7 +34,7 @@ createSubcommand("invites", {
 
     let embed = new Embed().setTitle("Top Inviter");
 
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= top.length; i++) {
       embed.addField(
         `${i + 1}.  ${top[i][1].uses} invites`,
         `**user:** <@!${top[i][1].id}>`,

@@ -36,6 +36,7 @@ const gifData = [
       "https://media1.tenor.com/images/4869315535c15435f3d8ceeac8703b2c/tenor.gif",
       "https://media1.tenor.com/images/fd095dd822d291bd369ed556caf064a4/tenor.gif",
       "https://media1.tenor.com/images/18290708ef97c683eef31a7e24d2da79/tenor.gif",
+      "https://img-9gag-fun.9cache.com/photo/aeAZr2q_460swp.webp",
     ],
   },
 ];
