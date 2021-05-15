@@ -32,7 +32,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Adventure Rank 15 Reward (1x)",
         "",
-        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:traveler:843214509597392926> Traveler",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Brilliant_Diamond_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106075046",
@@ -54,7 +54,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Adventure Rank 25 Reward (3x)\n🔹 Adventure Rank 26 Reward (2x)\n🔹 Adventure Rank 28 Reward (2x)\n🔹 Adventure Rank 30 Reward (2x)",
         "",
-        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:traveler:843214509597392926> Traveler",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Brilliant_Diamond_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074737",
@@ -76,7 +76,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Adventure Rank 35 Reward (3x)\n🔹 Adventure Rank 38 Reward (3x)\n🔹 Adventure Rank 40 Reward (3x)",
         "",
-        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:traveler:843214509597392926> Traveler",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Brilliant_Diamond_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106075044",
@@ -98,7 +98,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Adventure Rank 41 Reward (2x)\n🔹 Adventure Rank 42 Reward (2x)\n🔹 Adventure Rank 45 Reward (2x)",
         "",
-        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:Traveler:798976293613600829> Traveler",
+        "Brilliant Diamond Sliver is used for the following character ascensions:\n\n<:traveler:843214509597392926> Traveler",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Brilliant_Diamond_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074742",

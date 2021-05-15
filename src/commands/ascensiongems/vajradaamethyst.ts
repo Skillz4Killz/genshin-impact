@@ -32,7 +32,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Electro Hypostasis\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Sliver, 1x Dust of Azoth",
         "",
-        "Vajrada Amethyst Sliver is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
+        "Vajrada Amethyst Sliver is used for the following character ascensions:\n\n<:beidou:843214508793266297> Beidou\n<:fischl:843214510005551105> Fischl\n<:keqing:843214509719420928> Keqing\n<:lisa:843214509706444840> Lisa\n<:razor:843215534711242813> Razor",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Vajrada_Amethyst_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074806",
@@ -56,7 +56,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.40+ Electro Hypostasis\n🔹 **Crafting:** 3x Vajrada Amethyst Sliver, 300 Mora\n🔹 **Crafting:** 1x Fragment, 3x Dust of Azoth",
         "",
-        "Vajrada Amethyst Fragment is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
+        "Vajrada Amethyst Fragment is used for the following character ascensions:\n\n<:beidou:843214508793266297> Beidou\n<:fischl:843214510005551105> Fischl\n<:keqing:843214509719420928> Keqing\n<:lisa:843214509706444840> Lisa\n<:razor:843215534711242813> Razor",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Vajrada_Amethyst_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074813",
@@ -80,7 +80,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.60+ Electro Hypostasis\n🔹 **Crafting:** 3x Vajrada Amethyst Fragment, 900 Mora\n🔹 **Crafting:** 1x Chunk, 9x Dust of Azoth",
         "",
-        "Vajrada Amethyst Chunk is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
+        "Vajrada Amethyst Chunk is used for the following character ascensions:\n\n<:beidou:843214508793266297> Beidou\n<:fischl:843214510005551105> Fischl\n<:keqing:843214509719420928> Keqing\n<:lisa:843214509706444840> Lisa\n<:razor:843215534711242813> Razor",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Vajrada_Amethyst_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074817",
@@ -104,7 +104,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.75+ Electro Hypostasis\n🔹 **Crafting:** 3x Vajrada Amethyst Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Gemstone, 27x Dust of Azoth",
         "",
-        "Vajrada Amethyst Gemstone is used for the following character ascensions:\n\n<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
+        "Vajrada Amethyst Gemstone is used for the following character ascensions:\n\n<:beidou:843214508793266297> Beidou\n<:fischl:843214510005551105> Fischl\n<:keqing:843214509719420928> Keqing\n<:lisa:843214509706444840> Lisa\n<:razor:843215534711242813> Razor",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Vajrada_Amethyst_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074821",

@@ -5,7 +5,7 @@ export const characters = new Map([
       name: "Zhongli",
       description:
         "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
-      emoji: "<:Zhongli:798577390577254441>",
+      emoji: "<:zhongli:843214509605650442>",
       thumbnail: "https://i.imgur.com/FbpPr3j.png",
       image: "https://i.imgur.com/FbpPr3j.png",
       color: "ffc100",
@@ -99,7 +99,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png/revision/latest?cb=20201128161608",
       color: "ff4000",
-      emoji: "<:Xinyan:798577406427529246>",
+      emoji: "<:xinyan:843214509609844796>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -190,7 +190,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Xingqiu_Portrait.png/revision/latest/?cb=20200916184107",
       color: "0379fd",
-      emoji: "<:Xingqiu:798577525265399838>",
+      emoji: "<:xingqiu:843214509489127445>",
       category: "Hydro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Hydro:798483587157983282> Hydro",
@@ -279,7 +279,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Xiangling_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916184026",
       color: "ff4000",
-      emoji: "<:Xiangling:798578032935436329>",
+      emoji: "<:xiangling:843214509643923496>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -368,7 +368,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Venti_Portrait.png/revision/latest/?cb=20200916184309",
       color: "03fd9e",
-      emoji: "<:Venti:798578059891834890>",
+      emoji: "<:venti:843214509615480842>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194> Anemo",
@@ -459,7 +459,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png/revision/latest/scale-to-width-down/244?cb=20200916181011",
       color: "03fd9e",
-      emoji: "<:Sucrose:798578072756158475>",
+      emoji: "<:sucrose:843214509534347285>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194> Anemo",
@@ -550,7 +550,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png/revision/latest/cb=20200916151017",
       color: "e205fd",
-      emoji: "<:Razor:798578623900024862>",
+      emoji: "<:razor:843215534711242813>",
       category: "Electro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
@@ -641,7 +641,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916183756",
       color: "00f9ff",
-      emoji: "<:Qiqi:798578651145830401>",
+      emoji: "<:qiqi:843214509463175229>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Cryo:798578651145830401> Cryo",
@@ -732,7 +732,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png/revision/latest/scale-to-width-down/247?cb=20200916183843",
       color: "ffc100",
-      emoji: "<:Noelle:798578667508072458>",
+      emoji: "<:noelle:843214509380599850>",
       category: "Geo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Geo:798483630740865044> Geo",
@@ -816,7 +816,7 @@ export const characters = new Map([
     "ningguang",
     {
       name: "Ningguang",
-      emoji: "<:Ningguang:798571977120022578>",
+      emoji: "<:ningguang:843214509606961272>",
       category: "Geo",
       description:
         "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
@@ -913,7 +913,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png/revision/latest/scale-to-width-down/251?cb=20200916171314",
       color: "e205fd",
-      emoji: "<:Lisa:798578725716361267>",
+      emoji: "<:lisa:843214509706444840>",
       category: "Electro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
@@ -1004,7 +1004,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png/revision/latest/scale-to-width-down/267?cb=20200916171245",
       color: "ff4000",
-      emoji: "<:Klee:798578917464080404>",
+      emoji: "<:klee:843214509393182731>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -1095,7 +1095,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Character_Keqing_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916184644",
       color: "e205fd",
-      emoji: "<:Keqing:798578899956006914>",
+      emoji: "<:keqing:843214509719420928>",
       category: "Electro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
@@ -1186,7 +1186,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916171117",
       color: "00f9ff",
-      emoji: "<:Kaeya:798578983775240242>",
+      emoji: "<:kaeya:843214509606567936>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
@@ -1277,7 +1277,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916180808",
       color: "03fd9e",
-      emoji: "<:Jean:798578932031029308>",
+      emoji: "<:jean:843214509283868724>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194> Anemo",
@@ -1368,7 +1368,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Ganyu_Portrait.png/revision/latest/scale-to-width-down/246?cb=20210109020221",
       color: "00f9ff",
-      emoji: "<:Ganyu:798579013084774504>",
+      emoji: "<:ganyu:843215307745394728>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
@@ -1458,7 +1458,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png/revision/latest/scale-to-width-down/282?cb=20200916171212",
       color: "e205fd",
-      emoji: "<:Fischl:798579031381114890>",
+      emoji: "<:fischl:843214510005551105>",
       category: "Electro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
@@ -1549,7 +1549,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png/revision/latest/scale-to-width-down/228?cb=20200916171027",
       color: "ff4000",
-      emoji: "<:Diluc:798579247945613332>",
+      emoji: "<:diluc:843214508956713000>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -1640,7 +1640,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png/revision/latest/scale-to-width-down/250?cb=20200916181119",
       color: "00f9ff",
-      emoji: "<:Chongyun:798579223241162792>",
+      emoji: "<:chongyun:843214508876496917>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
@@ -1731,7 +1731,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png/revision/latest/scale-to-width-down/262?cb=20201109083418",
       color: "0379fd",
-      emoji: "<:Childe:798579167843057665>",
+      emoji: "<:tartaglia:843214509760839710>",
       category: "Hydro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Hydro:798483587157983282> Hydro",
@@ -1820,7 +1820,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png/revision/latest/scale-to-width-down/267?cb=20200916170558",
       color: "ff4000",
-      emoji: "<:Bennett:798579139430973500>",
+      emoji: "<:bennett:843214508952125470>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -1910,7 +1910,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png/revision/latest/scale-to-width-down/237?cb=20200916170732",
       color: "e205fd",
-      emoji: "<:Beidou:798579120479928360>",
+      emoji: "<:beidou:843214508793266297>",
       category: "Electro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Electro:798483560205385799> Electro",
@@ -2001,7 +2001,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png/revision/latest/scale-to-width-down/253?cb=20200916170845",
       color: "0379fd",
-      emoji: "<:Barbara:798579079221215272>",
+      emoji: "<:barbara:843214508830883860>",
       category: "Hydro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Hydro:798483587157983282> Hydro",
@@ -2091,7 +2091,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png/revision/latest/scale-to-width-down/303?cb=20200914160851",
       color: "ff4000",
-      emoji: "<:Amber:798579318262988810>",
+      emoji: "<:amber:843214509044269126>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -2182,7 +2182,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png/revision/latest/scale-to-width-down/276?cb=20201217140004",
       color: "ffc100",
-      emoji: "<:Albedo:798579345916559370>",
+      emoji: "<:albedo:843214508462047353>",
       category: "Geo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Geo:798483630740865044> Geo",
@@ -2273,7 +2273,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png/revision/latest/scale-to-width-down/287?cb=20200916170444",
       color: "0379fd",
-      emoji: "<:Mona:798582495674105876>",
+      emoji: "<:mona:843214509610500106>",
       category: "Hydro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Hydro:798483587157983282> Hydro",
@@ -2364,7 +2364,7 @@ export const characters = new Map([
       image:
         "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
       color: "ffc100",
-      emoji: "<:Traveler:798976293613600829>",
+      emoji: "<:traveler:843214509597392926>",
       category: "Geo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Geo:798483630740865044> Geo",
@@ -2449,7 +2449,7 @@ export const characters = new Map([
       image:
         "https://genshinimpact.net/wp-content/uploads/2020/09/Character_Traveler_Portrait-768x583.png",
       color: "03fd9e",
-      emoji: "<:Traveler:798976293613600829>",
+      emoji: "<:traveler:843214509597392926>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194> Anemo",
@@ -2532,7 +2532,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png/revision/latest/scale-to-width-down/281?cb=20201117115533",
       color: "00f9ff",
-      emoji: "<:Diona:798582510480785409>",
+      emoji: "<:diona:843214992958423071>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
@@ -2623,7 +2623,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20200916152108",
       color: "03fd9e",
-      emoji: "<:Xiao:798578017197883412>",
+      emoji: "<:xiao:843214509686128680>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194>",
@@ -2712,7 +2712,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210227222357",
       color: "ff4000",
-      emoji: "<:HuTao:815190067441696818>",
+      emoji: "<:hutao:843215307581554771>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",
@@ -2982,7 +2982,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Character_Eula_Card.png/revision/latest/scale-to-width-down/310?cb=20210416133528",
       color: "00f9ff",
-      emoji: "<:Eula:837064959207669760>",
+      emoji: "<:eula:843214509929398293>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",
@@ -3072,7 +3072,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Character_Yanfei_Portrait.png/revision/latest/scale-to-width-down/310?cb=20210428164441",
       color: "ff4000",
-      emoji: "<:Yanfei:836969987428057098>",
+      emoji: "<:yanfei:843214509761101854>",
       category: "Pyro",
       rarity: "⭐⭐⭐⭐",
       element: "<:Pyro:798483485832249354> Pyro",

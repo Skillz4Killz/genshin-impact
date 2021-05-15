@@ -13,7 +13,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Ring of Boreas is used to level talents for the following characters:",
-        "<:Barbara:798579079221215272> Barbara\n<:Klee:798578917464080404> Klee\n<:Keqing:798578899956006914> Keqing\n<:Mona:798582495674105876> Mona",
+        "<:barbara:843214508830883860> Barbara\n<:klee:843214509393182731> Klee\n<:keqing:843214509719420928> Keqing\n<:mona:843214509610500106> Mona",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Wolf of the North Challenge Reward",
@@ -28,7 +28,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png/revision/latest/scale-to-width-down/256?cb=20210106070626",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

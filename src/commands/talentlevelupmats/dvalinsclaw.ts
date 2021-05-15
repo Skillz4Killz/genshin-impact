@@ -13,7 +13,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Dvalin's Claw is used to level talents for the following characters:",
-        "<:Lisa:798578725716361267> Lisa\n<:Noelle:798578667508072458> Noelle\n<:Razor:798578623900024862> Razor\n<:Xiangling:798578032935436329> Xiangling",
+        "<:lisa:843214509706444840> Lisa\n<:noelle:843214509380599850> Noelle\n<:razor:843215534711242813> Razor\n<:xiangling:843214509643923496> Xiangling",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Stormterror Challenge Reward",
@@ -28,7 +28,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png/revision/latest/scale-to-width-down/256?cb=20210106070324",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

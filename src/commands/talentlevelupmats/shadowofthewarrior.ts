@@ -13,7 +13,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Shadow of the Warrior is used to level talents for the following characters:",
-        "<:Ganyu:798579013084774504> Ganyu",
+        "<:ganyu:843215307745394728> Ganyu",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Childe Challenge Reward",
@@ -28,7 +28,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png/revision/latest/scale-to-width-down/256?cb=20210106065852",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

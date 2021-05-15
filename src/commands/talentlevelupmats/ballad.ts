@@ -18,7 +18,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Ballad is used to level talents for the following characters:",
-        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti",
+        "<:albedo:843214508462047353> Albedo\n<:fischl:843214510005551105> Fischl\n<:kaeya:843214509606567936> Kaeya\n<:lisa:843214509706444840> Lisa\n<:venti:843214509615480842> Venti",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Wednesday/Saturday/Sunday)*",
@@ -34,7 +34,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 1/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const secondEmbed = new Embed()
       .setTitle("Guide to Ballad")
@@ -44,7 +44,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Guide to Ballad is used to level talents for the following characters:",
-        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
+        "<:albedo:843214508462047353> Albedo\n<:fischl:843214510005551105> Fischl\n<:kaeya:843214509606567936> Kaeya\n<:lisa:843214509706444840> Lisa\n<:venti:843214509615480842> Venti\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Wednesday/Saturday/Sunday)*\n🔹 **Crafting:** 3x Teachings of Ballad, 175 Mora",
@@ -60,7 +60,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 2/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const thirdEmbed = new Embed()
       .setTitle("Philosophies of Ballad")
@@ -70,7 +70,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Ballad is used to level talents for the following characters:",
-        "<:Albedo:798579345916559370> Albedo\n<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Lisa:798578725716361267> Lisa\n<:Venti:798578059891834890> Venti\n<:Traveler:798976293613600829> Traveler",
+        "<:albedo:843214508462047353> Albedo\n<:fischl:843214510005551105> Fischl\n<:kaeya:843214509606567936> Kaeya\n<:lisa:843214509706444840> Lisa\n<:venti:843214509615480842> Venti\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Wednesday/Saturday/Sunday)*\n🔹 **Crafting:** 3x Guide to Ballad, 550 Mora",
@@ -86,7 +86,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed]);
   },

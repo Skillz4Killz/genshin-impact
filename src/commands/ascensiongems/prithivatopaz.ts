@@ -32,7 +32,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Geo Hypostasis\n🔹 Wolf of the North Challenge Reward\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Sliver, 1x Dust of Azoth",
         "",
-        "Prithiva Topaz Sliver is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
+        "Prithiva Topaz Sliver is used for the following character ascensions:\n\n<:albedo:843214508462047353> Albedo\n<:ningguang:843214509606961272> Ningguang\n<:noelle:843214509380599850> Noelle\n<:zhongli:843214509605650442> Zhongli",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074650",
@@ -56,7 +56,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.40+ Geo Hypostasis\n🔹 Lv.40+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Prithiva Topaz Sliver, 300 Mora\n🔹 **Crafting:** 1x Fragment, 3x Dust of Azoth",
         "",
-        "Prithiva Topaz Fragment is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
+        "Prithiva Topaz Fragment is used for the following character ascensions:\n\n<:albedo:843214508462047353> Albedo\n<:ningguang:843214509606961272> Ningguang\n<:noelle:843214509380599850> Noelle\n<:zhongli:843214509605650442> Zhongli",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074703",
@@ -80,7 +80,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.60+ Geo Hypostasis\n🔹 Lv. 60+ Wolf of the North Challenge Reward\n🔹 **Crafting:** 3x Prithiva Topaz Fragment, 900 Mora\n🔹 **Crafting:** 1x Chunk, 9x Dust of Azoth",
         "",
-        "Prithiva Topaz Chunk is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
+        "Prithiva Topaz Chunk is used for the following character ascensions:\n\n<:albedo:843214508462047353> Albedo\n<:ningguang:843214509606961272> Ningguang\n<:noelle:843214509380599850> Noelle\n<:zhongli:843214509605650442> Zhongli",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074708",
@@ -104,7 +104,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.75+ Geo Hypostasis\n🔹 Lv. 75+ Wolf of the North Challenge Reward\🔹 **Crafting:** 3x Prithiva Topaz Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Gemstone, 27x Dust of Azoth",
         "",
-        "Prithiva Topaz Gemstone is used for the following character ascensions:\n\n<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
+        "Prithiva Topaz Gemstone is used for the following character ascensions:\n\n<:albedo:843214508462047353> Albedo\n<:ningguang:843214509606961272> Ningguang\n<:noelle:843214509380599850> Noelle\n<:zhongli:843214509605650442> Zhongli",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074712",

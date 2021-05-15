@@ -22,7 +22,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Resistance is used to level talents for the following characters:",
-        "<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Jean:798578932031029308> Jean\n<:Mona:798582495674105876> Mona\n<:Noelle:798578667508072458> Noelle\n<:Razor:798578623900024862> Razor",
+        "<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:jean:843214509283868724> Jean\n<:mona:843214509610500106> Mona\n<:noelle:843214509380599850> Noelle\n<:razor:843215534711242813> Razor",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Tuesday/Friday/Sunday)*",
@@ -38,7 +38,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 1/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const secondEmbed = new Embed()
       .setTitle("Guide to Resistance")
@@ -48,7 +48,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Guide to Resistance is used to level talents for the following characters:",
-        "<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Jean:798578932031029308> Jean\n<:Mona:798582495674105876> Mona\n<:Noelle:798578667508072458> Noelle\n<:Razor:798578623900024862> Razor\<:Traveler:798976293613600829> Traveler",
+        "<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:jean:843214509283868724> Jean\n<:mona:843214509610500106> Mona\n<:noelle:843214509380599850> Noelle\n<:razor:843215534711242813> Razor\<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Tuesday/Friday/Sunday)*\n🔹 **Crafting:** 3x Teachings of Resistance, 175 Mora",
@@ -64,7 +64,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 2/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const thirdEmbed = new Embed()
       .setTitle("Philosophies of Resistance")
@@ -74,7 +74,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Resistance is used to level talents for the following characters:",
-        "<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Jean:798578932031029308> Jean\n<:Mona:798582495674105876> Mona\n<:Noelle:798578667508072458> Noelle\n<:Razor:798578623900024862> Razor\n<:Traveler:798976293613600829> Travelers",
+        "<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:jean:843214509283868724> Jean\n<:mona:843214509610500106> Mona\n<:noelle:843214509380599850> Noelle\n<:razor:843215534711242813> Razor\n<:traveler:843214509597392926> Travelers",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Tuesday/Friday/Sunday)*\n🔹 **Crafting:** 3x Guide to Resistance, 550 Mora",
@@ -90,7 +90,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed]);
   },

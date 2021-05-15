@@ -14,7 +14,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Spirit Locket of Boreas is used to level talents for the following characters:",
-        "<:Fischl:798579031381114890> Fischl\n<:Kaeya:798578983775240242> Kaeya\n<:Ningguang:798571977120022578> Ningguang\n<:Sucrose:798578072756158475> Sucrose",
+        "<:fischl:843214510005551105> Fischl\n<:kaeya:843214509606567936> Kaeya\n<:ningguang:843214509606961272> Ningguang\n<:sucrose:843214509534347285> Sucrose",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Wolf of the North Challenge Reward",
@@ -29,7 +29,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png/revision/latest/scale-to-width-down/256?cb=20210106070646",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

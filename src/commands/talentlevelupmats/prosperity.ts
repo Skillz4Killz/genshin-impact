@@ -22,7 +22,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Prosperity is used to level talents for the following characters:",
-        "<:Keqing:798578899956006914> Keqing\n<:Ningguang:798571977120022578> Ningguang\n<:Qiqi:798578651145830401> Qiqi<:Traveler:798976293613600829> Traveler",
+        "<:keqing:843214509719420928> Keqing\n<:ningguang:843214509606961272> Ningguang\n<:qiqi:843214509463175229> Qiqi<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Monday/Thursday/Sunday)*",
@@ -38,7 +38,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 1/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const secondEmbed = new Embed()
       .setTitle("Guide to Prosperity")
@@ -48,7 +48,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Guide to Prosperity is used to level talents for the following characters:",
-        "<:Keqing:798578899956006914> Keqing\n<:Ningguang:798571977120022578> Ningguang\n<:Qiqi:798578651145830401> Qiqi<:Traveler:798976293613600829> Traveler",
+        "<:keqing:843214509719420928> Keqing\n<:ningguang:843214509606961272> Ningguang\n<:qiqi:843214509463175229> Qiqi<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Monday/Thursday/Sunday)*\n🔹 **Crafting:** 3x Teachings of Prosperity, 175 Mora",
@@ -64,7 +64,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 2/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const thirdEmbed = new Embed()
       .setTitle("Philosophies of Prosperity")
@@ -74,7 +74,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Prosperity is used to level talents for the following characters:",
-        "<:Keqing:798578899956006914> Keqing\n<:Ningguang:798571977120022578> Ningguang\n<:Qiqi:798578651145830401> Qiqi<:Traveler:798976293613600829> Traveler",
+        "<:keqing:843214509719420928> Keqing\n<:ningguang:843214509606961272> Ningguang\n<:qiqi:843214509463175229> Qiqi<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Monday/Thursday/Sunday)*\n🔹 **Crafting:** 3x Guide to Prosperity, 550 Mora",
@@ -90,7 +90,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed]);
   },

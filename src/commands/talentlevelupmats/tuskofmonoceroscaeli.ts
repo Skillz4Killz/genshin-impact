@@ -14,7 +14,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Tusk of Monoceros Caeli is used to level talents for the following characters:",
-        "<:Albedo:798579345916559370> Albedo\n<:Xinyan:798577406427529246> Xinyan\n<:Zhongli:798577390577254441> Zhongli",
+        "<:albedo:843214508462047353> Albedo\n<:xinyan:843214509609844796> Xinyan\n<:zhongli:843214509605650442> Zhongli",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Childe Challenge Reward",
@@ -29,7 +29,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png/revision/latest/scale-to-width-down/256?cb=20210106065134",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

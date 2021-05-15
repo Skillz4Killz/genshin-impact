@@ -13,7 +13,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Dvalin's Plume is used to level talents for the following characters:",
-        "<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Jean:798578932031029308> Jean",
+        "<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:jean:843214509283868724> Jean",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Stormterror Challenge Reward",
@@ -28,7 +28,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png/revision/latest/scale-to-width-down/256?cb=20210106070312",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

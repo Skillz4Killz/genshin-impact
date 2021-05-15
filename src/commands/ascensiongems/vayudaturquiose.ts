@@ -32,7 +32,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Anemo Hypostasis\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Sliver, 1x Dust of Azoth",
         "",
-        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
+        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:jean:843214509283868724> Jean\n<:sucrose:843214509534347285> Sucrose\n<:venti:843214509615480842> Venti",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Vayuda_Turquoise_Sliver.png/revision/latest/scale-to-width-down/256?cb=20210106074904",
@@ -56,7 +56,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.40+ Anemo Hypostasis\n🔹 **Crafting:** 3x Vayuda Turquoise Sliver, 300 Mora\n🔹 **Crafting:** 1x Fragment, 3x Dust of Azoth",
         "",
-        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
+        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:jean:843214509283868724> Jean\n<:sucrose:843214509534347285> Sucrose\n<:venti:843214509615480842> Venti",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Vayuda_Turquoise_Fragment.png/revision/latest/scale-to-width-down/256?cb=20210106074908",
@@ -80,7 +80,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.60+ Anemo Hypostasis\n🔹 **Crafting:** 3x Vayuda Turquoise Fragment, 900 Mora\n🔹 **Crafting:** 1x Chunk, 9x Dust of Azoth",
         "",
-        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
+        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:jean:843214509283868724> Jean\n<:sucrose:843214509534347285> Sucrose\n<:venti:843214509615480842> Venti",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Vayuda_Turquoise_Chunk.png/revision/latest/scale-to-width-down/256?cb=20210106074913",
@@ -104,7 +104,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv. 75+ Anemo Hypostasis\n🔹 **Crafting:** 3x Vayuda Turquoise Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Gemstone, 27x Dust of Azoth",
         "",
-        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti",
+        "Vayuda Turquoise Sliver is used for the following character ascensions:\n\n<:jean:843214509283868724> Jean\n<:sucrose:843214509534347285> Sucrose\n<:venti:843214509615480842> Venti",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Vayuda_Turquoise_Gemstone.png/revision/latest/scale-to-width-down/256?cb=20210106074919",

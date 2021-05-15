@@ -13,7 +13,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Dvalin's Sigh is used to level talents for the following characters:",
-        "<:Amber:798579318262988810> Amber\n<:Beidou:798579120479928360> Beidou\n<:Chongyun:798579223241162792> Chongyun\n<:Traveler:798976293613600829> Traveler",
+        "<:amber:843214509044269126> Amber\n<:beidou:843214508793266297> Beidou\n<:chongyun:843214508876496917> Chongyun\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Stormterror Challenge Reward",
@@ -28,7 +28,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png/revision/latest/scale-to-width-down/256?cb=20210106070339",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

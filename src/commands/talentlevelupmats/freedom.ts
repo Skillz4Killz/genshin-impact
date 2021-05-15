@@ -18,7 +18,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Freedom is used to level talents for the following characters:",
-        ":Amber:798579318262988810> Amber\n<:Barbara:798579079221215272> Barbara\n<:Diona:798582510480785409> Diona\n<:Klee:798578917464080404> Klee\n<:Sucrose:798578072756158475> Sucrose\n<:Childe:798579167843057665> Tartaglia\n<:Traveler:798976293613600829> Traveler",
+        ":Amber:798579318262988810> Amber\n<:barbara:843214508830883860> Barbara\n<:diona:843214992958423071> Diona\n<:klee:843214509393182731> Klee\n<:sucrose:843214509534347285> Sucrose\n<:tartaglia:843214509760839710> Tartaglia\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Monday/Thursday/Sunday)*",
@@ -34,7 +34,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 1/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const secondEmbed = new Embed()
       .setTitle("Guide to Freedom")
@@ -44,7 +44,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Guide to Freedom is used to level talents for the following characters:",
-        ":Amber:798579318262988810> Amber\n<:Barbara:798579079221215272> Barbara\n<:Diona:798582510480785409> Diona\n<:Klee:798578917464080404> Klee\n<:Sucrose:798578072756158475> Sucrose\n<:Childe:798579167843057665> Tartaglia\n<:Traveler:798976293613600829> Traveler",
+        ":Amber:798579318262988810> Amber\n<:barbara:843214508830883860> Barbara\n<:diona:843214992958423071> Diona\n<:klee:843214509393182731> Klee\n<:sucrose:843214509534347285> Sucrose\n<:tartaglia:843214509760839710> Tartaglia\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Monday/Thursday/Sunday)*\n🔹 **Crafting:** 3x Teachings of Freedom, 175 Mora",
@@ -60,7 +60,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 2/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const thirdEmbed = new Embed()
       .setTitle("Philosophies of Freedom")
@@ -70,7 +70,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Freedom is used to level talents for the following characters:",
-        ":Amber:798579318262988810> Amber\n<:Barbara:798579079221215272> Barbara\n<:Diona:798582510480785409> Diona\n<:Klee:798578917464080404> Klee\n<:Sucrose:798578072756158475> Sucrose\n<:Childe:798579167843057665> Tartaglia\n<:Traveler:798976293613600829> Traveler",
+        ":Amber:798579318262988810> Amber\n<:barbara:843214508830883860> Barbara\n<:diona:843214992958423071> Diona\n<:klee:843214509393182731> Klee\n<:sucrose:843214509534347285> Sucrose\n<:tartaglia:843214509760839710> Tartaglia\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Forsaken Rift *(Monday/Thursday/Sunday)*\n🔹 **Crafting:** 3x Guide to Freedom, 550 Mora",
@@ -86,7 +86,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed]);
   },

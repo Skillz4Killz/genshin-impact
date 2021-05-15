@@ -22,7 +22,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Diligence is used to level talents for the following characters:",
-        "<:Chongyun:798579223241162792> Chongyun\n<:Ganyu:798579013084774504> Ganyu\n<:Xiangling:798578032935436329> Xiangling",
+        "<:chongyun:843214508876496917> Chongyun\n<:ganyu:843215307745394728> Ganyu\n<:xiangling:843214509643923496> Xiangling",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Tuesday/Friday/Sunday)*",
@@ -38,7 +38,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 1/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const secondEmbed = new Embed()
       .setTitle("Guide to Diligence")
@@ -48,7 +48,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Guide to Diligence is used to level talents for the following characters:",
-        "<:Chongyun:798579223241162792> Chongyun\n<:Ganyu:798579013084774504> Ganyu\n<:Xiangling:798578032935436329> Xiangling\n<:Traveler:798976293613600829> Traveler",
+        "<:chongyun:843214508876496917> Chongyun\n<:ganyu:843215307745394728> Ganyu\n<:xiangling:843214509643923496> Xiangling\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Tuesday/Friday/Sunday)*\n🔹 **Crafting:** 3x Teachings of Diligence, 175 Mora",
@@ -64,7 +64,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 2/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const thirdEmbed = new Embed()
       .setTitle("Philosophies of Diligence")
@@ -74,7 +74,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Diligence is used to level talents for the following characters:",
-        "<:Chongyun:798579223241162792> Chongyun\n<:Ganyu:798579013084774504> Ganyu\n<:Xiangling:798578032935436329> Xiangling\n<:Traveler:798976293613600829> Traveler",
+        "<:chongyun:843214508876496917> Chongyun\n<:ganyu:843215307745394728> Ganyu\n<:xiangling:843214509643923496> Xiangling\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Tuesday/Friday/Sunday)*\n🔹 **Crafting:** 3x Guide to Diligence, 550 Mora",
@@ -90,7 +90,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed]);
   },

@@ -13,33 +13,33 @@ createSubcommand("list", {
         .setTitle("List Character")
         .addField(
           "<:Pyro:798483485832249354> Pyro",
-          "<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:HuTao:815190067441696818> Hu Tao\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xiangling\n<:Xinyan:798577406427529246> Xinyan\n<:Yanfei:836969987428057098> Yanfei",
+          "<:amber:843214509044269126> Amber\n<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:hutao:843215307581554771> Hu Tao\n<:klee:843214509393182731> Klee\n<:xiangling:843214509643923496> Xiangling\n<:xinyan:843214509609844796> Xinyan\n<:yanfei:843214509761101854> Yanfei",
           true,
         )
         .addField(
           "<:Hydro:798483587157983282> Hydro",
-          "<:Barbara:798579079221215272> Barbara\n<:Mona:798582495674105876> Mona\n<:Childe:798579167843057665> Tartaglia\n<:Xingqiu:798577525265399838> Xingqiu",
+          "<:barbara:843214508830883860> Barbara\n<:mona:843214509610500106> Mona\n<:tartaglia:843214509760839710> Tartaglia\n<:xingqiu:843214509489127445> Xingqiu",
           true,
         )
         .addField(
           "<:Geo:798483630740865044> Geo",
-          "<:Albedo:798579345916559370> Albedo\n<:Ningguang:798571977120022578> Ningguang\n<:Noelle:798578667508072458> Noelle\n<:Zhongli:798577390577254441> Zhongli",
+          "<:albedo:843214508462047353> Albedo\n<:ningguang:843214509606961272> Ningguang\n<:noelle:843214509380599850> Noelle\n<:zhongli:843214509605650442> Zhongli",
           true,
         )
         .addBlankField()
         .addField(
           "<:Electro:798483560205385799> Electro",
-          "<:Beidou:798579120479928360> Beidou\n<:Fischl:798579031381114890> Fischl\n<:Keqing:798578899956006914> Keqing\n<:Lisa:798578725716361267> Lisa\n<:Razor:798578623900024862> Razor",
+          "<:beidou:843214508793266297> Beidou\n<:fischl:843214510005551105> Fischl\n<:keqing:843214509719420928> Keqing\n<:lisa:843214509706444840> Lisa\n<:razor:843215534711242813> Razor",
           true,
         )
         .addField(
           "<:Cryo:798483525052530719> Cryo",
-          "<:Chongyun:798579223241162792> Chongyun\n<:Diona:798582510480785409> Diona\n<:Eula:837064959207669760> Eula\n<:Ganyu:798579013084774504> Ganyu\n<:Kaeya:798578983775240242> Kaeya\n<:Qiqi:798578651145830401> Qiqi\n<:Rosaria:820653132500828160> Rosaria",
+          "<:chongyun:843214508876496917> Chongyun\n<:diona:843214992958423071> Diona\n<:eula:843214509929398293> Eula\n<:ganyu:843215307745394728> Ganyu\n<:kaeya:843214509606567936> Kaeya\n<:qiqi:843214509463175229> Qiqi\n<:Rosaria:820653132500828160> Rosaria",
           true,
         )
         .addField(
           "<:Anemo:798483595781341194> Anemo",
-          "<:Jean:798578932031029308> Jean\n<:Sucrose:798578072756158475> Sucrose\n<:Venti:798578059891834890> Venti\n<:Xiao:798578017197883412> Xiao",
+          "<:jean:843214509283868724> Jean\n<:sucrose:843214509534347285> Sucrose\n<:venti:843214509615480842> Venti\n<:xiao:843214509686128680> Xiao",
           true,
         )
         .addBlankField()

@@ -32,7 +32,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Pyro Regisvine\n🔹 Wolf of the North Challenge\n🔹 Purchased from the Souvenir Shop\n🔹 **Crafting:** 1x Sliver, 1x Dust of Azoth",
         "",
-        "Agnidus Agate Sliver is used for the following character ascensions:\n\n<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xianling\n<:Xinyan:798577406427529246> Xinyan",
+        "Agnidus Agate Sliver is used for the following character ascensions:\n\n<:amber:843214509044269126> Amber\n<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:klee:843214509393182731> Klee\n<:xiangling:843214509643923496> Xianling\n<:xinyan:843214509609844796> Xinyan",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Agnidus_Agate_Sliver.png",
@@ -56,7 +56,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.40+ Pyro Regisvine\n🔹 Lv.40+ Wolf of the North Challenge\n🔹 **Crafting:** 3x Agnidus Agate Sliver, 300 Mora\n🔹 **Crafting:** 1x Fragment, 3x Dust of Azoth",
         "",
-        "Agnidus Agate Fragment is used for the following character ascensions:\n\n<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xianling\n<:Xinyan:798577406427529246> Xinyan",
+        "Agnidus Agate Fragment is used for the following character ascensions:\n\n<:amber:843214509044269126> Amber\n<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:klee:843214509393182731> Klee\n<:xiangling:843214509643923496> Xianling\n<:xinyan:843214509609844796> Xinyan",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png",
@@ -80,7 +80,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.60+ Pyro Regisvine\n🔹 Lv.60+ Wolf of the North Challenge\n🔹 **Crafting:** 3x Agnidus Agate Fragment, 900 Mora\n🔹 **Crafting:** 1x Chun, 9x Dust of Azoth",
         "",
-        "Agnidus Agate Chunk is used for the following character ascensions:\n\n<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xianling\n<:Xinyan:798577406427529246> Xinyan",
+        "Agnidus Agate Chunk is used for the following character ascensions:\n\n<:amber:843214509044269126> Amber\n<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:klee:843214509393182731> Klee\n<:xiangling:843214509643923496> Xianling\n<:xinyan:843214509609844796> Xinyan",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png",
@@ -104,7 +104,7 @@ createSubcommand("material", {
         "",
         "**Source:**\n🔹 Dropped by Lv.75+ Pyro Regisvine\n🔹 Lv.75+ Wolf of the North Challenge\n🔹 **Crafting:** 3x Agnidus Agate Chunk, 2.700 Mora\n🔹 **Crafting:** 1x Gemstone, 27x Dust of Azoth",
         "",
-        "Agnidus Agate Gemstone is used for the following character ascensions:\n\n<:Amber:798579318262988810> Amber\n<:Bennett:798579139430973500> Bennett\n<:Diluc:798579247945613332> Diluc\n<:Klee:798578917464080404> Klee\n<:Xiangling:798578032935436329> Xianling\n<:Xinyan:798577406427529246> Xinyan",
+        "Agnidus Agate Gemstone is used for the following character ascensions:\n\n<:amber:843214509044269126> Amber\n<:bennett:843214508952125470> Bennett\n<:diluc:843214508956713000> Diluc\n<:klee:843214509393182731> Klee\n<:xiangling:843214509643923496> Xianling\n<:xinyan:843214509609844796> Xinyan",
       ])
       .setImage(
         "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Agnidus_Agate_Gemstone.png",

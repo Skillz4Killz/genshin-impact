@@ -14,7 +14,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Shard of a Foul Legacy is used to level talents for the following characters:",
-        "<:Diona:798582510480785409> Diona\n<:Childe:798579167843057665> Tartaglia",
+        "<:diona:843214992958423071> Diona\n<:tartaglia:843214509760839710> Tartaglia",
         "",
         "**Source:**",
         "🔹 Lv. 70+ Childe Challenge Reward",
@@ -29,7 +29,7 @@ createSubcommand("material", {
         "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png/revision/latest/scale-to-width-down/256?cb=20210106065904",
       )
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     await sendEmbed(message.channelID, embed).catch(console.log);
   },

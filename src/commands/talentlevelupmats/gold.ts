@@ -18,7 +18,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Teachings of Gold is used to level talents for the following characters:",
-        "<:Beidou:798579120479928360> Beidou\n<:Xingqiu:798577525265399838> Xingqiu\n<:Xinyan:798577406427529246> Xinyan\n<:Zhongli:798577390577254441> Zhongli",
+        "<:beidou:843214508793266297> Beidou\n<:xingqiu:843214509489127445> Xingqiu\n<:xinyan:843214509609844796> Xinyan\n<:zhongli:843214509605650442> Zhongli",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Wednesday/Saturday/Sunday)*",
@@ -34,7 +34,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 1/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const secondEmbed = new Embed()
       .setTitle("Guide to Gold")
@@ -44,7 +44,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Guide to Gold is used to level talents for the following characters:",
-        "<:Beidou:798579120479928360> Beidou\n<:Xingqiu:798577525265399838> Xingqiu\n<:Xinyan:798577406427529246> Xinyan\n<:Zhongli:798577390577254441> Zhongli\n<:Traveler:798976293613600829> Traveler",
+        "<:beidou:843214508793266297> Beidou\n<:xingqiu:843214509489127445> Xingqiu\n<:xinyan:843214509609844796> Xinyan\n<:zhongli:843214509605650442> Zhongli\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Wednesday/Saturday/Sunday)*\n🔹 **Crafting:** 3x Teachings of Gold, 175 Mora",
@@ -60,7 +60,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 2/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     const thirdEmbed = new Embed()
       .setTitle("Philosophies of Gold")
@@ -70,7 +70,7 @@ createSubcommand("material", {
         "**Item type:** Talent Level-Up Material",
         "",
         "Philosophies of Gold is used to level talents for the following characters:",
-        "<:Beidou:798579120479928360> Beidou\n<:Xingqiu:798577525265399838> Xingqiu\n<:Xinyan:798577406427529246> Xinyan\n<:Zhongli:798577390577254441> Zhongli\n<:Traveler:798976293613600829> Traveler",
+        "<:beidou:843214508793266297> Beidou\n<:xingqiu:843214509489127445> Xingqiu\n<:xinyan:843214509609844796> Xinyan\n<:zhongli:843214509605650442> Zhongli\n<:traveler:843214509597392926> Traveler",
         "",
         "**Source:**",
         "🔹 Taishan Mansion *(Wednesday/Saturday/Sunday)*\n🔹 **Crafting:** 3x Guide to Gold, 550 Mora",
@@ -86,7 +86,7 @@ createSubcommand("material", {
       )
       .setFooter("Page 3/3")
       .setColor("RANDOM")
-      .setTimestamp()
+      .setTimestamp();
 
     createPagination(message, [firstEmbed, secondEmbed, thirdEmbed]);
   },
