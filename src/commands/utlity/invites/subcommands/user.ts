@@ -40,7 +40,9 @@ createSubcommand("invites", {
       guildInvites.map((invite: any) => invite.code),
     );
 
-    const invited = invites.reduce((a, i) => a += i.uses - i.fakeUses || 0, 0);
+    const invited = invites.reduce((a, i) => {
+      return a += i.uses - i.fakeUses || 0;
+    }, 0);
 
     embed.setDescription(
       `**Total invites:** ${invited}${
