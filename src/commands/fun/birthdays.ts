@@ -13,7 +13,7 @@ createCommand({
         .setTitle("Birthdays")
         .addField(
           "January",
-          "18. <:diona:843214992958423071> Diona\n24. <:Rosaria:820653132500828160> Rosaria",
+          "18. <:diona:843214992958423071> Diona\n24. <:rosaria:820651981210386432> Rosaria",
           true,
         )
         .addField(

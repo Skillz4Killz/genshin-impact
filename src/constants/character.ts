@@ -2802,7 +2802,7 @@ export const characters = new Map([
       image:
         "https://cdn.discordapp.com/attachments/798566392965103616/820729594503626752/Character_Rosaria_Portrait.png",
       color: "00f9ff",
-      emoji: "<:Rosaria:820653132500828160>",
+      emoji: "<:rosaria:820651981210386432>",
       category: "Cryo",
       rarity: "⭐⭐⭐⭐",
       element: "<:Cryo:798483525052530719> Cryo",

@@ -34,7 +34,7 @@ createSubcommand("list", {
         )
         .addField(
           "<:Cryo:798483525052530719> Cryo",
-          "<:chongyun:843214508876496917> Chongyun\n<:diona:843214992958423071> Diona\n<:eula:843214509929398293> Eula\n<:ganyu:843215307745394728> Ganyu\n<:kaeya:843214509606567936> Kaeya\n<:qiqi:843214509463175229> Qiqi\n<:Rosaria:820653132500828160> Rosaria",
+          "<:chongyun:843214508876496917> Chongyun\n<:diona:843214992958423071> Diona\n<:eula:843214509929398293> Eula\n<:ganyu:843215307745394728> Ganyu\n<:kaeya:843214509606567936> Kaeya\n<:qiqi:843214509463175229> Qiqi\n<:rosaria:820651981210386432> Rosaria",
           true,
         )
         .addField(
