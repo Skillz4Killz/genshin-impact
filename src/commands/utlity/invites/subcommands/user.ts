@@ -71,7 +71,7 @@ createSubcommand("invites", {
         }\n**channel:** <#${invite.channelID}>`,
         true,
       );
-      if (embed.fields.length === 25) {
+      if (embed.fields.length === 10) {
         await message.send({ embed }).catch(console.log);
         embed.fields = [];
       }

@@ -35,7 +35,7 @@ createSubcommand("invites", {
         }\n**creator:** <@!${invite.memberID}>\n**channel:** <#${invite.channelID}>`,
         true,
       );
-      if (embed.fields.length === 25) {
+      if (embed.fields.length === 9) {
         embeds.push(embed);
         embed = new Embed();
       }

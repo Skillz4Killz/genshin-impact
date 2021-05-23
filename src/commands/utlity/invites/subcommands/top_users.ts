@@ -41,8 +41,8 @@ createSubcommand("invites", {
         `${topCounter++}. ${invite.uses} invites`,
         `**user:** <@!${invite.id}>`,
       );
-      if (embed.fields.length === 25) {
-        embeds.push(embed);
+      if (embed.fields.length === 10) {
+        await embeds.push(embed);
         embed = new Embed().setTitle("Top Inviter");
       }
     }
