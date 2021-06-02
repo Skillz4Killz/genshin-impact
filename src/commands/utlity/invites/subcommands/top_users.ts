@@ -44,8 +44,8 @@ createSubcommand("invites", {
         embed.addBlankField();
       }
       embed.addField(
+        `${invite.uses} invites`,
         `${topCounter++}. <@!${invite.id}>`,
-        `\`\`\`${invite.uses} invites\`\`\``,
         true,
       );
       if (embed.fields.length === 10) {
