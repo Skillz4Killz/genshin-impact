@@ -37,9 +37,16 @@ createSubcommand("invites", {
     let topCounter = 1;
 
     for (const [, invite] of top) {
+      if (
+        embed.fields.length === 2 ||
+        embed.fields[embed.fields.length - 3]?.name === "\u200B"
+      ) {
+        embed.addBlankField();
+      }
       embed.addField(
-        `${topCounter++}. ${invite.uses} invites`,
-        `**user:** <@!${invite.id}>`,
+        `${topCounter++}. <@!${invite.id}>`,
+        `\`\`\`${invite.uses} invites\`\`\``,
+        true,
       );
       if (embed.fields.length === 10) {
         await embeds.push(embed);
