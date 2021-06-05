@@ -109,30 +109,37 @@ createSubcommand("edit", {
       name: "character",
       type: "string",
       missing: (message) => {
-        message.reply("You forgot to provide a char.").catch(console.log)
-      }
+        message.reply(
+          "You forgot to provide a char. Only lowercase is supported.",
+        ).catch(console.log);
+      },
     },
     {
       name: "type",
       type: "string",
       literals: ["const", "level"],
       missing: (message) =>
-              message.reply("You forgot to provide the type (const/level) followed by the constellation/level.")
-                .catch(console.log),
-          },
+        message.reply(
+          "You forgot to provide the type (const/level) followed by the constellation/level.\nExample: `p!edit char yanfei level 60`",
+        )
+          .catch(console.log),
+    },
     {
       name: "level",
       type: "number",
       missing: (message) => {
-          message.reply("You forgot to provide the new level.")
-          .catch(console.log)
-        }
-    }
+        message.reply("You forgot to provide the new level.")
+          .catch(console.log);
+      },
+    },
   ],
   execute: async function (message, args) {
     const character = characters.get(args.character);
     if (!character) {
-      return sendDMOrResponse(message, "Invalid character name. Also make sure to use only lower case.").catch(console.log);
+      return sendDMOrResponse(
+        message,
+        "Invalid character name. Also make sure to use only lower case.",
+      ).catch(console.log);
     }
 
     if (args.type === "const") {
@@ -157,26 +164,20 @@ createSubcommand("edit", {
     if (settings.characters.some((c) => c.name === character.name)) {
       settings.characters = settings.characters.map((c) =>
         c.name === character.name
-          ? { 
-              name: c.name, 
-              constellationLevel: args.type === "const"
-                ? args.level 
-                : c.constellationLevel,
-              charLevel: args.type === "level"
-                ? args.level
-                : c.charLevel
-            }
+          ? {
+            name: c.name,
+            constellationLevel: args.type === "const"
+              ? args.level
+              : c.constellationLevel,
+            charLevel: args.type === "level" ? args.level : c.charLevel,
+          }
           : c
       );
     } else {
       settings.characters.push({
         name: character.name,
-        constellationLevel: args.type === "const"
-          ? args.level 
-          : 0,
-        charLevel: args.type === "level"
-          ? args.level 
-          : 1,
+        constellationLevel: args.type === "const" ? args.level : 0,
+        charLevel: args.type === "level" ? args.level : 1,
       });
     }
 
@@ -186,36 +187,37 @@ createSubcommand("edit", {
       })
       .catch(console.log);
 
-    return sendDMOrResponse(message, "Edited the character!").catch(console.log)
-  }
+    return sendDMOrResponse(
+      message,
+      "Edited the character!\n\n*If you edited it with level AND const in one command, it only takes the first part.\nIf you add a char with a level, it automatically makes it const 0.\nIf you add a char with a const, it automatically makes it level 1.",
+    ).catch(console.log);
+  },
+  //  arguments: [
+  //    {
+  //      name: "character",
+  //      type: "string",
+  //      missing: (message) =>
+  //        message.reply("You forgot to provide a char and the constellation")
+  //          .catch(console.log),
+  //    },
+  //    {
+  //      name: "constlevel",
+  //      type: "number",
+  //      missing: (message) =>
+  //        message.reply("You forgot to provide the constellation (0-6)").catch(
+  //          console.log,
+  //        ),
+  //    },
+  //    {
+  //      name: "charlevel",
+  //      type: "number",
+  //      missing: (message) =>
+  //        message.reply("You forgot to provide the level (1-90)").catch(
+  //          console.log,
+  //        ),
+  //    },
+  //  ],
 
-
-//  arguments: [
-//    {
-//      name: "character",
-//      type: "string",
-//      missing: (message) =>
-//        message.reply("You forgot to provide a char and the constellation")
-//          .catch(console.log),
-//    },
-//    {
-//      name: "constlevel",
-//      type: "number",
-//      missing: (message) =>
-//        message.reply("You forgot to provide the constellation (0-6)").catch(
-//          console.log,
-//        ),
-//    },
-//    {
-//      name: "charlevel",
-//      type: "number",
-//      missing: (message) =>
-//        message.reply("You forgot to provide the level (1-90)").catch(
-//          console.log,
-//        ), 
-//    }, 
-//  ], 
-  
   // execute: async function (message, args) {
   //   const character = characters.get(args.character);
   //   if (!character) {
