@@ -189,7 +189,7 @@ createSubcommand("edit", {
 
     return sendDMOrResponse(
       message,
-      "Edited the character!\n\n*If you edited it with level AND const in one command, it only takes the first part.\nIf you add a char with a level, it automatically makes it const 0.\nIf you add a char with a const, it automatically makes it level 1.*",
+      "Edited the character!",
     ).catch(console.log);
   },
   //  arguments: [
