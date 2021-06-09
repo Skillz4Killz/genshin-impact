@@ -26,6 +26,9 @@ createCommand({
           `**v1.5 Beneath the Light of Jadeite**`,
           "<https://genshin.mihoyo.com/en/news/detail/12241>",
           "",
+          `**v1.6 Midsummer Island Adventure**`,
+          "<https://www.hoyolab.com/genshin/article/415463>",
+          "",
         ]),
     }).catch(console.log);
   },

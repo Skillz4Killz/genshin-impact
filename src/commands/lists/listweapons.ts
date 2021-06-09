@@ -26,7 +26,7 @@ createSubcommand("list", {
       )
       .addField(
         "Rarity: ⭐⭐⭐⭐",
-        "🔹 Blackcliff Warbow\n🔹 Compound Bow\n🔹 Favonius Warbow\n🔹 Prototype Crescent\n🔹 Rust\n🔹 Sacrificial Bow\n🔹 The Stringless\n🔹 The Viridescent Hunt\n🔹 Windblume Ode",
+        "🔹 Blackcliff Warbow\n🔹 Compound Bow\n🔹 Favonius Warbow\n🔹 Mitternachts Waltz\n🔹 Prototype Crescent\n🔹 Rust\n🔹 Sacrificial Bow\n🔹 The Stringless\n🔹 The Viridescent Hunt\n🔹 Windblume Ode",
         true,
       )
       .addBlankField()
@@ -108,7 +108,7 @@ createSubcommand("list", {
       ])
       .addField(
         "Rarity: ⭐⭐⭐⭐⭐",
-        "🔹 Aquila Favonia\n🔹 Primordial Jade Cutter\n🔹 Skyward Blade\n🔹 Summit Shaper",
+        "🔹 Aquila Favonia\n🔹 Freedom-Sworn\n🔹 Primordial Jade Cutter\n🔹 Skyward Blade\n🔹 Summit Shaper",
         true,
       )
       .addField(
@@ -142,7 +142,7 @@ createSubcommand("list", {
       )
       .addField(
         "Rarity: ⭐⭐⭐⭐",
-        "🔹 Blackcliff Agate\n🔹 Eye of Perception\n🔹 Favonius Codex\n🔹 Frostbearer\n🔹 Mappa Mare\n🔹 Prototype Amber\n🔹 Royal Grimoire\n🔹 Sacrificial Fragments\n🔹 Solar Pearl\n🔹 The Widsith",
+        "🔹 Blackcliff Agate\n🔹 Dodoco Tales\n🔹 Eye of Perception\n🔹 Favonius Codex\n🔹 Frostbearer\n🔹 Mappa Mare\n🔹 Prototype Amber\n🔹 Royal Grimoire\n🔹 Sacrificial Fragments\n🔹 Solar Pearl\n🔹 The Widsith",
         true,
       )
       .addBlankField()

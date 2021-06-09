@@ -30,6 +30,7 @@ const gifData = [
       "https://i.imgur.com/XE6XQsf.png",
       "https://i.imgur.com/wqmrgNC.png",
       "https://i.imgur.com/ceWY5H6.png",
+      "https://i.imgur.com/hmBF2DB.png",
       "https://media1.tenor.com/images/e5c0782eabec199b0d929a64813b98da/tenor.gif",
       "https://media1.tenor.com/images/7374fc0ef8a5192ce5f0083e51b98717/tenor.gif",
       "https://media1.tenor.com/images/4369322fe48647949dd720facb6845e0/tenor.gif",

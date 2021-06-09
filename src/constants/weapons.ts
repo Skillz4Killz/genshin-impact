@@ -2187,4 +2187,63 @@ export const weapons = new Map([
   //      "",
   //  },
   //],
+
+  [
+    "freedom-sworn",
+    {
+      name: "Freedom-Sworn",
+      description:
+        "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Freedom-Sworn.png/revision/latest/scale-to-width-down/310?cb=20210603051501",
+      color: "RANDOM",
+      category: "Sword",
+      stars: "⭐⭐⭐⭐⭐",
+      baseAttack: "46/608",
+      secondaryStat: "Elemental Mastery",
+      secondaryStatValue: "42/198",
+      specialAbility: "Revolutionary Chorale",
+      moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/w_1405/",
+      refinement:
+        "A part of the 'Millennial Movement' that wanders amidst the winds. Increases DMG by **10/12,5/15/17,5/20%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain 'Millennial Movement: Song of Resistance' for 12s. 'Millennial Movement: Song of Resistance' increases Normal, Charged and Plunging Attack DMG by **16/20/24/28/32%** and increases ATK by **20/25/30/35/40%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the 'Millennial Movement,' buffs of the same type will not stack.",
+    },
+  ],
+  [
+    "mitternachtswaltz",
+    {
+      name: "Mitternachts Waltz",
+      description: "A bow painted the color of sin and nights of wild fantasy.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Mitternachts_Waltz.png/revision/latest?cb=20210603051516",
+      color: "RANDOM",
+      category: "Bow",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "42/519",
+      secondaryStat: "Physical DMG%",
+      secondaryStatValue: "11,3/51,7",
+      specialAbility: "Evernight Duet",
+      moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/w_4312/",
+      refinement:
+        "Normal Attack hits on opponents increase Elemental Skill DMG by **20/25/30/35/40%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **20/25/30/35/40%** for 5s.",
+    },
+  ],
+  [
+    "dodocotales",
+    {
+      name: "Dodoco Tales",
+      description: "",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Weapon_Dodoco_Tales.png/revision/latest/scale-to-width-down/310?cb=20210603051445",
+      color: "RANDOM",
+      category: "Catalyst",
+      stars: "⭐⭐⭐⭐",
+      baseAttack: "41/454",
+      secondaryStat: "ATK%",
+      secondaryStatValue: "12/55,1",
+      specialAbility: "Test weapon Effect",
+      moreInfo: "https://genshin.honeyhunterworld.com/db/weapon/w_5312/",
+      refinement:
+        "Normal Attack hits on opponents increase Charged Attack DMG by **16/20/24/28/32%** for 6s. Charged Attack hits on opponents increase ATK by **8/10/12/14/16%** for 6s.",
+    },
+  ],
 ]);
