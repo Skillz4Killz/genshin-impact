@@ -1883,4 +1883,58 @@ export const foods = new Map([
         "Increases all party members' CRIT Rate by **10/15/20%** for 300s.",
     },
   ],
+
+  [
+    "stir-friedshrimp",
+    {
+      name: "Stier-Fried Shrimp",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Item_Stir-Fried_Shrimp.png/revision/latest/scale-to-width-down/256?cb=20210609050922",
+      description:
+        "A light and smooth dish. The shrimp are quickly sautéed and the sauce thickened. This method of cooking is exceedingly simple and enhances the innate freshness of the shrimp meat, granting it a place at humble home-cooked meals and lavish banquets alike.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐",
+      recipe: "4x Shrimp Meat, 3x Flour. 3x Snapdragon",
+      dishType: "DEF-Boosting Dish",
+      proficiency: "15",
+      obtainable: "Purchasable from Verr Goldet at Wangshu Inn for 5.000 Mora.",
+      effect: "Increases all party members' Shield strength by **20/25/30%**.",
+    },
+  ],
+  [
+    "ricebuns",
+    {
+      name: "Rice Buns",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Rice_Buns.png/revision/latest/scale-to-width-down/256?cb=20210609051846",
+      description:
+        "Soft and fluffy food. The rice and horsetail have been ground into flour and kneaded into dough before being put in a steaming basket. It can be eaten as-is or with vegetable stuffing. Portable and filling, it is a very popular dish in the Liyue region.",
+      color: "RANDOM",
+      stars: "⭐",
+      recipe: "1x Rice, 1x Horsetail",
+      dishType: "Recovery Dish",
+      proficiency: "5",
+      obtainable: "Obtainable from Chef Mao for 1.125 Mora.",
+      effect:
+        "Restores **8/9/10%** of Max HP and an additional 1.000 HP to the selected character.",
+    },
+  ],
+  [
+    "chickentofupudding",
+    {
+      name: "Chicken Tofu Pudding",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Chicken_Tofu_Pudding.png/revision/latest/scale-to-width-down/256?cb=20210609043702",
+      description:
+        "A dish made with great precision. The finely-diced chicken breast is stirred strongly and added into a soup that has various other minced meats within, before being cooked over a small flame. The result is light and elegant, and it tastes like tofu pudding. The meat has been shaped such that it is 'a chicken above chickens, yet does not look like chicken'. This, too, is part of Liyue's culinary fine arts.",
+      color: "RANDOM",
+      stars: "⭐⭐⭐⭐",
+      recipe: "4x Fowl, 2x Ham, 2x Bird Egg, 1x Snapdragon",
+      dishType: "ATK-Boosting Dish",
+      proficiency: "20",
+      obtainable: "Obtainable from Liuli Pavilion for 5.000 Mora.",
+      effect:
+        "Increases the party's attack by **224/272/320** and critical rate by **6/8/10%** for 300 seconds.",
+    },
+  ],
 ]);

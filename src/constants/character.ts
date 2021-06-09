@@ -3240,95 +3240,91 @@ export const characters = new Map([
   //    ],
   //  },
   //],
-  //[
-  //  "kazuha",
-  //  {
-  //    name: "Kazuha",
-  //    description:
-  //      "A ronin from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
-  //    thumbnail:
-  //      "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest/scale-to-width-down/281?cb=20210607100841",
-  //    image:
-  //      "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest/scale-to-width-down/281?cb=20210607100841",
-  //    color: "03fd9e",
-  //    emoji: "",
-  //    category: "Anemo",
-  //    rarity: "⭐⭐⭐⭐⭐",
-  //    element: "<:Anemo:798483595781341194>",
-  //    weapon: "Sword",
-  //    nation: "Inazuma",
-  //    affiliation: "The Crux",
-  //    specialDish: "",
-  //    constellation: "Acer Palmatum",
-  //    birthday: "",
-  //    ascensionCost: "",
-  //    talentCost: "",
-  //    activeTalents: [
-  //      {
-  //        name: "",
-  //        description:
-  //          "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
-  //      },
-  //      {
-  //        name: "Skill: Chihayaburu",
-  //        description: "Kaedehara Kazuha unleashes a secret technique that pulls objects and opponents towards his current position before launching opponents within the Area of Effect, dealing **Anemo DMG** and lifting Kazuha into the air on a rushing wind current.\n\nWhile Kazuha is in mid-air from the effect of Chihayaburu, he can unleash a particularly powerful Plunging Attack, Midare Ranzan. His Plunging Attack Damage is converted to **Anemo DMG** and will create a miniature wind tunnel that pulls nearby objects and opponents in. The tap effect of Kazuha's Elemental Skill can also be used mid-air. If you hold his Elemental Skill longer, it charges up to unleash greater **Anemo DMG** over a larger AoE.",
-  //      },
-  //      {
-  //        name: "Burst: Kazuha Slash",
-  //        description: "With a single slash, Kazuha deals **AoE Anemo DMG** and his blade's passage will leave behind a field named "Autumn Whirlwind" which will deal **AoE Anemo DMG** at set intervals to opponents within in.\nElemental Absorption can occur in this field too.",
-  //      },
-  //    ],
-  //    passiveTalents: [
-  //      {
-  //        name: "Poetics of Fuubutsu",
-  //        description:
-  //          "Grants teammates an Elemental DMG Bonus to their corresponding Element upon trigger a Swirl reaction.",
-  //      },
-  //      {
-  //        name: "Soumon Swordmanship",
-  //        description:
-  //          "When his Elemental Skill comes into contact with any of the other elements, Elemental Absorption will occur and Kazuha Plunging Attack will deal additional DMG of that elemental type by a certain percentage.",
-  //      },
-  //      {
-  //        name: "Cloud Strider",
-  //        description:
-  //          "Decreases sprinting Stamina consumption for his party members.",
-  //      },
-  //    ],
-  //    constellations: [
-  //      {
-  //        name: "C1: ",
-  //        description:
-  //          "",
-  //      },
-  //      {
-  //        name: "C2: ",
-  //        description:
-  //          "",
-  //      },
-  //      {
-  //        name: "C3: ",
-  //        description:
-  //          "",
-  //      },
-  //      {
-  //        name: "C4: ",
-  //        description:
-  //          "",
-  //      },
-  //      {
-  //        name: "C5: ",
-  //        description:
-  //          "",
-  //      },
-  //      {
-  //        name: "C6: ",
-  //        description:
-  //          "",
-  //      },
-  //    ],
-  //  },
-  //],
+  [
+    "kazuha",
+    {
+      name: "Kazuha",
+      description:
+        "A ronin from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+      thumbnail:
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest/scale-to-width-down/281?cb=20210607100841",
+      image:
+        "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest/scale-to-width-down/281?cb=20210607100841",
+      color: "03fd9e",
+      emoji: "",
+      category: "Anemo",
+      rarity: "⭐⭐⭐⭐⭐",
+      element: "<:Anemo:798483595781341194>",
+      weapon: "Sword",
+      nation: "Inazuma",
+      affiliation: "The Crux",
+      specialDish: "",
+      constellation: "Acer Palmatum",
+      birthday: "October 29",
+      ascensionCost: "",
+      talentCost: "",
+      activeTalents: [
+        {
+          name: "",
+          description:
+            "**Normal Attack**\n  \n\n**Charged Attack**\n  \n\n**Plunging Attack**\n  \n",
+        },
+        {
+          name: "Skill: Chihayaburu",
+          description:
+            "Kaedehara Kazuha unleashes a secret technique that pulls objects and opponents towards his current position before launching opponents within the Area of Effect, dealing **Anemo DMG** and lifting Kazuha into the air on a rushing wind current.\n\nWhile Kazuha is in mid-air from the effect of Chihayaburu, he can unleash a particularly powerful Plunging Attack, Midare Ranzan. His Plunging Attack Damage is converted to **Anemo DMG** and will create a miniature wind tunnel that pulls nearby objects and opponents in. The tap effect of Kazuha's Elemental Skill can also be used mid-air. If you hold his Elemental Skill longer, it charges up to unleash greater **Anemo DMG** over a larger AoE.",
+        },
+        {
+          name: "Burst: Kazuha Slash",
+          description:
+            "With a single slash, Kazuha deals **AoE Anemo DMG** and his blade's passage will leave behind a field named 'Autumn Whirlwind' which will deal **AoE Anemo DMG** at set intervals to opponents within in.\nElemental Absorption can occur in this field too.",
+        },
+      ],
+      passiveTalents: [
+        {
+          name: "Poetics of Fuubutsu",
+          description:
+            "Grants teammates an Elemental DMG Bonus to their corresponding Element upon trigger a Swirl reaction.",
+        },
+        {
+          name: "Soumon Swordmanship",
+          description:
+            "When his Elemental Skill comes into contact with any of the other elements, Elemental Absorption will occur and Kazuha Plunging Attack will deal additional DMG of that elemental type by a certain percentage.",
+        },
+        {
+          name: "Cloud Strider",
+          description:
+            "Decreases sprinting Stamina consumption for his party members.",
+        },
+      ],
+      constellations: [
+        {
+          name: "C1: ",
+          description: "",
+        },
+        {
+          name: "C2: ",
+          description: "",
+        },
+        {
+          name: "C3: ",
+          description: "",
+        },
+        {
+          name: "C4: ",
+          description: "",
+        },
+        {
+          name: "C5: ",
+          description: "",
+        },
+        {
+          name: "C6: ",
+          description: "",
+        },
+      ],
+    },
+  ],
   //[
   //  "yae",
   //  {
