@@ -9,9 +9,9 @@ createSubcommand("abyss-floor", {
     const embed = new Embed()
       .setTitle("Spiral Abyss Floor 9")
       .setDescription(
-        "**Ley Line Disorder:**\n• Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\n• There will also be a Ruin Brazier on the field. While the Ruin Brazier is activated, getting close to it will reduce Sheer Cold.\n• Enemies will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
+        "**Ley Line Disorder:**\n• Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\n• There will also be a Ruin Brazier on the field. While the Ruin Brazier is activated, getting close to it will reduce Sheer Cold.\n• Enemies will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.\n\n• In Chamber 2's Second Half, the Cryogunner Legionnaire is empowered with a Cryo aura.\n• In Chamber 3's Second Half, the Ice Shieldwall Mitachurl is empowered, occasionally releasing a shockwave that deals damage.",
       )
-      .setImage("https://i.imgur.com/IpK2jBK.png")
+      .setImage("https://i.imgur.com/DIhfldy.png")
       .setColor("RANDOM")
       .setTimestamp();
 

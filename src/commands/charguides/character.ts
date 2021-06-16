@@ -74,34 +74,34 @@ createCommand({
       );
 
     const second = new Embed()
-      .setTitle(character.name)
-      .setThumbnail(character.thumbnail)
+      .setTitle(`${character.name} Skill Talents`)
+      .setImage(character.talents)
       .setFooter(
         "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
       );
-    for (const talent of character.activeTalents) {
-      second.addField(talent.name, talent.description);
-    }
+    // for (const talent of character.activeTalents) {
+    //   second.addField(talent.name, talent.description);
+    // }
 
     const third = new Embed()
-      .setTitle(character.name)
-      .setThumbnail(character.thumbnail)
+      .setTitle(`${character.name} Passive Talents`)
+      .setImage(character.passive)
       .setFooter(
         "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
       );
-    for (const talent of character.passiveTalents) {
-      third.addField(talent.name, talent.description);
-    }
+    // for (const talent of character.passiveTalents) {
+    //   third.addField(talent.name, talent.description);
+    // }
 
     const fourth = new Embed()
-      .setTitle(character.name)
-      .setThumbnail(character.thumbnail)
+      .setTitle(`${character.name} Constellation`)
+      .setImage(character.const)
       .setFooter(
         "ℹ️ Main info, ⚔️ Skill Talents, 🛡️ Passive Talents, 🌟 Constellations, 💸 Ascension Costs, 💵 Talent Costs",
       );
-    for (const constellation of character.constellations) {
-      fourth.addField(constellation.name, constellation.description);
-    }
+    // for (const constellation of character.constellations) {
+    //   fourth.addField(constellation.name, constellation.description);
+    // }
 
     const fifth = new Embed()
       .setTitle(` ${character.name} Ascension Cost`)
