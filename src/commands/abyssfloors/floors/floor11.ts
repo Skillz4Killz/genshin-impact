@@ -12,7 +12,7 @@ createSubcommand("abyss-floor", {
         "**Ley Line Disorder:**\n• Increases Swirl DMG by 300% and AoE by 100%",
       )
       // **TODO** Fix enemy count
-      .setImage("https://i.imgur.com/TkLMU9n.png")
+      .setImage("https://i.imgur.com/yeWfXoo.png")
       .setColor("RANDOM")
       .setTimestamp();
 
