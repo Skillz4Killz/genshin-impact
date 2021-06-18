@@ -28,9 +28,9 @@ createSubcommand("invites", {
       embed.addField(
         invite.code,
         `**uses:** ${invite.uses -
-            invite
+            (invite
               .fakeUses ||
-          0}\n**exists:** ${
+          0)}\n**exists:** ${
           existingInvites.has(invite.code) ? "✅" : "❌"
         }\n**creator:** <@!${invite.memberID}>\n**channel:** <#${invite.channelID}>`,
         true,
