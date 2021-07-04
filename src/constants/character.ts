@@ -1015,7 +1015,7 @@ export const characters = new Map([
       image:
         "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest/scale-to-width-down/281?cb=20210607100841",
       color: "03fd9e",
-      emoji: "",
+      emoji: "<:Kazuha:861257160759574558>",
       category: "Anemo",
       rarity: "⭐⭐⭐⭐⭐",
       element: "<:Anemo:798483595781341194>",
@@ -1025,7 +1025,7 @@ export const characters = new Map([
       specialDish: "",
       constellation: "Acer Palmatum",
       birthday: "October 29",
-      ascensionCost: "",
+      ascensionCost: "https://i.imgur.com/gLf8og5.png",
       talentCost: "",
       const: "https://i.imgur.com/bvGpSGu.png",
       talents: "https://i.imgur.com/lDSWw9Y.png",
